@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"revwalk_free:" : "m 3/12/2014 07:49",
+		"revwalk_hide:commit_id:" : "m 3/12/2014 07:49",
+		"revwalk_hide_glob:range:" : "m 3/12/2014 07:49",
+		"revwalk_hide_head:" : "m 3/12/2014 07:49",
+		"revwalk_hide_ref:range:" : "m 3/12/2014 07:49",
+		"revwalk_new:repo:" : "m 3/12/2014 07:49",
+		"revwalk_next:walk:" : "m 3/12/2014 07:49",
+		"revwalk_push:commit_id:" : "m 3/12/2014 07:49",
+		"revwalk_push_glob:range:" : "m 3/12/2014 07:49",
+		"revwalk_push_head:" : "m 3/12/2014 07:49",
+		"revwalk_push_range:range:" : "m 3/12/2014 07:49",
+		"revwalk_push_ref:range:" : "m 3/12/2014 07:49",
+		"revwalk_repository:" : "m 3/12/2014 07:49",
+		"revwalk_reset:" : "m 3/12/2014 07:49",
+		"revwalk_simplify_first_parent:" : "m 3/12/2014 07:49",
+		"revwalk_sorting:sort_mode:" : "m 3/12/2014 07:49" } }

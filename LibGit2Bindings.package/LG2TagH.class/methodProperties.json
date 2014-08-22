@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"tag_annotation_create:repo:tag_name:target:tagger:message:" : "m 3/12/2014 07:49",
+		"tag_create:repo:tag_name:target:tagger:message:force:" : "m 3/12/2014 07:49",
+		"tag_create_frombuffer:repo:buffer:force:" : "m 3/12/2014 07:49",
+		"tag_create_lightweight:repo:tag_name:target:force:" : "m 3/12/2014 07:49",
+		"tag_delete:tag_name:" : "m 3/12/2014 07:49",
+		"tag_foreach:callback:payload:" : "m 3/12/2014 07:49",
+		"tag_free:" : "m 3/12/2014 07:49",
+		"tag_id:" : "m 3/12/2014 07:49",
+		"tag_list:repo:" : "m 3/12/2014 07:49",
+		"tag_list_match:pattern:repo:" : "m 3/12/2014 07:49",
+		"tag_lookup:repo:id:" : "m 3/12/2014 07:49",
+		"tag_lookup_prefix:repo:id:len:" : "m 3/12/2014 07:49",
+		"tag_message:" : "m 3/12/2014 07:49",
+		"tag_name:" : "m 3/12/2014 07:49",
+		"tag_owner:" : "m 3/12/2014 07:49",
+		"tag_peel:tag:" : "m 3/12/2014 07:49",
+		"tag_tagger:" : "m 3/12/2014 07:49",
+		"tag_target:tag:" : "m 3/12/2014 07:49",
+		"tag_target_id:" : "m 3/12/2014 07:49",
+		"tag_target_type:" : "m 3/12/2014 07:49" } }

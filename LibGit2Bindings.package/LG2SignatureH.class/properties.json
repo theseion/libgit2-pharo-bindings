@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2SignatureH",
+	"pools" : [
+		 ],
+	"super" : "LG2ExternalLibraryWrapper",
+	"type" : "normal" }

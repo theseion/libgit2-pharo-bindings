@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitNoteForeachCb",
+	"pools" : [
+		 ],
+	"super" : "LG2NotesH2Cb",
+	"type" : "normal" }

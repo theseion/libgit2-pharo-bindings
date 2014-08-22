@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitRemoteRenameProblemCb",
+	"pools" : [
+		 ],
+	"super" : "LG2RemoteH15Cb",
+	"type" : "normal" }

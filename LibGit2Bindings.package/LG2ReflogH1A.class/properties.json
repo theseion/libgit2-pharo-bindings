@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2ReflogH1A",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructure",
+	"type" : "normal" }
