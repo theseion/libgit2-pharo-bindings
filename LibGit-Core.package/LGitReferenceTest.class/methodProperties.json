@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "MaxLeske 8/11/2014 21:07",
+		"testEquals" : "MaxLeske 8/11/2014 21:09",
+		"testIsBranch" : "MaxLeske 8/11/2014 21:31",
+		"testIsDirect" : "MaxLeske 8/11/2014 21:24",
+		"testIsHead" : "MaxLeske 8/11/2014 21:12",
+		"testIsSymbolic" : "MaxLeske 8/11/2014 21:30",
+		"testName" : "MaxLeske 8/11/2014 21:07",
+		"testObject" : "MaxLeske 8/11/2014 22:54",
+		"testResolve" : "MaxLeske 8/11/2014 21:11" } }

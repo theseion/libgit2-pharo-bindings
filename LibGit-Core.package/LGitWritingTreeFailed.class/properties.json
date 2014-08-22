@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitWritingTreeFailed",
+	"pools" : [
+		 ],
+	"super" : "LGitError",
+	"type" : "normal" }

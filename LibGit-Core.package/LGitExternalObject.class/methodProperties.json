@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"finalizeResourceData:" : "MaxLeske 8/10/2014 18:05",
+		"object_free:" : "MaxLeske 8/10/2014 18:04" },
+	"instance" : {
+		"free" : "MaxLeske 6/23/2013 21:43",
+		"ifNotReady:" : "MaxLeske 5/5/2013 23:32",
+		"initialize" : "MaxLeske 6/23/2013 21:38",
+		"isReady" : "MaxLeske 5/5/2013 23:32",
+		"libGitObjectTypes" : "MaxLeske 3/17/2014 15:37",
+		"libGitReturnCodeTypes" : "MaxLeske 3/17/2014 15:36",
+		"printOn:" : "MaxLeske 6/23/2013 20:29",
+		"resourceData" : "MartinDias 5/16/2014 18:03",
+		"signalIfNotReady" : "MaxLeske 5/7/2013 15:53",
+		"signalNotReady" : "MaxLeske 5/7/2013 15:50" } }

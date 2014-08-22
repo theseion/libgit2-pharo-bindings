@@ -1,0 +1,15 @@
+{
+	"category" : "LibGit-Core-NonCoreObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"publicKeyReference",
+		"privateKeyReference" ],
+	"name" : "LGitCredentialsSSH",
+	"pools" : [
+		 ],
+	"super" : "LGitCredentials",
+	"type" : "normal" }

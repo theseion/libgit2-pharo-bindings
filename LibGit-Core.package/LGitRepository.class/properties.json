@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit-Core-CoreObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"fileSystem",
+		"repositoryPath",
+		"isOpen" ],
+	"name" : "LGitRepository",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalObject",
+	"type" : "normal" }

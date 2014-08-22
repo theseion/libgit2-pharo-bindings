@@ -1,0 +1,3 @@
+helpers
+newRepo
+	^ LGitTestRepository

@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit-Core-CoreObjects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitUtils",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TLGitCalloutTrait",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit-Core-Abstracts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitExternalObject",
+	"pools" : [
+		 ],
+	"super" : "NBExternalObject",
+	"traitcomposition" : "TLGitCalloutTrait",
+	"type" : "normal" }

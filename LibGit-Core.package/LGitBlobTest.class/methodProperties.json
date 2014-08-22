@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBinary" : "MaxLeske 8/10/2014 16:36",
+		"testCreateFromByteArray" : "MaxLeske 8/10/2014 16:35",
+		"testCreateFromFile" : "MartinDias 5/20/2014 19:47",
+		"testCreateFromNonExternalCollection" : "MaxLeske 8/10/2014 16:35",
+		"testCreateFromString" : "MartinDias 5/20/2014 18:21",
+		"testFree" : "MartinDias 5/20/2014 20:22",
+		"testNotBinary" : "MaxLeske 8/10/2014 16:34" } }

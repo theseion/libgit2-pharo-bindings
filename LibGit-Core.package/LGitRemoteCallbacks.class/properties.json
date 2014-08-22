@@ -1,0 +1,15 @@
+{
+	"category" : "LibGit-Core-NonCoreObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"credentials",
+		"structure" ],
+	"name" : "LGitRemoteCallbacks",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

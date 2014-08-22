@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"lastError" ],
+	"name" : "LGitError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"traitcomposition" : "TLGitCalloutTrait",
+	"type" : "normal" }

@@ -1,0 +1,22 @@
+{
+	"category" : "LibGit-Core-Tests-Helpers",
+	"classinstvars" : [
+		"usernameSsh",
+		"usernameHttps",
+		"keyPassPhrase",
+		"password",
+		"keyFilePublic",
+		"keyFilePrivate",
+		"repositoryUrlSsh",
+		"repositoryUrlHttps",
+		"repositoryUrlLocal" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LGitTestRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

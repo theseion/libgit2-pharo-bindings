@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "MaxLeske 3/17/2014 15:40",
+		"basename" : "MaxLeske 8/17/2014 16:17",
+		"branch_is_head:" : "MaxLeske 3/16/2014 23:55",
+		"initializeOn:in:" : "MaxLeske 5/5/2013 11:42",
+		"isBranch" : "MaxLeske 3/16/2014 19:20",
+		"isDirect" : "MaxLeske 3/17/2014 15:39",
+		"isHead" : "MaxLeske 3/16/2014 19:20",
+		"isSymbolic" : "MaxLeske 3/17/2014 15:39",
+		"libGitReferenceTypes" : "MaxLeske 3/17/2014 15:37",
+		"name" : "MaxLeske 3/16/2014 22:01",
+		"object" : "MaxLeske 8/11/2014 22:01",
+		"printOn:" : "MaxLeske 3/17/2014 11:19",
+		"privHandle" : "StefanMarr 2/3/2013 19:26",
+		"privObjectIdPtr" : "MaxLeske 8/10/2014 17:53",
+		"reference_cmp:ref2:" : "MaxLeske 3/17/2014 13:25",
+		"reference_is_branch:" : "MaxLeske 3/17/2014 13:34",
+		"reference_name:" : "MaxLeske 3/16/2014 21:33",
+		"reference_resolve:ref:" : "MaxLeske 8/10/2014 17:20",
+		"reference_target:" : "MaxLeske 3/17/2014 01:12",
+		"reference_type:" : "MaxLeske 3/17/2014 11:03",
+		"resolve" : "MaxLeske 8/10/2014 17:11" } }

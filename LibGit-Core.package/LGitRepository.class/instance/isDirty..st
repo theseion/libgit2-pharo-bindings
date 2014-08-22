@@ -1,0 +1,12 @@
+testing
+isDirty: aFileReference
+	| intValue enum |
+	intValue := LGitIntValue new.
+	self withReturnHandlerDo: [
+		self
+			status_file: intValue
+			repo: self
+			path: (aFileReference relativeTo: self repositoryReference) relativeString ].
+		
+	enum := LG2GitStatusTE fromInteger: intValue value.
+	^ enum ~= (LG2GitStatusTE at: #GIT_STATUS_CURRENT)
