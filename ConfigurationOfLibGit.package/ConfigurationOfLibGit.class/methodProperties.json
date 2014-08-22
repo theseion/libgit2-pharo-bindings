@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"DevelopmentSupport" : "StefanMarr 1/30/2013 01:03",
+		"baseConfigurationClassIfAbsent:" : "StefanMarr 1/30/2013 01:03",
+		"ensureMetacello" : "StefanMarr 1/30/2013 01:03",
+		"ensureMetacelloBaseConfiguration" : "StefanMarr 1/30/2013 01:03",
+		"isMetacelloConfig" : "StefanMarr 1/30/2013 01:03",
+		"load" : "StefanMarr 1/30/2013 01:03",
+		"loadBleedingEdge" : "StefanMarr 1/30/2013 01:03",
+		"loadDevelopment" : "StefanMarr 1/30/2013 01:03",
+		"project" : "StefanMarr 1/30/2013 01:03",
+		"validate" : "StefanMarr 1/30/2013 01:03" },
+	"instance" : {
+		"baseline01:" : "StefanMarr 2/3/2013 22:49",
+		"baseline02:" : "MaxLeske 3/19/2014 12:44",
+		"baseline03:" : "MaxLeske 8/22/2014 13:13",
+		"customProjectAttributes" : "StefanMarr 1/30/2013 01:03",
+		"development:" : "MartinDias 5/11/2014 16:42",
+		"postLoadRecompile" : "MaxLeske 7/28/2014 22:09",
+		"project" : "StefanMarr 1/30/2013 01:18",
+		"setUpFonts" : "MaxLeske 4/14/2014 10:36",
+		"setUpGToolkit" : "MaxLeske 3/19/2014 09:54",
+		"setUpIDE" : "MaxLeske 3/19/2014 09:55" } }
