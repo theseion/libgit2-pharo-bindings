@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit-Patches",
+	"classinstvars" : [
+		"defaultPackageExtension",
+		"defaultPropertyFileExtension" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 2/20/2014 16:23",
+	"instvars" : [
+		"readonly",
+		"repositoryProperties",
+		"remote" ],
+	"name" : "MCGitRepository",
+	"pools" : [
+		 ],
+	"super" : "MCDirectoryRepository",
+	"type" : "normal" }
