@@ -34,7 +34,9 @@ baseline03: spec
 				
 		spec 
 			group: 'default' with: #('LibGit-Core' 'LibGit-Patches');
-			group: 'defaultPlusGT' with: #('LibGit-Core' 'GToolkit' 'LibGit-GT')
+			group: 'defaultPlusGT' with: #('LibGit-Core' 'GToolkit' 'LibGit-GT').
+			
+		spec postLoadDoIt: #changeRepositoryType
 
 	].
 
@@ -45,6 +47,4 @@ baseline03: spec
 				version: #bleedingEdge;
 				file:  'ConfigurationOfGToolkit';
 				repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main';
-				postLoadDoIt: #setUpIDE ] ].
-		
-	spec postLoadDoIt: #changeRepositoryType
+				postLoadDoIt: #setUpIDE ] ]
