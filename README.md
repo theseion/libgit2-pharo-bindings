@@ -25,6 +25,12 @@ The current bindings include very crude patches to allow pull and push operation
   - the repository to use the branch 'master' (no other branches supported)
   - the remote to have the name 'origin'
 
+To use a remotely hosted repository:
+  1. add a new repository of type 'git://' to Monticello
+  2. enter the cloning url (e.g. git@github.com:theseion/LibGit)
+
+Repository access will now do a pull, commit will trigger a push.
+
 
 ##disclaimer
 
