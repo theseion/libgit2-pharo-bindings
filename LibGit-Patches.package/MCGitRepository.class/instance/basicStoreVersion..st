@@ -5,6 +5,7 @@ basicStoreVersion: aVersion
 		^ self error:
 	          'The filetree repository: ' , self description printString
 	            , ' was created read only.' ].
-			MCFileTreeWriter fileOut: aVersion on: self.
-
+	
+	self pull.
+	MCFileTreeWriter fileOut: aVersion on: self.
 	self commitAndPush: aVersion
