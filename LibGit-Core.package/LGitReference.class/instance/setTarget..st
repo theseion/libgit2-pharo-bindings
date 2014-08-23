@@ -1,10 +1,11 @@
 operations
-setTarget: aString
+setTarget: aReference
 	| newRef |
-	newRef := LGitReference new.
+	newRef := LGitReference of: self repository.
 	self withReturnHandlerDo: [ 
-		self reference_symbolic_set_target: newRef
-		ref: self
-		target: aString
-		signature: self repository defaultSignature
-		log_message: 'set ', (self name), ' to ', aString ]
+		self 
+			reference_set_target: newRef
+			ref: self
+			id: aReference resolve object id
+			signature: self repository defaultSignature asSignatureStruct
+			log_message: 'set ', (self name), ' to ', aReference name ]
