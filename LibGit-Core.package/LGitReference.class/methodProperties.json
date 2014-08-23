@@ -20,6 +20,8 @@
 		"reference_is_branch:" : "MaxLeske 3/17/2014 13:34",
 		"reference_name:" : "MaxLeske 3/16/2014 21:33",
 		"reference_resolve:ref:" : "MaxLeske 8/10/2014 17:20",
+		"reference_symbolic_set_target:ref:target:signature:log_message:" : "MaxLeske 8/22/2014 22:25",
 		"reference_target:" : "MaxLeske 3/17/2014 01:12",
 		"reference_type:" : "MaxLeske 3/17/2014 11:03",
-		"resolve" : "MaxLeske 8/10/2014 17:11" } }
+		"resolve" : "MaxLeske 8/10/2014 17:11",
+		"setTarget:" : "MaxLeske 8/22/2014 22:31" } }
