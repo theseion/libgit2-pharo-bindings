@@ -20,9 +20,13 @@ Evaluate the following in a workspace:
 
 ####github support
 
-The current bindings include very crude patches to allow pull and push operations to / from remote repositories (e.g. github). For this to work you will need a repository with [FileTree](https://github.com/dalehenrich/filetree) layout, where the FileTree packages are in the top level directory (the same the .git directory is in).
+The current bindings include very crude patches to allow pull and push operations to / from remote repositories (e.g. github). For this to work you will need:
+  - a repository with [FileTree](https://github.com/dalehenrich/filetree) layout, where the FileTree packages are in the top level directory (the same the .git directory is in)
+  - the repository to use the branch 'master' (no other branches supported)
+  - the remote to have the name 'origin'
 
 
 ####disclaimer
 
 This project is still very experimental and push / pull operations have been implemented for convenience only. I use them for daily development but be prepared for unexpected behavior and VM crashes.
+I will update the instructions in this document while I make progress.
