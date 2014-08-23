@@ -6,16 +6,16 @@ baseline03: spec
 		spec blessing: #baseline.
 
 		spec package: 'LibGit2Bindings' with: [ 
-			spec repository: 'http://smalltalkhub.com/mc/FileSystemGitDev/LibGit2Bindings/main' ].
+			spec repository: 'github://theseion/LibGit' ].
 
 		spec package: 'LibGit-GT' with: [ 
 			spec
-				repository: 'http://smalltalkhub.com/mc/FileSystemGitDev/LibGit2Bindings/main';
+				repository: 'github://theseion/LibGit';
 				requires: 'LibGit-Core' ].
 		
 		spec package: 'LibGit-Patches' with: [ 
 			spec 
-				repository: 'http://smalltalkhub.com/mc/FileSystemGitDev/LibGit2Bindings/main';
+				repository: 'github://theseion/LibGit';
 				requires: 'LibGit-Core' ].
 				
 		spec project: 'GToolkit' with: [
@@ -27,7 +27,7 @@ baseline03: spec
 				postLoadDoIt: #setUpIDE ].
 	
 		spec package: 'LibGit-Core' with: [
-			spec repository: 'http://smalltalkhub.com/mc/FileSystemGitDev/LibGit2/main'.
+			spec repository: 'github://theseion/LibGit'.
 			spec
 				requires: #(LibGit2Bindings);
 				postLoadDoIt: #postLoadRecompile ].
@@ -45,4 +45,6 @@ baseline03: spec
 				version: #bleedingEdge;
 				file:  'ConfigurationOfGToolkit';
 				repository: 'http://www.smalltalkhub.com/mc/Moose/GToolkit/main';
-				postLoadDoIt: #setUpIDE ] ]
+				postLoadDoIt: #setUpIDE ] ].
+		
+	spec postLoadDoIt: #changeRepositoryType
