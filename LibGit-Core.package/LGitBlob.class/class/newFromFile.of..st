@@ -1,7 +1,7 @@
 instance creation
 newFromFile: aFileReference of: aRepository
 	| id |
-	id := LG2GitOidS new.
+	id := LGitId new.
 	self 
 		blob_create_fromdisk: id
 		repo: aRepository

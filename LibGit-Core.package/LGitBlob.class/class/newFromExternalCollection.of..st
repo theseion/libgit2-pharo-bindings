@@ -2,7 +2,7 @@ instance creation
 newFromExternalCollection: aCollection of: aRepository
 	| id |
 	self assert: (aCollection class theMetaClass canUnderstand: #asNBExternalType:).
-	id := LG2GitOidS new.
+	id := LGitId new.
 	self 
 		blob_create_frombuffer: id
 		repo: aRepository

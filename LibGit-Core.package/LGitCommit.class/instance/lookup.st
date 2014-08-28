@@ -3,9 +3,9 @@ lookup
 	<todo: 'so ugly...'>
 	| oid |
 	oid := self id.
-	oid class = LG2GitOidS ifFalse: [
+	oid class = LGitId ifFalse: [
 		self withReturnHandlerDo: [ 
-			oid := LG2GitOidS new.
+			oid := LGitId new.
 			self oid_fromstr: oid str: self id ] ].
 	self withReturnHandlerDo: [
 		self

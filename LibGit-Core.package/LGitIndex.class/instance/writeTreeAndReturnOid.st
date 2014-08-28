@@ -1,7 +1,7 @@
 operations
 writeTreeAndReturnOid
 	| oid |
-	oid := LG2GitOidS externalNew.
+	oid := LGitId externalNew.
 	self withReturnHandlerDo: [ 
 		self
 			index_write_tree: oid

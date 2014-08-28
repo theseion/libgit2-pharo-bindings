@@ -1,7 +1,7 @@
 accessing
 commit
 	^ self
-		commit_create: LG2GitOidS new
+		commit_create: LGitId new
 		repo: self repository
 		update_ref: 'HEAD'
 		author: self authorStruct address

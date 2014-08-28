@@ -1,7 +1,7 @@
 operations
 write
 	| id errorCode |
-	id := LG2GitOidS new.
+	id := LGitId new.
 	errorCode := self
 		treebuilder_write: id
 		repo: self repository
