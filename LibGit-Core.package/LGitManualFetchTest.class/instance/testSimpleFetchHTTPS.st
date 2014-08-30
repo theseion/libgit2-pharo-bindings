@@ -10,7 +10,7 @@ testSimpleFetchHTTPS
 	signature := LGitSignature new
 		name: 'Homer Simpson';
 		email: 'foo@bar.ogr';
-		when: DateAndTime now;
+		setDateAndTime: DateAndTime now;
 		yourself.
 	message := 'Bart ate my shorts!'.
 	

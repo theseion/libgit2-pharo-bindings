@@ -21,7 +21,7 @@ clonedSSH
 	signature := LGitSignature new
 		name: 'Bart Simpson';
 		email: 'bartman@gotham.com';
-		when: DateAndTime now;
+		setDateAndTime: DateAndTime now;
 		yourself.
 	repo
 		cloneRemote: remote

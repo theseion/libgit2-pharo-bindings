@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"asNBExternalType:" : "MaxLeske 8/29/2014 13:38" },
+		"fieldsDesc" : "MaxLeske 8/30/2014 23:21",
+		"fromDateAndTime:" : "MaxLeske 8/30/2014 23:19" },
 	"instance" : {
-		"date" : "MaxLeske 8/29/2014 13:39",
-		"dateAndTime" : "MaxLeske 8/29/2014 13:40",
-		"offset" : "MaxLeske 8/29/2014 13:39",
-		"time" : "MaxLeske 8/29/2014 13:39" } }
+		"=" : "MaxLeske 8/30/2014 23:38",
+		"asDateAndTime" : "MaxLeske 8/30/2014 23:22",
+		"hash" : "MaxLeske 8/30/2014 23:36",
+		"offset" : "NativeBoost 8/30/2014 23:21",
+		"time" : "NativeBoost 8/30/2014 23:21" } }

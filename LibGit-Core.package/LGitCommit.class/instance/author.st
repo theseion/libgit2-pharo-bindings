@@ -1,3 +1,3 @@
 accessing
 author
-	^ LGitSignature from: (self commit_author: self)
+	^ self commit_author: self

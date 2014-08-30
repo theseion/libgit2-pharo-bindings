@@ -6,10 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"name",
-		"email",
-		"when",
-		"handle" ],
+		 ],
 	"name" : "LGitSignature",
 	"pools" : [
 		 ],

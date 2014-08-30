@@ -10,5 +10,5 @@
 	"name" : "LGitTime",
 	"pools" : [
 		 ],
-	"super" : "LGitObject",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }
