@@ -6,5 +6,4 @@ defaultSignature
 		self
 			signature_default: signaturePointer
 			repo: self ].
-	^ LGitSignature from: (LG2GitSignatureS fromPointer: signaturePointer)
-	 
+	^ LGitSignature fromPointer: signaturePointer

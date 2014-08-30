@@ -22,7 +22,7 @@ pull
 	self withReturnHandlerDo: [ 
 		self
 			remote_fetch: self
-			signature: self repository defaultSignature asSignatureStruct
+			signature: self repository defaultSignature
 			reflog_message: 'automatic pull from libgit2' ].
 	
 	"assume that there are no confilcts and fast-forwad to FETCH_HEAD"

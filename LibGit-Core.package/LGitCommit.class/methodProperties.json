@@ -4,11 +4,11 @@
 	"instance" : {
 		"=" : "MaxLeske 8/11/2014 22:56",
 		"author" : "MaxLeske 3/17/2014 10:29",
-		"authorStruct" : "MaxLeske 3/17/2014 10:24",
+		"authorStruct" : "MaxLeske 8/30/2014 20:25",
 		"commit" : "MaxLeske 8/27/2014 21:54",
-		"commit_author:" : "MaxLeske 3/17/2014 10:28",
-		"commit_committer:" : "MaxLeske 3/17/2014 10:38",
-		"commit_create:repo:update_ref:author:committer:message_encoding:message:tree:parent_count:parents:" : "MaxLeske 8/27/2014 21:54",
+		"commit_author:" : "MaxLeske 8/30/2014 20:26",
+		"commit_committer:" : "MaxLeske 8/30/2014 20:26",
+		"commit_create:repo:update_ref:author:committer:message_encoding:message:tree:parent_count:parents:" : "MaxLeske 8/30/2014 20:26",
 		"commit_id:" : "MaxLeske 8/27/2014 21:54",
 		"commit_lookup:repo:id:" : "MaxLeske 8/27/2014 21:54",
 		"commit_message:" : "MaxLeske 3/17/2014 10:40",
@@ -19,7 +19,7 @@
 		"commit_time_offset:" : "MaxLeske 3/17/2014 10:50",
 		"commit_tree:commit:" : "MaxLeske 3/17/2014 08:45",
 		"committer" : "MaxLeske 3/17/2014 10:39",
-		"committerStruct" : "MaxLeske 3/16/2014 19:18",
+		"committerStruct" : "MaxLeske 8/30/2014 20:25",
 		"hasParents" : "MaxLeske 8/10/2014 22:05",
 		"id" : "MaxLeske 8/23/2014 23:14",
 		"isCommit" : "MaxLeske 8/11/2014 21:44",
@@ -29,4 +29,4 @@
 		"parents" : "MaxLeske 3/17/2014 10:46",
 		"time" : "MaxLeske 3/17/2014 10:54",
 		"tree" : "MaxLeske 3/16/2014 19:19",
-		"writeTree:message:parents:reference:author:committer:" : "MaxLeske 8/27/2014 21:54" } }
+		"writeTree:message:parents:reference:author:committer:" : "MaxLeske 8/30/2014 20:56" } }

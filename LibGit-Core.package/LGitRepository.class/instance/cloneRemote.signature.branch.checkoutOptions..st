@@ -10,4 +10,4 @@ cloneRemote: aRemote  signature: aSignature branch: aString checkoutOptions: opt
 			remote: aRemote
 			co_opts: options
 			branch: aString
-			signature: aSignature asSignatureStruct ]
+			signature: aSignature ]

@@ -7,5 +7,5 @@ setTarget: aReference
 			reference_set_target: newRef
 			ref: self
 			id: aReference resolve object id
-			signature: self repository defaultSignature asSignatureStruct
+			signature: self repository defaultSignature
 			log_message: 'set ', (self name), ' to ', aReference name ]

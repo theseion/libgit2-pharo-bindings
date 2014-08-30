@@ -23,5 +23,5 @@ checkout: aString
 		self
 			repository_set_head: self
 			refname: aString
-			signature: self defaultSignature asSignatureStruct
+			signature: self defaultSignature
 			log_message: 'checkout ', aString ]

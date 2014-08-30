@@ -7,5 +7,5 @@ fetchWithSignature: aSignature message: aString
 	self withReturnHandlerDo: [ 
 		self
 			remote_fetch: self
-			signature: aSignature asSignatureStruct
+			signature: aSignature
 			reflog_message: aString ]
