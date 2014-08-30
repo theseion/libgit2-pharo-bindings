@@ -10,13 +10,14 @@ commitAndPush: aVersion
 	tree lookup.
 	signature := repo defaultSignature.
 	refName := repo head name.
-	(LGitCommit of: repo)
-		writeTree: tree
-		message: aVersion info message
-		parents: { repo head object }
-		reference: refName
-		author: signature
-		committer: signature.
+	(LGitCommitBuilder of: repo)
+		tree: tree;
+		message: aVersion info message;
+		parents: { repo head object };
+		updateReference: refName;
+		author: signature;
+		committer: signature;
+		writeCommit.
 		
 	gitRemote := (LGitRemote of: repo named: 'origin') load.
 	credentials := LGitCredentialsSSH
