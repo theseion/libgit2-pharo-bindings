@@ -21,13 +21,14 @@ testPushSSH
 		setDateAndTime: DateAndTime now;
 		yourself.
 	
-	(LGitCommit of: repo)
-		writeTree: tree
-		message: 'push test'
-		parents: { head }
-		reference: 'refs/heads/master'
-		author: author
-		committer: author.
+	(LGitCommitBuilder of: repo)
+		tree: tree;
+		message: 'push test';
+		parents: { head };
+		updateReference: 'refs/heads/master';
+		author: author;
+		committer: author;
+		writeCommit.
 	
 	remote := (LGitRemote of: repo named: 'origin') load.
 	credentials := LGitCredentialsSSH

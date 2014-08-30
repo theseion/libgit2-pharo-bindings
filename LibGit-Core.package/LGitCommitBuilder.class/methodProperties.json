@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"author" : "MaxLeske 8/30/2014 23:55",
+		"author:" : "MaxLeske 8/30/2014 23:47",
+		"commitId" : "MaxLeske 8/30/2014 23:54",
+		"commitId:" : "MaxLeske 8/30/2014 23:54",
+		"commit_create:repo:update_ref:author:committer:message_encoding:message:tree:parent_count:parents:" : "MaxLeske 8/31/2014 00:10",
+		"committer" : "MaxLeske 8/30/2014 23:56",
+		"committer:" : "MaxLeske 8/30/2014 23:47",
+		"message" : "MaxLeske 8/30/2014 23:56",
+		"message:" : "MaxLeske 8/30/2014 23:50",
+		"messageEncoding" : "MaxLeske 8/30/2014 23:56",
+		"messageEncoding:" : "MaxLeske 8/30/2014 23:51",
+		"parents" : "MaxLeske 8/30/2014 23:57",
+		"parents:" : "MaxLeske 8/30/2014 23:49",
+		"tree" : "MaxLeske 8/30/2014 23:59",
+		"tree:" : "MaxLeske 8/30/2014 23:48",
+		"updateReference" : "MaxLeske 8/30/2014 23:59",
+		"updateReference:" : "MaxLeske 8/30/2014 23:51",
+		"writeCommit" : "MaxLeske 8/31/2014 00:02",
+		"writtenCommit" : "MaxLeske 8/31/2014 00:20" } }

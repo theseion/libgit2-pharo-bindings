@@ -1,0 +1,23 @@
+{
+	"category" : "LibGit-Core-HelperObjects",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"author",
+		"committer",
+		"tree",
+		"parents",
+		"message",
+		"updateReference",
+		"messageEncoding",
+		"commitId" ],
+	"name" : "LGitCommitBuilder",
+	"pools" : [
+		 ],
+	"super" : "LGitRepositoryObject",
+	"traitcomposition" : "TLGitCalloutTrait",
+	"type" : "normal" }

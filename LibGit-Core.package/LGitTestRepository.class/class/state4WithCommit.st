@@ -19,12 +19,13 @@ state4WithCommit
 		setDateAndTime: DateAndTime now;
 		yourself.
 	
-	(LGitCommit of: repo)
-		writeTree: tree
-		message: 'push test'
-		parents: { }
-		reference: 'refs/heads/master'
-		author: author
-		committer: author.
+	(LGitCommitBuilder of: repo)
+		tree: tree;
+		message: 'push test';
+		parents: { };
+		updateReference: 'refs/heads/master';
+		author: author;
+		committer: author;
+		writeCommit.
 	
 	^ repo
