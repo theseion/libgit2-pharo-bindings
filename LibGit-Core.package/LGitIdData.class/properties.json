@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-NonCoreObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitIdData",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalStructure",
+	"type" : "normal" }

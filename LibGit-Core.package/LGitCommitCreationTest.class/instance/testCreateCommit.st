@@ -14,7 +14,6 @@ testCreateCommit
 		author: author;
 		committer: author;
 		writeCommit.
-	self assert: builder writtenCommit tree equals: rootTree.
 	
 	headRef := repository head.
 	self assert: headRef class equals: LGitReference.

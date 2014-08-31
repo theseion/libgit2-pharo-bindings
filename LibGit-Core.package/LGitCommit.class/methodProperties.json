@@ -2,7 +2,7 @@
 	"class" : {
 		"isType:" : "MaxLeske 8/11/2014 22:26" },
 	"instance" : {
-		"=" : "MaxLeske 8/11/2014 22:56",
+		"=" : "MaxLeske 8/31/2014 16:53",
 		"author" : "MaxLeske 8/30/2014 23:24",
 		"authorStruct" : "MaxLeske 8/30/2014 23:24",
 		"commit_author:" : "MaxLeske 8/30/2014 20:26",
@@ -19,11 +19,11 @@
 		"committer" : "MaxLeske 8/30/2014 23:25",
 		"committerStruct" : "MaxLeske 8/30/2014 23:25",
 		"hasParents" : "MaxLeske 8/10/2014 22:05",
-		"id" : "MaxLeske 8/23/2014 23:14",
+		"id" : "MaxLeske 8/31/2014 09:58",
 		"isCommit" : "MaxLeske 8/11/2014 21:44",
 		"isMerge" : "MaxLeske 8/10/2014 22:06",
-		"lookup" : "MaxLeske 8/27/2014 21:54",
 		"message" : "MaxLeske 3/17/2014 10:41",
+		"objectPrintOn:" : "MaxLeske 8/31/2014 17:06",
 		"parents" : "MaxLeske 3/17/2014 10:46",
 		"time" : "MaxLeske 3/17/2014 10:54",
 		"tree" : "MaxLeske 3/16/2014 19:19" } }

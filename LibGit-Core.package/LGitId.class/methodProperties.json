@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 8/27/2014 21:14" },
+		"fieldsDesc" : "MaxLeske 8/31/2014 11:01" },
 	"instance" : {
 		"=" : "MaxLeske 8/27/2014 22:20",
 		"compare:" : "MaxLeske 8/27/2014 22:20",
-		"oid_cmp:b:" : "MaxLeske 8/27/2014 22:21" } }
+		"hexString" : "MaxLeske 8/31/2014 12:07",
+		"oid_cmp:b:" : "MaxLeske 8/27/2014 22:21",
+		"oid_fmt:id:" : "MaxLeske 8/31/2014 12:05",
+		"printOn:" : "MaxLeske 8/31/2014 17:10" } }

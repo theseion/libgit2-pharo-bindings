@@ -10,5 +10,5 @@
 	"name" : "LGitBlobTest",
 	"pools" : [
 		 ],
-	"super" : "LGitTestCase",
+	"super" : "LGitObjectTest",
 	"type" : "normal" }

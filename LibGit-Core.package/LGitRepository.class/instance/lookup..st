@@ -1,5 +1,6 @@
 lookup
 lookup: name
+	<todo: 'use proper exceptions'>
 	| reference returnCode |
 	reference := LGitReference of: self.
 	returnCode := self
@@ -8,6 +9,5 @@ lookup: name
 		shorthand: name.
 	
 	returnCode = (self libGitReturnCodeTypes at: #GIT_OK) ifFalse: [ Error signal ].
-	
-	self flag: 'handle errors'.
+
 	^ reference
