@@ -1,7 +1,7 @@
 testing
 isDirty: aFileReference
 	| intValue enum |
-	intValue := LGitIntValue new.
+	intValue := LGitWriteBackValueInt new.
 	self withReturnHandlerDo: [
 		self
 			status_file: intValue
