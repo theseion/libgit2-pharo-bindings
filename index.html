@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>libgit2 bindings for Pharo by theseion</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">libgit2 bindings for Pharo</h1>
+        <p class="header"></p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/theseion/LibGit/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/theseion/LibGit/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/theseion/LibGit">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/theseion">theseion</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="libgit2-bindings-for-pharo" class="anchor" href="#libgit2-bindings-for-pharo"><span class="octicon octicon-link"></span></a>libgit2 bindings for Pharo</h1>
+
+<p>The goal of this project is the development of <a href="http://libgit2.github.com">libgit2</a> bindings for <a href="http://pharo-project.org">Pharo</a>.</p>
+
+<h2>
+<a name="prerequisites" class="anchor" href="#prerequisites"><span class="octicon octicon-link"></span></a>prerequisites</h2>
+
+<p>To use these bindings you will need a Pharo 3 or 4 image and the latest VM:</p>
+
+<pre><code>curl get.pharo.org/40+vmLatest | bash
+./pharo-ui Pharo.image
+</code></pre>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>installation</h2>
+
+<p>Evaluate the following in a workspace:</p>
+
+<pre><code>Gofer it
+  smalltalkhubUser: 'FileSystemGitDev' project: 'LibGit2';
+  configurationOf: 'LibGit';
+  loadBleedingEdge
+</code></pre>
+
+<h2>
+<a name="github-support" class="anchor" href="#github-support"><span class="octicon octicon-link"></span></a>github support</h2>
+
+<p>The current bindings include very crude patches to allow pull and push operations to / from remote repositories (e.g. github). For this to work you will need:</p>
+
+<ul>
+<li>a repository with <a href="https://github.com/dalehenrich/filetree">FileTree</a> layout, where the FileTree packages are in the top level directory (the same the .git directory is in)</li>
+<li>the repository to use the branch 'master' (no other branches supported)</li>
+<li>the remote to have the name 'origin'</li>
+</ul><p>To use a remotely hosted repository:</p>
+
+<ol>
+<li>add a new repository of type 'git://' to Monticello</li>
+<li>enter the cloning url (e.g. <a href="mailto:git@github.com">git@github.com</a>:theseion/LibGit)</li>
+</ol><p>Repository access will now do a pull, commit will trigger a push.</p>
+
+<h2>
+<a name="disclaimer" class="anchor" href="#disclaimer"><span class="octicon octicon-link"></span></a>disclaimer</h2>
+
+<p>This project is still very experimental and push / pull operations have been implemented for convenience only. I use them for daily development but be prepared for unexpected behavior and VM crashes.
+I will update the instructions in this document while I make progress.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
