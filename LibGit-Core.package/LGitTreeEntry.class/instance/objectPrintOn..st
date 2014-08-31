@@ -1,3 +1,3 @@
 printing
 objectPrintOn: aStream 
-	aStream nextPutAll: self filename
+	aStream nextPutAll: self filename surroundedBySingleQuotes
