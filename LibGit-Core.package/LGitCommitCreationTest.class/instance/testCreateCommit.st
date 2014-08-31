@@ -1,12 +1,12 @@
 tests
 testCreateCommit
-	| blob subTreeId rootTree author  head headRef builder |
+	| blob subTreeId rootTree author  head headRef |
 	blob := self createBlob.
 	subTreeId := self createSubTreeWith: blob.
 	rootTree := self createRootTreeWith: subTreeId.
 	author := self createAuthor.
 	
-	(builder := LGitCommitBuilder of: repository)
+	(LGitCommitBuilder of: repository)
 		tree: rootTree;
 		message: 'eat my shorts';
 		parents: { };
