@@ -4,10 +4,13 @@ changeRepositoryType
 	repo := MCRepositoryGroup default repositories detect: [ :r |
 		r description endsWith: 'LibGit:master' ].
 	newRepo := (Smalltalk at: #MCGitRepository) new
-		remote: 'git@github.com:theseion/LibGit';
-		directory: repo directory;
+		repoUrl: 'git@github.com:theseion/LibGit';
+		ensureDirectory;
 		yourself.
 		
-	MCRepositoryGroup default 
-		removeRepository: repo;
-		addRepository: newRepo
+	MCRepositoryGroup allInstances
+		select: [ :group | group repositories includes: repo ]
+		thenDo: [ :group |  
+			group
+				removeRepository: repo;
+				addRepository: newRepo ]
