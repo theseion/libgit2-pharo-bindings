@@ -1,7 +1,7 @@
 operations
 addAll
 	| pathspec |
-	pathspec := LG2GitStrarrayS externalNew.
+	pathspec := LG2GitStrarrayS new.
 	self withReturnHandlerDo: [ 
 		self
 			index_add_all: self
