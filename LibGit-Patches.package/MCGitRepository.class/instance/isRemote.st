@@ -1,3 +1,3 @@
 testing
 isRemote
-	^ self remote isEmptyOrNil not
+	^ (self repoUrl beginsWith: 'file://') not

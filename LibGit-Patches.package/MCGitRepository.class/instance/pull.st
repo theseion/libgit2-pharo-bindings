@@ -1,8 +1,11 @@
 private
 pull
-	[ (LGitRemote 
-		of: (LGitRepository on: self directory) open
-		named: 'origin' 
-		url: self remote
-		fetchSpec: '+refs/heads/*:refs/remotes/origin/*') pull
-	 ] asLibGitActionSequence
+	self directory exists
+		ifFalse: [ self createCloneRepository ]
+		ifTrue: [ 
+			[ (LGitRemote 
+				of: (LGitRepository on: self directory) open
+				named: 'origin' 
+				url: self repoUrl
+				fetchSpec: '+refs/heads/*:refs/remotes/origin/*') pull
+			 ] asLibGitActionSequence ]

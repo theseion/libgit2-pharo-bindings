@@ -9,7 +9,7 @@
 	"instvars" : [
 		"readonly",
 		"repositoryProperties",
-		"remote" ],
+		"repoUrl" ],
 	"name" : "MCGitRepository",
 	"pools" : [
 		 ],

@@ -1,4 +1,3 @@
 private
 createLocalRepository
-	self fileUtils ensureDirectoryExists: self projectPath asFileReference.
-	self directory: self projectPath
+	self fileUtils ensureDirectoryExists: self directory asFileReference
