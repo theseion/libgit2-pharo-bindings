@@ -36,8 +36,7 @@
 		"initBare:" : "MaxLeske 3/22/2014 18:17",
 		"initializeOn:" : "MaxLeske 3/18/2014 10:56",
 		"isBare" : "StefanMarr 3/18/2014 19:23",
-		"isBeingTracked:" : "MaxLeske 8/31/2014 22:18",
-		"isDirty:" : "MaxLeske 8/31/2014 22:18",
+		"isDirty:" : "MaxLeske 9/2/2014 21:47",
 		"isEmpty" : "MaxLeske 3/18/2014 11:08",
 		"isInitialized" : "MaxLeske 4/8/2014 21:47",
 		"isOpen" : "MaxLeske 4/8/2014 21:48",
@@ -64,6 +63,5 @@
 		"repository_workdir:" : "MaxLeske 6/23/2013 22:16",
 		"revparse_single:repo:spec:" : "MaxLeske 8/14/2014 23:02",
 		"signature_default:repo:" : "MaxLeske 8/18/2014 22:26",
-		"status_file:repo:path:" : "MaxLeske 8/19/2014 00:44",
 		"workingDirectory" : "MaxLeske 3/16/2014 22:31",
 		"workingDirectoryName" : "MaxLeske 6/23/2013 22:18" } }

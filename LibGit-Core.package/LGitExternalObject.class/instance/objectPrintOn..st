@@ -1,3 +1,2 @@
 printing
 objectPrintOn: aStream
-	self subclassResponsibility

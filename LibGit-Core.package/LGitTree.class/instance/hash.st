@@ -1,3 +1,3 @@
 comparing
 hash
-	^ super hash bitXor: self id
+	^ super hash bitXor: self id asInteger

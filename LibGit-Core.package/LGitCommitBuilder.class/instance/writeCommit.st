@@ -18,4 +18,4 @@ writeCommit
 			message: self message
 			tree: self tree
 			parent_count: self parents size
-			parents: (NBExternalAddress value: parentsPointer value) ] ]
+			parents: parentsPointer] ]

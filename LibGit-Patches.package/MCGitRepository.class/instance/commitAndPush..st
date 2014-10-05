@@ -5,9 +5,8 @@ commitAndPush: aVersion
 	self assert: repo isProperRepository.
 	repo open.
 	index := repo index.
-	index
-		removeAll;
-		addAll.
+	index updateAll.
+self halt.
 	tree := (LGitTree of: repo) id: index writeTreeAndReturnOid.
 	tree lookup.
 	signature := repo defaultSignature.
