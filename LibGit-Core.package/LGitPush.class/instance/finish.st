@@ -15,4 +15,5 @@ finish
 		cb: callback
 		data: (NativeBoost allocate: 4).
 		
-	(unpackOk and: [ refFailed not ]) ifFalse: [ LGitError signalWith: refStatus ]
+	(unpackOk and: [ refFailed not ]) ifFalse: [ LGitError signalWith: refStatus ].
+	self updateTips
