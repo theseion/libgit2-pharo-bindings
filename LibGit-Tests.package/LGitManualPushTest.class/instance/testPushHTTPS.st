@@ -24,7 +24,7 @@ testPushHTTPS
 		tree: tree;
 		message: 'push test';
 		parents: { head };
-		updateReference: 'refs/heads/master';
+		updateReference: repo master;
 		author: author;
 		committer: author;
 		writeCommit.

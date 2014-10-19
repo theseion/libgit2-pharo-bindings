@@ -10,7 +10,7 @@ testCreateCommit
 		tree: rootTree;
 		message: 'eat my shorts';
 		parents: { };
-		updateReference: 'refs/heads/master';
+		updateReference: repository master;
 		author: author;
 		committer: author;
 		writeCommit.
