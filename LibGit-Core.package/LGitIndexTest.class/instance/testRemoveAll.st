@@ -5,7 +5,7 @@ testRemoveAll
 	index := repo index.
 	path := 'libgit_tests/foo'.
 	file := repo repositoryReference / path.
-	self assert: (repo isBeingTracked: path).
+	self assert: (index isBeingTracked: path).
 	
 	index removeAll.
-	self deny: (repo isBeingTracked: path)
+	self deny: (index isBeingTracked: path)

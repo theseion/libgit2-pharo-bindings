@@ -1,5 +1,6 @@
 class initialization
 initialize
-	self isAbstract ifTrue: [ ^ self ].
-	
-	self initValueType: self valueTypeName
+	self allSubclassesDo: [ :class |
+		class
+			initValueType: class valueTypeName;
+			installAccessors ]

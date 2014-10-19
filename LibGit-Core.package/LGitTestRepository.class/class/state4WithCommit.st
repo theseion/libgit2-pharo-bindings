@@ -28,4 +28,9 @@ state4WithCommit
 		committer: author;
 		writeCommit.
 	
+	repo index
+		addAll;
+		updateAll;
+		writeToDisk.
+	
 	^ repo
