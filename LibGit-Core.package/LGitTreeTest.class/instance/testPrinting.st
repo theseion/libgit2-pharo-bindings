@@ -1,17 +1,15 @@
 tests
 testPrinting
-	| repo tree names |
+	| repo tree |
 	repo := self newRepo state4WithCommit.
 	tree := repo head object tree.
-	names := tree names.
-	self assert: names size equals: 0.
+	self assert: tree size equals: 1. "the tree has one entry"
 	self
 		assert: tree printString
-		equals: 'a LGitTree (<root tree>)'.
+		equals: 'a LGitTree (number of entries: 1)'.
 		
 	tree := tree entries first object.
-	names := tree names.
-	self assert: names size equals: 1.
+	self assert: tree size equals: 1. "that directory also only contains one file"
 	self
 		assert: tree printString
-		equals: 'a LGitTree (''libgit_tests'')'
+		equals: 'a LGitTree (number of entries: 1)'
