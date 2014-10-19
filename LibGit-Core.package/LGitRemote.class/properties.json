@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Credentials" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"remoteName",

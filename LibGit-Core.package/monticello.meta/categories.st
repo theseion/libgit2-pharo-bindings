@@ -7,7 +7,4 @@ SystemOrganization addCategory: 'LibGit-Core-FFI'!
 SystemOrganization addCategory: 'LibGit-Core-FFI-Handling'!
 SystemOrganization addCategory: 'LibGit-Core-HelperObjects'!
 SystemOrganization addCategory: 'LibGit-Core-NonCoreObjects'!
-SystemOrganization addCategory: 'LibGit-Core-Tests'!
-SystemOrganization addCategory: 'LibGit-Core-Tests-Helpers'!
-SystemOrganization addCategory: 'LibGit-Core-Tests-Manual'!
 SystemOrganization addCategory: 'LibGit-Core-Traits'!

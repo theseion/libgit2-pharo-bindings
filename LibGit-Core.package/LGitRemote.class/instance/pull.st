@@ -8,11 +8,7 @@ pull
 		load;
 		initializeCallbacks.
 	
-	credentials := LGitCredentialsSSH
-		username: LGitTestRepository usernameSsh
-		passphrase: LGitTestRepository keyPassPhrase
-		publicKeyReference: LGitTestRepository keyFilePublic asFileReference
-		privateKeyReference: LGitTestRepository keyFilePrivate asFileReference.
+	credentials := self class credentialsSsh.
 	self callbacks credentials: [ :cred :theUrl :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
