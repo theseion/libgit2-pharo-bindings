@@ -9,7 +9,7 @@ baseline04: spec
 			spec repository: 'github://theseion/LibGit' ].
 
 		spec package: 'LibGit-Tests' with: [ 
-			spec repository: 'githhub://theseion/LibGit' ].
+			spec repository: 'github://theseion/LibGit' ].
 		
 		spec package: 'LibGit-GT' with: [ 
 			spec
