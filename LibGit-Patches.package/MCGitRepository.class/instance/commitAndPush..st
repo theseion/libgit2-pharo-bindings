@@ -17,7 +17,7 @@ commitAndPush: aVersion
 		tree: tree;
 		message: aVersion info message;
 		parents: { repo head object };
-		updateReference: refName;
+		updateReference: (repo lookup: refName);
 		author: signature;
 		committer: signature;
 		writeCommit.
