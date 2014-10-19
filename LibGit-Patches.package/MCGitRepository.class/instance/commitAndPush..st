@@ -23,11 +23,7 @@ commitAndPush: aVersion
 		writeCommit.
 		
 	gitRemote := (LGitRemote of: repo named: 'origin') load.
-	credentials := LGitCredentialsSSH
-		username: LGitTestRepository usernameSsh
-		passphrase: LGitTestRepository keyPassPhrase
-		publicKeyReference: LGitTestRepository keyFilePublic asFileReference
-		privateKeyReference: LGitTestRepository keyFilePrivate asFileReference.
+	credentials := gitRemote class credentialsSsh.
 	gitRemote callbacks credentials: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
