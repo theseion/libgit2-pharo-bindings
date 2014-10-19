@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testModuleLoadable" : "MaxLeske 8/16/2014 22:25" } }
+		"testLibGit2Loadable" : "MaxLeske 10/18/2014 18:53",
+		"testLibSSH2Loadable" : "MaxLeske 10/18/2014 18:53" } }

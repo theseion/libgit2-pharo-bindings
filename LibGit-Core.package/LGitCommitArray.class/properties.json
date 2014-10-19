@@ -10,5 +10,5 @@
 	"name" : "LGitCommitArray",
 	"pools" : [
 		 ],
-	"super" : "NBExternalArray",
+	"super" : "LGitExternalArray",
 	"type" : "normal" }

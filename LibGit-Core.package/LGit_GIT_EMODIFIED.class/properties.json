@@ -1,5 +1,5 @@
 {
-	"category" : "LibGit-Core-HelperObjects",
+	"category" : "LibGit-Core-Exceptions-ReturnCodes",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LGitStringArray",
+	"name" : "LGit_GIT_EMODIFIED",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalArray",
+	"super" : "LGitCallReturnHandler",
 	"type" : "normal" }
