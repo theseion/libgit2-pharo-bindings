@@ -1,0 +1,3 @@
+tests
+testPrintingUninitialized
+	self subclassResponsibility

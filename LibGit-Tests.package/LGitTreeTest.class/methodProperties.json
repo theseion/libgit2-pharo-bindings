@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEquals" : "MaxLeske 8/31/2014 10:34",
+		"testEqualsUninitialized" : "MaxLeske 8/31/2014 16:55",
+		"testPrinting" : "MaxLeske 10/19/2014 13:02",
+		"testPrintingUninitialized" : "MaxLeske 8/31/2014 12:11" } }

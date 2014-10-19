@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBinary" : "MaxLeske 8/10/2014 16:36",
+		"testCreateFromByteArray" : "MaxLeske 8/10/2014 16:35",
+		"testCreateFromFile" : "MartinDias 5/20/2014 19:47",
+		"testCreateFromNonExternalCollection" : "MaxLeske 8/10/2014 16:35",
+		"testCreateFromString" : "MartinDias 5/20/2014 18:21",
+		"testEquals" : "MaxLeske 8/31/2014 15:55",
+		"testEqualsUninitialized" : "MaxLeske 8/31/2014 16:56",
+		"testFree" : "MartinDias 5/20/2014 20:22",
+		"testNotBinary" : "MaxLeske 8/10/2014 16:34",
+		"testPrinting" : "MaxLeske 8/31/2014 16:47",
+		"testPrintingUninitialized" : "MaxLeske 8/31/2014 16:28" } }
