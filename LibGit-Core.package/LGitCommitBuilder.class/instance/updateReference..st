@@ -1,3 +1,3 @@
 accessing
-updateReference: aString
-	updateReference := aString
+updateReference: aReference
+	updateReference := aReference

@@ -1,3 +1,3 @@
 accessing
 updateReference
-	^ updateReference ifNil: [ updateReference := 'HEAD' ]
+	^ updateReference ifNil: [ updateReference := self repository master ]

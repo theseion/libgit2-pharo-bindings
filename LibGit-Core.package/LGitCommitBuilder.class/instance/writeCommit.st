@@ -11,7 +11,7 @@ writeCommit
 			commit_create: self commitId
 			"libgit2 asserts the identity of this repository and the one it retrieves for the tree, so they need to be the same here"
 			repo: self tree owner 
-			update_ref: self updateReference
+			update_ref: self updateReference name
 			author: self author
 			committer: self committer
 			message_encoding: self messageEncoding
