@@ -1,3 +1,3 @@
 accessing
 setEmail: aString
-	self email: aString
+	self email: aString asNBExternalString

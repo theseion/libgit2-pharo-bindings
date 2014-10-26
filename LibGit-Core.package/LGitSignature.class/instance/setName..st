@@ -1,3 +1,3 @@
 accessing
 setName: aString
-	self name: aString
+	self name: aString asNBExternalString
