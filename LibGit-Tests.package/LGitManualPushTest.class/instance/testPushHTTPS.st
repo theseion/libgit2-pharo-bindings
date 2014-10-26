@@ -15,8 +15,8 @@ testPushHTTPS
 	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: (LG2GitFilemodeTE at: #GIT_FILEMODE_TREE) value.
 	tree := rootBuilder newTree.
 	author := LGitSignature new
-		name: 'Bart Simpson';
-		email: 'bartman@gotham.com';
+		setName: 'Bart Simpson';
+		setEmail: 'bartman@gotham.com';
 		setDateAndTime: DateAndTime now;
 		yourself.
 	
@@ -30,8 +30,8 @@ testPushHTTPS
 		writeCommit.
 	
 	credentials := LGitCredentialsPlaintext
-		username: self newRepo username
-		passphrase: self newRepo password.
+		username: LGitRemote username
+		passphrase: LGitRemote password.
 	remote := (LGitRemote of: repo named: 'origin') load.
 	remote callbacks credentials: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
@@ -39,5 +39,5 @@ testPushHTTPS
 	remote setCallbacksFinally.
 	push := LGitPush 
 		remote: remote
-		refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
+		refSpec: (LGitRefSpec fromString: '+refs/heads/master:refs/heads/libgit').
 	self shouldnt: [ push finish ] raise: LGitError

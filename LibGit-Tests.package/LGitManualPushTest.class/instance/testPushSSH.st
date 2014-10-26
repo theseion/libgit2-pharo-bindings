@@ -5,7 +5,7 @@ testPushSSH
 	repo := self newRepo clonedSSH.
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
-	head := (LGitCommit of: repo) id: repo head resolve; lookup.
+	head := repo head object.
 	blob := LGitBlob newFromFile: directory / 'foo' of: repo.
 	builder := LGitTreeBuilder of: repo.
 	builder createNew.
@@ -16,8 +16,8 @@ testPushSSH
 	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: (LG2GitFilemodeTE at: #GIT_FILEMODE_TREE) value.
 	tree := rootBuilder newTree.
 	author := LGitSignature new
-		name: 'Bart Simpson';
-		email: 'bartman@gotham.com';
+		setName: 'Bart Simpson';
+		setEmail: 'bartman@gotham.com';
 		setDateAndTime: DateAndTime now;
 		yourself.
 	
@@ -38,5 +38,5 @@ testPushSSH
 	remote setCallbacksFinally.
 	push := LGitPush 
 		remote: remote
-		refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
+		refSpec: (LGitRefSpec fromString: '+refs/heads/master:refs/heads/libgit').
 	self shouldnt: [ push finish ] raise: LGitError
