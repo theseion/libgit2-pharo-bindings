@@ -1,5 +1,5 @@
 initialization
-initializeWithId: id
+initializeWithId: gitOid
 	self 
-		id: id;
+		id: gitOid;
 		lookup

@@ -1,15 +1,14 @@
 {
-	"category" : "LibGit-Core-CoreObjects",
+	"category" : "LibGit-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"repositoryPath",
-		"isOpen" ],
-	"name" : "LGitRepository",
+		 ],
+	"name" : "ManifestLibGitCore",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalObject",
+	"super" : "Object",
 	"type" : "normal" }

@@ -5,6 +5,7 @@ finish
 	
 	unpackOk := self push_unpack_ok: self.
 	refFailed := false.
+	refStatus := #().
 	callback := LGitPushStatusForeachCallback on: [ :ref :msg :data |
 		refStatus := { ref. msg. data }.
 		(msg isString and: [ (msg beginsWith: 'ok') not ]) 

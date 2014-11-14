@@ -4,7 +4,8 @@ updateAll
 	stringsPointer :=  (LGitStringArray fromCollection: { '*' }) address.
 	pathspec := LG2GitStrarrayS new
 		count: 1;
-		strings: stringsPointer.
+		strings: stringsPointer;
+		yourself.
 	self withReturnHandlerDo: [ 
 		self
 			index_update_all: self
