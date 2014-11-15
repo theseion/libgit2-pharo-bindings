@@ -1,29 +1,33 @@
 *LibGit-Patches
 projectDirectoryFrom: projectPath version: versionString
-  | mcPlatform githubCacheDirectory projectDirectory downloadCacheKey cachePath |
+  | mcPlatform githubCacheDirectory downloadCacheKey cachePath repository |
   downloadCacheKey := self downloadCacheKey: projectPath version: versionString.
   mcPlatform := MetacelloPlatform current.
   githubCacheDirectory := mcPlatform
     directoryFromPath: versionString
     relativeTo: (self cacheDirectoryFor: projectPath).
   cachePath := self downloadCache at: downloadCacheKey ifAbsent: [  ].
-  (cachePath isNil
-    or: [ 
-      (projectDirectory := mcPlatform
-        directoryFromPath: cachePath
-        relativeTo: githubCacheDirectory) exists not ])
+  (cachePath isNil or: [ githubCacheDirectory exists not ])
     ifTrue: [ 
       MetacelloScriptGitHubDownloadNotification new
         projectPath: projectPath;
         versionString: versionString;
         signal.	
+
+	repository := LGitRepository on: githubCacheDirectory asFileReference.
+	(githubCacheDirectory exists and: [ repository isProperRepository ])
+		ifFalse: 	[
+			[ repository
+				cloneHttps: 'https://github.com/' , projectPath, '.git';
+				checkout: versionString ] asLibGitActionSequence ]
+		ifTrue: [ 
+			[ 
+				repository open.
+				(LGitRemote 
+					of: repository
+					named: 'origin'
+					url: 'https://github.com/' , projectPath, '.git') pull.
+				repository fastForward ] asLibGitActionSequence ].
 	
-	[ (LGitRepository on: githubCacheDirectory asFileReference)
-		cloneHttps: 'https://github.com/' , projectPath, '.git';
-		checkout: versionString ] asLibGitActionSequence.
-	
-      self downloadCache at: downloadCacheKey put: (githubCacheDirectory / 'repository') fullName.
-      projectDirectory := mcPlatform
-        directoryFromPath: cachePath
-        relativeTo: githubCacheDirectory ].
-  ^ projectDirectory
+      self downloadCache at: downloadCacheKey put: githubCacheDirectory fullName ].
+  ^ githubCacheDirectory
