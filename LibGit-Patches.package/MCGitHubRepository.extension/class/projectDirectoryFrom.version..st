@@ -25,8 +25,9 @@ projectDirectoryFrom: projectPath version: versionString
 				repository open.
 				(LGitRemote 
 					of: repository
-					named: 'origin'
-					url: 'https://github.com/' , projectPath, '.git') pull.
+					named: 'origin')
+						load;
+						pull.
 				repository fastForward ] asLibGitActionSequence ].
 	
       self downloadCache at: downloadCacheKey put: githubCacheDirectory fullName ].
