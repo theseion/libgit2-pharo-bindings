@@ -7,4 +7,4 @@ If the callback returns a non-zero value, this function will stop looping and re
 		self
 			status_foreach: self repository
 			callback: (LG2GitStatusCb on: aBlock)
-			payload: NBExternalAddress null ]
+			payload: nil ]

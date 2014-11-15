@@ -7,5 +7,5 @@ addAll
 			index_add_all: self
 			pathspec: pathspec
 			flags: 0
-			callback: NBExternalAddress null "LG2GitIndexMatchedPathCb"
-			payload: NBExternalAddress null ]
+			callback: (LG2GitIndexMatchedPathCb on: [ :a :b :c | 0  ])
+			payload: nil ]

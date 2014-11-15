@@ -6,5 +6,5 @@ removeAll
 		self
 			index_remove_all: self
 			pathspec: pathspec
-			callback: NBExternalAddress null "LG2GitIndexMatchedPathCb"
-			payload: NBExternalAddress null ]
+			callback: (LG2GitIndexMatchedPathCb on: [ :a :b :c | 0 ])
+			payload: nil ]

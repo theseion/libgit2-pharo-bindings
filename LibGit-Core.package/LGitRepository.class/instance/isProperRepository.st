@@ -5,6 +5,6 @@ isProperRepository
 		repository_open_ext: self
 		path: self repositoryReference pathString
 		flags: 0 "(LG2GitOpenFlagTE at: #GIT_REPOSITORY_OPEN_NO_SEARCH) value"
-		ceiling_dirs: NBExternalAddress null.
+		ceiling_dirs: nil.
 		
 	^ return = (LGitReturnCodeEnum at: #GIT_OK)

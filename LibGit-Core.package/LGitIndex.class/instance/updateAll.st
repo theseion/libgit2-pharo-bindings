@@ -11,4 +11,4 @@ updateAll
 			index_update_all: self
 			pathspec: pathspec
 			callback: (LG2GitIndexMatchedPathCb on: [ :a :b :c | 0 ])
-			payload: NBExternalAddress null ]
+			payload: nil ]

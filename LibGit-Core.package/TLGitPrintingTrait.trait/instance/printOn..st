@@ -6,7 +6,7 @@ printOn: aStream
 		nextPutAll: (title first isVowel ifTrue: [ 'an ' ] ifFalse: [ 'a ' ]);
 		nextPutAll: title.
 		
-	self isReady ifFalse: [ ^ aStream nextPutAll: ' (<not initialized>)' ].
+	(self shouldContinuePrintingOn: aStream) ifFalse: [ ^ self ].
 	
 	aStream nextPutAll: ' ('.
 	self objectPrintOn: aStream.

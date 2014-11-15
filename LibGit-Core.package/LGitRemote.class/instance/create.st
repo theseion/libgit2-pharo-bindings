@@ -4,6 +4,8 @@ create
 	self assert: url notNil.
 	self assert: self repository isReady.
 	
-	self hasFetchSpec
+	[ self hasFetchSpec
 		ifFalse: [ self createWithoutSpec ]
-		ifTrue: [ self createWithFetchSpec ]
+		ifTrue: [ self createWithFetchSpec ] ]
+			on: LGit_GIT_EEXISTS
+			do: [ "all good then" ]
