@@ -1,8 +1,11 @@
 doits
 changeRepositoryType
-	| repo newRepo |
-	repo := MCRepositoryGroup default repositories detect: [ :r |
-		r description endsWith: 'LibGit:master' ].
+	| repos newRepo |
+	repos := MCRepositoryGroup default repositories
+		select: [ :r | (r description includesSubstring: 'LibGit:master') or: [ 
+			r description includesSubstring: 'LibGit/master' ] ].
+	repos ifEmpty: [  ^ self ].
+	
 	'github-cache/theseion' asFileReference deleteAll.
 	newRepo := (Smalltalk at: #MCGitRepository) new
 		repoUrl: 'git@github.com:theseion/LibGit';
@@ -10,8 +13,7 @@ changeRepositoryType
 		yourself.
 		
 	MCRepositoryGroup allInstances
-		select: [ :group | group repositories includes: repo ]
-		thenDo: [ :group |  
-			group
-				removeRepository: repo;
-				addRepository: newRepo ]
+		select: [ :group | group repositories includesAnyOf: repos ]
+		thenDo: [ :group | 
+			repos do: [ :repo | group removeRepository: repo ].
+			group addRepository: newRepo ]
