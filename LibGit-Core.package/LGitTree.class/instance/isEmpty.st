@@ -1,3 +1,3 @@
 testing
-isEmtpy
+isEmpty
 	^ self entries isEmpty
