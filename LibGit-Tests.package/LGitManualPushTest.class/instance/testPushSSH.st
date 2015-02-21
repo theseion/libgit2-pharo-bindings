@@ -38,5 +38,5 @@ testPushSSH
 	remote setCallbacksFinally.
 	push := LGitPush 
 		remote: remote
-		refSpec: (LGitRefSpec fromString: '+refs/heads/master:refs/heads/libgit').
+		refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
 	self shouldnt: [ push finish ] raise: LGitError
