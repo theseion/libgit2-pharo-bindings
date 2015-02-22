@@ -1,0 +1,3 @@
+running
+setUp
+	LGitTestRepository tearDown

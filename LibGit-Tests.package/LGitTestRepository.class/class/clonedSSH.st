@@ -15,8 +15,8 @@ clonedSSH
 	remote setCallbacksFinally.
 	
 	signature := LGitSignature new
-		name: 'Bart Simpson';
-		email: 'bartman@gotham.com';
+		setName: 'Bart Simpson';
+		setEmail: 'bartman@gotham.com';
 		setDateAndTime: DateAndTime now;
 		yourself.
 	repo

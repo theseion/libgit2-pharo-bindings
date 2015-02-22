@@ -15,8 +15,8 @@ state4WithCommit
 	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: (LG2GitFilemodeTE at: #GIT_FILEMODE_TREE) value.
 	tree := rootBuilder newTree.
 	author := LGitSignature new
-		name: 'Bart Simpson';
-		email: 'bartman@gotham.com';
+		setName: 'Bart Simpson';
+		setEmail: 'bartman@gotham.com';
 		setDateAndTime: DateAndTime now;
 		yourself.
 	

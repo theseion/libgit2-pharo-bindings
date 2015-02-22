@@ -8,8 +8,8 @@ testSimpleFetchHTTPS
 		named: 'origin'
 		url: self newRepo repositoryUrlHttps.
 	signature := LGitSignature new
-		name: 'Homer Simpson';
-		email: 'foo@bar.ogr';
+		setName: 'Homer Simpson';
+		setEmail: 'foo@bar.ogr';
 		setDateAndTime: DateAndTime now;
 		yourself.
 	message := 'Bart ate my shorts!'.
