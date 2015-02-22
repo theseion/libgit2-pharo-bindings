@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitOdbWritepackS",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructure",
+	"type" : "normal" }
