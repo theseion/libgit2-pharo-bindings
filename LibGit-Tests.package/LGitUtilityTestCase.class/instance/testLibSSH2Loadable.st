@@ -1,3 +1,7 @@
 tests
 testLibSSH2Loadable
-	self assert: (NativeBoost forCurrentPlatform loadModule: 'libssh2.dylib') > 0
+	| libraryName |
+	libraryName := OSPlatform current isMacOSX
+		ifTrue: [ 'libssh2.1.dylib' ]
+		ifFalse: [ 'libssh2.so.1.0.1' ].
+	self assert: (NativeBoost forCurrentPlatform loadModule: libraryName) > 0

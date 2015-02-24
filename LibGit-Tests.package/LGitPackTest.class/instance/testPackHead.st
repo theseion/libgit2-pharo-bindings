@@ -2,6 +2,7 @@ tests
 testPackHead
 	| repo head |
 	repo := self newRepo state4WithCommit.
+	repo open.
 	repo packHead.
 		
 	[
