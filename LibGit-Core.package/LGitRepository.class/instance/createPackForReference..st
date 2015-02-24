@@ -30,7 +30,7 @@ createPackForReference: aReference
 			commit free.
 			tree free ].
 	
-	writepack := LG2GitOdbWritepackS new.
+	writepack := LG2GitOdbWritepackS externalNew.
 	LG2OdbH uniqueInstance
 	odb_write_pack: writepack
 	db: odb
@@ -51,7 +51,6 @@ createPackForReference: aReference
 		payload: packbuilderPayload.
 
 	writepack commit writepack: writepack progress: stats.
-
 
 	writepack free writepack: writepack.
 	LG2PackH uniqueInstance packbuilder_free: packbuilder.

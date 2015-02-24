@@ -4,7 +4,8 @@
 		 ],
 	"classtraitcomposition" : "TLGitCalloutTrait classTrait + TLGitPrintingTrait classTrait",
 	"classvars" : [
-		 ],
+		"LibraryHandle",
+		"Session" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
