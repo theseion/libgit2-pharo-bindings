@@ -1,6 +1,6 @@
 private
 createPackForReference: aReference
-	| odb walker packbuilder oid writepack stats packbuilderPayload |
+	| odb walker packbuilder oid writepack stats packbuilderPayload progresscb progressPayload packbuilderCallback |
 	odb := self database.
 	walker := LG2GitRevwalkO new.
 	LG2RevwalkH uniqueInstance
@@ -29,29 +29,36 @@ createPackForReference: aReference
 				packbuilder_insert_tree: packbuilder id: tree id.
 			commit free.
 			tree free ].
-	
-	writepack := LG2GitOdbWritepackS externalNew.
+	progresscb := LG2GitTransferProgressCallback on: [ :progress :data | 0 ].
+	progressPayload := NBExternalAddress null.
+	writepack:= LG2GitOdbWritepackS externalNew.
 	LG2OdbH uniqueInstance
 	odb_write_pack: writepack
 	db: odb
-	progress_cb: (LG2GitTransferProgressCallback on: [ :progress :data | 0 ])
-	progress_payload: NBExternalAddress null.
+	progress_cb: progresscb
+	progress_payload: progressPayload.
 
-	writepack := writepack fromPointer.
+	writepack := LG2GitOdbWritepackS fromPointer: (NBExternalAddress value: (writepack address nbInt32AtOffset:0)).
 	stats := LG2GitTransferProgressS externalNew.
 	packbuilderPayload := LG2GitPackbuilderForeachPayloadS externalNew.
 
+	packbuilderCallback := LG2GitPackbuilderForeachCb on: [ :buffer :length :payload |
+		payload writepack append 
+			writepack: payload writepack
+			buffer: buffer
+			length: length
+			progress: payload stats ].
 	packbuilderPayload
 		writepack: writepack;
 		stats: stats.
+
 	LG2PackH uniqueInstance
 		packbuilder_foreach: packbuilder
-		cb: (LG2GitPackbuilderForeachCb on: [ :buffer :length :payload |
-			payload writepack append writepack: writepack buffer: buffer length: length progress: payload stats ])
+		cb: packbuilderCallback
 		payload: packbuilderPayload.
-
+		
 	writepack commit writepack: writepack progress: stats.
-
+	
 	writepack free writepack: writepack.
 	LG2PackH uniqueInstance packbuilder_free: packbuilder.
 	LG2RevwalkH uniqueInstance revwalk_free: walker
