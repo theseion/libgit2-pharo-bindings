@@ -1,14 +1,13 @@
 {
 	"class" : {
-		"fieldNamesAndProtocols" : "MaxLeske 8/30/2014 23:04",
-		"fieldsDesc" : "MaxLeske 8/30/2014 23:05" },
+		"fieldsDesc" : "MaxLeske 2/27/2015 15:39" },
 	"instance" : {
-		"=" : "MaxLeske 8/30/2014 23:34",
-		"getDateAndTime" : "MaxLeske 8/30/2014 23:32",
-		"getEmail" : "MaxLeske 8/30/2014 23:37",
-		"getName" : "MaxLeske 8/30/2014 23:37",
-		"hash" : "MaxLeske 8/10/2014 23:13",
-		"objectPrintOn:" : "MaxLeske 11/14/2014 18:01",
-		"setDateAndTime:" : "MaxLeske 8/30/2014 23:32",
-		"setEmail:" : "MaxLeske 10/26/2014 21:17",
-		"setName:" : "MaxLeske 10/26/2014 21:18" } }
+		"=" : "MaxLeske 2/27/2015 16:53",
+		"dateAndTime" : "MaxLeske 2/27/2015 16:35",
+		"dateAndTime:" : "MaxLeske 2/27/2015 16:29",
+		"email" : "MaxLeske 2/27/2015 16:36",
+		"email:" : "MaxLeske 2/27/2015 16:36",
+		"hash" : "MaxLeske 2/27/2015 16:53",
+		"name" : "MaxLeske 2/27/2015 16:52",
+		"name:" : "MaxLeske 2/27/2015 16:36",
+		"objectPrintOn:" : "MaxLeske 2/27/2015 16:55" } }

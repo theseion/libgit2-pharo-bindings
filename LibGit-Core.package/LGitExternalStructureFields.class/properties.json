@@ -1,5 +1,5 @@
 {
-	"category" : "LibGit-Core-FFI",
+	"category" : "LibGit-Core-Abstracts",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LGitRemoteCallbacksS",
+	"name" : "LGitExternalStructureFields",
 	"pools" : [
 		 ],
-	"super" : "NBExternalStructure",
+	"super" : "NBExternalStructureFields",
 	"type" : "normal" }

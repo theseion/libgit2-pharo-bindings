@@ -1,3 +1,3 @@
 accessing
-credentials: aBlock
-	credentials := LGitCredentialsCallback on: aBlock
+credentials: credentialsCallback
+	self prim_credentials: credentialsCallback

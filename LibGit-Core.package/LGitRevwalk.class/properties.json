@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitRevwalk",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalObject",
+	"type" : "normal" }

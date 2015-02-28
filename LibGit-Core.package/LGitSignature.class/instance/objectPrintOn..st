@@ -1,8 +1,8 @@
 printing
 objectPrintOn: aStream
 	aStream
-		nextPutAll: self getName;
+		nextPutAll: self name;
 		nextPutAll: ' <';
-		nextPutAll: self getEmail;
+		nextPutAll: self email;
 		nextPutAll: '> '.
-	self when objectPrintOn: aStream
+	self dateAndTime printOn: aStream

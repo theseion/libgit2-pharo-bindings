@@ -21,5 +21,4 @@ fieldsDesc
 	NBUInt8 data18;
 	NBUInt8 data19;
 	NBUInt8 data20;
-
 	)

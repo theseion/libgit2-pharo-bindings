@@ -1,8 +1,7 @@
 accessing
 fieldsDesc
 	^#(
-	char * name;
-	char * email;
-	LGitTime when;
-
+		char * name;
+		char * email;
+		LGitTime when;
 	)

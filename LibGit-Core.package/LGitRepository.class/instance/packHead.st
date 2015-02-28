@@ -4,4 +4,4 @@ packHead
 	"USE VERY CAREFULLY"
 	
 	[ self createPackForReference: self head ] asLibGitActionSequence.
-	self deleteAllLooseObjects.
+	self deleteAllLooseObjectsForReference: self head

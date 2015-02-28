@@ -1,3 +1,3 @@
 printing
 asInteger
-	^ self id address asInteger
+	^ self prim_id asInteger

@@ -3,6 +3,6 @@ initializeCallbacks
 	self areCallbacksInitialized ifTrue: [  ^ self ].
 	
 	self withReturnHandlerDo: [ 
-		self remote_init_callbacks: self callbacks structure version: 1 ].
+		self remote_init_callbacks: self callbacks version: 1 ].
 	
 	self areCallbacksInitialized: true

@@ -1,6 +1,5 @@
 accessing
 fieldsDesc
 	^#(
-	LGitIdData id;
-
+		LGitIdData id;
 	)

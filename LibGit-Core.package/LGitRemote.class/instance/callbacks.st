@@ -1,3 +1,3 @@
 accessing
 callbacks
-	^ callbacks ifNil: [ callbacks := LGitRemoteCallbacks new ]
+	^ callbacks ifNil: [ callbacks := LGitRemoteCallbacks externalNew ]

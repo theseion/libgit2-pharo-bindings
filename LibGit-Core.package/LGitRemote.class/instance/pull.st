@@ -1,7 +1,7 @@
 operations
 pull
 	<todo: 'check for conflicts'>
-	| credentials |
+	| credentials credentialsCallback |
 	self repository isReady ifFalse: [  ^ self ].
 
 	self
@@ -9,9 +9,10 @@ pull
 		initializeCallbacks.
 	
 	credentials := self class credentialsSsh.
-	self callbacks credentials: [ :cred :theUrl :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredentialsCallback on: [ :cred :theUrl :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
+	self callbacks credentials: credentialsCallback.
 	self setCallbacksFinally.
 	
 	

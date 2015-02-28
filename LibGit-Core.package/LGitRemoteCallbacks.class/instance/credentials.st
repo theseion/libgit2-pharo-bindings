@@ -1,3 +1,3 @@
 accessing
 credentials
-	^ credentials
+	^ self prim_credentials

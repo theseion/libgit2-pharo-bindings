@@ -1,15 +1,14 @@
 {
-	"category" : "LibGit-Core-NonCoreObjects",
+	"category" : "LibGit-Core-FFI-Structs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"credentials",
-		"structure" ],
+		 ],
 	"name" : "LGitRemoteCallbacks",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }

@@ -4,7 +4,7 @@ fromByteArray: aByteArray
 	instance := self new.
 	1 to: 20 do: [ :index |
 		instance 
-			perform: ('data', index asString) asSymbol asMutator
+			perform: ('prim_data', index asString) asSymbol asMutator
 			with: (aByteArray at: index) ].
 		
 	^ instance

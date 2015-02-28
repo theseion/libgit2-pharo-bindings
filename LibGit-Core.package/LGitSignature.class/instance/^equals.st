@@ -2,6 +2,6 @@ comparing
 = anObject
 	^ self == anObject
 		or: [ self class == anObject class
-			and: [ self getName = anObject getName
-				and: [ self getEmail = anObject getEmail
-					and: [ self when = anObject when ] ] ] ]
+			and: [ self name = anObject name
+				and: [ self email = anObject email
+					and: [ self dateAndTime = anObject dateAndTime ] ] ] ]
