@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LG2GitPackbuilderProgress",
+	"name" : "LG2GitPackbuilderProgressCb",
 	"pools" : [
 		 ],
 	"super" : "LG2PackH1Cb",

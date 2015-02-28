@@ -4,7 +4,7 @@ fromSignature: aSignature
 	| signee email when instance |
 	signee := aSignature name asNBExternalString.
 	email := aSignature email asNBExternalString.
-	when := LG2GitTimeS fromDateAndTime: aSignature when.
+	when := LG2GitTimeS fromDateAndTime: aSignature dateAndTime.
 	instance := self new
 		name: signee;
 		email: email;

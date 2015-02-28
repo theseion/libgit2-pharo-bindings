@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LG2GitOdbWritepackS",
+	"name" : "LG2RevwalkHideCb",
 	"pools" : [
 		 ],
-	"super" : "NBExternalStructure",
+	"super" : "NBFFICallback",
 	"type" : "normal" }

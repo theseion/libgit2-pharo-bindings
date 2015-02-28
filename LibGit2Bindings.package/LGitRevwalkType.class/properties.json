@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LG2GitRevwalkO",
+	"name" : "LGitRevwalkType",
 	"pools" : [
 		 ],
-	"super" : "NBExternalObject",
+	"super" : "LGitExternalObject",
 	"type" : "normal" }
