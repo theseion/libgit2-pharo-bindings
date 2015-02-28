@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 objectPrintOn: aStream
 	aStream nextPutAll: self remoteName

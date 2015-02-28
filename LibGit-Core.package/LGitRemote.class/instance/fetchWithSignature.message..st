@@ -2,7 +2,7 @@ operations
 fetchWithSignature: aSignature message: aString
 	self 
 		create;
-		initializeCallbacks.
+		setCallbacksFinally.
 		
 	self withReturnHandlerDo: [ 
 		self

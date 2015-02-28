@@ -2,7 +2,7 @@ operations
 fetch
 	self 
 		create;
-		initializeCallbacks.
+		setCallbacksFinally.
 		
 	self withReturnHandlerDo: [ 
 		self

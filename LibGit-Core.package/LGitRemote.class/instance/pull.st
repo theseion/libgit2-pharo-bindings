@@ -4,9 +4,7 @@ pull
 	| credentials credentialsCallback |
 	self repository isReady ifFalse: [  ^ self ].
 
-	self
-		load;
-		initializeCallbacks.
+	self load.
 	
 	credentials := self class credentialsSsh.
 	credentialsCallback := LGitCredentialsCallback on: [ :cred :theUrl :username_from_url :allowed_types :data | 
@@ -14,7 +12,6 @@ pull
 		0 ].
 	self callbacks credentials: credentialsCallback.
 	self setCallbacksFinally.
-	
 	
 	self withReturnHandlerDo: [ 
 		self

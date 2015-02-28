@@ -1,6 +1,10 @@
 private
 deleteAllLooseObjectsForReference: aReference
-	| walker oid baseReference |
+	(self repositoryReference / '.git' / 'objects') children
+		select: [ :entry | entry basename ~= 'pack' ]
+		thenDo: [ :entry | entry deleteAll ]
+	
+"	| walker oid baseReference |
 	walker := LGitRevwalkType new.
 	LG2RevwalkH uniqueInstance
 		revwalk_new: walker
@@ -20,4 +24,4 @@ deleteAllLooseObjectsForReference: aReference
 			| fileReference |
 			fileReference := baseReference resolve: oid asRelativePathString.
 			fileReference delete.
-			fileReference parent hasChildren ifFalse: [ fileReference parent delete ] ]
+			fileReference parent hasChildren ifFalse: [ fileReference parent delete ] ]"

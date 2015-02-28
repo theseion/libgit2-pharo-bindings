@@ -3,6 +3,7 @@ cloneRemote: aRemote  signature: aSignature branch: aString checkoutOptions: opt
 	<todo: 'use exceptions instead of assertions'>
 	self assert: aRemote hasFetchSpec.
 	self assert: aRemote areCallbacksInitialized.
+	aRemote setCallbacksFinally.
 	
 	self withReturnHandlerDo: [
 		self 
