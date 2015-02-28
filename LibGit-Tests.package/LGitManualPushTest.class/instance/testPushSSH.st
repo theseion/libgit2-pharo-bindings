@@ -1,7 +1,7 @@
 tests
 testPushSSH
 	<todo: 'use a local repository once libgit2 supports cloning from fs'>
-	| repo directory head blob author builder treeId rootBuilder tree remote push credentials |
+	| repo directory head blob author builder treeId rootBuilder tree remote push credentials credentialsCallback |
 	repo := self newRepo clonedSSH.
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
@@ -16,9 +16,9 @@ testPushSSH
 	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: (LG2GitFilemodeTE at: #GIT_FILEMODE_TREE) value.
 	tree := rootBuilder newTree.
 	author := LGitSignature new
-		setName: 'Bart Simpson';
-		setEmail: 'bartman@gotham.com';
-		setDateAndTime: DateAndTime now;
+		name: 'Bart Simpson';
+		email: 'bartman@gotham.com';
+		dateAndTime: DateAndTime now;
 		yourself.
 	
 	(LGitCommitBuilder of: repo)
@@ -32,9 +32,10 @@ testPushSSH
 	
 	remote := (LGitRemote of: repo named: 'origin') load.
 	credentials := remote class credentialsSsh.
-	remote callbacks credentials: [ :cred :url :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
+	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
 	push := LGitPush 
 		remote: remote

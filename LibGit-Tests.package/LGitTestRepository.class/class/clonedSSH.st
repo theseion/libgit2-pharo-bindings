@@ -1,6 +1,6 @@
 repository states
 clonedSSH
-	| repo remote credentials signature |
+	| repo remote credentials signature credentialsCallback |
 	repo := self state2Initialized.
 	remote := LGitRemote 
 		of: repo 
@@ -9,15 +9,16 @@ clonedSSH
 		fetchSpec: '+refs/heads/*:refs/remotes/origin/*'.
 	remote create.
 	credentials := remote class credentialsSsh.
-	remote callbacks credentials: [ :cred :url :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
+	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
 	
 	signature := LGitSignature new
-		setName: 'Bart Simpson';
-		setEmail: 'bartman@gotham.com';
-		setDateAndTime: DateAndTime now;
+		name: 'Bart Simpson';
+		email: 'bartman@gotham.com';
+		dateAndTime: DateAndTime now;
 		yourself.
 	repo
 		cloneRemote: remote

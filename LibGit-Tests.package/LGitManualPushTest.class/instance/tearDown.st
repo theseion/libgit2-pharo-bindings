@@ -1,6 +1,6 @@
 running
 tearDown
-	| remote push repo credentials |
+	| remote push repo credentials credentialsCallback |
 	super tearDown.
 	repo := self newRepo state3Opened. 
 	remote := LGitRemote 
@@ -10,9 +10,10 @@ tearDown
 		fetchSpec: '+refs/heads/*:refs/remotes/origin/*'.
 	remote create.
 	credentials := remote class credentialsSsh.
-	remote callbacks credentials: [ :cred :url :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
+	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
 	push := LGitPush 
 		remote: remote

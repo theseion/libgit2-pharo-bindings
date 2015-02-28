@@ -1,7 +1,8 @@
 tests
 testCloneSSH
 	<todo: 'use a local repository once libgit2 supports cloning from fs'>
-	| repo remote signature credentials |
+	| repo remote signature credentials credentialsCallback |
+	self halt.
 	repo := self newRepo state0MissingReference.
 	repo exists ifTrue: [ repo repositoryReference deleteAll ].
 	self deny: repo exists.
@@ -15,15 +16,16 @@ testCloneSSH
 	repo create; init.
 	remote create.
 	credentials := remote class credentialsSsh.
-	remote callbacks credentials: [ :cred :url :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
+	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
 	
 	signature := LGitSignature new
-		setName: 'Bart Simpson';
-		setEmail: 'bartman@gotham.com';
-		setDateAndTime: DateAndTime now;
+		name: 'Bart Simpson';
+		email: 'bartman@gotham.com';
+		dateAndTime: DateAndTime now;
 		yourself.
 	repo
 		cloneRemote: remote

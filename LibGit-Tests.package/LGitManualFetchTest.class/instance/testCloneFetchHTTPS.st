@@ -11,9 +11,9 @@ testCloneFetchHTTPS
 		named: 'master'
 		url: self newRepo repositoryUrlHttps.
 	signature := LGitSignature new
-		setName: 'Homer Simpson';
-		setEmail: 'foo@bar.ogr';
-		setDateAndTime: DateAndTime now;
+		name: 'Homer Simpson';
+		email: 'foo@bar.ogr';
+		dateAndTime: DateAndTime now;
 		yourself.
 	message := 'Bart ate my shorts!'.
 	
