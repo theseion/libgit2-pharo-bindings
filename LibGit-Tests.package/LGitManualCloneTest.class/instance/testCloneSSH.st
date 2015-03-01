@@ -9,14 +9,15 @@ testCloneSSH
 	self deny: repo isProperRepository.
 
 	remote := LGitRemote 
-		of: repo 
+		of: repo
+		freeAfterUse: true
 		named: 'origin' 
 		url: self newRepo repositoryUrlSsh
 		fetchSpec: '+refs/heads/*:refs/remotes/origin/*'.
 	repo create; init.
 	remote create.
 	credentials := remote class credentialsSsh.
-	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredAcquireCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
 	remote callbacks credentials: credentialsCallback.

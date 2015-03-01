@@ -7,7 +7,8 @@ testCloneFetchHTTPS
 	self deny: (repo repositoryReference / '.git/FETCH_HEAD') exists.
 	
 	remote := LGitRemote 
-		of: repo 
+		of: repo
+		freeAfterUse: true
 		named: 'master'
 		url: self newRepo repositoryUrlHttps.
 	signature := LGitSignature new

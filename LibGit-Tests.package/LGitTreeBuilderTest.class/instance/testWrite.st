@@ -5,5 +5,8 @@ testWrite
 	self
 		shouldnt: [ treeId := builder write ]
 		raise: LGitWritingTreeFailed.
-	lookedup:= (LGitTree fromId: treeId of: repository).
+	lookedup:= LGitTree
+		of: repository
+		freeAfterUse: true
+		fromId: treeId.
 	self assert: treeId equals: lookedup id

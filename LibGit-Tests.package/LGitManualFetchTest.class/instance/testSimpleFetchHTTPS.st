@@ -4,7 +4,8 @@ testSimpleFetchHTTPS
 	| repo remote signature packDirectory message |
 	repo := self newRepo state3Opened.
 	remote := LGitRemote 
-		of: repo 
+		of: repo
+		freeAfterUse: true
 		named: 'origin'
 		url: self newRepo repositoryUrlHttps.
 	signature := LGitSignature new

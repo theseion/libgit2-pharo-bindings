@@ -6,7 +6,7 @@ testCreateCommit
 	rootTree := self createRootTreeWith: subTreeId.
 	author := self createAuthor.
 	
-	(LGitCommitBuilder of: repository)
+	(LGitCommitBuilder of: repository freeAfterUse: true)
 		tree: rootTree;
 		message: 'eat my shorts';
 		parents: { };

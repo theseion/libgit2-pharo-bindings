@@ -5,12 +5,15 @@ state4WithCommit
 	repo := self state3Opened.
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
-	blob := LGitBlob newFromFile: directory / 'foo' of: repo.
-	builder := LGitTreeBuilder of: repo.
+	blob := LGitBlob
+		of: repo
+		freeAfterUse: true
+		fromFile: directory / 'foo'.
+	builder := LGitTreeBuilder of: repo freeAfterUse: true.
 	builder createNew.
 	builder addEntry: blob filename: 'foo'.
 	treeId := builder write.
-	rootBuilder := LGitTreeBuilder of: repo.
+	rootBuilder := LGitTreeBuilder of: repo freeAfterUse: true.
 	rootBuilder createNew.
 	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: (LG2GitFilemodeTE at: #GIT_FILEMODE_TREE) value.
 	tree := rootBuilder newTree.
@@ -20,7 +23,7 @@ state4WithCommit
 		dateAndTime: DateAndTime now;
 		yourself.
 	
-	(commitBuilder := LGitCommitBuilder of: repo)
+	(commitBuilder := LGitCommitBuilder of: repo freeAfterUse: true)
 		tree: tree;
 		message: 'push test';
 		parents: { };

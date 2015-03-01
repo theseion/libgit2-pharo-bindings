@@ -1,7 +1,9 @@
 helpers
 createRootTreeWith: aTreeId
 	| builder |
-	builder := LGitTreeBuilder of: repository.
+	builder := LGitTreeBuilder
+		of: repository
+		freeAfterUse: true.
 	builder createNew.
 	builder 
 		addEntryWithId: aTreeId 

@@ -7,6 +7,9 @@ testCreateFromFile
 	(self newRepo reference / 'foo') 
 		writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
 	
-	blob := LGitBlob newFromFile: self newRepo reference / 'foo' of: repository.
+	blob := LGitBlob
+		of: repository
+		freeAfterUse: true
+		fromFile: self newRepo reference / 'foo'.
 
 	self assert: blob contents equals: 'eat my shorts'.

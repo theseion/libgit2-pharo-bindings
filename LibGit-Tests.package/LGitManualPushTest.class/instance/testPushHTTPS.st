@@ -5,7 +5,10 @@ testPushHTTPS
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
 	head := repo head resolve object.
-	blob := LGitBlob newFromFile: directory / 'foo' of: repo.
+	blob := LGitBlob
+		of: repo
+		freeAfterUse: true
+		fromFile: directory / 'foo'.
 	builder := LGitTreeBuilder of: repo.
 	builder createNew.
 	builder addEntry: blob filename: 'foo'.
@@ -20,7 +23,7 @@ testPushHTTPS
 		dateAndTime: DateAndTime now;
 		yourself.
 	
-	(LGitCommitBuilder of: repo)
+	(LGitCommitBuilder of: repo freeAfterUse: true)
 		tree: tree;
 		message: 'push test';
 		parents: { head };
@@ -32,8 +35,11 @@ testPushHTTPS
 	credentials := LGitCredentialsPlaintext
 		username: LGitRemote username
 		passphrase: LGitRemote password.
-	remote := (LGitRemote of: repo named: 'origin') load.
-	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
+	remote := (LGitRemote
+		of: repo
+		freeAfterUse: true
+		named: 'origin') load.
+	credentialsCallback := LGitCredAcquireCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
 	remote callbacks credentials: credentialsCallback.

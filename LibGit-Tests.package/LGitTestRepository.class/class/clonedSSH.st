@@ -3,7 +3,8 @@ clonedSSH
 	| repo remote credentials signature credentialsCallback |
 	repo := self state2Initialized.
 	remote := LGitRemote 
-		of: repo 
+		of: repo
+		freeAfterUse: true
 		named: 'origin' 
 		url: self repositoryUrlSsh
 		fetchSpec: '+refs/heads/*:refs/remotes/origin/*'.

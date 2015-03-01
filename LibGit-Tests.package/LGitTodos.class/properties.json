@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Tests-Helpers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitTodos",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

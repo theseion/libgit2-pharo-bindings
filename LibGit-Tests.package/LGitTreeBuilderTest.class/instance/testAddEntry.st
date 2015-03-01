@@ -2,8 +2,9 @@ tests
 testAddEntry
 	| blob entry |
 	blob := LGitBlob
-		newFromString: 'some string'
-		of: repository.
+		of: repository
+		freeAfterUse: true
+		fromString: 'some string'.
 	builder createNew.
 	builder
 		addEntry: blob
