@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:12",
 		"nbBindingOf:" : "MaxLeske 3/19/2014 17:04",
-		"remote:refSpec:" : "MaxLeske 2/28/2015 14:54" },
+		"push_free:" : "MaxLeske 3/1/2015 20:12",
+		"remote:refSpec:" : "MaxLeske 3/1/2015 18:43" },
 	"instance" : {
 		"addRefSpec:" : "MaxLeske 4/21/2014 18:24",
 		"createNew" : "MaxLeske 3/19/2014 17:08",
@@ -14,4 +16,4 @@
 		"push_update_tips:signature:reflog_message:" : "MaxLeske 11/15/2014 13:33",
 		"remote" : "MaxLeske 3/19/2014 17:07",
 		"remote:" : "MaxLeske 3/19/2014 17:07",
-		"updateTips" : "MaxLeske 10/6/2014 08:26" } }
+		"updateTips" : "MaxLeske 3/1/2015 20:56" } }

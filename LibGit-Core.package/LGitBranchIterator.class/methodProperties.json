@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"of:freeAfterUse:local:" : "MaxLeske 2/28/2015 14:35" },
+		"branch_iterator_free:" : "MaxLeske 3/1/2015 19:43",
+		"freeFunctionSelector" : "MaxLeske 3/1/2015 19:43",
+		"of:local:" : "MaxLeske 3/1/2015 19:43" },
 	"instance" : {
-		"branch_iterator_free:" : "MaxLeske 3/22/2014 18:32",
 		"branch_iterator_new:repo:list_flags:" : "MaxLeske 8/10/2014 18:12",
-		"free" : "MaxLeske 3/22/2014 18:33",
 		"iterateLocal:" : "MaxLeske 8/10/2014 18:06" } }

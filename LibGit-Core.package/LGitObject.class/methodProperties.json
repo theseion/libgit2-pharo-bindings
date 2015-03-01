@@ -2,9 +2,9 @@
 	"class" : {
 		"classFor:" : "MaxLeske 8/11/2014 22:52",
 		"isType:" : "MaxLeske 8/11/2014 22:24",
-		"newFromReference:" : "MaxLeske 2/28/2015 14:49",
+		"newFromReference:" : "MaxLeske 3/1/2015 18:43",
 		"object_lookup:repo:id:type:" : "MaxLeske 2/28/2015 15:52",
-		"of:freeAfterUse:fromId:" : "MaxLeske 2/28/2015 14:42" },
+		"of:fromId:" : "MaxLeske 3/1/2015 19:41" },
 	"instance" : {
 		"concreteObject" : "MaxLeske 8/11/2014 23:05",
 		"id" : "MaxLeske 5/11/2013 18:03",

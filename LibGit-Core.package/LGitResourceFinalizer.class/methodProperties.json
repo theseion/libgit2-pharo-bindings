@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"forHandle:" : "MaxLeske 2/28/2015 16:17" },
+		"forClass:handle:" : "MaxLeske 3/1/2015 19:22" },
 	"instance" : {
 		"disable" : "MaxLeske 2/28/2015 15:46",
-		"enable" : "MaxLeske 2/28/2015 15:46",
-		"initialize" : "MaxLeske 2/28/2015 15:45",
+		"disableGarbageCollection" : "MaxLeske 3/1/2015 19:37",
+		"enableGarbageCollection" : "MaxLeske 3/1/2015 19:37",
+		"initialize" : "MaxLeske 3/1/2015 19:32",
 		"isEnabled" : "MaxLeske 2/28/2015 15:49",
-		"setHandle:" : "MaxLeske 2/28/2015 16:17",
-		"value" : "MaxLeske 3/1/2015 11:50" } }
+		"isGarbageCollectionDisabled" : "MaxLeske 3/1/2015 19:35",
+		"performFinalization" : "MaxLeske 3/1/2015 19:36",
+		"setClass:" : "MaxLeske 3/1/2015 19:21",
+		"setHandle:" : "MaxLeske 2/28/2015 16:17" } }

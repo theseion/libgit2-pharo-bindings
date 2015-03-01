@@ -7,5 +7,7 @@ createDirect: nameString target: aGitId force: aBoolean
 			name: nameString
 			id: aGitId
 			force: aBoolean
-			signature: self repository defaultSignature
+			signature: (self repository defaultSignature
+				freeAfterUse: true;
+				yourself)
 			log_message: 'created reference ', nameString ]

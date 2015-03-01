@@ -1,6 +1,5 @@
 operations
 cloneLocal: aString
-	<todo: 'fix resource management'>
 	<todo: 'use exceptions instead of assertion'>
 	self assert: aString isEmptyOrNil not.
 	self assert: (aString beginsWith: 'file://').
@@ -11,4 +10,6 @@ cloneLocal: aString
 			clone: self
 			url: aString
 			local_path: self repositoryReference pathString
-			options: self defaultCloneOptions ]
+			options: (self defaultCloneOptions
+				freeAfterUse: true;
+				yourself) ]

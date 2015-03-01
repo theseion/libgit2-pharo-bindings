@@ -1,0 +1,3 @@
+testing
+isGarbageCollectionDisabled
+	^ gcEnabled not

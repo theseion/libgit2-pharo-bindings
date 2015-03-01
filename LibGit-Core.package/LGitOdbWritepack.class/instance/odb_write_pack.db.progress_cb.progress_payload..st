@@ -1,4 +1,4 @@
-libgit - calls
+libgit-calls
 odb_write_pack: out db: db progress_cb: progress_cb progress_payload: progress_payload 
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self

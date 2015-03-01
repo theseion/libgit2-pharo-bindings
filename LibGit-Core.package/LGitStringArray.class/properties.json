@@ -1,5 +1,5 @@
 {
-	"category" : "LibGit-Core-HelperObjects",
+	"category" : "LibGit-Core-FFI-Structs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "LGitStringArray",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalArray",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }

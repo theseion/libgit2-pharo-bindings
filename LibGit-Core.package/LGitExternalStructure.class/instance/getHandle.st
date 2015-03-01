@@ -1,0 +1,3 @@
+libgit-finalization
+getHandle
+	^ data

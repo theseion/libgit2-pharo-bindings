@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"isType:" : "MaxLeske 8/11/2014 22:25" },
+		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:20",
+		"isType:" : "MaxLeske 8/11/2014 22:25",
+		"tree_free:" : "MaxLeske 3/1/2015 20:20" },
 	"instance" : {
 		"=" : "MaxLeske 8/31/2014 16:56",
 		"allEntriesDo:" : "MaxLeske 11/15/2014 14:06",

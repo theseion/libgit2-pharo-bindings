@@ -3,12 +3,8 @@ lookup: name
 	<todo: 'use proper exceptions'>
 	| reference returnCode |
 	self signalIfNotReady.
-	reference := LGitReference of: self freeAfterUse: true.
-	returnCode := self
-		reference_lookup: reference 
-		repo: self 
-		shorthand: name.
-	
-	returnCode = (self libGitReturnCodeTypes at: #GIT_OK) ifFalse: [ Error signal ].
-
+	reference := LGitReference of: self.
+	returnCode := self reference_lookup: reference repo: self shorthand: name.
+	returnCode = (self libGitReturnCodeTypes at: #GIT_OK)
+		ifFalse: [ Error signal ].
 	^ reference

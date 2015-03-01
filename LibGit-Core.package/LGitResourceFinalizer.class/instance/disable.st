@@ -1,3 +1,3 @@
-accessing
+private
 disable
 	enabled := false

@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:05",
+		"index_free:" : "MaxLeske 3/1/2015 20:06" },
 	"instance" : {
 		"addAll" : "MaxLeske 11/15/2014 14:03",
 		"allFilesStatusDo:" : "MaxLeske 11/15/2014 14:07",
@@ -18,6 +19,6 @@
 		"removeAll" : "MaxLeske 11/15/2014 14:04",
 		"status_file:repo:path:" : "MaxLeske 9/2/2014 21:53",
 		"status_foreach:callback:payload:" : "MaxLeske 10/5/2014 18:04",
-		"updateAll" : "MaxLeske 11/15/2014 14:06",
+		"updateAll" : "MaxLeske 3/1/2015 21:16",
 		"writeToDisk" : "MaxLeske 10/5/2014 20:01",
 		"writeTreeAndReturnOid" : "MaxLeske 8/27/2014 21:54" } }

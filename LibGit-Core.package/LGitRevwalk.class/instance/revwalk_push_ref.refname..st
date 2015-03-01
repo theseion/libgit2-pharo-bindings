@@ -1,4 +1,4 @@
-libgit - calls
+libgit-calls
 revwalk_push_ref: walk refname: refname
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self

@@ -1,7 +1,7 @@
 accessing-defaults
 defaultCloneOptions
 	| options |
-	options := LG2GitCloneOptionsS externalNew.
+	options := LGitCloneOptions externalNew.
 	
 	self withReturnHandlerDo: [
 		self clone_init_options: options version: 1 ].

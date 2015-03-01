@@ -1,4 +1,4 @@
-initialize-release
+instance creation
 on: aFileReference
 	^ self basicNew
 		initialize;

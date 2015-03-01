@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	enabled := true
+	enabled := true.
+	gcEnabled := true

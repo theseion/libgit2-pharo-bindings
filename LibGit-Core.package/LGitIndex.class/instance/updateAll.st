@@ -1,7 +1,7 @@
 operations
 updateAll
 	| pathspec stringsPointer |
-	stringsPointer :=  (LGitStringArray fromCollection: { '*' }) address.
+	stringsPointer :=  (LGitExternalStringArray fromCollection: { '*' }) address.
 	pathspec := LG2GitStrarrayS new
 		count: 1;
 		strings: stringsPointer;

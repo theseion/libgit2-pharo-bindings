@@ -2,7 +2,7 @@
 	"category" : "LibGit-Core-Abstracts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TLGitCalloutTrait classTrait + TLGitPrintingTrait classTrait",
+	"classtraitcomposition" : "TLGitPrintingTrait classTrait + TLGitCalloutTrait classTrait + TLGitResourceFinalizationTrait classTrait",
 	"classvars" : [
 		"LibraryHandle",
 		"Session" ],
@@ -13,5 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "NBExternalObject",
-	"traitcomposition" : "TLGitCalloutTrait + TLGitPrintingTrait",
+	"traitcomposition" : "TLGitPrintingTrait + TLGitCalloutTrait + TLGitResourceFinalizationTrait",
 	"type" : "normal" }

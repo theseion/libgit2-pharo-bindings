@@ -1,14 +1,16 @@
 {
 	"class" : {
-		"freeAfterUse:fromTree:" : "MaxLeske 2/28/2015 15:04",
-		"of:freeAfterUse:fromTree:" : "MaxLeske 2/28/2015 15:04" },
+		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:21",
+		"fromTree:" : "MaxLeske 3/1/2015 20:38",
+		"of:fromTree:" : "MaxLeske 3/1/2015 20:38",
+		"treebuilder_free:" : "MaxLeske 3/1/2015 20:21" },
 	"instance" : {
-		"addEntry:filename:" : "MaxLeske 2/28/2015 15:23",
-		"addEntryWithId:filename:filemode:" : "MaxLeske 2/28/2015 15:23",
+		"addEntry:filename:" : "MaxLeske 3/1/2015 18:43",
+		"addEntryWithId:filename:filemode:" : "MaxLeske 3/1/2015 18:43",
 		"createNew" : "MaxLeske 2/28/2015 16:24",
 		"getEntryNamed:" : "MaxLeske 3/18/2014 14:06",
 		"initializeWithTree:" : "MaxLeske 3/16/2014 19:32",
-		"newTree" : "MaxLeske 2/28/2015 14:44",
+		"newTree" : "MaxLeske 3/1/2015 19:41",
 		"treebuilder_create:source:" : "MaxLeske 3/1/2015 09:29",
 		"treebuilder_get:filename:" : "MaxLeske 3/18/2014 13:44",
 		"treebuilder_insert:bld:filename:id:filemode:" : "MaxLeske 8/27/2014 21:56",
