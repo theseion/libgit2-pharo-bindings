@@ -3,10 +3,9 @@ pull
 	self directory exists
 		ifFalse: [ self createCloneRepository ]
 		ifTrue: [ 
-			[ (LGitRemote 
+			[ 
+			(LGitRemote
 				of: (LGitRepository on: self directory) open
-				freeAfterUse: true
-				named: 'origin' 
+				named: 'origin'
 				url: self repoUrl
-				fetchSpec: '+refs/heads/*:refs/remotes/origin/*') pull
-			 ] asLibGitActionSequence ]
+				fetchSpec: '+refs/heads/*:refs/remotes/origin/*') pull ] asLibGitActionSequence ]
