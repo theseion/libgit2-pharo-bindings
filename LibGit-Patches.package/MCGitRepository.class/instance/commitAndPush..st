@@ -9,11 +9,11 @@ commitAndPush: aVersion
 		addAll;
 		updateAll;
 		writeToDisk.
-	tree := (LGitTree of: repo) id: index writeTreeAndReturnOid.
+	tree := (LGitTree of: repo freeAfterUse: true) id: index writeTreeAndReturnOid.
 	tree lookup.
 	signature := repo defaultSignature.
 	refName := repo head name.
-	(LGitCommitBuilder of: repo)
+	(LGitCommitBuilder of: repo freeAfterUse: true)
 		tree: tree;
 		message: aVersion info message;
 		parents: { repo head object };
@@ -22,9 +22,12 @@ commitAndPush: aVersion
 		committer: signature;
 		writeCommit.
 		
-	gitRemote := (LGitRemote of: repo named: 'origin') load.
+	gitRemote := (LGitRemote
+		of: repo
+		freeAfterUse: true
+		named: 'origin') load.
 	credentials := gitRemote class credentialsSsh.
-	credentialsCallback := LGitCredentialsCallback on: [ :cred :url :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredAcquireCallback on: [ :cred :url :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
 	gitRemote callbacks credentials: credentialsCallback.

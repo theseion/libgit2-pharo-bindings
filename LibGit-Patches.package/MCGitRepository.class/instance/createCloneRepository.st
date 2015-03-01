@@ -11,7 +11,10 @@ createCloneRepository
 			clone: url;
 			checkout: 'master'.
 		"make sure 'origin' is set to the original url, not to the https one if we used that"
-		(LGitRemote of: repo named: 'origin')
-			load;
-			setUrl: self repoUrl;
-			save ] asLibGitActionSequence.
+		(LGitRemote
+			of: repo
+			freeAfterUse: true
+			named: 'origin')
+				load;
+				setUrl: self repoUrl;
+				save ] asLibGitActionSequence.

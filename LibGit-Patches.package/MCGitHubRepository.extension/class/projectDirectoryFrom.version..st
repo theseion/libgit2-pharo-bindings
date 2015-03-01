@@ -25,6 +25,7 @@ projectDirectoryFrom: projectPath version: versionString
 				repository open.
 				(LGitRemote 
 					of: repository
+					freeAfterUse: true
 					named: 'origin')
 						load;
 						pull.
