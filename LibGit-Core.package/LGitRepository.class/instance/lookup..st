@@ -3,7 +3,7 @@ lookup: name
 	<todo: 'use proper exceptions'>
 	| reference returnCode |
 	self signalIfNotReady.
-	reference := LGitReference of: self.
+	reference := LGitReference of: self freeAfterUse: true.
 	returnCode := self
 		reference_lookup: reference 
 		repo: self 

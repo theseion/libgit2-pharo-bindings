@@ -1,7 +1,7 @@
 accessing
 index
 	| index |
-	index := LGitIndex of: self.
+	index := LGitIndex of: self freeAfterUse: true.
 	self withReturnHandlerDo: [ 
 		self
 			repository_index: index

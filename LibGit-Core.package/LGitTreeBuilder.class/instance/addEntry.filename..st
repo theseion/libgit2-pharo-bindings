@@ -2,7 +2,9 @@ operations
 addEntry: aBlob filename: aString
 	self withReturnHandlerDo: [
 		self
-			treebuilder_insert: (LGitTreeEntry of: self repository)
+			treebuilder_insert: (LGitTreeEntry
+				of: self repository
+				freeAfterUse: true)
 			bld: self 
 			filename: aString
 			id: aBlob id

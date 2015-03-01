@@ -1,7 +1,7 @@
 operations
 database
 	| database |
-	database := LG2GitOdbO new.
+	database := LGitOdb new.
 	self withReturnHandlerDo: [
 		self
 			repository_odb: database

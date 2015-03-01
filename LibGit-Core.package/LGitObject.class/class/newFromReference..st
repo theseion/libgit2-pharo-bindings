@@ -2,7 +2,9 @@ instance creation
 newFromReference: aReference
 	| instance |
 	"need to have a handle for the object"
-	instance := self of: aReference repository.
+	instance := self
+		of: aReference repository
+		freeAfterUse: true.
 	self withReturnHandlerDo: [ 
 		self
 			object_lookup: instance

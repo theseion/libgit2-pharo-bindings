@@ -1,3 +1,3 @@
 accessing
 free
-	^ self prim_free
+	self prim_free writepack: self

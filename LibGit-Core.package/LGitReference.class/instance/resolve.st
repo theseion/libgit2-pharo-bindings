@@ -1,7 +1,9 @@
 operations
 resolve
 	| resolved |
-	resolved := self class of: self repository.
+	resolved := self class
+		of: self repository
+		freeAfterUse: true.
 	
 	self withReturnHandlerDo: [
 		self

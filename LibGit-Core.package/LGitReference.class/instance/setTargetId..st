@@ -1,7 +1,9 @@
 operations
 setTargetId: aGitId
 	| newRef |
-	newRef := LGitReference of: self repository.
+	newRef := LGitReference
+		of: self repository
+		freeAfterUse: true.
 	self withReturnHandlerDo: [ 
 		self 
 			reference_set_target: newRef

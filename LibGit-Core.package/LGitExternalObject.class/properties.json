@@ -8,7 +8,7 @@
 		"Session" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"finalizer" ],
 	"name" : "LGitExternalObject",
 	"pools" : [
 		 ],

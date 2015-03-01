@@ -1,16 +1,18 @@
 {
 	"class" : {
-		"finalizeResourceData:" : "MaxLeske 2/27/2015 22:50",
+		"finalizeResourceData:" : "MaxLeske 2/28/2015 15:49",
 		"libraryNameOrHandle" : "MaxLeske 2/24/2015 17:02",
-		"object_free:" : "MaxLeske 2/27/2015 22:51" },
+		"object_free:" : "MaxLeske 2/28/2015 13:15" },
 	"instance" : {
+		"address" : "MaxLeske 3/1/2015 09:30",
+		"finalizer" : "MaxLeske 2/28/2015 16:16",
 		"free" : "MaxLeske 6/23/2013 21:43",
+		"freeAfterUse:" : "MaxLeske 2/28/2015 15:42",
 		"ifNotReady:" : "MaxLeske 5/5/2013 23:32",
-		"initialize" : "MaxLeske 6/23/2013 21:38",
 		"isReady" : "MaxLeske 5/5/2013 23:32",
 		"libGitObjectTypes" : "MaxLeske 3/17/2014 15:37",
 		"libGitReturnCodeTypes" : "MaxLeske 3/17/2014 15:36",
-		"resourceData" : "MaxLeske 2/27/2015 22:52",
+		"resourceData" : "MaxLeske 2/28/2015 15:46",
 		"shouldContinuePrintingOn:" : "MaxLeske 11/15/2014 13:18",
 		"signalIfNotReady" : "MaxLeske 5/7/2013 15:53",
 		"signalNotReady" : "MaxLeske 5/7/2013 15:50" } }

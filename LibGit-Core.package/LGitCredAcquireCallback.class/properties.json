@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaxLeske 3/1/2015 16:57",
+	"instvars" : [
+		 ],
+	"name" : "LGitCredAcquireCallback",
+	"pools" : [
+		 ],
+	"super" : "NBFFICallback",
+	"type" : "normal" }

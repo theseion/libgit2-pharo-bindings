@@ -7,7 +7,7 @@ pull
 	self load.
 	
 	credentials := self class credentialsSsh.
-	credentialsCallback := LGitCredentialsCallback on: [ :cred :theUrl :username_from_url :allowed_types :data | 
+	credentialsCallback := LGitCredAcquireCallback on: [ :cred :theUrl :username_from_url :allowed_types :data | 
 		credentials createWith: cred.
 		0 ].
 	self callbacks credentials: credentialsCallback.

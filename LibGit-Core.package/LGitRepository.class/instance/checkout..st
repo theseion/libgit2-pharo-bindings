@@ -4,7 +4,7 @@ checkout: aString
 	| object |
 	self assert: aString notNil.
 	self assert: aString trimBoth notEmpty.
-	object := LGitObject of: self.
+	object := LGitObject of: self freeAfterUse: true.
 	self withReturnHandlerDo: [ 
 		self
 			revparse_single: object

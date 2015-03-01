@@ -1,7 +1,7 @@
 fields description
 fieldsDesc
 	^#(
-	LG2GitOdbO backend;
+	LGitOdb backend;
 	LGitWritepackAppendCallout append;
 	LGitWritepackCommitCallout commit;
 	LGitWritepackFreeCallout free;

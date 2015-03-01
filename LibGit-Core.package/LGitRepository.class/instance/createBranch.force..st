@@ -2,7 +2,7 @@ operations
 createBranch: aString force: aBoolean
 	<todo: 'this method belongs somewhere else and should allow to specify the target'>
 	| reference |
-	reference := LGitReference of: self.
+	reference := LGitReference of: self freeAfterUse: true.
 	reference
 		createSymbolic: 'refs/heads/', aString
 		target: 'refs/dummy'

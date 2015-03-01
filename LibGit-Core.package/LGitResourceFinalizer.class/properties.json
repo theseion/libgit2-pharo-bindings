@@ -1,0 +1,15 @@
+{
+	"category" : "LibGit-Core-Abstracts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaxLeske 2/28/2015 16:13",
+	"instvars" : [
+		"handle",
+		"enabled" ],
+	"name" : "LGitResourceFinalizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

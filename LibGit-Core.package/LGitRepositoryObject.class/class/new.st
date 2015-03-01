@@ -1,3 +1,3 @@
 instance creation
 new
-	self error: 'Use #of: to create an instance of ', self name
+	self error: 'Use #of:afreeAfterUse: to create an instance of ', self name

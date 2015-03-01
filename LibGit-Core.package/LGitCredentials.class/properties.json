@@ -2,7 +2,6 @@
 	"category" : "LibGit-Core-NonCoreObjects",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,6 +11,5 @@
 	"name" : "LGitCredentials",
 	"pools" : [
 		 ],
-	"super" : "Object",
-	"traitcomposition" : "TLGitCalloutTrait",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }

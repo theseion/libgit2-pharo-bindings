@@ -10,5 +10,5 @@
 	"name" : "LGitRemoteCallbacks",
 	"pools" : [
 		 ],
-	"super" : "NBExternalStructure",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }

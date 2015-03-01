@@ -3,7 +3,7 @@ lookupBranch: name
 	| reference |
 	self signalIfNotReady.
 	
-	reference := LGitReference of: self.
+	reference := LGitReference of: self freeAfterUse: true.
 	self withReturnHandlerDo: [
 		self
 			branch_lookup: reference

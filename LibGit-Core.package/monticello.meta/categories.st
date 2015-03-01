@@ -8,7 +8,6 @@ SystemOrganization addCategory: 'LibGit-Core-FFI-Callouts'!
 SystemOrganization addCategory: 'LibGit-Core-FFI-Enums'!
 SystemOrganization addCategory: 'LibGit-Core-FFI-Handling'!
 SystemOrganization addCategory: 'LibGit-Core-FFI-Structs'!
-SystemOrganization addCategory: 'LibGit-Core-FFI-Types'!
 SystemOrganization addCategory: 'LibGit-Core-HelperObjects'!
 SystemOrganization addCategory: 'LibGit-Core-NonCoreObjects'!
 SystemOrganization addCategory: 'LibGit-Core-Traits'!
