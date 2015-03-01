@@ -1,20 +1,20 @@
 tests
 testCreateCommit
-	| blob subTreeId rootTree author  head headRef |
+	| blob subTreeId rootTree author head headRef |
 	blob := self createBlob.
 	subTreeId := self createSubTreeWith: blob.
 	rootTree := self createRootTreeWith: subTreeId.
-	author := self createAuthor.
-	
-	(LGitCommitBuilder of: repository freeAfterUse: true)
+	author := self createAuthor
+		freeAfterUse: true;
+		yourself.
+	(LGitCommitBuilder of: repository)
 		tree: rootTree;
 		message: 'eat my shorts';
-		parents: { };
+		parents: {};
 		updateReference: repository master;
 		author: author;
 		committer: author;
 		writeCommit.
-	
 	headRef := repository head.
 	self assert: headRef class equals: LGitReference.
 	head := headRef object.
@@ -28,4 +28,3 @@ testCreateCommit
 	self assert: head tree entries size equals: 1.
 	self assert: head tree entries first object isLeaf.
 	self assert: head tree entries first object entries first object equals: blob
-	

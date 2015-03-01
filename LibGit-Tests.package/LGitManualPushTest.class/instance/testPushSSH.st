@@ -6,10 +6,7 @@ testPushSSH
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
 	head := repo head object.
-	blob := LGitBlob
-		of: repo
-		freeAfterUse: true
-		fromFile: directory / 'foo'.
+	blob := LGitBlob of: repo fromFile: directory / 'foo'.
 	builder := LGitTreeBuilder of: repo.
 	builder createNew.
 	builder addEntry: blob filename: 'foo'.
@@ -22,28 +19,23 @@ testPushSSH
 		name: 'Bart Simpson';
 		email: 'bartman@gotham.com';
 		dateAndTime: DateAndTime now;
+		freeAfterUse: true;
 		yourself.
-	
-	(LGitCommitBuilder of: repo freeAfterUse: true)
+	(LGitCommitBuilder of: repo)
 		tree: tree;
 		message: 'push test';
-		parents: { head };
+		parents: {head};
 		updateReference: repo master;
 		author: author;
 		committer: author;
 		writeCommit.
-	
-	remote := (LGitRemote
-		of: repo
-		freeAfterUse: true
-		named: 'origin') load.
+	remote := (LGitRemote of: repo named: 'origin') load.
 	credentials := remote class credentialsSsh.
-	credentialsCallback := LGitCredAcquireCallback on: [ :cred :url :username_from_url :allowed_types :data | 
-		credentials createWith: cred.
-		0 ].
+	credentialsCallback := LGitCredAcquireCallback
+		on: [ :cred :url :username_from_url :allowed_types :data | 
+			credentials createWith: cred.
+			0 ].
 	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
-	push := LGitPush 
-		remote: remote
-		refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
+	push := LGitPush remote: remote refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
 	self shouldnt: [ push finish ] raise: LGitError
