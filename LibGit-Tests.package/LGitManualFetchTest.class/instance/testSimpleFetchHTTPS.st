@@ -11,7 +11,7 @@ testSimpleFetchHTTPS
 		freeAfterUse: true;
 		yourself.
 	message := 'Bart ate my shorts!'.
-	self shouldnt: [ remote fetchWithSignature: signature message: message ] raise: LGitError.
+	self shouldnt: [ remote fetchWithSignature: signature message: message ] raise: LGitAbstractError.
 	packDirectory := repo workingDirectory / '.git/objects/pack'.
 	self assert: packDirectory exists.
 	self deny: packDirectory children isEmpty.

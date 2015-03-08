@@ -8,4 +8,4 @@ testLookupHead
 	self assert: ref name equals: 'HEAD'.
 	self 
 		should: [ ref resolve ] "refs/heads/master not found"
-		raise: LGitError
+		raise: LGitAbstractError

@@ -2,7 +2,6 @@ tests
 testCloneSSH
 	<todo: 'use a local repository once libgit2 supports cloning from fs'>
 	| repo remote signature credentials credentialsCallback |
-	self halt.
 	repo := self newRepo state0MissingReference.
 	repo exists
 		ifTrue: [ repo repositoryReference deleteAll ].
@@ -35,4 +34,4 @@ testCloneSSH
 	self assert: (repo repositoryReference / '.git') exists.
 	self assert: (repo repositoryReference / '.git/HEAD') exists.
 	self assert: repo isProperRepository.
-	self shouldnt: [ repo open ] raise: LGitError
+	self shouldnt: [ repo open ] raise: LGitAbstractError

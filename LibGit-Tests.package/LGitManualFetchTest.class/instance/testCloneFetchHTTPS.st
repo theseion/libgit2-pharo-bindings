@@ -13,5 +13,5 @@ testCloneFetchHTTPS
 		freeAfterUse: true;
 		yourself.
 	message := 'Bart ate my shorts!'.
-	self shouldnt: [ remote fetchWithSignature: signature message: message ] raise: LGitError.
+	self shouldnt: [ remote fetchWithSignature: signature message: message ] raise: LGitAbstractError.
 	self assert: (repo repositoryReference / '.git/FETCH_HEAD') exists

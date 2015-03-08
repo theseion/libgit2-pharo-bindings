@@ -11,7 +11,7 @@ testCheckout
 	"master is already checked out but this won't raise an exception"
 	self
 		shouldnt: [ repo checkout: 'master' ]
-		raise: LGitError.
+		raise: LGitAbstractError.
 	self
 		should: [ repo checkout: 'homer' ]
-		raise: LGitError
+		raise: LGitAbstractError
