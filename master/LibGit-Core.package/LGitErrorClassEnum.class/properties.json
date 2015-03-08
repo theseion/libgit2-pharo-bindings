@@ -1,0 +1,35 @@
+{
+	"category" : "LibGit-Core-FFI-Enums",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GITERR_CHECKOUT",
+		"GITERR_CONFIG",
+		"GITERR_FETCHHEAD",
+		"GITERR_INDEX",
+		"GITERR_INDEXER",
+		"GITERR_INVALID",
+		"GITERR_MERGE",
+		"GITERR_NET",
+		"GITERR_NOMEMORY",
+		"GITERR_OBJECT",
+		"GITERR_ODB",
+		"GITERR_OS",
+		"GITERR_REFERENCE",
+		"GITERR_REGEX",
+		"GITERR_REPOSITORY",
+		"GITERR_SSL",
+		"GITERR_STASH",
+		"GITERR_SUBMODULE",
+		"GITERR_TAG",
+		"GITERR_THREAD",
+		"GITERR_TREE",
+		"GITERR_ZLIB" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitErrorClassEnum",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

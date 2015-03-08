@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitStatusCb",
+	"pools" : [
+		 ],
+	"super" : "LG2StatusH1Cb",
+	"type" : "normal" }

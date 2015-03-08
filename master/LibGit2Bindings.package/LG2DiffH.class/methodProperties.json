@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"diff_blob_to_buffer:old_as_path:buffer:buffer_len:buffer_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "m 3/12/2014 07:49",
+		"diff_blobs:old_as_path:new_blob:new_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "m 3/12/2014 07:49",
+		"diff_buffers:old_len:old_as_path:new_buffer:new_len:new_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "m 3/12/2014 07:49",
+		"diff_find_init_options:version:" : "m 3/12/2014 07:49",
+		"diff_find_similar:options:" : "m 3/12/2014 07:49",
+		"diff_foreach:file_cb:hunk_cb:line_cb:payload:" : "m 3/12/2014 07:49",
+		"diff_free:" : "m 3/12/2014 07:49",
+		"diff_get_delta:idx:" : "m 3/12/2014 07:49",
+		"diff_index_to_workdir:repo:index:opts:" : "m 3/12/2014 07:49",
+		"diff_init_options:version:" : "m 3/12/2014 07:49",
+		"diff_is_sorted_icase:" : "m 3/12/2014 07:49",
+		"diff_merge:from:" : "m 3/12/2014 07:49",
+		"diff_num_deltas:" : "m 3/12/2014 07:49",
+		"diff_num_deltas_of_type:type:" : "m 3/12/2014 07:49",
+		"diff_options_init:version:" : "m 3/12/2014 07:49",
+		"diff_print:format:print_cb:payload:" : "m 3/12/2014 07:49",
+		"diff_status_char:" : "m 3/12/2014 07:49",
+		"diff_tree_to_index:repo:old_tree:index:opts:" : "m 3/12/2014 07:49",
+		"diff_tree_to_tree:repo:old_tree:new_tree:opts:" : "m 3/12/2014 07:49",
+		"diff_tree_to_workdir:repo:old_tree:opts:" : "m 3/12/2014 07:49",
+		"diff_tree_to_workdir_with_index:repo:old_tree:opts:" : "m 3/12/2014 07:49" } }

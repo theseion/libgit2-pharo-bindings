@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit-Core-CoreObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaxLeske 4/18/2014 11:59",
+	"instvars" : [
+		"source",
+		"forced",
+		"destination" ],
+	"name" : "LGitRefSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2CloneH8Cb",
+	"pools" : [
+		 ],
+	"super" : "NBFFICallback",
+	"type" : "normal" }

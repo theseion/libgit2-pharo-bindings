@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-Exceptions-ReturnCodes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGit_GITERR_TREE",
+	"pools" : [
+		 ],
+	"super" : "LGitCallError",
+	"type" : "normal" }

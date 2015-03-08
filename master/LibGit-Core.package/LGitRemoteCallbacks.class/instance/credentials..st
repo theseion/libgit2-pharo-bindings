@@ -1,0 +1,3 @@
+accessing
+credentials: credentialsCallback
+	self prim_credentials: credentialsCallback

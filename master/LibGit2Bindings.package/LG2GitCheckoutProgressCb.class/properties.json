@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitCheckoutProgressCb",
+	"pools" : [
+		 ],
+	"super" : "LG2CheckoutH3Cb",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+libgit - types
+libGitReturnCodeTypes
+	^ LGitReturnCodeEnum

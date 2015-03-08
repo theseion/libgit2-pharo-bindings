@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"note_create:repo:author:committer:notes_ref:oid:note:force:" : "m 3/12/2014 07:49",
+		"note_default_ref:repo:" : "m 3/12/2014 07:49",
+		"note_foreach:notes_ref:note_cb:payload:" : "m 3/12/2014 07:49",
+		"note_free:" : "m 3/12/2014 07:49",
+		"note_id:" : "m 3/12/2014 07:49",
+		"note_iterator_free:" : "m 3/12/2014 07:49",
+		"note_iterator_new:repo:notes_ref:" : "m 3/12/2014 07:49",
+		"note_message:" : "m 3/12/2014 07:49",
+		"note_next:annotated_id:it:" : "m 3/12/2014 07:49",
+		"note_read:repo:notes_ref:oid:" : "m 3/12/2014 07:49",
+		"note_remove:notes_ref:author:committer:oid:" : "m 3/12/2014 07:49" } }

@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"libGitReturnCodeTypes" : "MaxLeske 3/17/2014 17:33",
+		"testDoesntSignalCallReturn" : "MaxLeske 8/10/2014 18:54",
+		"testSignalsCallError" : "MaxLeske 8/10/2014 18:54" } }

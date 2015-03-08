@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"commit_amend:commit_to_amend:update_ref:author:committer:message_encoding:message:tree:" : "m 3/12/2014 07:49",
+		"commit_author:" : "m 3/12/2014 07:49",
+		"commit_committer:" : "m 3/12/2014 07:49",
+		"commit_create:repo:update_ref:author:committer:message_encoding:message:tree:parent_count:parents:" : "m 3/12/2014 07:49",
+		"commit_create_v:repo:update_ref:author:committer:message_encoding:message:tree:parent_count:" : "m 3/12/2014 07:49",
+		"commit_free:" : "m 3/12/2014 07:49",
+		"commit_id:" : "m 3/12/2014 07:49",
+		"commit_lookup:repo:id:" : "m 3/12/2014 07:49",
+		"commit_lookup_prefix:repo:id:len:" : "m 3/12/2014 07:49",
+		"commit_message:" : "m 3/12/2014 07:49",
+		"commit_message_encoding:" : "m 3/12/2014 07:49",
+		"commit_message_raw:" : "m 3/12/2014 07:49",
+		"commit_nth_gen_ancestor:commit:n:" : "m 3/12/2014 07:49",
+		"commit_owner:" : "m 3/12/2014 07:49",
+		"commit_parent:commit:n:" : "m 3/12/2014 07:49",
+		"commit_parent_id:n:" : "m 3/12/2014 07:49",
+		"commit_parentcount:" : "m 3/12/2014 07:49",
+		"commit_raw_header:" : "m 3/12/2014 07:49",
+		"commit_summary:" : "m 3/12/2014 07:49",
+		"commit_time:" : "m 3/12/2014 07:49",
+		"commit_time_offset:" : "m 3/12/2014 07:49",
+		"commit_tree:commit:" : "m 3/12/2014 07:49",
+		"commit_tree_id:" : "m 3/12/2014 07:49" } }

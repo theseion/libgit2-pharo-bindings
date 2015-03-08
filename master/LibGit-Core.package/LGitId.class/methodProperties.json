@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"fieldsDesc" : "MaxLeske 2/27/2015 15:44",
+		"fromByteArray:" : "MaxLeske 2/27/2015 16:16" },
+	"instance" : {
+		"=" : "MaxLeske 8/27/2014 22:20",
+		"asInteger" : "MaxLeske 2/27/2015 15:46",
+		"asRelativePathString" : "MaxLeske 2/26/2015 16:46",
+		"compare:" : "MaxLeske 8/27/2014 22:20",
+		"hexString" : "MaxLeske 2/26/2015 16:46",
+		"objectPrintOn:" : "MaxLeske 11/15/2014 12:57",
+		"oid_cmp:b:" : "MaxLeske 8/27/2014 22:21",
+		"oid_fmt:id:" : "MaxLeske 8/31/2014 12:05",
+		"oid_pathfmt:id:" : "MaxLeske 2/26/2015 16:13" } }

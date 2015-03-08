@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_SERVICE_RECEIVEPACK",
+		"GIT_SERVICE_RECEIVEPACK_LS",
+		"GIT_SERVICE_UPLOADPACK",
+		"GIT_SERVICE_UPLOADPACK_LS" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitSmartServiceTE",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

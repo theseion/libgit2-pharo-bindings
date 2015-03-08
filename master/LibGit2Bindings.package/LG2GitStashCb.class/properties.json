@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitStashCb",
+	"pools" : [
+		 ],
+	"super" : "LG2StashH1Cb",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "LibGit-Core-FFI-Enums",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_FILEMODE_BLOB",
+		"GIT_FILEMODE_BLOB_EXECUTABLE",
+		"GIT_FILEMODE_COMMIT",
+		"GIT_FILEMODE_LINK",
+		"GIT_FILEMODE_NEW",
+		"GIT_FILEMODE_TREE" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitFilemodeEnum",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitOdbForeachCb",
+	"pools" : [
+		 ],
+	"super" : "LG2OdbH2Cb",
+	"type" : "normal" }

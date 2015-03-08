@@ -1,0 +1,5 @@
+accessing
+fieldsDesc
+	^#(
+		LGitIdData id;
+	)

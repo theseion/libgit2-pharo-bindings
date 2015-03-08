@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_SUBMODULE_RECURSE_NO",
+		"GIT_SUBMODULE_RECURSE_ONDEMAND",
+		"GIT_SUBMODULE_RECURSE_RESET",
+		"GIT_SUBMODULE_RECURSE_YES" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitSubmoduleRecurseTE",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationInt32",
+	"type" : "normal" }

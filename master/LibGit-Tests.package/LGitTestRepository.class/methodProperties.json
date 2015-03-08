@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"clonedHTTPS" : "MaxLeske 8/12/2014 22:14",
+		"clonedSSH" : "MaxLeske 3/1/2015 20:54",
+		"reference" : "MaxLeske 4/8/2014 21:24",
+		"repositoryUrlHttps" : "MaxLeske 8/12/2014 22:36",
+		"repositoryUrlHttps:" : "MaxLeske 8/12/2014 22:19",
+		"repositoryUrlLocal" : "MaxLeske 8/12/2014 22:30",
+		"repositoryUrlLocal:" : "MaxLeske 8/12/2014 22:30",
+		"repositoryUrlSsh" : "MaxLeske 8/12/2014 22:36",
+		"repositoryUrlSsh:" : "MaxLeske 8/12/2014 22:20",
+		"state0MissingReference" : "MaxLeske 4/8/2014 21:52",
+		"state1ExistingReference" : "MaxLeske 4/8/2014 21:53",
+		"state2Initialized" : "MaxLeske 4/8/2014 21:53",
+		"state3Opened" : "MaxLeske 4/8/2014 21:53",
+		"state4WithCommit" : "MaxLeske 3/8/2015 15:18",
+		"tearDown" : "MaxLeske 4/8/2014 21:47" },
+	"instance" : {
+		 } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"object__size:" : "m 3/12/2014 07:49",
+		"object_dup:source:" : "m 3/12/2014 07:49",
+		"object_free:" : "m 3/12/2014 07:49",
+		"object_id:" : "m 3/12/2014 07:49",
+		"object_lookup:repo:id:type:" : "m 3/12/2014 07:49",
+		"object_lookup_bypath:treeish:path:type:" : "m 3/12/2014 07:49",
+		"object_lookup_prefix:repo:id:len:type:" : "m 3/12/2014 07:49",
+		"object_owner:" : "m 3/12/2014 07:49",
+		"object_peel:object:target_type:" : "m 3/12/2014 07:49",
+		"object_short_id:obj:" : "m 3/12/2014 07:49",
+		"object_string2type:" : "m 3/12/2014 07:49",
+		"object_type2string:" : "m 3/12/2014 07:49",
+		"object_type:" : "m 3/12/2014 07:49",
+		"object_typeisloose:" : "m 3/12/2014 07:49" } }

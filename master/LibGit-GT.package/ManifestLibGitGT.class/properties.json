@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-GT",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestLibGitGT",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

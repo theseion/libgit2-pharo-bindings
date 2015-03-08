@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-Abstracts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitExternalStructureFields",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructureFields",
+	"type" : "normal" }

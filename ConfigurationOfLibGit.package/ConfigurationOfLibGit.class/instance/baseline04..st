@@ -1,12 +1,14 @@
 baseline
 baseline04: spec
-    <version: '0.4-baseline'>
+    <version: '0.5-baseline'>
     
 	spec for: #common do: [ 
 		spec blessing: #baseline.
 
-		spec package: 'LibGit2Bindings' with: [ 
-			spec repository: 'github://theseion/LibGit' ].
+		spec package: 'NativeBoost' with: [ 
+			spec
+				repository: 'http://smalltalkhub.com/mc/Pharo/Pharo40Inbox/main';
+				file: 'NativeBoost-Core-MaxLeske.162' ].
 
 		spec package: 'LibGit-Tests' with: [ 
 			spec repository: 'github://theseion/LibGit' ].
@@ -22,10 +24,9 @@ baseline04: spec
 				requires: 'LibGit-Core' ].
 	
 		spec package: 'LibGit-Core' with: [
-			spec repository: 'github://theseion/LibGit'.
 			spec
-				requires: #(LibGit2Bindings);
-				postLoadDoIt: #postLoadRecompile ].
+				repository: 'github://theseion/LibGit';
+				requires: #(NativeBoost) ].
 				
 		spec group: 'default' with: #('LibGit-Core' 'LibGit-Patches' 'LibGit-Tests' 'LibGit-GT').
 			
