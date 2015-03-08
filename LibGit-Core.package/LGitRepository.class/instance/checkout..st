@@ -13,7 +13,7 @@ checkout: aString
 				treeish: object
 				opts:
 					(self defaultCheckoutOptions
-						checkout_strategy: (LGitCheckoutStrategyEnum at: #GIT_CHECKOUT_SAFE_CREATE) value;
+						checkoutStrategy: (LGitCheckoutStrategyEnum at: #GIT_CHECKOUT_SAFE_CREATE);
 						yourself) ].
 	self
 		withReturnHandlerDo: [ 

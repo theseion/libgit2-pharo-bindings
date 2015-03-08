@@ -10,5 +10,5 @@
 	"name" : "LGitRepositoryNotFound",
 	"pools" : [
 		 ],
-	"super" : "LGitError",
+	"super" : "LGitAbstractError",
 	"type" : "normal" }

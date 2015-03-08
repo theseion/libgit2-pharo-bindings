@@ -1,6 +1,6 @@
-as yet unclassified
+libgit-calls
 writepack: writepack
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^ self nbCallout
-		function: #(NBVoid (#LGitOdbWritepack * writepack))
-		address: [ handle ]
+	^ self
+		call: #(NBVoid (#LGitOdbWritepack * writepack))
+		options: #()

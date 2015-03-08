@@ -13,7 +13,7 @@
 		"isDirect" : "MaxLeske 3/17/2014 15:39",
 		"isHead" : "MaxLeske 3/16/2014 19:20",
 		"isSymbolic" : "MaxLeske 3/17/2014 15:39",
-		"libGitReferenceTypes" : "MaxLeske 3/17/2014 15:37",
+		"libGitReferenceTypes" : "MaxLeske 3/8/2015 21:17",
 		"name" : "MaxLeske 3/16/2014 22:01",
 		"object" : "MaxLeske 8/11/2014 22:01",
 		"objectPrintOn:" : "MaxLeske 8/31/2014 17:22",
@@ -29,7 +29,7 @@
 		"reference_symbolic_create:repo:name:target:force:signature:log_message:" : "MaxLeske 11/15/2014 13:45",
 		"reference_symbolic_set_target:ref:target:signature:log_message:" : "MaxLeske 8/30/2014 20:26",
 		"reference_target:" : "MaxLeske 8/27/2014 21:56",
-		"reference_type:" : "MaxLeske 3/17/2014 11:03",
+		"reference_type:" : "MaxLeske 3/8/2015 21:17",
 		"resolve" : "MaxLeske 3/1/2015 18:43",
 		"setTarget:" : "MaxLeske 10/19/2014 21:07",
 		"setTargetId:" : "MaxLeske 3/1/2015 20:57" } }

@@ -10,5 +10,5 @@
 	"name" : "LGitCallReturnHandler",
 	"pools" : [
 		 ],
-	"super" : "LGitError",
+	"super" : "LGitAbstractError",
 	"type" : "normal" }

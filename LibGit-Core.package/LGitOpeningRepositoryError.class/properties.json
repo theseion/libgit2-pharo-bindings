@@ -10,5 +10,5 @@
 	"name" : "LGitOpeningRepositoryError",
 	"pools" : [
 		 ],
-	"super" : "LGitError",
+	"super" : "LGitAbstractError",
 	"type" : "normal" }

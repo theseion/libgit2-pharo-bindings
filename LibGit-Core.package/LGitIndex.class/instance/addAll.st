@@ -1,11 +1,15 @@
 operations
 addAll
 	| pathspec |
-	pathspec := LG2GitStrarrayS new.
+	pathspec := LGitStringArray externalNew
+		count: 0;
+		yourself.
 	self withReturnHandlerDo: [ 
 		self
 			index_add_all: self
 			pathspec: pathspec
 			flags: 0
-			callback: (LG2GitIndexMatchedPathCb on: [ :a :b :c | 0  ])
-			payload: nil ]
+			callback: (LGitIndexMatchedPathCallback on: [ :a :b :c | 0  ])
+			payload: nil ].
+		
+	pathspec free

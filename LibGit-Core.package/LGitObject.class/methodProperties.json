@@ -2,8 +2,8 @@
 	"class" : {
 		"classFor:" : "MaxLeske 8/11/2014 22:52",
 		"isType:" : "MaxLeske 8/11/2014 22:24",
-		"newFromReference:" : "MaxLeske 3/1/2015 18:43",
-		"object_lookup:repo:id:type:" : "MaxLeske 2/28/2015 15:52",
+		"newFromReference:" : "MaxLeske 3/8/2015 15:14",
+		"object_lookup:repo:id:type:" : "MaxLeske 3/8/2015 15:15",
 		"of:fromId:" : "MaxLeske 3/1/2015 19:41" },
 	"instance" : {
 		"concreteObject" : "MaxLeske 8/11/2014 23:05",
@@ -15,7 +15,7 @@
 		"isTag" : "MaxLeske 8/11/2014 21:44",
 		"isTree" : "MaxLeske 8/11/2014 21:44",
 		"objectPrintOn:" : "MaxLeske 8/31/2014 16:26",
-		"object_type:" : "MaxLeske 8/11/2014 22:52",
+		"object_type:" : "MaxLeske 3/8/2015 15:14",
 		"reference" : "MaxLeske 5/5/2013 15:50",
 		"reference:" : "MaxLeske 5/5/2013 15:50",
 		"type" : "MaxLeske 8/11/2014 22:51" } }

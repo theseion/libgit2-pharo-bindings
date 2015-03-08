@@ -1,0 +1,3 @@
+native-boost
+libraryNameOrHandle
+	^ LGitExternalObject libraryNameOrHandle

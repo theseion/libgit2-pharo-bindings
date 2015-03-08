@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit-Core-FFI-Enums",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_REMOTE_COMPLETION_DOWNLOAD",
+		"GIT_REMOTE_COMPLETION_ERROR",
+		"GIT_REMOTE_COMPLETION_INDEXING" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitRemoteCompletionTypeEnum",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

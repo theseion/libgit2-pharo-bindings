@@ -1,7 +1,6 @@
-as yet unclassified
+libgit-calls
 writepack: writepack progress: progress
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^ self nbCallout
-		options: #(+optMayGC);
-		function: #(NBInt32 (LGitOdbWritepack * writepack, LGitTransferProgress * progress))
-		address: [ handle ]
+	^ self
+		call: #(NBInt32 (LGitOdbWritepack * writepack, LGitTransferProgress * progress))
+		options: #(optMayGC)

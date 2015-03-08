@@ -10,5 +10,5 @@
 	"name" : "LGitNoReturnCodeHandlerDefined",
 	"pools" : [
 		 ],
-	"super" : "LGitError",
+	"super" : "LGitAbstractError",
 	"type" : "normal" }

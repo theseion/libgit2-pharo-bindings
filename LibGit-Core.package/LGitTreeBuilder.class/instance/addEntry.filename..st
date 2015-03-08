@@ -7,4 +7,4 @@ addEntry: aBlob filename: aString
 				bld: self
 				filename: aString
 				id: aBlob id
-				filemode: (LG2GitFilemodeTE at: #GIT_FILEMODE_BLOB) value ]
+				filemode: (LGitFilemodeEnum at: #GIT_FILEMODE_BLOB) value ]

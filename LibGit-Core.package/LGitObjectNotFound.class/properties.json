@@ -10,5 +10,5 @@
 	"name" : "LGitObjectNotFound",
 	"pools" : [
 		 ],
-	"super" : "LGitError",
+	"super" : "LGitAbstractError",
 	"type" : "normal" }

@@ -2,7 +2,10 @@ private
 deleteAllLooseObjectsForReference: aReference
 	(self repositoryReference / '.git' / 'objects') children
 		select: [ :entry | entry basename ~= 'pack' ]
-		thenDo: [ :entry | entry deleteAll ]
+		thenDo: [ :entry | entry deleteAll ].
+	
+	"raise an exception if not resolvable"
+	self head
 	
 "	| walker oid baseReference |
 	walker := LGitRevwalkType new.

@@ -6,5 +6,5 @@ If the callback returns a non-zero value, this function will stop looping and re
 	self withReturnHandlerDo: [ 
 		self
 			status_foreach: self repository
-			callback: (LG2GitStatusCb on: aBlock)
+			callback: (LGitStatusCallback on: aBlock)
 			payload: nil ]

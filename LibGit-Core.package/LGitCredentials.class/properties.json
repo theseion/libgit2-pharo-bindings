@@ -1,7 +1,8 @@
 {
-	"category" : "LibGit-Core-NonCoreObjects",
+	"category" : "LibGit-Core-FFI-Structs",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,4 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "LGitExternalStructure",
+	"traitcomposition" : "TLGitCalloutTrait",
 	"type" : "normal" }

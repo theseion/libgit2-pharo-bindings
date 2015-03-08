@@ -1,13 +1,12 @@
 {
 	"class" : {
 		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:12",
-		"nbBindingOf:" : "MaxLeske 3/19/2014 17:04",
 		"push_free:" : "MaxLeske 3/1/2015 20:12",
 		"remote:refSpec:" : "MaxLeske 3/1/2015 18:43" },
 	"instance" : {
 		"addRefSpec:" : "MaxLeske 4/21/2014 18:24",
 		"createNew" : "MaxLeske 3/19/2014 17:08",
-		"finish" : "MaxLeske 11/14/2014 16:50",
+		"finish" : "MaxLeske 3/8/2015 20:28",
 		"push_add_refspec:refspec:" : "MaxLeske 3/20/2014 18:00",
 		"push_finish:" : "MaxLeske 3/19/2014 17:10",
 		"push_new:remote:" : "MaxLeske 3/19/2014 17:09",

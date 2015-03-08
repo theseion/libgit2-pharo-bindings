@@ -1,17 +1,14 @@
 {
-	"category" : "LibGit-Core-Exceptions",
+	"category" : "LibGit-Core-FFI-Structs",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"object",
-		"lastError" ],
+		 ],
 	"name" : "LGitError",
 	"pools" : [
 		 ],
-	"super" : "Error",
-	"traitcomposition" : "TLGitCalloutTrait",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }

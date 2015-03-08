@@ -10,5 +10,5 @@
 	"name" : "LGitWritepackAppendCallout",
 	"pools" : [
 		 ],
-	"super" : "NBExternalObject",
+	"super" : "LGitCallout",
 	"type" : "normal" }

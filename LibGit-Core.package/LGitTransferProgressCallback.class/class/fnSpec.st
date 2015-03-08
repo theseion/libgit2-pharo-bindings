@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^#(NBInt32 (LG2GitTransferProgressS * arg1, NBVoid * arg2))
+	^#(NBInt32 (LGitTransferProgress * arg1, NBVoid * arg2))

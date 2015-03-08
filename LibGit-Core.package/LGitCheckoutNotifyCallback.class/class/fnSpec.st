@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBInt32 (LG2GitCheckoutNotifyTE why, NBExternalString path, LG2GitDiffFileS * baseline, LG2GitDiffFileS * target, LG2GitDiffFileS * workdir, NBVoid * payload))
+	^#(NBInt32 (LGitCheckoutNotifyTypeEnum why, NBExternalString path, LGitDiffFileS * baseline, LGitDiffFile * target, LGitDiffFile * workdir, NBVoid * payload))

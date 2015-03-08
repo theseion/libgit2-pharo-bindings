@@ -10,12 +10,12 @@ isBeingTracked: aString
 			repo: self repository
 			path: aString ].
 
-	untracked := LG2GitStatusTE at: #GIT_STATUS_WT_NEW.
+	untracked := LGitStatusTypeEnum at: #GIT_STATUS_WT_NEW.
 	^ intValue value isZero
 		ifTrue: [ true ]
 		ifFalse: [ 
 			| states |
-			states := LG2GitStatusTE declaration select: [ :status || result |
+			states := LGitStatusTypeEnum declaration select: [ :status || result |
 				result := status value bitAnd: intValue value.
 				result isZero not and: [ result = status value ] ].
 			 (states includes: untracked) not ]

@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit-Core-FFI-Enums",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_REF_INVALID",
+		"GIT_REF_LISTALL",
+		"GIT_REF_OID",
+		"GIT_REF_SYMBOLIC" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitReferenceTypeEnum",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }
