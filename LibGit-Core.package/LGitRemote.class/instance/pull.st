@@ -4,7 +4,7 @@ pull
 	| credentials credentialsCallback |
 	self repository isReady ifFalse: [  ^ self ].
 
-	self load.
+	self lookup.
 	
 	credentials := self class credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback on: [ :cred :theUrl :username_from_url :allowed_types :data | 
@@ -16,6 +16,7 @@ pull
 	self withReturnHandlerDo: [ 
 		self
 			remote_fetch: self
+			refspecs: nil
 			signature: (self repository defaultSignature
 				freeAfterUse: true;
 				yourself)

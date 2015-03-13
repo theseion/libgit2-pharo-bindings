@@ -3,10 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GIT_CREDTYPE_DEFAULT",
-		"GIT_CREDTYPE_SSH_CUSTOM",
-		"GIT_CREDTYPE_SSH_KEY",
-		"GIT_CREDTYPE_USERPASS_PLAINTEXT" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

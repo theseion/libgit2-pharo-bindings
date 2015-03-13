@@ -12,4 +12,4 @@ updateAll
 			callback: (LGitIndexMatchedPathCallback on: [ :a :b :c | 0 ])
 			payload: nil ].
 		
-	pathspec free
+	pathspec address free

@@ -3,10 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GIT_SORT_NONE",
-		"GIT_SORT_REVERSE",
-		"GIT_SORT_TIME",
-		"GIT_SORT_TOPOLOGICAL" ],
+		 ],
 	"commentStamp" : "MaxLeske 3/1/2015 16:39",
 	"instvars" : [
 		 ],

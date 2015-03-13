@@ -3,9 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GIT_REMOTE_COMPLETION_DOWNLOAD",
-		"GIT_REMOTE_COMPLETION_ERROR",
-		"GIT_REMOTE_COMPLETION_INDEXING" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

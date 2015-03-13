@@ -1,6 +1,6 @@
 private
 commitAndPush: aVersion
-	| repo index tree signature refName credentials push gitRemote credentialsCallback |
+	[ | repo index tree signature refName credentials gitRemote credentialsCallback |
 	repo := LGitRepository on: self directory.
 	self assert: repo isProperRepository.
 	repo open.
@@ -32,5 +32,4 @@ commitAndPush: aVersion
 			0 ].
 	gitRemote callbacks credentials: credentialsCallback.
 	gitRemote setCallbacksFinally.
-	push := LGitPush remote: gitRemote refSpec: (LGitRefSpec fromString: refName , ':' , refName).
-	push finish
+	gitRemote pushWithRefSpec: (LGitRefSpec fromString: refName , ':' , refName) ] asLibGitActionSequence

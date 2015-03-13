@@ -1,7 +1,7 @@
 tests
 testPushSSH
 	<todo: 'use a local repository once libgit2 supports cloning from fs'>
-	| repo directory head blob author builder treeId rootBuilder tree remote push credentials credentialsCallback |
+	| repo directory head blob author builder treeId rootBuilder tree remote credentials credentialsCallback |
 	repo := self newRepo clonedSSH.
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
@@ -29,7 +29,7 @@ testPushSSH
 		author: author;
 		committer: author;
 		writeCommit.
-	remote := (LGitRemote of: repo named: 'origin') load.
+	remote := (LGitRemote of: repo named: 'origin') lookup.
 	credentials := remote class credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
@@ -37,5 +37,7 @@ testPushSSH
 			0 ].
 	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
-	push := LGitPush remote: remote refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
-	self shouldnt: [ push finish ] raise: LGitAbstractError
+
+	self
+		shouldnt: [ remote pushWithRefSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit') ]
+		raise: LGitAbstractError

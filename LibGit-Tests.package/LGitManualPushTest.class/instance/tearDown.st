@@ -1,6 +1,6 @@
 running
 tearDown
-	| remote push repo credentials credentialsCallback |
+	| remote repo credentials credentialsCallback |
 	super tearDown.
 	repo := self newRepo state3Opened.
 	remote := LGitRemote
@@ -16,6 +16,5 @@ tearDown
 			0 ].
 	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
-	push := LGitPush remote: remote refSpec: (LGitRefSpec fromString: ':refs/heads/libgit').
-	push finish.
+	remote pushWithRefSpec: (LGitRefSpec fromString: ':refs/heads/libgit').
 	super tearDown

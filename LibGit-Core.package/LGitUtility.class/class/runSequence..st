@@ -1,6 +1,6 @@
 operations
 runSequence: aBlock
 	[
-		self threads_init.
+		self libgit2_init.
 		aBlock value
-	] ensure: [ self threads_shutdown ]
+	] ensure: [ self libgit2_shutdown ]

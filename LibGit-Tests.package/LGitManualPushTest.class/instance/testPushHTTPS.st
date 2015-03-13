@@ -1,6 +1,6 @@
 tests
 testPushHTTPS
-	| repo directory head blob author builder treeId rootBuilder tree remote push credentials credentialsCallback |
+	| repo directory head blob author builder treeId rootBuilder tree remote credentials credentialsCallback |
 	repo := self newRepo clonedHTTPS.
 	directory := (repo workingDirectory / 'libgit_tests') ensureCreateDirectory.
 	directory / 'foo' writeStreamDo: [ :stream | stream nextPutAll: 'eat my shorts' ].
@@ -29,12 +29,14 @@ testPushHTTPS
 		committer: author;
 		writeCommit.
 	credentials := LGitCredentialsPlaintext username: LGitRemote username passphrase: LGitRemote password.
-	remote := (LGitRemote of: repo named: 'origin') load.
+	remote := (LGitRemote of: repo named: 'origin') lookup.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
 			credentials createWith: cred.
 			0 ].
 	remote callbacks credentials: credentialsCallback.
 	remote setCallbacksFinally.
-	push := LGitPush remote: remote refSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit').
-	self shouldnt: [ push finish ] raise: LGitAbstractError
+		
+	self
+		shouldnt: [ remote pushWithRefSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit') ]
+		raise: LGitAbstractError.

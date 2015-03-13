@@ -3,8 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GIT_DIRECTION_FETCH",
-		"GIT_DIRECTION_PUSH" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

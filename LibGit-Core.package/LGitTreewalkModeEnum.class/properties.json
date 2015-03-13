@@ -3,8 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GIT_TREEWALK_POST",
-		"GIT_TREEWALK_PRE" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

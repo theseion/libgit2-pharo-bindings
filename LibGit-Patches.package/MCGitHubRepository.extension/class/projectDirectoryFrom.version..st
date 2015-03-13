@@ -11,19 +11,17 @@ projectDirectoryFrom: projectPath version: versionString
 				projectPath: projectPath;
 				versionString: versionString;
 				signal.
-			repository := LGitRepository on: githubCacheDirectory asFileReference.
+			[ repository := LGitRepository on: githubCacheDirectory asFileReference.
 			(githubCacheDirectory exists and: [ repository isProperRepository ])
 				ifFalse: [ 
-					[ 
 					repository
 						cloneHttps: 'https://github.com/' , projectPath , '.git';
-						checkout: versionString ] asLibGitActionSequence ]
-				ifTrue: [ 
-					[ 
+						checkout: versionString ]
+				ifTrue: [  
 					repository open.
 					(LGitRemote of: repository named: 'origin')
-						load;
+						lookup;
 						pull.
-					repository fastForward ] asLibGitActionSequence ].
+					repository fastForward ] ] asLibGitActionSequence.
 			self downloadCache at: downloadCacheKey put: githubCacheDirectory fullName ].
 	^ githubCacheDirectory

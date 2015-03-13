@@ -1,5 +1,7 @@
 initialization
 initializeWithTree: aTree
-	self
-		treebuilder_create: self
-		source: aTree
+	self withReturnHandlerDo: [
+		self
+			treebuilder_new: self
+			repo: self repository
+			source: aTree ]
