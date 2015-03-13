@@ -24,7 +24,7 @@ commitAndPush: aVersion
 		author: signature;
 		committer: signature;
 		writeCommit.
-	gitRemote := (LGitRemote of: repo named: 'origin') load.
+	gitRemote := (LGitRemote of: repo named: 'origin') lookup.
 	credentials := gitRemote class credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
