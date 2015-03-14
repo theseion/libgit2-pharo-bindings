@@ -8,7 +8,7 @@ baseline05: spec
 		spec package: 'NativeBoost' with: [ 
 			spec
 				repository: 'http://smalltalkhub.com/mc/Pharo/Pharo40Inbox/main';
-				file: 'NativeBoost-Core-MaxLeske.164' ].
+				file: 'NativeBoost-Core-MaxLeske.165' ].
 
 		spec package: 'LibGit-Tests' with: [ 
 			spec repository: 'github://theseion/LibGit' ].
