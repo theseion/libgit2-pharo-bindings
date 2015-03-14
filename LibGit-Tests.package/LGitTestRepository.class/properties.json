@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		"repositoryUrlSsh",
 		"repositoryUrlHttps",
-		"repositoryUrlLocal" ],
+		"repositoryUrlLocal",
+		"testDataLoaded" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "MaxLeske 4/14/2014 10:49",
