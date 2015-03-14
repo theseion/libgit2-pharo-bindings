@@ -1,3 +1,0 @@
-initialization
-initializeOn: aFileReference
-	self repositoryReference: aFileReference

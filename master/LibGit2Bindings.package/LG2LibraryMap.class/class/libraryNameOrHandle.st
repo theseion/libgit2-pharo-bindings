@@ -1,3 +1,0 @@
-library path
-libraryNameOrHandle
-	^ LGitExternalObject libraryNameOrHandle

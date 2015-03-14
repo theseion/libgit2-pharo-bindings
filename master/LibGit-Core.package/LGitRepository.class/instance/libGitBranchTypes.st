@@ -1,3 +1,0 @@
-libgit - types
-libGitBranchTypes
-	^ LGitBranchTypeEnum

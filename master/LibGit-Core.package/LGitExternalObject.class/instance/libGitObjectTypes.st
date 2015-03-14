@@ -1,3 +1,0 @@
-libgit - types
-libGitObjectTypes
-	^ LGitObjectTypeEnum

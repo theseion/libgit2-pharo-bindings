@@ -1,3 +1,0 @@
-operations
-enableGarbageCollection
-	gcEnabled := true

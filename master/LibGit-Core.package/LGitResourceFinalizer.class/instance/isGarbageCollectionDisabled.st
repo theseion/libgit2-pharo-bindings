@@ -1,3 +1,0 @@
-testing
-isGarbageCollectionDisabled
-	^ gcEnabled not

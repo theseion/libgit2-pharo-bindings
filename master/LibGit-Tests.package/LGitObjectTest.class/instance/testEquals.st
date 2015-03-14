@@ -1,3 +1,0 @@
-tests
-testEquals
-	self subclassResponsibility
