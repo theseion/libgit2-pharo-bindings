@@ -4,7 +4,7 @@ createPackForReference: aReference
 	odb := self database.
 	walk := LGitRevwalk new.
 	walk revwalk_new: walk repo: self.
-	walk revwalk_sorting: walk sort_mode: (LGitRevwalkSortTypeEnum at: #GIT_SORT_TIME) value.
+	walk revwalk_sorting: walk sort_mode: LGitRevwalkSortTypeEnum GIT_SORT_TIME.
 	walk revwalk_push_ref: walk refname: aReference name.
 	packbuilder := LGitPackBuilder new.
 	packbuilder packbuilder_new: packbuilder repo: self.	"hideCallback := LG2RevwalkHideCb on: [ :oid :payload |  ].

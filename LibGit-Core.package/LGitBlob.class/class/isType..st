@@ -1,3 +1,3 @@
 testing
 isType: aType
-	^ aType = (LGitObjectTypeEnum at: #GIT_OBJ_BLOB)
+	^ aType = LGitObjectTypeEnum GIT_OBJ_BLOB

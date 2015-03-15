@@ -4,7 +4,7 @@ isProperRepository
 	return := self
 		repository_open_ext: self
 		path: self repositoryReference pathString
-		flags: (LGitOpenFlagEnum at: #GIT_REPOSITORY_OPEN_NO_SEARCH) value
+		flags: LGitOpenFlagEnum GIT_REPOSITORY_OPEN_NO_SEARCH
 		ceiling_dirs: nil.
 		
-	^ return = (LGitReturnCodeEnum at: #GIT_OK)
+	^ return = LGitReturnCodeEnum GIT_OK

@@ -1,4 +1,3 @@
 accessing
-value: anObject
-
-	value := anObject 
+value: anInteger
+	value := anInteger 

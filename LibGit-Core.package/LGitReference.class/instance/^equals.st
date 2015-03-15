@@ -5,5 +5,5 @@ comparing
 	^ self == anObject or: [
 		(self 
 			reference_cmp: self 
-			ref2: anObject) = (self libGitReturnCodeTypes at: #GIT_OK)  ]
+			ref2: anObject) = LGitReturnCodeEnum GIT_OK  ]
 	

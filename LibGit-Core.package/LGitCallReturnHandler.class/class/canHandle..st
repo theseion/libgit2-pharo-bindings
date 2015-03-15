@@ -1,4 +1,4 @@
 testing
 canHandle: aReturnCode
-	^ (self handledReturnCodes collect: [ :symbol | 
-		self libGitReturnCodeTypes at: symbol ]) includes: aReturnCode
+	^ self handledReturnCodes anySatisfy: [ :symbol | 
+		aReturnCode symbol = symbol ]

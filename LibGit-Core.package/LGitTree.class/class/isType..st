@@ -1,3 +1,3 @@
 testing
 isType: aType
-	^ aType = (LGitObjectTypeEnum at: #GIT_OBJ_TREE)
+	^ aType = LGitObjectTypeEnum GIT_OBJ_TREE

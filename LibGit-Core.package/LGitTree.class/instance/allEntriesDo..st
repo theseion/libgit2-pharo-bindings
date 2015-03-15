@@ -6,6 +6,6 @@ If the callback returns a positive value, the passed entry will be skipped on th
 	self withReturnHandlerDo: [ 
 		self
 			tree_walk: self
-			mode: (LGitTreewalkModeEnum at: #GIT_TREEWALK_PRE)
+			mode: LGitTreewalkModeEnum GIT_TREEWALK_PRE
 			callback: (LGitTreewalkCallback on: aBlock)
 			payload: nil ]

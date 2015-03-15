@@ -1,4 +1,7 @@
 class initialization
 buildDeclaration
-	^ (self initializeEnum associations collect: [ :assoc |
-		assoc key -> (self basicNew value: assoc value) ]) asDictionary
+	| dictionary |
+	dictionary := self literalDeclaration.
+	self compileAccessorsFrom: dictionary.
+	
+	^ dictionary

@@ -1,6 +1,6 @@
 testing
 isBeingTracked: aString
-	| intValue untracked |
+	| intValue |
 	(self repository repositoryReference resolve: aString) isDirectory ifTrue: [ ^ true ].
 	
 	intValue := LGitWriteBackValueInt new.
@@ -10,12 +10,4 @@ isBeingTracked: aString
 			repo: self repository
 			path: aString ].
 
-	untracked := LGitStatusTypeEnum at: #GIT_STATUS_WT_NEW.
-	^ intValue value isZero
-		ifTrue: [ true ]
-		ifFalse: [ 
-			| states |
-			states := LGitStatusTypeEnum declaration select: [ :status || result |
-				result := status value bitAnd: intValue value.
-				result isZero not and: [ result = status value ] ].
-			 (states includes: untracked) not ]
+	^ (LGitStatusTypeEnum GIT_STATUS_WT_NEW isPartOfBitFlag: intValue value) not

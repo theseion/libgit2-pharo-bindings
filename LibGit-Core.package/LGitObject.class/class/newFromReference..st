@@ -9,5 +9,5 @@ newFromReference: aReference
 				object_lookup: instance
 				repo: aReference repository
 				id: aReference privObjectIdPtr
-				type: (LGitObjectTypeEnum at: #GIT_OBJ_ANY) ].
+				type: LGitObjectTypeEnum GIT_OBJ_ANY ].
 	^ instance concreteObject
