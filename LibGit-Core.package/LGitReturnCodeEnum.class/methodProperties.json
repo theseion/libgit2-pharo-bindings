@@ -1,10 +1,8 @@
 {
 	"class" : {
-		"enumDecl" : "MaxLeske 6/30/2013 15:53",
-		"errorCodes" : "MaxLeske 6/30/2013 15:55",
-		"exitCodes" : "MaxLeske 9/23/2014 08:23",
+		"enumDecl" : "MaxLeske 3/15/2015 12:03",
 		"handlers" : "MaxLeske 6/30/2013 17:52",
 		"setUpHandlers" : "MaxLeske 3/17/2014 17:31" },
 	"instance" : {
-		"handleLGitReturnCode" : "MaxLeske 3/17/2014 17:32",
+		"handleLGitReturnCode" : "MaxLeske 3/15/2015 12:20",
 		"handlers" : "MaxLeske 3/16/2014 23:02" } }

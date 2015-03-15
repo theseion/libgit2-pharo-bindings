@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit-Core-Abstracts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait",
+	"classvars" : [
+		"LibraryHandle",
+		"Session" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitGlobal",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TLGitCalloutTrait",
+	"type" : "normal" }

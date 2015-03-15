@@ -1,14 +1,8 @@
 {
 	"class" : {
-		"call:options:" : "",
-		"fieldsDesc" : "MaxLeske 3/8/2015 21:54",
-		"libraryName" : "",
-		"libraryNameOrHandle" : "MaxLeske 3/8/2015 21:39",
-		"withReturnHandlerDo:" : "" },
+		"fieldsDesc" : "MaxLeske 3/8/2015 21:54" },
 	"instance" : {
-		"call:options:" : "",
 		"createWith:" : "MaxLeske 4/21/2014 17:29",
-		"libraryNameOrHandle" : "",
 		"passphrase" : "MaxLeske 4/21/2014 17:24",
 		"passphrase:" : "MaxLeske 4/21/2014 17:24",
 		"username" : "MaxLeske 4/21/2014 17:24",

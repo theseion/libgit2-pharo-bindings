@@ -1,5 +1,5 @@
 {
-	"category" : "LibGit-Core-Exceptions-ReturnCodes",
+	"category" : "LibGit-Core-Exceptions",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "LGitCallError",
 	"pools" : [
 		 ],
-	"super" : "LGitCallReturnHandler",
+	"super" : "LGitAbstractError",
 	"type" : "normal" }

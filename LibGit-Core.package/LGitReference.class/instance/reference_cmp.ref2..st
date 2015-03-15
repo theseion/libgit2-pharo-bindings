@@ -1,4 +1,4 @@
 libgit - calls
 reference_cmp: ref1 ref2: ref2 
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(LGitReturnCodeEnum git_reference_cmp(self, LGitReference ref2)) options: #(  )
+	^self call: #(#LGitReturnCodeEnum git_reference_cmp(self, LGitReference ref2)) options: #(  )
