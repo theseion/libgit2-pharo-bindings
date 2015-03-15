@@ -15,5 +15,4 @@ pushWithRefSpec: aRefSpec options: pushOptions signature: aSignature reflogMessa
 			reflog_message: aString ].
 		
 	refspecs strings free.
-	refspecs address free.
 	^ return
