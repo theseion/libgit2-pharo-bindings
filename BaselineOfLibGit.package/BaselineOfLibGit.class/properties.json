@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfLibGit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 03/15/2015 15:15",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfLibGit",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
