@@ -1,3 +1,3 @@
 running
 runCase
-	[ super runCase ] asLibGitActionSequence
+	LGitGlobal runSequence: [ super runCase ]
