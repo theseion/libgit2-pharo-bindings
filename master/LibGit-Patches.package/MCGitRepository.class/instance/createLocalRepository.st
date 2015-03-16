@@ -1,3 +1,0 @@
-private
-createLocalRepository
-	self fileUtils ensureDirectoryExists: self directory asFileReference

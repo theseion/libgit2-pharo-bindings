@@ -1,3 +1,0 @@
-tests
-testPrinting
-	self subclassResponsibility

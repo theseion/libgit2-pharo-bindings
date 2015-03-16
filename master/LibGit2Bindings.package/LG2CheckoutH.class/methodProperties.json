@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
-		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
-	"instance" : {
-		"checkout_head:opts:" : "m 3/12/2014 07:49",
-		"checkout_index:index:opts:" : "m 3/12/2014 07:49",
-		"checkout_init_options:version:" : "MaxLeske 8/11/2014 23:41",
-		"checkout_tree:treeish:opts:" : "m 3/12/2014 07:49" } }

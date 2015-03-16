@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testAccessingValues" : "MaxLeske 3/15/2015 16:07",
-		"testIsPartOfBitFlag" : "MaxLeske 3/15/2015 16:50",
-		"testIsPartOfBitFlagWithZeroFlag" : "MaxLeske 3/15/2015 17:04",
-		"testPrintOn" : "MaxLeske 3/15/2015 16:04" } }

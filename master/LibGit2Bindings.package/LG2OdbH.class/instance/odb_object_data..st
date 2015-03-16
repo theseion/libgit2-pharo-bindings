@@ -1,4 +1,0 @@
-foreign interface
-odb_object_data: object 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(NBVoid * git_odb_object_data(LG2GitOdbObjectO object)) options: #(  )

@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testDoesntSignalCallReturn" : "MaxLeske 8/10/2014 18:54",
-		"testDoesntSignalGitOk" : "MaxLeske 3/15/2015 14:50",
-		"testSignalsCallError" : "MaxLeske 3/15/2015 15:52" } }

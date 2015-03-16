@@ -1,1 +1,0 @@
-A CLExternalLibraryWrapper is xxxxxxxxx.

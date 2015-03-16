@@ -1,5 +1,0 @@
-accessing
-fieldsDesc
-	^#(
-		LGitIdData id;
-	)

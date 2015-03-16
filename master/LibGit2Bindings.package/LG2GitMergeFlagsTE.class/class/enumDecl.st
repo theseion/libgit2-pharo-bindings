@@ -1,7 +1,0 @@
-enum declaration
-enumDecl
-	^#(
-	GIT_MERGE_DEFAULT 0
-	GIT_MERGE_NO_FASTFORWARD 1
-	GIT_MERGE_FASTFORWARD_ONLY 2
-)

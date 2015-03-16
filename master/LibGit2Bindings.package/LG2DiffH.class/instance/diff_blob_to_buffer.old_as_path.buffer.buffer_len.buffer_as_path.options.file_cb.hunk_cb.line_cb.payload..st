@@ -1,4 +1,0 @@
-foreign interface
-diff_blob_to_buffer: old_blob old_as_path: old_as_path buffer: buffer buffer_len: buffer_len buffer_as_path: buffer_as_path options: options file_cb: file_cb hunk_cb: hunk_cb line_cb: line_cb payload: payload 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(NBInt32 git_diff_blob_to_buffer(LG2GitBlobO old_blob, NBExternalString old_as_path, NBExternalString buffer, NBInt32 buffer_len, NBExternalString buffer_as_path, git_diff_options * options, LG2GitDiffFileCb file_cb, LG2GitDiffHunkCb hunk_cb, LG2GitDiffLineCb line_cb, NBVoid * payload)) options: #( optMayGC )

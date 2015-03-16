@@ -1,3 +1,0 @@
-libgit-finalization
-getHandle
-	^ handle
