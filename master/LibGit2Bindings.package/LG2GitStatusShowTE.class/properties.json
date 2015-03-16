@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_STATUS_SHOW_INDEX_AND_WORKDIR",
+		"GIT_STATUS_SHOW_INDEX_ONLY",
+		"GIT_STATUS_SHOW_WORKDIR_ONLY" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitStatusShowTE",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

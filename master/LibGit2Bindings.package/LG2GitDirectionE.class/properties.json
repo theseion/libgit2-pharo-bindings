@@ -1,0 +1,15 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_DIRECTION_FETCH",
+		"GIT_DIRECTION_PUSH" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitDirectionE",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

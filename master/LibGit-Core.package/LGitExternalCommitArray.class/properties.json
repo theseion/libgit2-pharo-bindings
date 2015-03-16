@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-HelperObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitExternalCommitArray",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalArray",
+	"type" : "normal" }

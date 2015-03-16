@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:05",
+		"index_free:" : "MaxLeske 3/1/2015 20:06" },
+	"instance" : {
+		"addAll" : "MaxLeske 3/9/2015 22:36",
+		"allFilesStatusDo:" : "MaxLeske 3/8/2015 21:10",
+		"entriesSelect:" : "MaxLeske 10/5/2014 18:11",
+		"entryCount" : "MaxLeske 8/31/2014 19:02",
+		"hasEntry:" : "MaxLeske 3/1/2015 14:29",
+		"index_add_all:pathspec:flags:callback:payload:" : "MaxLeske 3/15/2015 11:54",
+		"index_entrycount:" : "MaxLeske 8/31/2014 19:02",
+		"index_find:index:path:" : "MaxLeske 3/15/2015 11:54",
+		"index_remove_all:pathspec:callback:payload:" : "MaxLeske 3/15/2015 11:54",
+		"index_update_all:pathspec:callback:payload:" : "MaxLeske 3/15/2015 11:54",
+		"index_write:" : "MaxLeske 3/15/2015 11:54",
+		"index_write_tree:index:" : "MaxLeske 3/15/2015 11:54",
+		"isBeingTracked:" : "MaxLeske 3/15/2015 17:08",
+		"removeAll" : "MaxLeske 3/9/2015 22:41",
+		"status_file:repo:path:" : "MaxLeske 3/15/2015 11:54",
+		"status_foreach:callback:payload:" : "MaxLeske 3/15/2015 11:54",
+		"updateAll" : "MaxLeske 3/9/2015 22:29",
+		"writeToDisk" : "MaxLeske 10/5/2014 20:01",
+		"writeTreeAndReturnOid" : "MaxLeske 8/27/2014 21:54" } }

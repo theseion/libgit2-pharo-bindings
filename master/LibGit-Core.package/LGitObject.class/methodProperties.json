@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"classFor:" : "MaxLeske 8/11/2014 22:52",
+		"isType:" : "MaxLeske 8/11/2014 22:24",
+		"newFromReference:" : "MaxLeske 3/15/2015 16:13",
+		"object_lookup:repo:id:type:" : "MaxLeske 3/8/2015 15:15",
+		"of:fromId:" : "MaxLeske 3/1/2015 19:41" },
+	"instance" : {
+		"concreteObject" : "MaxLeske 8/11/2014 23:05",
+		"id" : "MaxLeske 5/11/2013 18:03",
+		"id:" : "MaxLeske 5/11/2013 18:02",
+		"initializeWithId:" : "MaxLeske 11/14/2014 16:47",
+		"isBlob" : "MaxLeske 8/11/2014 21:44",
+		"isCommit" : "MaxLeske 8/11/2014 21:44",
+		"isTag" : "MaxLeske 8/11/2014 21:44",
+		"isTree" : "MaxLeske 8/11/2014 21:44",
+		"objectPrintOn:" : "MaxLeske 8/31/2014 16:26",
+		"object_type:" : "MaxLeske 3/8/2015 15:14",
+		"reference" : "MaxLeske 5/5/2013 15:50",
+		"reference:" : "MaxLeske 5/5/2013 15:50",
+		"type" : "MaxLeske 8/11/2014 22:51" } }

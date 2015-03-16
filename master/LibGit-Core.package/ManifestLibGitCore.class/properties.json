@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestLibGitCore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"fieldsDesc" : "MaxLeske 3/1/2015 21:16",
-		"freeFunctionSelector" : "MaxLeske 3/8/2015 20:17",
 		"strarray_free:" : "MaxLeske 3/8/2015 20:17" },
 	"instance" : {
 		"count:" : "MaxLeske 3/8/2015 15:22",
+		"getHandles" : "MaxLeske 3/15/2015 21:02",
 		"strings" : "MaxLeske 3/15/2015 14:00",
 		"strings:" : "MaxLeske 3/8/2015 20:11" } }

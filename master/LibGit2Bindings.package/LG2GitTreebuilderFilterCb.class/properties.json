@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitTreebuilderFilterCb",
+	"pools" : [
+		 ],
+	"super" : "LG2TreeH3Cb",
+	"type" : "normal" }

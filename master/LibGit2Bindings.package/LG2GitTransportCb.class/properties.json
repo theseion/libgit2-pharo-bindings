@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitTransportCb",
+	"pools" : [
+		 ],
+	"super" : "LG2TransportH22Cb",
+	"type" : "normal" }

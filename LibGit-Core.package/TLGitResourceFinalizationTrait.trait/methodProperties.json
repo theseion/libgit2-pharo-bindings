@@ -3,10 +3,10 @@
 		"finalizeResourceData:" : "MaxLeske 3/1/2015 19:57",
 		"freeFunctionSelector" : "MaxLeske 3/1/2015 20:00" },
 	"instance" : {
-		"finalizer" : "MaxLeske 3/1/2015 20:44",
+		"finalizer" : "MaxLeske 3/15/2015 20:40",
 		"free" : "MaxLeske 3/1/2015 19:50",
 		"freeAfterUse:" : "MaxLeske 3/1/2015 19:51",
 		"getFinalizer" : "MaxLeske 3/1/2015 19:54",
-		"getHandle" : "MaxLeske 3/1/2015 20:42",
+		"getHandles" : "MaxLeske 3/15/2015 20:53",
 		"resourceData" : "MaxLeske 3/1/2015 19:51",
 		"setFinalizer:" : "MaxLeske 3/1/2015 19:54" } }

@@ -2,7 +2,7 @@
 	"category" : "LibGit-Core-Abstracts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TLGitCalloutTrait classTrait + TLGitPrintingTrait classTrait + (TLGitResourceFinalizationTrait classTrait - {#freeFunctionSelector})",
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait + TLGitPrintingTrait classTrait + TLGitResourceFinalizationTrait classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "MaxLeske 3/1/2015 20:36",

@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Patches",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestLibGitPatches",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"rejectClasses" : "MaxLeske 11/14/2014 16:52",
+		"rejectRules" : "MaxLeske 11/14/2014 16:52",
+		"ruleIfTrueBlocksRuleV1FalsePositive" : "MaxLeske 11/14/2014 16:52",
+		"ruleIfTrueReturnsRuleV1FalsePositive" : "MaxLeske 11/14/2014 16:52" },
+	"instance" : {
+		 } }

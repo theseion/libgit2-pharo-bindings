@@ -7,5 +7,5 @@ finalizer
 		self setFinalizer:
 			(LGitResourceFinalizer
 				forClass: self class
-				handle: self getHandle) ].
+				handles: self getHandles) ].
 	^ self getFinalizer

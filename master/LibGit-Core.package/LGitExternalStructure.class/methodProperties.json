@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"createAccessorsFor:" : "MaxLeske 8/27/2014 21:51",
+		"fieldNamesAndProtocols" : "MaxLeske 8/27/2014 21:53",
+		"fieldsClass" : "MaxLeske 2/27/2015 16:19",
+		"protocolForField:" : "MaxLeske 8/29/2014 13:22" },
+	"instance" : {
+		"getFinalizer" : "MaxLeske 3/1/2015 19:58",
+		"getHandle" : "MaxLeske 3/1/2015 20:42",
+		"initialize" : "MaxLeske 3/1/2015 20:36",
+		"isNull" : "MaxLeske 3/15/2015 11:40",
+		"setFinalizer:" : "MaxLeske 3/1/2015 19:58" } }

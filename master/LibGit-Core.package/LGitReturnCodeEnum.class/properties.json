@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Enums",
+	"classinstvars" : [
+		"handlers" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitReturnCodeEnum",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationInt32",
+	"type" : "normal" }

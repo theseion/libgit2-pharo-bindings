@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Structs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitCredentialsPlaintext",
+	"pools" : [
+		 ],
+	"super" : "LGitCredentials",
+	"type" : "normal" }

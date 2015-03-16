@@ -1,0 +1,16 @@
+{
+	"category" : "LibGit-Core-Abstracts",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLGitCalloutTrait classTrait + TLGitPrintingTrait classTrait + (TLGitResourceFinalizationTrait classTrait - {#freeFunctionSelector})",
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaxLeske 3/1/2015 20:36",
+	"instvars" : [
+		"finalizer" ],
+	"name" : "LGitExternalStructure",
+	"pools" : [
+		 ],
+	"super" : "NBExternalStructure",
+	"traitcomposition" : "TLGitCalloutTrait + TLGitPrintingTrait + TLGitResourceFinalizationTrait",
+	"type" : "normal" }

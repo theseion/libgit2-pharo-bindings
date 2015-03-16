@@ -4,6 +4,11 @@ performFinalization
 	self isEnabled ifFalse: [ ^ self ].
 	
 	self disable.
-	class
-		perform: class freeFunctionSelector
-		with: handle value
+	
+	"Don't make the free call if object not in external memory"
+	handles
+		select: [ :handle | (handle class == ByteArray) not and: [ handle isNull not ] ]
+		thenDo: [ :handle |
+			class
+				perform: class freeFunctionSelector
+				with: handle value ]

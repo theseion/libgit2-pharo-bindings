@@ -1,0 +1,20 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GIT_CHECKOUT_NOTIFY_ALL",
+		"GIT_CHECKOUT_NOTIFY_CONFLICT",
+		"GIT_CHECKOUT_NOTIFY_DIRTY",
+		"GIT_CHECKOUT_NOTIFY_IGNORED",
+		"GIT_CHECKOUT_NOTIFY_NONE",
+		"GIT_CHECKOUT_NOTIFY_UNTRACKED",
+		"GIT_CHECKOUT_NOTIFY_UPDATED" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitCheckoutNotifyTE",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalEnumerationUInt32",
+	"type" : "normal" }

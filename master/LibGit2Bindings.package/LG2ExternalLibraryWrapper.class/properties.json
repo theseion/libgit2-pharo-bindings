@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Core",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2ExternalLibraryWrapper",
+	"pools" : [
+		 ],
+	"super" : "NBExternalLibraryWrapper",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitTreeEntryTest",
+	"pools" : [
+		 ],
+	"super" : "LGitObjectTest",
+	"type" : "normal" }

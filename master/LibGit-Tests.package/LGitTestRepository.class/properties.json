@@ -1,0 +1,17 @@
+{
+	"category" : "LibGit-Tests-Helpers",
+	"classinstvars" : [
+		"repositoryUrlSsh",
+		"repositoryUrlHttps",
+		"repositoryUrlLocal",
+		"testDataLoaded" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaxLeske 4/14/2014 10:49",
+	"instvars" : [
+		 ],
+	"name" : "LGitTestRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

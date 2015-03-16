@@ -2,8 +2,8 @@ handling
 handleLGitReturnCode
 	| handler |
 	handler := self handlers
-		at: self
+		at: self symbol
 		ifAbsent: [ LGitNoReturnCodeHandlerDefined signalWith: self ].
 	^ handler isError
 		ifTrue: [ handler signalWith: LGitError last ]
-		ifFalse: [  self ]
+		ifFalse: [ self ]

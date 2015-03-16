@@ -4,8 +4,9 @@
 		"object_free:" : "MaxLeske 3/1/2015 19:14" },
 	"instance" : {
 		"getFinalizer" : "MaxLeske 3/1/2015 19:55",
-		"getHandle" : "MaxLeske 3/1/2015 20:43",
+		"getHandles" : "MaxLeske 3/15/2015 20:56",
 		"ifNotReady:" : "MaxLeske 5/5/2013 23:32",
+		"initialize" : "MaxLeske 3/15/2015 21:08",
 		"isReady" : "MaxLeske 5/5/2013 23:32",
 		"setFinalizer:" : "MaxLeske 3/1/2015 19:55",
 		"shouldContinuePrintingOn:" : "MaxLeske 11/15/2014 13:18",

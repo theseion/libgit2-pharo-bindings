@@ -1,16 +1,16 @@
 operations
 pushWithRefSpec: aRefSpec options: pushOptions signature: aSignature reflogMessage: aString
-	| refspecs return options |
+	| refspecs return |
 	refspecs := (LGitStringArray new
+		freeAfterUse: true;
 		strings: { aRefSpec asString };
 		count: 1;
 		yourself).
-	options := LGitPushOptions new.
 	return := self withReturnHandlerDo: [
 		self
 			remote_push: self
 			refspecs: refspecs
-			opts: options
+			opts: pushOptions
 			signature: aSignature
 			reflog_message: aString ].
 		

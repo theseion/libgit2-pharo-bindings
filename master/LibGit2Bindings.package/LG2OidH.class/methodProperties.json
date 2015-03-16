@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"oid_allocfmt:" : "m 3/12/2014 07:49",
+		"oid_cmp:b:" : "m 3/12/2014 07:49",
+		"oid_cpy:src:" : "m 3/12/2014 07:49",
+		"oid_equal:b:" : "m 3/12/2014 07:49",
+		"oid_fmt:id:" : "m 3/12/2014 07:49",
+		"oid_fromraw:raw:" : "m 3/12/2014 07:49",
+		"oid_fromstr:str:" : "m 3/12/2014 07:49",
+		"oid_fromstrn:str:length:" : "m 3/12/2014 07:49",
+		"oid_fromstrp:str:" : "m 3/12/2014 07:49",
+		"oid_iszero:" : "m 3/12/2014 07:49",
+		"oid_ncmp:b:len:" : "m 3/12/2014 07:49",
+		"oid_nfmt:n:id:" : "m 3/12/2014 07:49",
+		"oid_pathfmt:id:" : "m 3/12/2014 07:49",
+		"oid_shorten_add:text_id:" : "m 3/12/2014 07:49",
+		"oid_shorten_free:" : "m 3/12/2014 07:49",
+		"oid_shorten_new:" : "m 3/12/2014 07:49",
+		"oid_strcmp:str:" : "m 3/12/2014 07:49",
+		"oid_streq:str:" : "m 3/12/2014 07:49",
+		"oid_tostr:n:id:" : "m 3/12/2014 07:49" } }

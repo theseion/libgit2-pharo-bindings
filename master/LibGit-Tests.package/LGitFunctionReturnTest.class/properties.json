@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitFunctionReturnTest",
+	"pools" : [
+		 ],
+	"super" : "LGitTestCase",
+	"type" : "normal" }

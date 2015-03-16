@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Core",
+	"classinstvars" : [
+		"typeMap" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2LibraryMap",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

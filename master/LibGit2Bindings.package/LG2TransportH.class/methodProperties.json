@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"nbBindingOf:" : "MaxLeske 3/12/2014 08:03",
+		"nbLibraryNameOrHandle" : "MaxLeske 3/12/2014 08:03" },
+	"instance" : {
+		"cred_default_new:" : "m 3/12/2014 07:49",
+		"cred_has_username:" : "m 3/12/2014 07:49",
+		"cred_ssh_custom_new:username:publickey:publickey_len:sign_fn:sign_data:" : "m 3/12/2014 07:49",
+		"cred_ssh_key_from_agent:username:" : "m 3/12/2014 07:49",
+		"cred_ssh_key_new:username:publickey:privatekey:passphrase:" : "MaxLeske 3/20/2014 13:03",
+		"cred_userpass_plaintext_new:username:password:" : "MaxLeske 3/20/2014 13:57",
+		"smart_subtransport_git:owner:" : "m 3/12/2014 07:49",
+		"smart_subtransport_http:owner:" : "m 3/12/2014 07:49",
+		"smart_subtransport_ssh:owner:" : "m 3/12/2014 07:49",
+		"transport_dummy:owner:payload:" : "m 3/12/2014 07:49",
+		"transport_init:version:" : "m 3/12/2014 07:49",
+		"transport_local:owner:payload:" : "m 3/12/2014 07:49",
+		"transport_new:owner:url:" : "m 3/12/2014 07:49",
+		"transport_register:priority:cb:param:" : "m 3/12/2014 07:49",
+		"transport_smart:owner:payload:" : "m 3/12/2014 07:49",
+		"transport_unregister:priority:" : "m 3/12/2014 07:49" } }

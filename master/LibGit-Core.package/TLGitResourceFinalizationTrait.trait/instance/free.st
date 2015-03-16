@@ -1,0 +1,3 @@
+libgit-finalization
+free
+	self finalizer performFinalization

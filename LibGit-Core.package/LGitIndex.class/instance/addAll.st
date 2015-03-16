@@ -2,6 +2,7 @@ operations
 addAll
 	| pathspec |
 	pathspec := LGitStringArray externalNew
+		freeAfterUse: true;
 		count: 0;
 		yourself.
 	self withReturnHandlerDo: [ 
@@ -10,6 +11,4 @@ addAll
 			pathspec: pathspec
 			flags: 0
 			callback: (LGitIndexMatchedPathCallback on: [ :a :b :c | 0  ])
-			payload: nil ].
-		
-	pathspec address free
+			payload: nil ]

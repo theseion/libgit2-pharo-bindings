@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Callbacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitCheckoutProgressCallback",
+	"pools" : [
+		 ],
+	"super" : "NBFFICallback",
+	"type" : "normal" }

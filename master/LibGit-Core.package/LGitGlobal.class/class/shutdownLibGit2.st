@@ -1,0 +1,3 @@
+private
+shutdownLibGit2
+	self libgit2_shutdown

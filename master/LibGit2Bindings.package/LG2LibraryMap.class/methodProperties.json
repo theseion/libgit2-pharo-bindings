@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"at:" : "MaxLeske 3/12/2014 08:27",
+		"at:ifAbsent:" : "MaxLeske 3/12/2014 08:33",
+		"initialize" : "MaxLeske 3/19/2014 14:40",
+		"initializeArrays" : "m 3/12/2014 07:49",
+		"initializeCallbacks" : "m 3/12/2014 07:49",
+		"initializeStructs" : "m 3/12/2014 07:49",
+		"initializeTypeMap" : "MaxLeske 3/12/2014 08:33",
+		"initializeUnions" : "m 3/12/2014 07:49",
+		"libraryNameOrHandle" : "MaxLeske 8/10/2014 13:52",
+		"typeMap" : "m 3/12/2014 07:49" },
+	"instance" : {
+		 } }

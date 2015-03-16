@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Tests-Manual",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitManualFetchTest",
+	"pools" : [
+		 ],
+	"super" : "LGitManualTestCase",
+	"type" : "normal" }

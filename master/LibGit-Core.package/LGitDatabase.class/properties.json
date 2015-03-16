@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-CoreObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitDatabase",
+	"pools" : [
+		 ],
+	"super" : "LGitRepositoryObject",
+	"type" : "normal" }

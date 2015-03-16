@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit2Bindings-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LG2GitTreewalkCb",
+	"pools" : [
+		 ],
+	"super" : "LG2TreeH2Cb",
+	"type" : "normal" }
