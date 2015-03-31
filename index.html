@@ -49,10 +49,18 @@
 
 <p>Evaluate the following in a workspace:</p>
 
-<pre><code>Gofer it
-  smalltalkhubUser: 'FileSystemGitDev' project: 'LibGit2';
-  configurationOf: 'LibGit';
-  loadBleedingEdge
+<pre><code>Metacello new
+  baseline: #LibGit;
+  repository: 'github://theseion/LibGit:master';
+  load.
+</code></pre>
+
+<p>Or to get the development packages:</p>
+
+<pre><code>Metacello new
+  baseline: #LibGit;
+  repository: 'github://theseion/LibGit:master';
+  load: 'development'.
 </code></pre>
 
 <h2>
