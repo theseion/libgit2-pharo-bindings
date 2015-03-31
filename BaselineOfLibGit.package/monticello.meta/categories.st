@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'BaselineOfLibGit'!
+SystemOrganization addCategory: #BaselineOfLibGit!

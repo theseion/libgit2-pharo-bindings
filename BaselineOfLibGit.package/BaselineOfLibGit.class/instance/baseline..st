@@ -9,7 +9,7 @@ baseline: spec
         with: [ 
           spec
             repository: 'http://smalltalkhub.com/mc/Pharo/Pharo40Inbox/main';
-            file: 'NativeBoost-Core-MaxLeske.162' ].
+            file: 'NativeBoost-Core-MaxLeske.165' ].
       spec
         package: 'LibGit-Tests';
         package: 'LibGit-GT' with: [ spec requires: 'LibGit-Core' ];

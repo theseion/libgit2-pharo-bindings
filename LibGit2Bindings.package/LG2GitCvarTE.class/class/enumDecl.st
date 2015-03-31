@@ -1,8 +1,0 @@
-enum declaration
-enumDecl
-	^#(
-	GIT_CVAR_FALSE 0
-	GIT_CVAR_TRUE 1
-	GIT_CVAR_INT32 2
-	GIT_CVAR_STRING 3
-)
