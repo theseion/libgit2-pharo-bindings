@@ -1,4 +1,4 @@
-as yet unclassified
+libgit-finalization
 getHandles
 	^ self prim_strings
 		ifNotNil: [ :strings | super getHandles copyWith: strings ]
