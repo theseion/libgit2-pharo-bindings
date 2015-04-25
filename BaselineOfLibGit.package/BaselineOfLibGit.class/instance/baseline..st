@@ -2,7 +2,7 @@ baseline
 baseline: spec
   <baseline>
   spec
-    for: #'pharo4.x'
+    for: #('pharo4.x' 'pharo5.x')
     do: [ 
       spec
         package: 'NativeBoost'
@@ -13,7 +13,7 @@ baseline: spec
 		spec
 			package: 'QualityAssistant'
 	      with: [ 
-	       	spec repository: 'github://Uko/QualityAssistant:v0.2.1' ].
+	       	spec repository: 'github://Uko/QualityAssistant:master' ].
       spec
         package: 'LibGit-Tests';
         package: 'LibGit-GT' with: [ spec requires: 'LibGit-Core' ];
