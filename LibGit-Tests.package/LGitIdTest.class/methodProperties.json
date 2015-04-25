@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAsInteger" : "MaxLeske 4/25/2015 23:21",
 		"testEquals" : "MaxLeske 8/27/2014 22:23",
 		"testHexString" : "MaxLeske 2/27/2015 16:32",
 		"testPrinting" : "MaxLeske 2/27/2015 16:14" } }
