@@ -1,9 +1,22 @@
 {
 	"class" : {
 		"freeFunctionSelector" : "MaxLeske 3/1/2015 19:47",
+		"of:" : "MaxLeske 4/25/2015 16:17",
 		"revwalk_free:" : "MaxLeske 3/1/2015 19:47" },
 	"instance" : {
-		"revwalk_new:repo:" : "MaxLeske 3/15/2015 11:54",
-		"revwalk_next:walk:" : "MaxLeske 3/15/2015 11:54",
-		"revwalk_push_ref:refname:" : "MaxLeske 3/15/2015 11:54",
-		"revwalk_sorting:sort_mode:" : "MaxLeske 3/15/2015 17:22" } }
+		"basicNext" : "MaxLeske 4/25/2015 16:28",
+		"basicNextObjectId" : "MaxLeske 4/25/2015 15:59",
+		"basicSort:" : "MaxLeske 4/25/2015 16:15",
+		"createNew" : "MaxLeske 4/25/2015 15:54",
+		"hasNext" : "MaxLeske 4/25/2015 15:49",
+		"next" : "MaxLeske 4/25/2015 15:47",
+		"pushHead" : "MaxLeske 4/25/2015 15:27",
+		"pushReference:" : "MaxLeske 4/25/2015 16:10",
+		"revwalk_new:repo:" : "MaxLeske 4/25/2015 15:27",
+		"revwalk_next:walk:" : "MaxLeske 4/25/2015 15:27",
+		"revwalk_push_ref:refname:" : "MaxLeske 4/25/2015 15:27",
+		"revwalk_sorting:sort_mode:" : "MaxLeske 4/25/2015 16:08",
+		"sortByCommitTime" : "MaxLeske 4/25/2015 16:05",
+		"sortParentsBeforeChildren" : "MaxLeske 4/25/2015 16:05",
+		"sortReversed" : "MaxLeske 4/25/2015 16:05",
+		"topologicalSort" : "MaxLeske 4/25/2015 15:27" } }

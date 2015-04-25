@@ -1,0 +1,3 @@
+operations
+sortParentsBeforeChildren
+	self basicSort: LGitRevwalkSortTypeEnum GIT_SORT_TOPOLOGICAL

@@ -2,10 +2,10 @@ private
 createPackForReference: aReference
 	| odb walk packbuilder oid writepack stats packbuilderPayload progresscb progressPayload packbuilderCallback |
 	odb := self database.
-	walk := LGitRevwalk new.
-	walk revwalk_new: walk repo: self.
-	walk revwalk_sorting: walk sort_mode: LGitRevwalkSortTypeEnum GIT_SORT_TIME.
-	walk revwalk_push_ref: walk refname: aReference name.
+	walk := (LGitRevwalk of: self)
+		sortByCommitTime;
+		pushReference: aReference;
+		yourself.
 	packbuilder := LGitPackBuilder new.
 	packbuilder packbuilder_new: packbuilder repo: self.	"hideCallback := LG2RevwalkHideCb on: [ :oid :payload |  ].
 	LG2RevwalkH uniqueInstance
@@ -13,16 +13,15 @@ createPackForReference: aReference
 		hide_cb: hideCallback
 		payload: nil."
 	oid := LGitId new.
-	[ (walk revwalk_next: oid walk: walk) value isZero ]
-		whileTrue: [ 
-			| commit tree |
-			commit := LGitCommit of: self fromId: oid.
-			tree := commit tree.
-			packbuilder
-				packbuilder_insert_commit: packbuilder id: commit id;
-				packbuilder_insert_tree: packbuilder id: tree id.
-			commit free.
-			tree free ].
+	[ walk hasNext ] whileTrue: [ 
+		| commit tree |
+		commit := walk next.
+		tree := commit tree.
+		packbuilder
+			packbuilder_insert_commit: packbuilder id: commit id;
+			packbuilder_insert_tree: packbuilder id: tree id.
+		commit free.
+		tree free ].
 	progresscb := LGitTransferProgressCallback on: [ :progress :data | 0 ].
 	progressPayload := NBExternalAddress new.
 	writepack := LGitOdbWritepack externalNew.

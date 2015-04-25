@@ -1,4 +1,5 @@
-as yet unclassified
+initialization
 initialize
+	<todo: 'enable once resource handling has been fixed'>
 	super initialize.
-	self registerAsExternalResource
+	"self registerAsExternalResource"

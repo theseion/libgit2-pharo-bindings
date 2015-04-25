@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"currentCommit",
+		"hasNext",
+		"sorting" ],
 	"name" : "LGitRevwalk",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalObject",
+	"super" : "LGitRepositoryObject",
 	"type" : "normal" }
