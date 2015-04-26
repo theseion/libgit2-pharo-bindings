@@ -1,5 +1,10 @@
 instance creation
 fromByteArray: aByteArray
-	^ self new
-		prim_id: (LGitIdData fromByteArray: aByteArray);
-		yourself
+	| instance |
+	instance := self new.
+	1 to: 20 do: [ :index |
+		instance 
+			perform: ('prim_data', index asString) asSymbol asMutator
+			with: (aByteArray at: index) ].
+		
+	^ instance

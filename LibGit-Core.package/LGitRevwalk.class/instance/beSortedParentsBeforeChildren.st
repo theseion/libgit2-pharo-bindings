@@ -1,3 +1,3 @@
 operations
-sortParentsBeforeChildren
+beSortedParentsBeforeChildren
 	self basicSort: LGitRevwalkSortTypeEnum GIT_SORT_TOPOLOGICAL

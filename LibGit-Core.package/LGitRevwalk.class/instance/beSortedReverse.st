@@ -1,3 +1,3 @@
 operations
-sortReversed
+beSortedReverse
 	self basicSort: LGitRevwalkSortTypeEnum GIT_SORT_REVERSE

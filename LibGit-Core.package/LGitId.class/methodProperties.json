@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 2/27/2015 15:44",
-		"fromByteArray:" : "MaxLeske 2/27/2015 16:16" },
+		"fieldsDesc" : "MaxLeske 4/26/2015 11:57",
+		"fromByteArray:" : "MaxLeske 4/26/2015 11:58" },
 	"instance" : {
 		"=" : "MaxLeske 8/27/2014 22:20",
-		"asInteger" : "MaxLeske 2/27/2015 15:46",
+		"asByteArray" : "MaxLeske 4/26/2015 11:59",
+		"asInteger" : "MaxLeske 4/26/2015 12:00",
 		"asRelativePathString" : "MaxLeske 2/26/2015 16:46",
 		"compare:" : "MaxLeske 8/27/2014 22:20",
 		"hexString" : "MaxLeske 2/26/2015 16:46",

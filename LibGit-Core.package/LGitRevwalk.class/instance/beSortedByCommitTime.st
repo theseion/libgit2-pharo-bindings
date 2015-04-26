@@ -1,3 +1,3 @@
 operations
-sortByCommitTime
+beSortedByCommitTime
 	self basicSort: LGitRevwalkSortTypeEnum GIT_SORT_TIME

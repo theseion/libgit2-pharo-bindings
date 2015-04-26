@@ -1,3 +1,3 @@
-printing
+converting
 asInteger
-	^ self prim_id asInteger
+	^ self asByteArray asInteger

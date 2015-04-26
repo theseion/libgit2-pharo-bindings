@@ -3,7 +3,7 @@ createPackForReference: aReference
 	| odb walk packbuilder oid writepack stats packbuilderPayload progresscb progressPayload packbuilderCallback |
 	odb := self database.
 	walk := (LGitRevwalk of: self)
-		sortByCommitTime;
+		beSortedByCommitTime;
 		pushReference: aReference;
 		yourself.
 	packbuilder := LGitPackBuilder new.
