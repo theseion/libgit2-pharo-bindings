@@ -3,8 +3,11 @@ testEqualsUninitialized
 	| tree repo |
 	repo := self newRepo state0MissingReference.
 	tree := LGitTree of: repo.
-	self assert: tree equals: tree.	"two different trees that are uninitialized are assumed to be different"
+	"two uninitialized trees are different"
+	self assert: tree equals: tree.
 	self deny: tree = (LGitTree of: repo).
+	
+	"an initialized tree and an uninitialized tree are different"
 	repo := self newRepo state4WithCommit.
 	tree := repo head object tree.
 	self deny: tree = (LGitTree of: repo).
