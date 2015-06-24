@@ -9,5 +9,5 @@ fieldsDesc
 	"number of files in this delta"
 	NBUInt16 nfiles
 	LGitDiffFile old_file
-	LGitDifFile new_file
+	LGitDiffFile new_file
 	)

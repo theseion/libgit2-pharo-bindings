@@ -1,5 +1,5 @@
 libgit-calls
-diff_patch_get_line_in_hunk: out patch: patch hunk_idx: hunk_idx line_of_hunk: line_of_hunk
+patch_get_line_in_hunk: out patch: patch hunk_idx: hunk_idx line_of_hunk: line_of_hunk
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self
 		call: #(LGitReturnCodeEnum git_patch_get_line_in_hunk(LGitDiffLine * out, self, NBUInt32 hunk_idx, NBUInt32 line_of_hunk))

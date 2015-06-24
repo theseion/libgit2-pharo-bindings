@@ -5,5 +5,5 @@ fieldsDesc
 	NBExternalString path;
 	NBInt64 size;
 	NBUInt32 flags;
-	NBUint16 mode;
+	NBUInt16 mode;
 	)

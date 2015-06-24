@@ -17,6 +17,6 @@ fieldsDesc
 	NBUInt32    interhunk_lines  "defaults to 0"
 	NBUInt16    id_abbrev       "default 'core.abbrev' or 7 if unset"
 	NBUInt64   max_size         "defaults to 512MB"
-	NBExternalString old_prefix       "defaults to "a""
+	NBExternalString old_prefix       "defaults to 'a'"
 	NBExternalString new_prefix       "defaults to 'b'"
 	)
