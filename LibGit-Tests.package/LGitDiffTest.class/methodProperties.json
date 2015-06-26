@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testGetDelta" : "MaxLeske 6/23/2015 22:06",
+		"testGetDelta" : "MartinDias 6/26/2015 13:54",
 		"testNumDeltasNonZero" : "MaxLeske 6/23/2015 21:56",
 		"testNumDeltasZero" : "MaxLeske 6/23/2015 21:24",
 		"testPatchFromDiff" : "MaxLeske 6/24/2015 22:45" } }

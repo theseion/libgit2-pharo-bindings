@@ -13,4 +13,4 @@ testGetDelta
 	diff diff_index_to_workdir: diff repo: repo index: repo index opts: options.
 	self
 		shouldnt: [ diff diff_get_delta: diff idx: 0 ]
-		rais: Error
+		raise: Error
