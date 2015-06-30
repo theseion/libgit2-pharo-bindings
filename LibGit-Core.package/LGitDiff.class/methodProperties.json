@@ -3,6 +3,10 @@
 		"diff_free:" : "MaxLeske 6/21/2015 19:28",
 		"freeFunctionSelector" : "MaxLeske 6/21/2015 18:05" },
 	"instance" : {
+		"defaultDiffOptions" : "MaxLeske 6/30/2015 21:02",
+		"deltaAt:" : "MaxLeske 6/30/2015 22:16",
+		"diffIndexToWorkDir" : "MaxLeske 6/30/2015 21:02",
+		"diffIndexToWorkDirOptions:" : "MaxLeske 6/30/2015 20:59",
 		"diff_blob_to_buffer:old_as_path:buffer:buffer_len:buffer_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 6/24/2015 22:46",
 		"diff_blobs:old_as_path:new_blob:new_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 6/24/2015 22:46",
 		"diff_buffers:old_len:old_as_path:new_buffer:new_len:new_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 6/24/2015 22:46",
@@ -12,6 +16,7 @@
 		"diff_get_perfdata:diff:" : "MaxLeske 6/21/2015 22:02",
 		"diff_get_stats:diff:" : "MaxLeske 6/21/2015 19:25",
 		"diff_index_to_workdir:repo:index:opts:" : "MaxLeske 6/23/2015 21:17",
+		"diff_init_options:version:" : "MaxLeske 6/30/2015 21:01",
 		"diff_is_sorted_icase:" : "MaxLeske 6/21/2015 19:07",
 		"diff_num_deltas:" : "MaxLeske 6/21/2015 19:04",
 		"diff_num_deltas_of_type:type:" : "MaxLeske 6/21/2015 19:05",
@@ -20,4 +25,6 @@
 		"diff_tree_to_index:repo:old_tree:index:opts:" : "MaxLeske 6/23/2015 21:09",
 		"diff_tree_to_tree:repo:old_tree:new_tree:opts:" : "MaxLeske 6/23/2015 21:17",
 		"diff_tree_to_workdir:repo:old_tree:opts:" : "MaxLeske 6/23/2015 21:17",
-		"diff_tree_to_workdir_with_index:repo:old_tree:opts:" : "MaxLeske 6/23/2015 21:17" } }
+		"diff_tree_to_workdir_with_index:repo:old_tree:opts:" : "MaxLeske 6/23/2015 21:17",
+		"numberOfDeltas" : "MaxLeske 6/30/2015 21:04",
+		"patchAt:" : "MaxLeske 6/30/2015 22:12" } }
