@@ -1,6 +1,7 @@
 operations
 createTag: aString targetId: aGitId force: aBoolean
 	"Create a tag. Based on #createBranch:targetId:force:"
+
 	| reference |
 	reference := LGitReference of: self.
 	reference
