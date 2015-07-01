@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "MaxLeske 3/1/2015 18:43",
-		"testAddEntry" : "MaxLeske 3/1/2015 20:40",
+		"testAddBlobEntry" : "MartinDias 7/1/2015 16:45",
+		"testAddTreeEntry" : "MartinDias 7/1/2015 16:45",
 		"testWrite" : "MaxLeske 3/1/2015 19:41" } }
