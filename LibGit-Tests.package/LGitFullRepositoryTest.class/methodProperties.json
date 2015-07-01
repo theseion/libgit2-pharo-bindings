@@ -6,4 +6,5 @@
 		"testBranchesNotEmpty" : "MaxLeske 8/10/2014 18:42",
 		"testCheckout" : "MaxLeske 3/8/2015 20:28",
 		"testLookupHead" : "MaxLeske 8/11/2014 23:30",
-		"testLookupMasterBranch" : "MaxLeske 8/10/2014 17:59" } }
+		"testLookupMasterBranch" : "MaxLeske 8/10/2014 17:59",
+		"testRevparse" : "MartinDias 7/1/2015 17:02" } }

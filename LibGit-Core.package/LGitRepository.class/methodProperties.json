@@ -67,6 +67,7 @@
 		"repository_open_ext:path:flags:ceiling_dirs:" : "MaxLeske 3/15/2015 16:17",
 		"repository_set_head:refname:signature:log_message:" : "MaxLeske 8/30/2014 20:26",
 		"repository_workdir:" : "MaxLeske 6/23/2013 22:16",
+		"revparse:" : "MartinDias 7/1/2015 17:00",
 		"revparse_single:repo:spec:" : "MaxLeske 3/15/2015 11:54",
 		"signature_default:repo:" : "MaxLeske 3/15/2015 11:54",
 		"tag_list:repo:" : "MaxLeske 4/2/2015 16:59",
