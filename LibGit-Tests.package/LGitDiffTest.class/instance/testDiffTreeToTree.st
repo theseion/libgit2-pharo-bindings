@@ -1,5 +1,5 @@
 tests
-testDiffFromCommit
+testDiffTreeToTree
 	| referenceCommit diffCommit diff |
 	self touchFileAndCommit.
 	referenceCommit := self repository head object.
