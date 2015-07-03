@@ -1,9 +1,9 @@
 tests
 testCreateCommit
-	| blob subTreeId rootTree author head headRef |
+	| blob subTree rootTree author head headRef |
 	blob := self createBlob.
-	subTreeId := self createSubTreeWith: blob.
-	rootTree := self createRootTreeWith: subTreeId.
+	subTree := self createSubTreeWith: blob.
+	rootTree := self createRootTreeWith: subTree.
 	author := self createAuthor
 		freeAfterUse: true;
 		yourself.

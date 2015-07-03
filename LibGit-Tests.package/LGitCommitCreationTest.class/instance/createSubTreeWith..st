@@ -4,4 +4,4 @@ createSubTreeWith: aBlob
 	builder := LGitTreeBuilder of: repository.
 	builder createNew.
 	builder addEntry: aBlob filename: 'foo'.
-	^ builder write
+	^ builder newTree

@@ -1,7 +1,8 @@
 helpers
-createRootTreeWith: aTreeId
+createRootTreeWith: aTree
 	| builder |
-	builder := LGitTreeBuilder of: repository.
-	builder createNew.
-	builder addEntryWithId: aTreeId filename: 'libgit_tests' filemode: LGitFilemodeEnum GIT_FILEMODE_TREE.
+	builder := (LGitTreeBuilder of: repository)
+		createNew;
+		addEntry: aTree filename: 'libgit_tests';
+		yourself.
 	^ builder newTree

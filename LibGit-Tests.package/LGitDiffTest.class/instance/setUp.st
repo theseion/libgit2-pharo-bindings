@@ -1,3 +1,4 @@
 running
 setUp
-	repository := self newRepo state4WithCommit
+	repository := self newRepo state4WithCommit.
+	file := self repository repositoryReference / 'libgit_tests' / 'foo'
