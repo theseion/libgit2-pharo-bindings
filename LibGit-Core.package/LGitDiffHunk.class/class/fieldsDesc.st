@@ -5,7 +5,7 @@ fieldsDesc
 	NBInt32 old_lines "Number of lines in old_file"
 	NBInt32 new_start "Starting line number in new_file"
 	NBInt32 new_lines "Number of lines in new_file"
-	NBUInt32 header_len "Number of bytes in header text"
+	NBInt32 header_len "Number of bytes in header text"
 	"Header text, NUL-byte terminated"
 	NBInt8 header1
 	NBInt8 header2

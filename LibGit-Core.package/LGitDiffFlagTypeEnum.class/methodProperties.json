@@ -1,5 +1,8 @@
 {
 	"class" : {
+		"GIT_DIFF_FLAG_BINARY" : "MaxLeske 7/4/2015 12:34",
+		"GIT_DIFF_FLAG_NOT_BINARY" : "MaxLeske 7/4/2015 12:34",
+		"GIT_DIFF_FLAG_VALID_ID" : "MaxLeske 7/4/2015 12:34",
 		"enumDecl" : "MaxLeske 6/21/2015 22:32" },
 	"instance" : {
 		 } }

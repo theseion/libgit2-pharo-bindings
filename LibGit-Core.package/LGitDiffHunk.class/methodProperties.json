@@ -1,5 +1,9 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 6/21/2015 20:14" },
+		"fieldsDesc" : "MaxLeske 7/4/2015 18:44" },
 	"instance" : {
-		"diff_patch_get_hunk:lines_in_hunk:patch:hunk_idx:" : "MaxLeske 6/21/2015 20:04" } }
+		"diff_patch_get_hunk:lines_in_hunk:patch:hunk_idx:" : "MaxLeske 6/21/2015 20:04",
+		"newNumberOfLines" : "MaxLeske 7/4/2015 22:00",
+		"newStart" : "MaxLeske 7/4/2015 22:01",
+		"oldNumberOfLines" : "MaxLeske 7/4/2015 22:01",
+		"oldStart" : "MaxLeske 7/4/2015 22:01" } }

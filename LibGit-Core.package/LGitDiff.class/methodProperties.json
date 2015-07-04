@@ -13,8 +13,8 @@
 		"diff_blobs:old_as_path:new_blob:new_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 6/24/2015 22:46",
 		"diff_buffers:old_len:old_as_path:new_buffer:new_len:new_as_path:options:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 6/24/2015 22:46",
 		"diff_find_init_options:version:" : "MaxLeske 6/21/2015 18:30",
-		"diff_foreach:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 6/24/2015 22:46",
-		"diff_get_delta:idx:" : "MaxLeske 6/21/2015 19:06",
+		"diff_foreach:file_cb:hunk_cb:line_cb:payload:" : "MaxLeske 7/4/2015 17:51",
+		"diff_get_delta:idx:" : "MaxLeske 7/4/2015 13:30",
 		"diff_get_perfdata:diff:" : "MaxLeske 6/21/2015 22:02",
 		"diff_get_stats:diff:" : "MaxLeske 6/21/2015 19:25",
 		"diff_index_to_workdir:repo:index:opts:" : "MaxLeske 6/23/2015 21:17",
@@ -28,5 +28,6 @@
 		"diff_tree_to_tree:repo:old_tree:new_tree:opts:" : "MaxLeske 6/23/2015 21:17",
 		"diff_tree_to_workdir:repo:old_tree:opts:" : "MaxLeske 6/23/2015 21:17",
 		"diff_tree_to_workdir_with_index:repo:old_tree:opts:" : "MaxLeske 6/23/2015 21:17",
+		"filesDo:hunksDo:linesDo:" : "MaxLeske 7/4/2015 17:45",
 		"numberOfDeltas" : "MaxLeske 6/30/2015 21:04",
 		"patchAt:" : "MaxLeske 6/30/2015 22:12" } }
