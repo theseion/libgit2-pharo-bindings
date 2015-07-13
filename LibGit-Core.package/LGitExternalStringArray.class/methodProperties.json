@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"fromCollection:" : "MaxLeske 9/2/2014 00:18",
-		"initialize" : "MaxLeske 10/5/2014 19:30" },
+		"initialize" : "MaxLeske 10/5/2014 19:30",
+		"installAccessors" : "MaxLeske 7/13/2015 14:40" },
 	"instance" : {
-		"asArray" : "MaxLeske 4/2/2015 17:12",
-		"at:" : "IgorStasenko 12/7/2012 16:42",
-		"at:put:" : "IgorStasenko 12/7/2012 16:42" } }
+		"at:put:" : "MaxLeske 7/13/2015 14:27",
+		"free" : "MaxLeske 7/13/2015 14:35" } }

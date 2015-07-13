@@ -1,4 +1,4 @@
-as yet unclassified
+session management
 updateElementSize
 	self == LGitExternalArray ifTrue: [ ^ self ].
 	
