@@ -1,5 +1,14 @@
 {
 	"class" : {
-		"enumDecl" : "MaxLeske 6/21/2015 22:39" },
+		"GIT_DIFF_LINE_ADDITION" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_ADD_EOFNL" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_BINARY" : "MaxLeske 7/13/2015 17:36",
+		"GIT_DIFF_LINE_CONTEXT" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_CONTEXT_EOFNL" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_DELETION" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_DEL_EOFNL" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_FILE_HDR" : "MaxLeske 7/13/2015 17:45",
+		"GIT_DIFF_LINE_HUNK_HDR" : "MaxLeske 7/13/2015 17:45",
+		"enumDecl" : "MaxLeske 7/13/2015 17:45" },
 	"instance" : {
 		 } }

@@ -1,7 +1,6 @@
 lookup
 lookupBranch: name
 	| reference |
-	self signalIfNotReady.
 	reference := LGitReference of: self.
 	self
 		withReturnHandlerDo: [ 

@@ -1,5 +1,10 @@
 {
 	"class" : {
+		"GIT_DIFF_FORMAT_NAME_ONLY" : "MaxLeske 7/13/2015 17:36",
+		"GIT_DIFF_FORMAT_NAME_STATUS" : "MaxLeske 7/13/2015 17:36",
+		"GIT_DIFF_FORMAT_PATCH" : "MaxLeske 7/13/2015 17:36",
+		"GIT_DIFF_FORMAT_PATCH_HEADER" : "MaxLeske 7/13/2015 17:36",
+		"GIT_DIFF_FORMAT_RAW" : "MaxLeske 7/13/2015 17:36",
 		"enumDecl" : "MaxLeske 6/21/2015 22:32" },
 	"instance" : {
 		 } }

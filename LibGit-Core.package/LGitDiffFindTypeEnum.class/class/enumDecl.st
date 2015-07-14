@@ -1,7 +1,8 @@
 enum declaration
 enumDecl
+	<todo: 'enum defines 0 twice (one commented out). Use second enum?'>
 	^#(
-		" Obey `diff.renames`. Overridden by any other GIT_DIFF_FIND_... flag. "
+	" Obey `diff.renames`. Overridden by any other GIT_DIFF_FIND_... flag. "
 	GIT_DIFF_FIND_BY_CONFIG 0
 
 	" Look for renames? (`--find-renames`) "
@@ -39,7 +40,7 @@ enumDecl
 	GIT_DIFF_FIND_ALL 255
 
 	" Measure similarity ignoring leading whitespace (default) "
-	GIT_DIFF_FIND_IGNORE_LEADING_WHITESPACE 0
+	"GIT_DIFF_FIND_IGNORE_LEADING_WHITESPACE 0"
 	" Measure similarity ignoring all whitespace "
 	GIT_DIFF_FIND_IGNORE_WHITESPACE 4096
 	" Measure similarity including all data "

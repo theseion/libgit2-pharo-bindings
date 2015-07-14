@@ -3,6 +3,7 @@
 		"freeFunctionSelector" : "MaxLeske 3/1/2015 19:18",
 		"object_free:" : "MaxLeske 3/1/2015 19:14" },
 	"instance" : {
+		"call:options:" : "MaxLeske 7/14/2015 09:46",
 		"getFinalizer" : "MaxLeske 3/1/2015 19:55",
 		"getHandles" : "MaxLeske 3/15/2015 20:56",
 		"ifNotReady:" : "MaxLeske 5/5/2013 23:32",
