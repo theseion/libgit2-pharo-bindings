@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"diff_free:" : "MaxLeske 7/14/2015 11:07",
+		"freeFunctionSelector" : "MaxLeske 7/14/2015 11:06" },
+	"instance" : {
+		"blame_buffer:reference:buffer:buffer_len:" : "MaxLeske 7/14/2015 11:55",
+		"blame_file:repo:path:options:" : "MaxLeske 7/14/2015 11:55",
+		"blame_get_hunk_byindex:index:" : "MaxLeske 7/14/2015 11:57",
+		"blame_get_hunk_byline:lineno:" : "MaxLeske 7/14/2015 11:57",
+		"blame_get_hunk_count:" : "MaxLeske 7/14/2015 11:55",
+		"blame_init_options:version:" : "MaxLeske 7/14/2015 11:21",
+		"defaultBlameOptions" : "MaxLeske 7/14/2015 11:26" } }
