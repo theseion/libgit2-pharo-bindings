@@ -9,6 +9,7 @@
 		"testHasHead" : "MaxLeske 8/10/2014 17:26",
 		"testLookupHead" : "MaxLeske 3/8/2015 20:28",
 		"testLookupMasterBranch" : "MaxLeske 3/8/2015 20:28",
+		"testRepoAccessBeforeOpening" : "MaxLeske 7/14/2015 09:19",
 		"testRepoInitialization" : "MaxLeske 3/8/2015 20:28",
 		"testRepoIsEmpty" : "MaxLeske 4/8/2014 21:54",
 		"testRepoNotBareAfterInitialization" : "MaxLeske 4/8/2014 21:54",
