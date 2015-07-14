@@ -1,5 +1,5 @@
 enum declaration
 enumDecl
 	^#(
-	GIT_DIFF_BLAME_OPTIONS_VERSION 1
+	GIT_BLAME_OPTIONS_VERSION 1
 	)

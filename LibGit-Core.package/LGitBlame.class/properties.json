@@ -10,5 +10,5 @@
 	"name" : "LGitBlame",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalObject",
+	"super" : "LGitRepositoryObject",
 	"type" : "normal" }

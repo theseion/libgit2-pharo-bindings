@@ -1,3 +1,3 @@
 signalling
 signalNotReady
-	LGitObjectNotInitialized signalWith: self
+	"LGitObjectNotInitialized signalWith: self"

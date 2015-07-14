@@ -1,5 +1,14 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 7/14/2015 11:51" },
+		"byteAlignment" : "MaxLeske 7/14/2015 20:39",
+		"fieldsDesc" : "MaxLeske 7/14/2015 20:43" },
 	"instance" : {
-		 } }
+		"boundary" : "MaxLeske 7/14/2015 15:12",
+		"finalCommitId" : "MaxLeske 7/14/2015 15:12",
+		"finalSignature" : "MaxLeske 7/14/2015 15:13",
+		"finalStartLineNumber" : "MaxLeske 7/14/2015 15:17",
+		"numberOfLines" : "MaxLeske 7/14/2015 15:14",
+		"originalCommitId" : "MaxLeske 7/14/2015 15:15",
+		"originalPath" : "MaxLeske 7/14/2015 16:47",
+		"originalSignature" : "MaxLeske 7/14/2015 15:15",
+		"originalStartLineNumber" : "MaxLeske 7/14/2015 15:16" } }
