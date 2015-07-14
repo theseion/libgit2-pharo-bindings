@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "MaxLeske 7/14/2015 18:25",
+		"testBoundary" : "MaxLeske 7/14/2015 19:25",
+		"testFinalCommitId" : "MaxLeske 7/14/2015 18:24",
+		"testFinalStartLineNumber" : "MaxLeske 7/14/2015 16:23",
+		"testNumberOfLines" : "MaxLeske 7/14/2015 16:22",
+		"testOriginalCommitId" : "MaxLeske 7/14/2015 19:14",
+		"testOriginalPath" : "MaxLeske 7/14/2015 16:24",
+		"testOriginalStartLineNumber" : "MaxLeske 7/14/2015 16:25",
+		"testSignatures" : "MaxLeske 7/14/2015 20:40" } }
