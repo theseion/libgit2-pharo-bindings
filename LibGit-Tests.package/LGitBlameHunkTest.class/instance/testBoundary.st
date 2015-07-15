@@ -8,5 +8,5 @@ testBoundary
 		on: self file.	
 	hunk := blame hunkAt: blame numberOfHunks.
 
-	"root commit reached"
-	self assert: hunk boundary
+	"root commit not reached"
+	self deny: hunk boundary
