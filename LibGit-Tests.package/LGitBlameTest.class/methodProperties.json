@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "MaxLeske 7/14/2015 18:25",
+		"testGenerateBlameOutput" : "MaxLeske 7/15/2015 13:39",
 		"testGettingBlame" : "MaxLeske 7/14/2015 15:10",
 		"testHunkAt" : "MaxLeske 7/14/2015 15:10",
 		"testHunkAtLineNumber" : "MaxLeske 7/14/2015 15:10",
-		"testNumberOfHunks" : "MaxLeske 7/14/2015 15:10" } }
+		"testNumberOfHunks" : "MaxLeske 7/14/2015 15:10",
+		"touchFileWithMultipleLines" : "MaxLeske 7/15/2015 13:33" } }

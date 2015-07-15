@@ -7,6 +7,4 @@ testPatchFromDiff
 		yourself.
 	self assert: diff numberOfDeltas equals: 1.
 
-	Transcript
-		open;
-		show: (diff patchAt: diff numberOfDeltas) printDiff
+	(diff patchAt: diff numberOfDeltas) printDiff

@@ -25,4 +25,9 @@ touchFileAndCommit
 		updateReference: repository master;
 		author: author;
 		committer: author;
-		writeCommit
+		writeCommit.
+		
+	self repository index
+		addAll;
+		updateAll;
+		writeToDisk

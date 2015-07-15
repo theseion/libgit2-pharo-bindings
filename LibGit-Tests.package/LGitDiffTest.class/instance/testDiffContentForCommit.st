@@ -20,15 +20,29 @@ testDiffContentForCommit
 	self assert: newFile path equals: oldFile path.
 	relativePath := self file parent basename, '/', self file basename.
 	self assert: newFile path equals: relativePath.
-	Transcript open.
-	diff
-		filesDo: [ :currentDelta :progress :payload | 0 ]
-		hunksDo: [ :currentDelta :hunk :payload |
-			"hunk start"
-			Transcript show: 'start: ', hunk oldStart asString, ' -> ', hunk newStart asString ; cr.
-			"hunk end"
-			Transcript show: 'end: ', (hunk oldStart + hunk oldNumberOfLines) asString.
-			Transcript show: ' -> ', (hunk newStart + hunk newNumberOfLines) asString; cr. 0 ]
-		linesDo: [ :currentDelta :hunk :line :payload |
-			Transcript show: line oldLineNumber asString, ' -> ', line newLineNumber asString; cr.
-			Transcript show: line content, '; length: ', line size asString; cr. 0 ]
+
+	String streamContents: [ :stream |
+		diff
+			filesDo: [ :currentDelta :progress :payload | 0 ]
+			hunksDo: [ :currentDelta :hunk :payload |
+				stream
+					"hunk start"
+					nextPutAll: 'start: ';
+					nextPutAll: hunk oldStart asString;
+					nextPutAll: ' -> ';
+					nextPutAll: hunk newStart asString; crlf;
+					"hunk end"
+					nextPutAll: 'end: ';
+					nextPutAll: (hunk oldStart + hunk oldNumberOfLines) asString;
+					nextPutAll: ' -> ';
+					nextPutAll: (hunk newStart + hunk newNumberOfLines) asString; crlf.
+					0 ]
+			linesDo: [ :currentDelta :hunk :line :payload |
+				stream
+					nextPutAll: line oldLineNumber asString;
+					nextPutAll: ' -> ';
+					nextPutAll: line newLineNumber asString; crlf;
+					nextPutAll: line content;
+					nextPutAll: '; length: ';
+					nextPutAll: line size asString; crlf.
+					0 ] ]
