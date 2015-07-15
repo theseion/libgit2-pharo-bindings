@@ -1,4 +1,4 @@
-libgit - calls
+libgit-calls
 treebuilder_clear: bld
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self

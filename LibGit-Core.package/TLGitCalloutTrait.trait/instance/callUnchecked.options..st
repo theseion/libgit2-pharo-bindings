@@ -1,5 +1,5 @@
 native-boost
-call: fnSpec options: options
+callUnchecked: fnSpec options: options
 	^ self
 		callUnchecked: fnSpec
 		options: options

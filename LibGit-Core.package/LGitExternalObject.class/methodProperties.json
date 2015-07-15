@@ -3,13 +3,9 @@
 		"freeFunctionSelector" : "MaxLeske 3/1/2015 19:18",
 		"object_free:" : "MaxLeske 3/1/2015 19:14" },
 	"instance" : {
-		"call:options:" : "MaxLeske 7/14/2015 14:48",
 		"getFinalizer" : "MaxLeske 3/1/2015 19:55",
 		"getHandles" : "MaxLeske 3/15/2015 20:56",
-		"ifNotReady:" : "MaxLeske 5/5/2013 23:32",
 		"initialize" : "MaxLeske 4/25/2015 16:29",
 		"isReady" : "MaxLeske 5/5/2013 23:32",
 		"setFinalizer:" : "MaxLeske 3/1/2015 19:55",
-		"shouldContinuePrintingOn:" : "MaxLeske 11/15/2014 13:18",
-		"signalIfNotReady" : "MaxLeske 5/7/2013 15:53",
-		"signalNotReady" : "MaxLeske 7/14/2015 16:36" } }
+		"shouldContinuePrintingOn:" : "MaxLeske 11/15/2014 13:18" } }

@@ -1,5 +1,5 @@
 native-boost
-call: fnSpec options: options sender: aContext
+callUnchecked: fnSpec options: options sender: aContext
 	"In case the call is not yet inside of a sequence, at least wrap
 	this call individually"
 	^ LGitGlobal runSequence: [

@@ -3,6 +3,11 @@
 		"call:options:" : "MaxLeske 3/15/2015 11:39",
 		"withReturnHandlerDo:" : "MaxLeske 8/11/2014 22:51" },
 	"instance" : {
-		"call:options:" : "MaxLeske 7/13/2015 17:29",
-		"call:options:sender:" : "MaxLeske 7/13/2015 17:26",
+		"call:options:" : "MaxLeske 7/15/2015 09:23",
+		"callUnchecked:options:" : "MaxLeske 7/15/2015 10:16",
+		"callUnchecked:options:sender:" : "MaxLeske 7/15/2015 09:21",
+		"ifNotReady:" : "MaxLeske 7/15/2015 09:35",
+		"isReady" : "MaxLeske 7/15/2015 09:34",
+		"signalIfNotReady" : "MaxLeske 7/15/2015 09:36",
+		"signalNotReady" : "MaxLeske 7/15/2015 09:36",
 		"withReturnHandlerDo:" : "MaxLeske 4/20/2014 20:04" } }
