@@ -1,6 +1,6 @@
 tests
 testAddAll
-	| repo index file allFiles |
+	| repo index allFiles |
 	repo := self newRepo state4WithCommit.
 	index := repo index.
 	allFiles := index entriesSelect: [ :path :status | true ].
@@ -11,6 +11,6 @@ testAddAll
 	allFiles := index entriesSelect: [ :path :status | true ].
 	self assert: allFiles size equals: 1.
 	self deny: (index isBeingTracked: file basename).
-	
+
 	index addAll.
 	self assert: (index isBeingTracked: file basename)
