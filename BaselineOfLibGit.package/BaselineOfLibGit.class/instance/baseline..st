@@ -11,7 +11,7 @@ baseline: spec
             repository: 'http://smalltalkhub.com/mc/Pharo/Pharo40Inbox/main';
             file: 'NativeBoost-Core-MaxLeske.165' ].
 		spec
-			package: 'QualityAssistant'
+			project: 'QualityAssistant'
 	      with: [ 
 	       	spec repository: 'github://Uko/QualityAssistant:master' ].
       spec
