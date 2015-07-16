@@ -9,7 +9,7 @@ testPackCreation
 	self assert: packReference exists.
 	self assert: packReference files size equals: 2.
 	#('.idx' '.pack') do: [ :suffix |
-		self assert: (packReference files contains: [ :file |
-			file basename endsWith: suffix ]) ]
+		self assert: (packReference files contains: [ :theFile |
+			theFile basename endsWith: suffix ]) ]
 	
 	
