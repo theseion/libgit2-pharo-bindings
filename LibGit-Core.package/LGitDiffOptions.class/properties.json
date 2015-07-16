@@ -10,5 +10,5 @@
 	"name" : "LGitDiffOptions",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalStructure",
+	"super" : "LGitOptions",
 	"type" : "normal" }

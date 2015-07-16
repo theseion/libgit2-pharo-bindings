@@ -10,5 +10,5 @@
 	"name" : "LGitBlameOptions",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalStructure",
+	"super" : "LGitOptions",
 	"type" : "normal" }

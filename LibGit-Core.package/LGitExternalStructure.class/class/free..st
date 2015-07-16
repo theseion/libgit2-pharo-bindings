@@ -1,3 +1,3 @@
 libgit-finalization
 free: aHandle
-	NativeBoost free: aHandle
+	LGitGlobal free: aHandle

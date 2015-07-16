@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LGitDiffFindOptions",
+	"name" : "LGitOptions",
 	"pools" : [
 		 ],
-	"super" : "LGitOptions",
+	"super" : "LGitExternalStructure",
 	"type" : "normal" }

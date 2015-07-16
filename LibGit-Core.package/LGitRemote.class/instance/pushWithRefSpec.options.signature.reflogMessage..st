@@ -14,5 +14,4 @@ pushWithRefSpec: aRefSpec options: pushOptions signature: aSignature reflogMessa
 			signature: aSignature
 			reflog_message: aString ].
 		
-	refspecs prim_strings free.
 	^ return

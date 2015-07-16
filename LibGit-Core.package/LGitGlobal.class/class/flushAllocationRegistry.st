@@ -1,0 +1,3 @@
+private
+flushAllocationRegistry
+	allocationRegistry := nil

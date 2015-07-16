@@ -39,8 +39,4 @@ createPackForReference: aReference
 		writepack: writepack;
 		stats: stats.
 	packbuilder packbuilder_foreach: packbuilder cb: packbuilderCallback payload: packbuilderPayload.
-	writepack commitWithProgress: stats.
-	writepack free.
-	packbuilder free.
-	walk free.
-	stats address free
+	writepack commitWithProgress: stats
