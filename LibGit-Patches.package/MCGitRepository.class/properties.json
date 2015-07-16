@@ -9,7 +9,8 @@
 	"instvars" : [
 		"readonly",
 		"repositoryProperties",
-		"repoUrl" ],
+		"repoUrl",
+		"pullTimeStamp" ],
 	"name" : "MCGitRepository",
 	"pools" : [
 		 ],

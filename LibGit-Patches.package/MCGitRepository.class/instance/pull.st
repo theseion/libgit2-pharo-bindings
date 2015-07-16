@@ -2,10 +2,14 @@ private
 pull
 	self directory exists
 		ifFalse: [ self createCloneRepository ]
-		ifTrue: [ 
+		ifTrue: [
+			pullTimeStamp := DateAndTime now.
 			LGitGlobal runSequence: [ 
-				(LGitRemote
+				[
+					(LGitRemote
 					of: (LGitRepository on: self directory) open
 					named: 'origin'
 					url: self repoUrl
-					fetchSpec: '+refs/heads/*:refs/remotes/origin/*') pull ] ]
+					fetchSpec: '+refs/heads/*:refs/remotes/origin/*') pull
+				] on: LGit_GIT_ERROR do: [
+					self inform: 'No internet connection. Did not perform pull.' ] ] ]
