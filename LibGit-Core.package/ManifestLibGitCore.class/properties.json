@@ -10,5 +10,5 @@
 	"name" : "ManifestLibGitCore",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PackageManifest",
 	"type" : "normal" }

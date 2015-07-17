@@ -3,4 +3,4 @@ diffTree: oldTree toTree: newTree
 	self
 		diffTree: oldTree
 		toTree: newTree
-		options: self defaultDiffOptions
+		options: LGitDiffOptions defaults

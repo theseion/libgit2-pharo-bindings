@@ -15,7 +15,7 @@ cloneSsh: aString
 		credentials: credentialsCallback;
 		yourself.
 		
-	options := (self defaultCloneOptions
+	options := (LGitCloneOptions defaults
 		remoteCallbacks: remoteCallbacks;
 		yourself).
 	self

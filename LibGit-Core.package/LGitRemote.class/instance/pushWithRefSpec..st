@@ -2,6 +2,6 @@ operations
 pushWithRefSpec: aRefSpec
 	^ self
 		pushWithRefSpec: aRefSpec
-		options: LGitPushOptions new
+		options: LGitPushOptions defaults
 		signature: self repository defaultSignature
 		reflogMessage: 'push without message'

@@ -9,9 +9,7 @@
 		"blame_get_hunk_byindex:index:" : "MaxLeske 7/14/2015 17:11",
 		"blame_get_hunk_byline:lineno:" : "MaxLeske 7/14/2015 11:57",
 		"blame_get_hunk_count:" : "MaxLeske 7/14/2015 14:45",
-		"blame_init_options:version:" : "MaxLeske 7/17/2015 11:06",
-		"defaultBlameOptions" : "MaxLeske 7/14/2015 11:26",
-		"getForReference:" : "MaxLeske 7/14/2015 14:52",
+		"getForReference:" : "MaxLeske 7/17/2015 12:48",
 		"hunkAt:" : "MaxLeske 7/14/2015 15:00",
 		"hunkAtLineNumber:" : "MaxLeske 7/14/2015 15:08",
 		"numberOfHunks" : "MaxLeske 7/14/2015 14:39" } }

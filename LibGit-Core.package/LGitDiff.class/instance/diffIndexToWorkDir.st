@@ -1,3 +1,3 @@
 operations
 diffIndexToWorkDir
-	self diffIndexToWorkDirOptions: self defaultDiffOptions
+	self diffIndexToWorkDirOptions: LGitDiffOptions defaults

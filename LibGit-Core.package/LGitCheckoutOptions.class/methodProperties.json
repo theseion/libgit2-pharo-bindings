@@ -2,4 +2,6 @@
 	"class" : {
 		"fieldsDesc" : "MaxLeske 3/1/2015 21:12" },
 	"instance" : {
-		"checkoutStrategy:" : "MaxLeske 3/8/2015 20:23" } }
+		"checkoutStrategy:" : "MaxLeske 3/8/2015 20:23",
+		"checkout_init_options:version:" : "MaxLeske 7/17/2015 13:12",
+		"initializeWithDefaults" : "MaxLeske 7/17/2015 13:58" } }

@@ -5,4 +5,4 @@ getForReference: aFileReference
 			blame_file: self
 			repo: self repository
 			path: (aFileReference relativeTo: self repository repositoryReference) relativeString
-			options: self defaultBlameOptions ]
+			options: LGitBlameOptions defaults ]

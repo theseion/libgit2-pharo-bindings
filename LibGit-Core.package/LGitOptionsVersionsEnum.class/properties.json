@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MaxLeske 7/17/2015 13:37",
 	"instvars" : [
 		 ],
-	"name" : "LGitDiffFindOptionsVersionEnum",
+	"name" : "LGitOptionsVersionsEnum",
 	"pools" : [
 		 ],
 	"super" : "LGitExternalEnumerationUInt32",

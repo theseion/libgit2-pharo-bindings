@@ -12,7 +12,7 @@ checkout: aString
 				checkout_tree: self
 				treeish: object
 				opts:
-					(self defaultCheckoutOptions
+					(LGitCheckoutOptions defaults
 						checkoutStrategy: LGitCheckoutStrategyEnum GIT_CHECKOUT_SAFE_CREATE;
 						yourself) ].
 	self

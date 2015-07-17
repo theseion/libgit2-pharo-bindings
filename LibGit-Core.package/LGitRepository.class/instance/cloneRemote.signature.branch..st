@@ -4,4 +4,4 @@ cloneRemote: aRemote signature: aSignature branch: aString
 		cloneRemote: aRemote
 		signature: aSignature
 		branch: aString
-		checkoutOptions: self defaultCheckoutOptions
+		checkoutOptions: LGitCheckoutOptions defaults
