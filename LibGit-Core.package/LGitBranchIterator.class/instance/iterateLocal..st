@@ -1,6 +1,7 @@
 operations
 iterateLocal: aBoolean
 	| flag |
+	self repository signalIfNotReady.
 	flag := aBoolean
 		ifTrue: [ LGitBranchTypeEnum GIT_BRANCH_LOCAL ]
 		ifFalse: [ LGitBranchTypeEnum GIT_BRANCH_REMOTE ].
