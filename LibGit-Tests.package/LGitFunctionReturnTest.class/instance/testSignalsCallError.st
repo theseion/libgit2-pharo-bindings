@@ -3,7 +3,7 @@ testSignalsCallError
 	| return |
 	return := LGitFunctionReturn new
 		methodSelector: #foo;
-		value: LGitReturnCodeEnum GIT_ERROR.
+		value: LGitReturnCodeEnum git_error.
 		
 	self
 		should: [ return handleLGitReturnCode ]

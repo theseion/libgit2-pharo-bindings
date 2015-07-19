@@ -1,5 +1,5 @@
 tests
 testPrintOn
 	self
-		assert: LGitReturnCodeEnum GIT_OK printString
-		equals: 'a LGitReturnCodeEnum(#GIT_OK [0])'
+		assert: LGitReturnCodeEnum git_ok printString
+		equals: 'a LGitReturnCodeEnum(#git_ok [0])'

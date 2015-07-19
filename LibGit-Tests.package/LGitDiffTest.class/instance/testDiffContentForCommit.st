@@ -13,7 +13,7 @@ testDiffContentForCommit
 	delta := diff deltaAt: diff numberOfDeltas.
 	
 	"what change has been made to a given file"
-	self assert: delta status equals: LGitDeltaTypeEnum GIT_DELTA_MODIFIED.
+	self assert: delta status equals: LGitDeltaTypeEnum git_delta_modified.
 	newFile := delta newFile.
 	oldFile := delta oldFile.
 	"informations about the objects in the delta, e.g. old / new id"

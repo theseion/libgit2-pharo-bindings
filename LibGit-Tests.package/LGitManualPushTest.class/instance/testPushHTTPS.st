@@ -12,7 +12,7 @@ testPushHTTPS
 	treeId := builder write.
 	rootBuilder := LGitTreeBuilder of: repo.
 	rootBuilder createNew.
-	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: LGitFilemodeEnum GIT_FILEMODE_TREE.
+	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: LGitFilemodeEnum git_filemode_tree.
 	tree := rootBuilder newTree.
 	author := LGitSignature new
 		name: 'Bart Simpson';
