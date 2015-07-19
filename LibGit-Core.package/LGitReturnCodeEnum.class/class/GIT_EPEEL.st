@@ -1,5 +1,5 @@
 accessing-values
-GIT_EPEEL
+git_epeel
 	^ self basicNew
 		value: -19;
 		yourself

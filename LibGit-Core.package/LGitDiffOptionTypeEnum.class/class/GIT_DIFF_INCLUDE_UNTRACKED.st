@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_INCLUDE_UNTRACKED
+git_diff_include_untracked
 	^ self basicNew
 		value: 8;
 		yourself

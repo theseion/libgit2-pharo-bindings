@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_OPTIONS_VERSION_1
+git_checkout_options_version_1
 	^ self basicNew
 		value: 1;
 		yourself

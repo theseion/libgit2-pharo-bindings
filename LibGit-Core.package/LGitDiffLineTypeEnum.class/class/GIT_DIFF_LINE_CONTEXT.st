@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_LINE_CONTEXT
+git_diff_line_context
 	^ self basicNew
 		value: $ ;
 		yourself

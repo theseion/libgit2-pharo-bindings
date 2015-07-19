@@ -1,5 +1,5 @@
 accessing-values
-GIT_BRANCH_REMOTE
+git_branch_remote
 	^ self basicNew
 		value: 2;
 		yourself

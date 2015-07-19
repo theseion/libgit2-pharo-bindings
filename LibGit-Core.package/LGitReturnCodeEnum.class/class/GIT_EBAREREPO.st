@@ -1,5 +1,5 @@
 accessing-values
-GIT_EBAREREPO
+git_ebarerepo
 	^ self basicNew
 		value: -8;
 		yourself

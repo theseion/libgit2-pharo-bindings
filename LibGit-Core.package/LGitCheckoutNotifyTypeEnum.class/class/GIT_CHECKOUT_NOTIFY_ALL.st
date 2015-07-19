@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_NOTIFY_ALL
+git_checkout_notify_all
 	^ self basicNew
 		value: 65535;
 		yourself

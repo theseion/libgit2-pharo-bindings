@@ -1,5 +1,5 @@
 accessing-values
-GIT_REF_SYMBOLIC
+git_ref_symbolic
 	^ self basicNew
 		value: 2;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_USE_THEIRS
+git_checkout_use_theirs
 	^ self basicNew
 		value: 4096;
 		yourself

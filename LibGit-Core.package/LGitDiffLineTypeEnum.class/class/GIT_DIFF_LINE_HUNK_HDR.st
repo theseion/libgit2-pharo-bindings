@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_LINE_HUNK_HDR
+git_diff_line_hunk_hdr
 	^ self basicNew
 		value: $H;
 		yourself

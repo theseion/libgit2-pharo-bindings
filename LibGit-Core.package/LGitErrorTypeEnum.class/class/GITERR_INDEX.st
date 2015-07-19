@@ -1,5 +1,5 @@
 accessing-values
-GITERR_INDEX
+giterr_index
 	^ self basicNew
 		value: 10;
 		yourself

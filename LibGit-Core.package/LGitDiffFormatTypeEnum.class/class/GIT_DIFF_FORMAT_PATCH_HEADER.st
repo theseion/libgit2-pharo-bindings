@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FORMAT_PATCH_HEADER
+git_diff_format_patch_header
 	^ self basicNew
 		value: 2;
 		yourself

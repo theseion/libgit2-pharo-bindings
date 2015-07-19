@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_DISABLE_PATHSPEC_MATCH
+git_checkout_disable_pathspec_match
 	^ self basicNew
 		value: 8192;
 		yourself

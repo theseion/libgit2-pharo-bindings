@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FIND_COPIES_FROM_UNMODIFIED
+git_diff_find_copies_from_unmodified
 	^ self basicNew
 		value: 8;
 		yourself

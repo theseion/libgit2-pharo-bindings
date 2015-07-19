@@ -1,4 +1,4 @@
-libgit - calls
+libgit-calls
 packbuilder_new: out repo: repo 
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self

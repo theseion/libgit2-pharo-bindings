@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_WT_RENAMED
+git_status_wt_renamed
 	^ self basicNew
 		value: 2048;
 		yourself

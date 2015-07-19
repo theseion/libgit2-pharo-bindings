@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_REMOVE_IGNORED
+git_checkout_remove_ignored
 	^ self basicNew
 		value: 64;
 		yourself

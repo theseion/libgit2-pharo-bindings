@@ -1,5 +1,5 @@
 accessing-values
-GIT_EINVALIDSPEC
+git_einvalidspec
 	^ self basicNew
 		value: -12;
 		yourself

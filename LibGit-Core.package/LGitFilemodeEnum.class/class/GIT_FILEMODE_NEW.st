@@ -1,5 +1,5 @@
 accessing-values
-GIT_FILEMODE_NEW
+git_filemode_new
 	^ self basicNew
 		value: 0;
 		yourself

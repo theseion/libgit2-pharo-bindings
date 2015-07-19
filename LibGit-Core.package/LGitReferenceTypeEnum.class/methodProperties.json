@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"GIT_REF_INVALID" : "MaxLeske 7/17/2015 13:45",
-		"GIT_REF_LISTALL" : "MaxLeske 7/17/2015 13:45",
-		"GIT_REF_OID" : "MaxLeske 7/17/2015 13:45",
-		"GIT_REF_SYMBOLIC" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 3/8/2015 21:16" },
+		"enumDecl" : "MaxLeske 3/8/2015 21:16",
+		"git_ref_invalid" : "MaxLeske 7/18/2015 14:01",
+		"git_ref_listall" : "MaxLeske 7/18/2015 14:01",
+		"git_ref_oid" : "MaxLeske 7/18/2015 14:01",
+		"git_ref_symbolic" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

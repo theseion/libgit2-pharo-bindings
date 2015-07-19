@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FLAG_VALID_ID
+git_diff_flag_valid_id
 	^ self basicNew
 		value: 2;
 		yourself

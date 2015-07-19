@@ -1,5 +1,5 @@
 accessing-values
-GIT_DELTA_ADDED
+git_delta_added
 	^ self basicNew
 		value: 1;
 		yourself

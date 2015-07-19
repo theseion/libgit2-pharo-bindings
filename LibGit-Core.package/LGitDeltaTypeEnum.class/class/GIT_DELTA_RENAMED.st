@@ -1,5 +1,5 @@
 accessing-values
-GIT_DELTA_RENAMED
+git_delta_renamed
 	^ self basicNew
 		value: 4;
 		yourself

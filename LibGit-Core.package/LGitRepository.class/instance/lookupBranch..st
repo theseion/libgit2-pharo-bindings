@@ -8,5 +8,5 @@ lookupBranch: name
 				branch_lookup: reference
 				repo: self
 				branch_name: name
-				branch_type: LGitBranchTypeEnum GIT_BRANCH_LOCAL ].
+				branch_type: LGitBranchTypeEnum git_branch_local ].
 	^ reference

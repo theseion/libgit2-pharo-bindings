@@ -1,5 +1,5 @@
 accessing-values
-GIT_CREDTYPE_DEFAULT
+git_credtype_default
 	^ self basicNew
 		value: 8;
 		yourself

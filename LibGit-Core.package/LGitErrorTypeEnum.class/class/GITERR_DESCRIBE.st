@@ -1,5 +1,5 @@
 accessing-values
-GITERR_DESCRIBE
+giterr_describe
 	^ self basicNew
 		value: 28;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_INCLUDE_UNREADABLE
+git_diff_include_unreadable
 	^ self basicNew
 		value: 65536;
 		yourself

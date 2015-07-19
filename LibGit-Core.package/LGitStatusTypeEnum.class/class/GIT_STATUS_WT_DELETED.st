@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_WT_DELETED
+git_status_wt_deleted
 	^ self basicNew
 		value: 512;
 		yourself

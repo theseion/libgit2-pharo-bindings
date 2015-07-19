@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIRECTION_PUSH
+git_direction_push
 	^ self basicNew
 		value: 1;
 		yourself

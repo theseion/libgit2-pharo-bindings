@@ -1,5 +1,5 @@
 accessing-values
-GIT_DELTA_DELETED
+git_delta_deleted
 	^ self basicNew
 		value: 2;
 		yourself

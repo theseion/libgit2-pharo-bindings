@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FLAG_NOT_BINARY
+git_diff_flag_not_binary
 	^ self basicNew
 		value: 1;
 		yourself

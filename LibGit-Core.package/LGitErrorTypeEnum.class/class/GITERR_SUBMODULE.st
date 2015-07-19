@@ -1,5 +1,5 @@
 accessing-values
-GITERR_SUBMODULE
+giterr_submodule
 	^ self basicNew
 		value: 17;
 		yourself

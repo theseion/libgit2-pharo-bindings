@@ -1,5 +1,5 @@
 accessing-values
-GIT_DELTA_IGNORED
+git_delta_ignored
 	^ self basicNew
 		value: 6;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GITERR_NONE
+giterr_none
 	^ self basicNew
 		value: 0;
 		yourself

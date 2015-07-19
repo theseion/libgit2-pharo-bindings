@@ -1,5 +1,5 @@
 accessing-values
-GIT_PATHSPEC_FIND_FAILURES
+git_pathspec_find_failures
 	^ self basicNew
 		value: 16;
 		yourself

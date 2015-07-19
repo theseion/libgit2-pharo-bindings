@@ -1,5 +1,5 @@
 accessing-values
-GIT_ELOCKED
+git_elocked
 	^ self basicNew
 		value: -14;
 		yourself

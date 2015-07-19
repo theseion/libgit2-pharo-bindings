@@ -1,5 +1,5 @@
 accessing-values
-GIT_DELTA_TYPECHANGE
+git_delta_typechange
 	^ self basicNew
 		value: 8;
 		yourself

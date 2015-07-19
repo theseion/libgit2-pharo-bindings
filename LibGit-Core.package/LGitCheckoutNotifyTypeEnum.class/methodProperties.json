@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"GIT_CHECKOUT_NOTIFY_ALL" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_NOTIFY_CONFLICT" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_NOTIFY_DIRTY" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_NOTIFY_IGNORED" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_NOTIFY_NONE" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_NOTIFY_UNTRACKED" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_NOTIFY_UPDATED" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 3/8/2015 22:06" },
+		"enumDecl" : "MaxLeske 3/8/2015 22:06",
+		"git_checkout_notify_all" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_notify_conflict" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_notify_dirty" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_notify_ignored" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_notify_none" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_notify_untracked" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_notify_updated" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

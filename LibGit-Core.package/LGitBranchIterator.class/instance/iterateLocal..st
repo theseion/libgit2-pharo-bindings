@@ -3,8 +3,8 @@ iterateLocal: aBoolean
 	| flag |
 	self repository signalIfNotReady.
 	flag := aBoolean
-		ifTrue: [ LGitBranchTypeEnum GIT_BRANCH_LOCAL ]
-		ifFalse: [ LGitBranchTypeEnum GIT_BRANCH_REMOTE ].
+		ifTrue: [ LGitBranchTypeEnum git_branch_local ]
+		ifFalse: [ LGitBranchTypeEnum git_branch_remote ].
 	self withReturnHandlerDo: [
 		self
 			branch_iterator_new: self

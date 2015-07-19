@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_SKIP_UNMERGED
+git_checkout_skip_unmerged
 	^ self basicNew
 		value: 1024;
 		yourself

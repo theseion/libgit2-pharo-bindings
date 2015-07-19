@@ -3,4 +3,4 @@ initializeWithDefaults
 	self withReturnHandlerDo: [
 		self
 			clone_init_options: self
-			version: LGitOptionsVersionsEnum GIT_CLONE_OPTIONS_VERSION_1 ]
+			version: LGitOptionsVersionsEnum  git_clone_options_version_1 ]

@@ -1,5 +1,5 @@
 accessing-values
-GIT_REMOTE_COMPLETION_INDEXING
+git_remote_completion_indexing
 	^ self basicNew
 		value: 1;
 		yourself

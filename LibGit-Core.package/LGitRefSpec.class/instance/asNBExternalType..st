@@ -1,3 +1,3 @@
 native boost
 asNBExternalType: gen
-	^ NBExternalString value: self asString
+	^ gen resolveType: #NBExternalString

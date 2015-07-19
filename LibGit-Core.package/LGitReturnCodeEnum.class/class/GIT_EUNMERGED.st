@@ -1,5 +1,5 @@
 accessing-values
-GIT_EUNMERGED
+git_eunmerged
 	^ self basicNew
 		value: -10;
 		yourself

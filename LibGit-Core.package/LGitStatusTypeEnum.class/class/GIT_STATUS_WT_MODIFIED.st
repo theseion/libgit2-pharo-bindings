@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_WT_MODIFIED
+git_status_wt_modified
 	^ self basicNew
 		value: 256;
 		yourself

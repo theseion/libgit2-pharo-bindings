@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"GIT_CLONE_LOCAL" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CLONE_LOCAL_AUTO" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CLONE_LOCAL_NO_LINKS" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CLONE_NO_LOCAL" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 3/10/2015 12:40" },
+		"enumDecl" : "MaxLeske 3/10/2015 12:40",
+		"git_clone_local" : "MaxLeske 7/18/2015 14:01",
+		"git_clone_local_auto" : "MaxLeske 7/18/2015 14:01",
+		"git_clone_local_no_links" : "MaxLeske 7/18/2015 14:01",
+		"git_clone_no_local" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

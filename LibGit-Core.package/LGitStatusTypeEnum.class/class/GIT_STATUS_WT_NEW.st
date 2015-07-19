@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_WT_NEW
+git_status_wt_new
 	^ self basicNew
 		value: 128;
 		yourself

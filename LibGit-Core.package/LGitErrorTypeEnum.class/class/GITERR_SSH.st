@@ -1,5 +1,5 @@
 accessing-values
-GITERR_SSH
+giterr_ssh
 	^ self basicNew
 		value: 23;
 		yourself

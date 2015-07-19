@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_NOTIFY_UPDATED
+git_checkout_notify_updated
 	^ self basicNew
 		value: 4;
 		yourself

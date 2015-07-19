@@ -1,3 +1,3 @@
 testing
 isType: aType
-	^ aType = LGitObjectTypeEnum GIT_OBJ_BLOB
+	^ aType = LGitObjectTypeEnum git_obj_blob

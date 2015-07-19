@@ -1,5 +1,5 @@
 accessing-values
-GIT_BLAME_TRACK_COPIES_ANY_COMMIT_COPIES
+git_blame_track_copies_any_commit_copies
 	^ self basicNew
 		value: 8;
 		yourself

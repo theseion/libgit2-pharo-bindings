@@ -1,5 +1,5 @@
 accessing-values
-GIT_OBJ__EXT2
+git_obj__ext2
 	^ self basicNew
 		value: 5;
 		yourself

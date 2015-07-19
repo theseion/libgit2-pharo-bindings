@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_INDEX_TYPECHANGE
+git_status_index_typechange
 	^ self basicNew
 		value: 16;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_LINE_DEL_EOFNL
+git_diff_line_del_eofnl
 	^ self basicNew
 		value: $<;
 		yourself

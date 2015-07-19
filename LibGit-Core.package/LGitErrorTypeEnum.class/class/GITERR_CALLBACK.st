@@ -1,5 +1,5 @@
 accessing-values
-GITERR_CALLBACK
+giterr_callback
 	^ self basicNew
 		value: 26;
 		yourself

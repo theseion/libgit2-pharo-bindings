@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_NO_REFRESH
+git_checkout_no_refresh
 	^ self basicNew
 		value: 512;
 		yourself

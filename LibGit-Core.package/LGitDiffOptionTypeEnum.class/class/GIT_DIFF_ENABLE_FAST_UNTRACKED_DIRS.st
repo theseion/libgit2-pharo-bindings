@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_ENABLE_FAST_UNTRACKED_DIRS
+git_diff_enable_fast_untracked_dirs
 	^ self basicNew
 		value: 16384;
 		yourself

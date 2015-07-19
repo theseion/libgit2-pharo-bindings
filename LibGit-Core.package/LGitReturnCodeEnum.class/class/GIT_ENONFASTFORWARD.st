@@ -1,5 +1,5 @@
 accessing-values
-GIT_ENONFASTFORWARD
+git_enonfastforward
 	^ self basicNew
 		value: -11;
 		yourself

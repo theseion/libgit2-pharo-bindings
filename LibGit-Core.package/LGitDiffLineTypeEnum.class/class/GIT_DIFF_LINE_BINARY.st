@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_LINE_BINARY
+git_diff_line_binary
 	^ self basicNew
 		value: $B;
 		yourself

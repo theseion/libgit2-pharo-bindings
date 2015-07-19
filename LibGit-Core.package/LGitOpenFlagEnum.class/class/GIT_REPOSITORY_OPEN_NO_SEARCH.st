@@ -1,5 +1,5 @@
 accessing-values
-GIT_REPOSITORY_OPEN_NO_SEARCH
+git_repository_open_no_search
 	^ self basicNew
 		value: 1;
 		yourself

@@ -1,3 +1,3 @@
 testing
 isSymbolic
-	^ (self reference_type: self) = LGitReferenceTypeEnum GIT_REF_SYMBOLIC
+	^ (self reference_type: self) = LGitReferenceTypeEnum git_ref_symbolic

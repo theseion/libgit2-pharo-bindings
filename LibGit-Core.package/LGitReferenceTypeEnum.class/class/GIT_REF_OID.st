@@ -1,5 +1,5 @@
 accessing-values
-GIT_REF_OID
+git_ref_oid
 	^ self basicNew
 		value: 1;
 		yourself

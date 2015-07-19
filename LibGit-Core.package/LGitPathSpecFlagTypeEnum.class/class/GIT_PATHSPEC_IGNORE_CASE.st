@@ -1,5 +1,5 @@
 accessing-values
-GIT_PATHSPEC_IGNORE_CASE
+git_pathspec_ignore_case
 	^ self basicNew
 		value: 1;
 		yourself

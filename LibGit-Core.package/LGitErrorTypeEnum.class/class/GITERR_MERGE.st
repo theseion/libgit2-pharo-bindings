@@ -1,5 +1,5 @@
 accessing-values
-GITERR_MERGE
+giterr_merge
 	^ self basicNew
 		value: 22;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GITERR_TREE
+giterr_tree
 	^ self basicNew
 		value: 14;
 		yourself

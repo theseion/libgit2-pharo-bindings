@@ -1,5 +1,5 @@
 accessing-values
-GITERR_REFERENCE
+giterr_reference
 	^ self basicNew
 		value: 4;
 		yourself

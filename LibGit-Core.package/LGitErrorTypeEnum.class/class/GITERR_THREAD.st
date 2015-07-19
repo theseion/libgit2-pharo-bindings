@@ -1,5 +1,5 @@
 accessing-values
-GITERR_THREAD
+giterr_thread
 	^ self basicNew
 		value: 18;
 		yourself

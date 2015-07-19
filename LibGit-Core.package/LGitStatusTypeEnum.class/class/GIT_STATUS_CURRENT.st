@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_CURRENT
+git_status_current
 	^ self basicNew
 		value: 0;
 		yourself

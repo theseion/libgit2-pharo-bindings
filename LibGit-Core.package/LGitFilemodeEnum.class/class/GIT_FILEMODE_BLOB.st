@@ -1,5 +1,5 @@
 accessing-values
-GIT_FILEMODE_BLOB
+git_filemode_blob
 	^ self basicNew
 		value: 33188;
 		yourself

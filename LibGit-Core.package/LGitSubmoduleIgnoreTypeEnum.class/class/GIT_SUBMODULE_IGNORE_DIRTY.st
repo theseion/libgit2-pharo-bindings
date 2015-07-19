@@ -1,5 +1,5 @@
 accessing-values
-GIT_SUBMODULE_IGNORE_DIRTY
+git_submodule_ignore_dirty
 	^ self basicNew
 		value: 3;
 		yourself

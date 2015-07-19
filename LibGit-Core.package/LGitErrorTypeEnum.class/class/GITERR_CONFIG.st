@@ -1,5 +1,5 @@
 accessing-values
-GITERR_CONFIG
+giterr_config
 	^ self basicNew
 		value: 7;
 		yourself

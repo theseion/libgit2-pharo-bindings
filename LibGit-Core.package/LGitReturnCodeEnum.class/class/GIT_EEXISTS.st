@@ -1,5 +1,5 @@
 accessing-values
-GIT_EEXISTS
+git_eexists
 	^ self basicNew
 		value: -4;
 		yourself

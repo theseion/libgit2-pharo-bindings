@@ -1,3 +1,3 @@
 accessing
 handledReturnCodes
-	^ { (self name allButFirst: 5) asSymbol }
+	^ { (self name allButFirst: 5) asLowercase asSymbol }

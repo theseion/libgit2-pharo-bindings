@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_RECURSE_UNTRACKED_DIRS
+git_diff_recurse_untracked_dirs
 	^ self basicNew
 		value: 16;
 		yourself

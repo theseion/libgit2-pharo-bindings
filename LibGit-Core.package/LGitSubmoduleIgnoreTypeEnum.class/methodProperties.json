@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"GIT_SUBMODULE_IGNORE_ALL" : "MaxLeske 7/17/2015 13:45",
-		"GIT_SUBMODULE_IGNORE_DEFAULT" : "MaxLeske 7/17/2015 13:45",
-		"GIT_SUBMODULE_IGNORE_DIRTY" : "MaxLeske 7/17/2015 13:45",
-		"GIT_SUBMODULE_IGNORE_NONE" : "MaxLeske 7/17/2015 13:45",
-		"GIT_SUBMODULE_IGNORE_RESET" : "MaxLeske 7/17/2015 13:45",
-		"GIT_SUBMODULE_IGNORE_UNTRACKED" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 6/22/2015 07:09" },
+		"enumDecl" : "MaxLeske 6/22/2015 07:09",
+		"git_submodule_ignore_all" : "MaxLeske 7/18/2015 14:01",
+		"git_submodule_ignore_default" : "MaxLeske 7/18/2015 14:01",
+		"git_submodule_ignore_dirty" : "MaxLeske 7/18/2015 14:01",
+		"git_submodule_ignore_none" : "MaxLeske 7/18/2015 14:01",
+		"git_submodule_ignore_reset" : "MaxLeske 7/18/2015 14:01",
+		"git_submodule_ignore_untracked" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

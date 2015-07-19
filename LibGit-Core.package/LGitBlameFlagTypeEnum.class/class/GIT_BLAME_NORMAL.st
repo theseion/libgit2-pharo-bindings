@@ -1,5 +1,5 @@
 accessing-values
-GIT_BLAME_NORMAL
+git_blame_normal
 	^ self basicNew
 		value: 0;
 		yourself

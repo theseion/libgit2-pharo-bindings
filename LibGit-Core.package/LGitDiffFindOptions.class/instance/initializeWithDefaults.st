@@ -3,4 +3,4 @@ initializeWithDefaults
 	self withReturnHandlerDo: [
 		self
 			diff_find_init_options: self
-			version: LGitOptionsVersionsEnum GIT_DIFF_FIND_OPTIONS_VERSION_1 ]
+			version: LGitOptionsVersionsEnum  git_diff_find_options_version_1 ]

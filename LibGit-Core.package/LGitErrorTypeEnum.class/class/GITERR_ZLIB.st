@@ -1,5 +1,5 @@
 accessing-values
-GITERR_ZLIB
+giterr_zlib
 	^ self basicNew
 		value: 5;
 		yourself

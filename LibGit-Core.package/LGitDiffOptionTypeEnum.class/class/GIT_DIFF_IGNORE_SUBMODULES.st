@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_IGNORE_SUBMODULES
+git_diff_ignore_submodules
 	^ self basicNew
 		value: 512;
 		yourself

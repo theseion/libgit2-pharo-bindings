@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_DONT_UPDATE_INDEX
+git_checkout_dont_update_index
 	^ self basicNew
 		value: 256;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_EMERGECONFLICT
+git_emergeconflict
 	^ self basicNew
 		value: -13;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_DELTA_MODIFIED
+git_delta_modified
 	^ self basicNew
 		value: 3;
 		yourself

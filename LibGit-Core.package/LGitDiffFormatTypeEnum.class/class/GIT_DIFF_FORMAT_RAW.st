@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FORMAT_RAW
+git_diff_format_raw
 	^ self basicNew
 		value: 3;
 		yourself

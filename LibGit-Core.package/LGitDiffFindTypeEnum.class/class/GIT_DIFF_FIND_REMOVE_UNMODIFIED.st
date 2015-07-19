@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FIND_REMOVE_UNMODIFIED
+git_diff_find_remove_unmodified
 	^ self basicNew
 		value: 65536;
 		yourself

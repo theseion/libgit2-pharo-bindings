@@ -1,4 +1,4 @@
-libgit - calls
+libgit-calls
 blob_is_binary: blob 
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self

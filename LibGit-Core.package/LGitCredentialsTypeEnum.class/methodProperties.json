@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"GIT_CREDTYPE_DEFAULT" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CREDTYPE_SSH_CUSTOM" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CREDTYPE_SSH_KEY" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CREDTYPE_USERPASS_PLAINTEXT" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 3/8/2015 21:31" },
+		"enumDecl" : "MaxLeske 3/8/2015 21:31",
+		"git_credtype_default" : "MaxLeske 7/18/2015 14:01",
+		"git_credtype_ssh_custom" : "MaxLeske 7/18/2015 14:01",
+		"git_credtype_ssh_key" : "MaxLeske 7/18/2015 14:01",
+		"git_credtype_userpass_plaintext" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

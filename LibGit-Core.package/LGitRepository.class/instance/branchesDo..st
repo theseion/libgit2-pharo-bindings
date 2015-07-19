@@ -3,8 +3,8 @@ branchesDo: aBlock
 	<todo: 'add support for remote branches'>
 	| iterator returnCode branchType reference finishedCode |
 	iterator := LGitBranchIterator of: self local: true.
-	returnCode := LGitReturnCodeEnum GIT_OK.
-	finishedCode := LGitReturnCodeEnum GIT_ITEROVER.
+	returnCode := LGitReturnCodeEnum git_ok.
+	finishedCode := LGitReturnCodeEnum git_iterover.
 	branchType := LGitWriteBackValueUInt new.
 	[ 
 	reference := LGitReference of: self.

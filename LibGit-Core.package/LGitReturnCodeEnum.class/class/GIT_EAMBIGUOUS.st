@@ -1,5 +1,5 @@
 accessing-values
-GIT_EAMBIGUOUS
+git_eambiguous
 	^ self basicNew
 		value: -5;
 		yourself

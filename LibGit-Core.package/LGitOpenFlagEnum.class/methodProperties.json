@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"GIT_REPOSITORY_OPEN_BARE" : "MaxLeske 7/17/2015 13:45",
-		"GIT_REPOSITORY_OPEN_CROSS_FS" : "MaxLeske 7/17/2015 13:45",
-		"GIT_REPOSITORY_OPEN_NO_SEARCH" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 3/8/2015 22:52" },
+		"enumDecl" : "MaxLeske 3/8/2015 22:52",
+		"git_repository_open_bare" : "MaxLeske 7/18/2015 14:01",
+		"git_repository_open_cross_fs" : "MaxLeske 7/18/2015 14:01",
+		"git_repository_open_no_search" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

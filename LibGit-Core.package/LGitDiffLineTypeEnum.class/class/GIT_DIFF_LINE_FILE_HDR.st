@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_LINE_FILE_HDR
+git_diff_line_file_hdr
 	^ self basicNew
 		value: $F;
 		yourself

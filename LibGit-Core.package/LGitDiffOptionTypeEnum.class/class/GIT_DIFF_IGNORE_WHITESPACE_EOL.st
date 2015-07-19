@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_IGNORE_WHITESPACE_EOL
+git_diff_ignore_whitespace_eol
 	^ self basicNew
 		value: 16777216;
 		yourself

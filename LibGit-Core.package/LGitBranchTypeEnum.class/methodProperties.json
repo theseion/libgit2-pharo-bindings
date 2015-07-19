@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"GIT_BRANCH_LOCAL" : "MaxLeske 7/17/2015 13:45",
-		"GIT_BRANCH_REMOTE" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 8/31/2014 22:09" },
+		"enumDecl" : "MaxLeske 8/31/2014 22:09",
+		"git_branch_local" : "MaxLeske 7/18/2015 14:01",
+		"git_branch_remote" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

@@ -10,4 +10,4 @@ isBeingTracked: aString
 			repo: self repository
 			path: aString ].
 
-	^ (LGitStatusTypeEnum GIT_STATUS_WT_NEW isPartOfBitFlag: intValue value) not
+	^ (LGitStatusTypeEnum  git_status_wt_new isPartOfBitFlag: intValue value) not

@@ -1,5 +1,5 @@
 accessing-values
-GIT_STATUS_INDEX_NEW
+git_status_index_new
 	^ self basicNew
 		value: 1;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_REPOSITORY_OPEN_CROSS_FS
+git_repository_open_cross_fs
 	^ self basicNew
 		value: 2;
 		yourself

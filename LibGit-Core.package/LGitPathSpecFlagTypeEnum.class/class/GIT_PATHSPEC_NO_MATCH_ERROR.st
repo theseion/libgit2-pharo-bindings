@@ -1,5 +1,5 @@
 accessing-values
-GIT_PATHSPEC_NO_MATCH_ERROR
+git_pathspec_no_match_error
 	^ self basicNew
 		value: 8;
 		yourself

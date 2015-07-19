@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FORCE_TEXT
+git_diff_force_text
 	^ self basicNew
 		value: 1048576;
 		yourself

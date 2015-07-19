@@ -1,5 +1,5 @@
 accessing-values
-GITERR_FETCHHEAD
+giterr_fetchhead
 	^ self basicNew
 		value: 21;
 		yourself

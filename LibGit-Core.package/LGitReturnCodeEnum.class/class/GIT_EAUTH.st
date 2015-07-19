@@ -1,5 +1,5 @@
 accessing-values
-GIT_EAUTH
+git_eauth
 	^ self basicNew
 		value: -16;
 		yourself

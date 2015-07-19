@@ -1,5 +1,5 @@
 accessing-values
-GIT_OBJ_TREE
+git_obj_tree
 	^ self basicNew
 		value: 2;
 		yourself

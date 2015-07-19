@@ -1,5 +1,5 @@
 accessing-values
-GIT_ERROR
+git_error
 	^ self basicNew
 		value: -1;
 		yourself

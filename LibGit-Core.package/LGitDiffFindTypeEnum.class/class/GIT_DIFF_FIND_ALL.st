@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FIND_ALL
+git_diff_find_all
 	^ self basicNew
 		value: 255;
 		yourself

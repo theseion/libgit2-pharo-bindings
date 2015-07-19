@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"GIT_BLAME_OPTIONS_VERSION_1" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CHECKOUT_OPTIONS_VERSION_1" : "MaxLeske 7/17/2015 13:45",
-		"GIT_CLONE_OPTIONS_VERSION_1" : "MaxLeske 7/17/2015 13:45",
-		"GIT_DIFF_FIND_OPTIONS_VERSION_1" : "MaxLeske 7/17/2015 13:45",
-		"GIT_DIFF_OPTIONS_VERSION_1" : "MaxLeske 7/17/2015 13:45",
-		"GIT_PUSH_OPTIONS_VERSION_1" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 7/17/2015 13:14" },
+		"enumDecl" : "MaxLeske 7/17/2015 13:14",
+		"git_blame_options_version_1" : "MaxLeske 7/18/2015 14:01",
+		"git_checkout_options_version_1" : "MaxLeske 7/18/2015 14:01",
+		"git_clone_options_version_1" : "MaxLeske 7/18/2015 14:01",
+		"git_diff_find_options_version_1" : "MaxLeske 7/18/2015 14:01",
+		"git_diff_options_version_1" : "MaxLeske 7/18/2015 14:01",
+		"git_push_options_version_1" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

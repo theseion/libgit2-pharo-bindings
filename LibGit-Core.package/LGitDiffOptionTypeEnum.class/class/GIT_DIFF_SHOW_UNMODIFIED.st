@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_SHOW_UNMODIFIED
+git_diff_show_unmodified
 	^ self basicNew
 		value: 67108864;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_TREEWALK_POST
+git_treewalk_post
 	^ self basicNew
 		value: 1;
 		yourself

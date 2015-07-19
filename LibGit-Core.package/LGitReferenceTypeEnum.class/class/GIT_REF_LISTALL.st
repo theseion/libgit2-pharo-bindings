@@ -1,5 +1,5 @@
 accessing-values
-GIT_REF_LISTALL
+git_ref_listall
 	^ self basicNew
 		value: 3;
 		yourself

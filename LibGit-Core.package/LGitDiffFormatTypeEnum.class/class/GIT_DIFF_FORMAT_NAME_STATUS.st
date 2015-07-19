@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FORMAT_NAME_STATUS
+git_diff_format_name_status
 	^ self basicNew
 		value: 5;
 		yourself

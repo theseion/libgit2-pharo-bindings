@@ -1,5 +1,5 @@
 accessing-values
-GIT_ITEROVER
+git_iterover
 	^ self basicNew
 		value: -31;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIRECTION_FETCH
+git_direction_fetch
 	^ self basicNew
 		value: 0;
 		yourself

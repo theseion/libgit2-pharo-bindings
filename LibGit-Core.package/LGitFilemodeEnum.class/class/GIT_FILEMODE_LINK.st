@@ -1,5 +1,5 @@
 accessing-values
-GIT_FILEMODE_LINK
+git_filemode_link
 	^ self basicNew
 		value: 40960;
 		yourself

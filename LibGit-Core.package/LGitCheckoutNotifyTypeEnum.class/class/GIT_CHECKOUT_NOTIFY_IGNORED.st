@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_NOTIFY_IGNORED
+git_checkout_notify_ignored
 	^ self basicNew
 		value: 16;
 		yourself

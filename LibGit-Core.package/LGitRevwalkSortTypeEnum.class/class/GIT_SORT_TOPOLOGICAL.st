@@ -1,5 +1,5 @@
 accessing-values
-GIT_SORT_TOPOLOGICAL
+git_sort_topological
 	^ self basicNew
 		value: 1;
 		yourself

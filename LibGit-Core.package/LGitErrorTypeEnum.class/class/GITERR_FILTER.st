@@ -1,5 +1,5 @@
 accessing-values
-GITERR_FILTER
+giterr_filter
 	^ self basicNew
 		value: 24;
 		yourself

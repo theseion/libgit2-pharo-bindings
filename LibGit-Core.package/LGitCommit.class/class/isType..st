@@ -1,3 +1,3 @@
 testing
 isType: aType
-	^ aType = LGitObjectTypeEnum GIT_OBJ_COMMIT
+	^ aType = LGitObjectTypeEnum git_obj_commit

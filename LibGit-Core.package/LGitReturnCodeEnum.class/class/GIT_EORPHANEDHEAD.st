@@ -1,5 +1,5 @@
 accessing-values
-GIT_EORPHANEDHEAD
+git_eorphanedhead
 	^ self basicNew
 		value: -9;
 		yourself

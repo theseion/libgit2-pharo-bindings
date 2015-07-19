@@ -1,5 +1,5 @@
 accessing-values
-GIT_SORT_REVERSE
+git_sort_reverse
 	^ self basicNew
 		value: 4;
 		yourself

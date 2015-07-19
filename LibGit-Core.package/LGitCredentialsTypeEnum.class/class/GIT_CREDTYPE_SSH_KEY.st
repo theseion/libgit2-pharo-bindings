@@ -1,5 +1,5 @@
 accessing-values
-GIT_CREDTYPE_SSH_KEY
+git_credtype_ssh_key
 	^ self basicNew
 		value: 2;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_STATS_NUMBER
+git_diff_stats_number
 	^ self basicNew
 		value: 4;
 		yourself

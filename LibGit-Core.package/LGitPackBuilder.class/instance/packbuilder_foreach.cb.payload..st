@@ -1,4 +1,4 @@
-libgit - calls
+libgit-calls
 packbuilder_foreach: pb cb: cb payload: payload 
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
 	^ self

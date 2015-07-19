@@ -1,5 +1,5 @@
 accessing-values
-GITERR_STASH
+giterr_stash
 	^ self basicNew
 		value: 19;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_OK
+git_ok
 	^ self basicNew
 		value: 0;
 		yourself

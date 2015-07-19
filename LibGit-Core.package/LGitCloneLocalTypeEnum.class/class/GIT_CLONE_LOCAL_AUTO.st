@@ -1,5 +1,5 @@
 accessing-values
-GIT_CLONE_LOCAL_AUTO
+git_clone_local_auto
 	^ self basicNew
 		value: 0;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FIND_FOR_UNTRACKED
+git_diff_find_for_untracked
 	^ self basicNew
 		value: 64;
 		yourself

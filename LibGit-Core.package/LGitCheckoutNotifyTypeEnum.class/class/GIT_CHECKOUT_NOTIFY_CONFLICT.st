@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_NOTIFY_CONFLICT
+git_checkout_notify_conflict
 	^ self basicNew
 		value: 1;
 		yourself

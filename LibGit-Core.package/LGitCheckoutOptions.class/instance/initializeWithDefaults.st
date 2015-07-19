@@ -3,4 +3,4 @@ initializeWithDefaults
 	self withReturnHandlerDo: [
 		self
 			checkout_init_options: self
-			version: LGitOptionsVersionsEnum GIT_CHECKOUT_OPTIONS_VERSION_1 ]
+			version: LGitOptionsVersionsEnum git_checkout_options_version_1 ]

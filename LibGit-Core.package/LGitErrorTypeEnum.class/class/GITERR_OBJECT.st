@@ -1,5 +1,5 @@
 accessing-values
-GITERR_OBJECT
+giterr_object
 	^ self basicNew
 		value: 11;
 		yourself

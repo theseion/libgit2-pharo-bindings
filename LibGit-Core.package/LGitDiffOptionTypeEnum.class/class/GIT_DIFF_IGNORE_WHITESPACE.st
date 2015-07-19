@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_IGNORE_WHITESPACE
+git_diff_ignore_whitespace
 	^ self basicNew
 		value: 4194304;
 		yourself

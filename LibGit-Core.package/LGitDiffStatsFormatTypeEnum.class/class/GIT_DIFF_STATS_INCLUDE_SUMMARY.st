@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_STATS_INCLUDE_SUMMARY
+git_diff_stats_include_summary
 	^ self basicNew
 		value: 8;
 		yourself

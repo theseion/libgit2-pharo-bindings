@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"GIT_DIFF_FORMAT_NAME_ONLY" : "MaxLeske 7/17/2015 13:45",
-		"GIT_DIFF_FORMAT_NAME_STATUS" : "MaxLeske 7/17/2015 13:45",
-		"GIT_DIFF_FORMAT_PATCH" : "MaxLeske 7/17/2015 13:45",
-		"GIT_DIFF_FORMAT_PATCH_HEADER" : "MaxLeske 7/17/2015 13:45",
-		"GIT_DIFF_FORMAT_RAW" : "MaxLeske 7/17/2015 13:45",
-		"enumDecl" : "MaxLeske 6/21/2015 22:32" },
+		"enumDecl" : "MaxLeske 6/21/2015 22:32",
+		"git_diff_format_name_only" : "MaxLeske 7/18/2015 14:01",
+		"git_diff_format_name_status" : "MaxLeske 7/18/2015 14:01",
+		"git_diff_format_patch" : "MaxLeske 7/18/2015 14:01",
+		"git_diff_format_patch_header" : "MaxLeske 7/18/2015 14:01",
+		"git_diff_format_raw" : "MaxLeske 7/18/2015 14:01" },
 	"instance" : {
 		 } }

@@ -1,5 +1,5 @@
 accessing-values
-GIT_SUBMODULE_IGNORE_ALL
+git_submodule_ignore_all
 	^ self basicNew
 		value: 4;
 		yourself

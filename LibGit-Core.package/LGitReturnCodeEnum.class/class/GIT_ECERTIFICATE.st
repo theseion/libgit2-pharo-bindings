@@ -1,5 +1,5 @@
 accessing-values
-GIT_ECERTIFICATE
+git_ecertificate
 	^ self basicNew
 		value: -17;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GITERR_REVERT
+giterr_revert
 	^ self basicNew
 		value: 25;
 		yourself

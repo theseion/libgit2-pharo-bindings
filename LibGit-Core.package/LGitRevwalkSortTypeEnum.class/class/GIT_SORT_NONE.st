@@ -1,5 +1,5 @@
 accessing-values
-GIT_SORT_NONE
+git_sort_none
 	^ self basicNew
 		value: 0;
 		yourself

@@ -1,5 +1,5 @@
 accessing-values
-GIT_CHECKOUT_FORCE
+git_checkout_force
 	^ self basicNew
 		value: 4;
 		yourself

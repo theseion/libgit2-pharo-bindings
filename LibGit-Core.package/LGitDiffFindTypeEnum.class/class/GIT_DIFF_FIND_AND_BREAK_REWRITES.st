@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_FIND_AND_BREAK_REWRITES
+git_diff_find_and_break_rewrites
 	^ self basicNew
 		value: 48;
 		yourself

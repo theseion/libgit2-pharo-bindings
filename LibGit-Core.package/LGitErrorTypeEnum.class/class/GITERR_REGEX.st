@@ -1,5 +1,5 @@
 accessing-values
-GITERR_REGEX
+giterr_regex
 	^ self basicNew
 		value: 8;
 		yourself

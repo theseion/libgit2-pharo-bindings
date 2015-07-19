@@ -1,5 +1,5 @@
 accessing-values
-GIT_REPOSITORY_OPEN_BARE
+git_repository_open_bare
 	^ self basicNew
 		value: 4;
 		yourself

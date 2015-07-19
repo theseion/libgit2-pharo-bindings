@@ -1,4 +1,3 @@
 accessing-defaults
 defaultFilemode
-
-	^ LGitFilemodeEnum GIT_FILEMODE_BLOB
+	^ LGitFilemodeEnum git_filemode_blob

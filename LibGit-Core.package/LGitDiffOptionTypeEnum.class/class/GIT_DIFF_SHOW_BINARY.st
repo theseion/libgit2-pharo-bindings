@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_SHOW_BINARY
+git_diff_show_binary
 	^ self basicNew
 		value: 1073741824;
 		yourself

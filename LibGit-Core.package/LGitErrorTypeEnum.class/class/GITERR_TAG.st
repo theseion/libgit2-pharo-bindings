@@ -1,5 +1,5 @@
 accessing-values
-GITERR_TAG
+giterr_tag
 	^ self basicNew
 		value: 13;
 		yourself

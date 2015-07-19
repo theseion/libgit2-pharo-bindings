@@ -1,5 +1,5 @@
 accessing-values
-GIT_DIFF_LINE_DELETION
+git_diff_line_deletion
 	^ self basicNew
 		value: $-;
 		yourself
