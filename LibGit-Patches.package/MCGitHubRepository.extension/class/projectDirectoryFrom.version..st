@@ -18,11 +18,21 @@ projectDirectoryFrom: projectPath version: versionString
 						repository
 							cloneHttps: 'https://github.com/' , projectPath , '.git';
 							checkout: versionString ]
-					ifTrue: [  
+					ifTrue: [ 
+						| credentials credentialsCallback |
 						repository open.
+						credentials := LGitRemote credentialsSsh.
+						credentialsCallback := LGitCredAcquireCallback
+							on: [ :cred :url :username_from_url :allowed_types :data | 
+								credentials createWith: cred.
+								0 ].
 						(LGitRemote of: repository named: 'origin')
 							lookup;
-							pull.
+							pullWithFetchOptions: (LGitFetchOptions defaults
+								callbacks: (LGitRemoteCallbacks defaults
+									credentials: credentialsCallback;
+									yourself);
+								yourself).
 						repository fastForward ] ].
 			self downloadCache at: downloadCacheKey put: githubCacheDirectory fullName ].
 	^ githubCacheDirectory
