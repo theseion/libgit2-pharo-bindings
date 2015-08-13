@@ -8,8 +8,8 @@ baseline: spec
         package: 'NativeBoost'
         with: [ 
           spec
-            repository: 'http://smalltalkhub.com/mc/Pharo/Pharo40Inbox/main';
-            file: 'NativeBoost-Core-MaxLeske.165' ].
+            repository: 'http://smalltalkhub.com/mc/Pharo/Pharo50Inbox/main';
+            file: 'NativeBoost-Core-MaxLeske.168' ].
 		spec
 			baseline: 'QualityAssistant'
 	      with: [ 
