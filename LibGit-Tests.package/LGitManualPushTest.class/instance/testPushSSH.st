@@ -35,9 +35,13 @@ testPushSSH
 		on: [ :cred :url :username_from_url :allowed_types :data | 
 			credentials createWith: cred.
 			0 ].
-	remote callbacks credentials: credentialsCallback.
-	remote setCallbacksFinally.
-
 	self
-		shouldnt: [ remote pushWithRefSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit') ]
+		shouldnt: [
+			remote
+				pushWithRefSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit')
+				pushOptions: (LGitPushOptions defaults
+					callbacks: (LGitRemoteCallbacks defaults
+						credentials: credentialsCallback;
+						yourself);
+					yourself). ]
 		raise: LGitAbstractError

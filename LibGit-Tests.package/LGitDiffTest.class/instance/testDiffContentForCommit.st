@@ -7,7 +7,7 @@ testDiffContentForCommit
 	diff := (LGitDiff of: self repository)
 		diffTree: referenceCommit tree toTree: diffCommit tree;
 		yourself.
-	
+
 	"number of changed files"
 	self assert: diff numberOfDeltas equals: 1.
 	delta := diff deltaAt: diff numberOfDeltas.
@@ -24,6 +24,7 @@ testDiffContentForCommit
 	String streamContents: [ :stream |
 		diff
 			filesDo: [ :currentDelta :progress :payload | 0 ]
+			binaryFilesDo: nil
 			hunksDo: [ :currentDelta :hunk :payload |
 				stream
 					"hunk start"

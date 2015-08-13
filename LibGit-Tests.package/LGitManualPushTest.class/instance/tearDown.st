@@ -9,12 +9,17 @@ tearDown
 		url: self newRepo repositoryUrlSsh
 		fetchSpec: '+refs/heads/*:refs/remotes/origin/*'.
 	remote create.
+	
 	credentials := remote class credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
 			credentials createWith: cred.
 			0 ].
-	remote callbacks credentials: credentialsCallback.
-	remote setCallbacksFinally.
-	remote pushWithRefSpec: (LGitRefSpec fromString: ':refs/heads/libgit').
+	remote
+		pushWithRefSpec: (LGitRefSpec fromString: ':refs/heads/libgit')
+		pushOptions: (LGitPushOptions defaults
+			callbacks: (LGitRemoteCallbacks defaults
+				credentials: credentialsCallback;
+				yourself);
+			yourself).
 	super tearDown

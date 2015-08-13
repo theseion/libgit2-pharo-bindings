@@ -28,15 +28,19 @@ testPushHTTPS
 		author: author;
 		committer: author;
 		writeCommit.
-	credentials := LGitCredentialsPlaintext username: LGitRemote username passphrase: LGitRemote password.
 	remote := (LGitRemote of: repo named: 'origin') lookup.
+	credentials := remote class credentialsPlaintext.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
 			credentials createWith: cred.
 			0 ].
-	remote callbacks credentials: credentialsCallback.
-	remote setCallbacksFinally.
-		
 	self
-		shouldnt: [ remote pushWithRefSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit') ]
+		shouldnt: [
+			remote
+				pushWithRefSpec: (LGitRefSpec fromString: 'refs/heads/master:refs/heads/libgit')
+				pushOptions: (LGitPushOptions defaults
+					callbacks: (LGitRemoteCallbacks defaults
+						credentials: credentialsCallback;
+						yourself);
+					yourself). ]
 		raise: LGitAbstractError.
