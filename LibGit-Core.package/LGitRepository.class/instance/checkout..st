@@ -13,14 +13,11 @@ checkout: aString
 				treeish: object
 				opts:
 					(LGitCheckoutOptions defaults
-						checkoutStrategy: LGitCheckoutStrategyEnum git_checkout_safe_create;
+						checkoutStrategy: LGitCheckoutStrategyEnum git_checkout_safe;
 						yourself) ].
 	self
 		withReturnHandlerDo: [ 
 			self
 				repository_set_head: self
 				refname: aString
-				signature: (self defaultSignature
-					freeAfterUse: true;
-					yourself)
 				log_message: 'checkout ' , aString ]

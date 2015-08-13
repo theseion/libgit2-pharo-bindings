@@ -1,6 +1,14 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 3/12/2015 22:08" },
+		"fieldsDesc" : "MaxLeske 8/13/2015 23:48" },
 	"instance" : {
-		"initializeWithDefaults" : "MaxLeske 7/18/2015 14:13",
+		"callbacks" : "MaxLeske 8/13/2015 23:51",
+		"callbacks:" : "MaxLeske 8/13/2015 23:52",
+		"initializeWithDefaults" : "MaxLeske 8/13/2015 15:36",
+		"prim_callbacks" : "NativeBoost 8/13/2015 23:51",
+		"prim_callbacks:" : "NativeBoost 8/13/2015 23:51",
+		"prim_pb_parallelism" : "NativeBoost 8/13/2015 23:51",
+		"prim_pb_parallelism:" : "NativeBoost 8/13/2015 23:51",
+		"prim_version" : "NativeBoost 8/13/2015 23:51",
+		"prim_version:" : "NativeBoost 8/13/2015 23:51",
 		"push_init_options:version:" : "MaxLeske 7/17/2015 13:15" } }

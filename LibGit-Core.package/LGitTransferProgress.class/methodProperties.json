@@ -2,4 +2,17 @@
 	"class" : {
 		"fieldsDesc" : "MaxLeske 3/1/2015 17:03" },
 	"instance" : {
-		 } }
+		"prim_indexed_deltas" : "NativeBoost 8/13/2015 11:32",
+		"prim_indexed_deltas:" : "NativeBoost 8/13/2015 11:32",
+		"prim_indexed_objects" : "NativeBoost 8/13/2015 11:32",
+		"prim_indexed_objects:" : "NativeBoost 8/13/2015 11:32",
+		"prim_local_objects" : "NativeBoost 8/13/2015 11:32",
+		"prim_local_objects:" : "NativeBoost 8/13/2015 11:32",
+		"prim_received_bytes" : "NativeBoost 8/13/2015 11:32",
+		"prim_received_bytes:" : "NativeBoost 8/13/2015 11:32",
+		"prim_received_objects" : "NativeBoost 8/13/2015 11:32",
+		"prim_received_objects:" : "NativeBoost 8/13/2015 11:32",
+		"prim_total_deltas" : "NativeBoost 8/13/2015 11:32",
+		"prim_total_deltas:" : "NativeBoost 8/13/2015 11:32",
+		"prim_total_objects" : "NativeBoost 8/13/2015 11:32",
+		"prim_total_objects:" : "NativeBoost 8/13/2015 11:32" } }

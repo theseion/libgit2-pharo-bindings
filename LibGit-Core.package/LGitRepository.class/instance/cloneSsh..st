@@ -1,23 +1,23 @@
 operations
 cloneSsh: aString
-	<todo: 'remove temporary LGitRemote'>
-	| options credentials credentialsCallback remoteCallbacks remote |
+	| options credentials credentialsCallback callbacks fetchOptions  |
 	credentials := LGitRemote credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
 			credentials createWith: cred.
 			0 ].
-	remote := LGitRemote basicNew
-		initializeCallbacks;
-		yourself.
-	remoteCallbacks :=	remote callbacks.		
-	remoteCallbacks
+
+	callbacks := LGitRemoteCallbacks defaults
 		credentials: credentialsCallback;
 		yourself.
-		
-	options := (LGitCloneOptions defaults
-		remoteCallbacks: remoteCallbacks;
-		yourself).
+	fetchOptions := LGitFetchOptions defaults
+		callbacks: callbacks;
+		yourself.
+	options := LGitCloneOptions defaults
+		fetchOptions: fetchOptions;
+		yourself.
+	
 	self
 		clone: aString
 		options: options
+	

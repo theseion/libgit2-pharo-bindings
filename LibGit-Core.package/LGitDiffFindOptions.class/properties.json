@@ -10,5 +10,5 @@
 	"name" : "LGitDiffFindOptions",
 	"pools" : [
 		 ],
-	"super" : "LGitOptions",
+	"super" : "LGitStructWithDefaults",
 	"type" : "normal" }

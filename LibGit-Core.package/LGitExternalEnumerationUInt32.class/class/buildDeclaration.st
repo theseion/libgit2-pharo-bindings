@@ -5,4 +5,4 @@ buildDeclaration
 	dictionary := self literalDeclaration.
 	self compileAccessorsFrom: dictionary.
 	
-	declaration := dictionary
+	^ declaration := dictionary

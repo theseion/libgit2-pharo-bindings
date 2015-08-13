@@ -1,7 +1,7 @@
 fields description
 fieldsDesc
 	^ #(
-		NBUInt32 version
+		LGitOptionsVersionsEnum version
 		NBUInt32 flags "is a combination of the git_blame_flag_t values above."
 		NBUInt16 min_match_characters "is the lower bound on the number of alphanumeric characters that must be detected as moving/copying within a file for it to associate those lines with the parent commit. The default value is 20. This value only takes effect if any of the GIT_BLAME_TRACK_COPIES_* flags are specified."
 		LGitId newest_commit "is the id of the newest commit to consider. The default is HEAD."

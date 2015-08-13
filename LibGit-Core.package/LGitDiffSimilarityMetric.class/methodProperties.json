@@ -1,5 +1,10 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 6/21/2015 22:53" },
+		"fieldsDesc" : "MaxLeske 8/13/2015 11:26" },
 	"instance" : {
-		 } }
+		"prim_oid_calculations" : "NativeBoost 8/13/2015 11:32",
+		"prim_oid_calculations:" : "NativeBoost 8/13/2015 11:32",
+		"prim_stat_calls" : "NativeBoost 8/13/2015 11:32",
+		"prim_stat_calls:" : "NativeBoost 8/13/2015 11:32",
+		"prim_version" : "NativeBoost 8/13/2015 11:32",
+		"prim_version:" : "NativeBoost 8/13/2015 11:32" } }

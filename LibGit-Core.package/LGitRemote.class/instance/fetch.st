@@ -1,14 +1,10 @@
 operations
 fetch
-	self 
-		create;
-		setCallbacksFinally.
+	self create.
 		
 	self withReturnHandlerDo: [ 
 		self
 			remote_fetch: self
 			refspecs: nil
-			signature: (self repository defaultSignature
-				freeAfterUse: true;
-				yourself)
+			opts: LGitFetchOptions defaults
 			reflog_message: nil ]

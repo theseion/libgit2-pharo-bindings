@@ -1,22 +1,47 @@
 accessing
 fieldsDesc
 	^#(
-	NBUInt32 version;
-	NBUInt32 checkout_strategy;
-	NBInt32 disable_filters;
-	NBUInt32 dir_mode;
-	NBUInt32 file_mode;
-	NBInt32 file_open_flags;
-	NBUInt32 notify_flags;
-	LGitCheckoutNotifyCallback notify_cb;
-	NBVoid * notify_payload;
-	LGitCheckoutProgressCallback progress_cb;
-	NBVoid * progress_payload;
-	LGitStringArray paths;
-	LGitTree baseline;
-	NBExternalString target_directory;
-	NBExternalString ancestor_label;
-	NBExternalString our_label;
-	NBExternalString their_label;
+		LGitOptionsVersionsEnum version;
 
+		NBUInt32 checkout_strategy; "< default will be a dry run "
+
+		NBInt32 disable_filters;    "< don't apply filters like CRLF conversion "
+		NBUInt32 dir_mode;  "< default is 0755 "
+		NBUInt32 file_mode; "< default is 0644 or 0755 as dictated by blob "
+		NBInt32 file_open_flags;    "< default is O_CREAT | O_TRUNC | O_WRONLY "
+
+		NBUInt32 notify_flags; "< see `git_checkout_notify_t` above "
+		LGitCheckoutNotifyCallback notify_cb;
+		NBVoid *  notify_payload;
+
+		" Optional callback to notify the consumer of checkout progress. "
+		LGitCheckoutProgressCallback progress_cb;
+		NBVoid * progress_payload;
+
+		" When not zeroed out, array of fnmatch patterns specifying which
+		 *  paths should be taken into account, otherwise all files.  Use
+		 *  GIT_CHECKOUT_DISABLE_PATHSPEC_MATCH to treat as simple list.
+		 "
+		LGitStringArray paths;
+
+		" The expected content of the working directory; defaults to HEAD.
+		 *  If the working directory does not match this baseline information,
+		 *  that will produce a checkout conflict.
+		 "
+		LGitTree * baseline;
+
+		" Like `baseline` above, though expressed as an index.  This
+		 *  option overrides `baseline`.
+		 "
+		LGitIndex * baseline_index; "< expected content of workdir, expressed as an index. "
+
+		NBExternalString target_directory; "< alternative checkout path to workdir "
+
+		NBExternalString ancestor_label; "< the name of the common ancestor side of conflicts "
+		NBExternalString our_label; "< the name of the *our* side of conflicts "
+		NBExternalString their_label; "< the name of the *their* side of conflicts "
+
+		" Optional callback to notify the consumer of performance data. "
+		LGitCheckoutPerfDataCallback perfdata_cb;
+		NBVoid * perfdata_payload;
 	)

@@ -11,4 +11,5 @@ enumDecl
 	GIT_DELTA_UNTRACKED 7 "entry is untracked item in workdir"
 	GIT_DELTA_TYPECHANGE 8 "type of entry changed between old and new"
 	GIT_DELTA_UNREADABLE 9 "entry is unreadable"
+	GIT_DELTA_CONFLICTED 10 "< entry in the index is conflicted"
 )

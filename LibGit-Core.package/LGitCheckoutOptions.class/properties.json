@@ -10,5 +10,5 @@
 	"name" : "LGitCheckoutOptions",
 	"pools" : [
 		 ],
-	"super" : "LGitOptions",
+	"super" : "LGitStructWithDefaults",
 	"type" : "normal" }

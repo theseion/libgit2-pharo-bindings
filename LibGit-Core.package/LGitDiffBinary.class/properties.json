@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Structs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MaxLeske 8/13/2015 14:22",
+	"instvars" : [
+		 ],
+	"name" : "LGitDiffBinary",
+	"pools" : [
+		 ],
+	"super" : "LGitExternalStructure",
+	"type" : "normal" }

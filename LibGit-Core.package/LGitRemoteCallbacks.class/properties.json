@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MaxLeske 8/13/2015 13:20",
 	"instvars" : [
 		 ],
 	"name" : "LGitRemoteCallbacks",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalStructure",
+	"super" : "LGitStructWithDefaults",
 	"type" : "normal" }

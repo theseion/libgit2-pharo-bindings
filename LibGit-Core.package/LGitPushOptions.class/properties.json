@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MaxLeske 8/13/2015 23:46",
 	"instvars" : [
 		 ],
 	"name" : "LGitPushOptions",
 	"pools" : [
 		 ],
-	"super" : "LGitOptions",
+	"super" : "LGitStructWithDefaults",
 	"type" : "normal" }

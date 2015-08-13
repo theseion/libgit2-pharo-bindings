@@ -4,6 +4,10 @@
 	"instance" : {
 		"createWith:" : "MaxLeske 8/16/2014 17:41",
 		"cred_ssh_key_new:username:publickey:privatekey:passphrase:" : "MaxLeske 3/8/2015 21:56",
+		"prim_credtype" : "NativeBoost 8/13/2015 11:32",
+		"prim_credtype:" : "NativeBoost 8/13/2015 11:32",
+		"prim_free" : "NativeBoost 8/13/2015 11:32",
+		"prim_free:" : "NativeBoost 8/13/2015 11:32",
 		"privateKeyReference" : "MaxLeske 4/18/2014 12:10",
 		"privateKeyReference:" : "MaxLeske 4/18/2014 12:11",
 		"publicKeyReference" : "MaxLeske 4/18/2014 12:10",

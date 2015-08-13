@@ -7,7 +7,4 @@ createSymbolic: nameString target: targetString force: aBoolean
 			name: nameString
 			target: targetString
 			force: aBoolean
-			signature: (self repository defaultSignature
-				freeAfterUse: true;
-				yourself)
 			log_message: 'created reference ', nameString ]
