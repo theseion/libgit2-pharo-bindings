@@ -1,5 +1,5 @@
 operations
-pull
+pullWithFetchOptions: fetchOptions
 	<todo: 'check for conflicts'>
 	self repository isReady ifFalse: [  ^ self ].
 
@@ -9,7 +9,7 @@ pull
 		self
 			remote_fetch: self
 			refspecs: nil
-			opts: LGitFetchOptions defaults
+			opts: fetchOptions
 			reflog_message: 'automatic pull from libgit2' ].
 	
 	"assume that there are no confilcts and fast-forwad to FETCH_HEAD"
