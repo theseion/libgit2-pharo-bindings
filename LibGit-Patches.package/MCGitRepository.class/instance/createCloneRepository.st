@@ -13,5 +13,4 @@ createCloneRepository
 			checkout: 'master'.	"make sure 'origin' is set to the original url, not to the https one if we used that"
 		(LGitRemote of: repo named: 'origin')
 			lookup;
-			setUrl: self repoUrl;
-			save ]
+			setUrl: self repoUrl ]

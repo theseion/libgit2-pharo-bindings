@@ -1,7 +1,8 @@
 private
 commitAndPush: aVersion
+	| credentials credentialsCallback |
 	LGitGlobal runSequence: [
-		| repo index tree signature credentials gitRemote credentialsCallback reference parent|
+		| repo index tree signature gitRemote reference parent |
 		repo := LGitRepository on: self directory.
 		self assert: repo isProperRepository.
 		repo open.
@@ -27,11 +28,16 @@ commitAndPush: aVersion
 			committer: signature;
 			writeCommit.
 		gitRemote := (LGitRemote of: repo named: 'origin') lookup.
+		
 		credentials := gitRemote class credentialsSsh.
 		credentialsCallback := LGitCredAcquireCallback
 			on: [ :cred :url :username_from_url :allowed_types :data | 
 				credentials createWith: cred.
 				0 ].
-		gitRemote callbacks credentials: credentialsCallback.
-		gitRemote setCallbacksFinally.
-		gitRemote pushWithRefSpec: (LGitRefSpec fromString: reference name , ':' , reference name) ]
+		gitRemote
+			pushWithRefSpec: (LGitRefSpec fromString: reference name , ':' , reference name)
+			pushOptions: (LGitPushOptions defaults
+				callbacks: (LGitRemoteCallbacks defaults
+					credentials: credentialsCallback;
+					yourself);
+				yourself). ]
