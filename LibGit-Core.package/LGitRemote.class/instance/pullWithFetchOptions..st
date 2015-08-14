@@ -12,5 +12,5 @@ pullWithFetchOptions: fetchOptions
 			opts: fetchOptions
 			reflog_message: 'automatic pull from libgit2' ].
 	
-	"assume that there are no confilcts and fast-forwad to FETCH_HEAD"
+	"assume that there are no conflicts and fast-forwad to FETCH_HEAD"
 	self repository fastForward
