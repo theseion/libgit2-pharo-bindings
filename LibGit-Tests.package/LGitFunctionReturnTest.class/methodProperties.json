@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAllHandlersDefined" : "MaxLeske 8/14/2015 07:24",
 		"testDoesntSignalCallReturn" : "MaxLeske 8/10/2014 18:54",
 		"testDoesntSignalGitOk" : "MaxLeske 7/19/2015 17:13",
 		"testSignalsCallError" : "MaxLeske 7/19/2015 17:13" } }
