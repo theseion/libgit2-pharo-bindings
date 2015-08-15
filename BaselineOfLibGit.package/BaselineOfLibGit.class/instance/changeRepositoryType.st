@@ -1,7 +1,7 @@
 doits
 changeRepositoryType
 	| repos newRepo |
-	(Smalltalk hasClassNamed: #MCGitRepository) ifFAlse: [ ^ self ].
+	(Smalltalk hasClassNamed: #MCGitRepository) ifFalse: [ ^ self ].
 	
 	repos := MCRepositoryGroup default repositories
 		select: [ :r | (r description includesSubstring: 'LibGit:master') or: [ 
