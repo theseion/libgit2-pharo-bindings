@@ -15,14 +15,17 @@ baseline: spec
 	      with: [ 
 	       	spec repository: 'github://Uko/QualityAssistant:master' ].
       spec
-        package: 'LibGit-Tests';
+        package: 'LibGit-Tests' with: [ spec requires: 'LibGit-Core' ];
         package: 'LibGit-GT' with: [ spec requires: 'LibGit-Core' ];
         package: 'LibGit-Patches' with: [ spec requires: 'LibGit-Core' ];
-        package: 'LibGit-Core' with: [ spec requires: #(#'NativeBoost') ].
+        package: 'LibGit-Core' with: [ spec requires: 'NativeBoost' ].
       spec
         group: 'default'
         with: #('LibGit-Core' 'LibGit-Patches' 'LibGit-GT').
 		spec
 			group: 'development'
 			with: #('default' 'LibGit-Tests' 'QualityAssistant').
+		spec
+			group: 'tests'
+			with: #('LibGit-Tests').
 		spec postLoadDoIt: #changeRepositoryType ]
