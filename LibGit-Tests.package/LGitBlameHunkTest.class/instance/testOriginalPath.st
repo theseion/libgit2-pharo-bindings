@@ -10,4 +10,4 @@ testOriginalPath
 	
 	self
 		assert: hunk originalPath
-		equals: (self file relativeTo: self repository repositoryReference) relativeString
+		equals: ((self file relativeTo: self repository repositoryReference) printWithDelimiter: $/)
