@@ -21,10 +21,10 @@ baseline: spec
         package: 'LibGit-Core' with: [ spec requires: 'NativeBoost' ].
       spec
         group: 'default'
-        with: #('LibGit-Core' 'LibGit-Patches' 'LibGit-GT').
+        with: #('LibGit-Core').
 		spec
 			group: 'development'
-			with: #('default' 'LibGit-Tests' 'QualityAssistant').
+			with: #('default' 'LibGit-Tests' 'QualityAssistant' 'LibGit-Patches' 'LibGit-GT').
 		spec
 			group: 'tests'
 			with: #('LibGit-Tests').
