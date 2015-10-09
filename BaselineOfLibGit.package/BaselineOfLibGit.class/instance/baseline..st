@@ -11,7 +11,8 @@ baseline: spec
       spec
         package: 'LibGit-Tests' with: [ spec requires: 'LibGit-Core' ];
         package: 'LibGit-GT' with: [ spec requires: 'LibGit-Core' ];
-        package: 'LibGit-Patches' with: [ spec requires: 'LibGit-Core' ].
+        package: 'LibGit-Patches' with: [ spec requires: 'LibGit-Core' ];
+        package: 'LibGit-Core'.
       spec
         group: 'default'
         with: #('LibGit-Core').
