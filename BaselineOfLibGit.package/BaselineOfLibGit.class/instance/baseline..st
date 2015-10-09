@@ -2,14 +2,8 @@ baseline
 baseline: spec
   <baseline>
   spec
-    for: #('pharo4.x' 'pharo5.x')
+    for: #(common)
     do: [ 
-      spec
-        package: 'NativeBoost'
-        with: [ 
-          spec
-            repository: 'http://smalltalkhub.com/mc/Pharo/Pharo50Inbox/main';
-            file: 'NativeBoost-Core-MaxLeske.168' ].
 		spec
 			baseline: 'QualityAssistant'
 	      with: [ 
@@ -28,4 +22,14 @@ baseline: spec
 		spec
 			group: 'tests'
 			with: #('LibGit-Tests').
-		spec postLoadDoIt: #changeRepositoryType ]
+		spec postLoadDoIt: #changeRepositoryType ].
+	
+	spec
+		for: #('pharo4.x')
+		do: [ 
+			spec
+        package: 'NativeBoost'
+        with: [ 
+          spec
+            repository: 'http://smalltalkhub.com/mc/Pharo/Pharo50Inbox/main';
+            file: 'NativeBoost-Core-MaxLeske.168' ] ]
