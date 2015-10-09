@@ -1,4 +1,3 @@
-baseline
 baseline: spec
   <baseline>
   spec
@@ -11,8 +10,7 @@ baseline: spec
       spec
         package: 'LibGit-Tests' with: [ spec requires: 'LibGit-Core' ];
         package: 'LibGit-GT' with: [ spec requires: 'LibGit-Core' ];
-        package: 'LibGit-Patches' with: [ spec requires: 'LibGit-Core' ];
-        package: 'LibGit-Core' with: [ spec requires: 'NativeBoost' ].
+        package: 'LibGit-Patches' with: [ spec requires: 'LibGit-Core' ].
       spec
         group: 'default'
         with: #('LibGit-Core').
@@ -28,8 +26,15 @@ baseline: spec
 		for: #('pharo4.x')
 		do: [ 
 			spec
-        package: 'NativeBoost'
-        with: [ 
-          spec
-            repository: 'http://smalltalkhub.com/mc/Pharo/Pharo50Inbox/main';
-            file: 'NativeBoost-Core-MaxLeske.168' ] ]
+	        package: 'NativeBoost'
+	        with: [ 
+	          spec
+	            repository: 'http://smalltalkhub.com/mc/Pharo/Pharo50Inbox/main';
+	            file: 'NativeBoost-Core-MaxLeske.168' ].
+		 	spec
+				package: 'LibGit-Core'
+				with: [ spec requires: 'NativeBoost' ].
+			
+			spec
+	        group: 'default'
+	        with: #('LibGit-Core') ]
