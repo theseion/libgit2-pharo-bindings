@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 count
-	^ self prim_count
+	"This method was automatically generated"
+	^handle signedLongAt: 5

@@ -2,9 +2,16 @@
 	"class" : {
 		"fieldsDesc" : "MaxLeske 3/1/2015 17:25" },
 	"instance" : {
+		"append" : "EstebanLorenzano 2/26/2016 00:18",
+		"append:" : "EstebanLorenzano 2/26/2016 00:18",
 		"appendWithBuffer:length:progress:" : "MaxLeske 2/28/2015 13:03",
+		"backend" : "EstebanLorenzano 2/26/2016 00:18",
+		"backend:" : "EstebanLorenzano 2/26/2016 00:18",
+		"commit" : "EstebanLorenzano 2/26/2016 00:18",
+		"commit:" : "EstebanLorenzano 2/26/2016 00:18",
 		"commitWithProgress:" : "MaxLeske 2/28/2015 13:07",
-		"free" : "MaxLeske 2/28/2015 13:07",
+		"free" : "EstebanLorenzano 2/26/2016 00:18",
+		"free:" : "EstebanLorenzano 2/26/2016 00:18",
 		"odb_write_pack:db:progress_cb:progress_payload:" : "MaxLeske 6/24/2015 22:47",
 		"prim_append" : "NativeBoost 8/13/2015 11:32",
 		"prim_append:" : "NativeBoost 8/13/2015 11:32",

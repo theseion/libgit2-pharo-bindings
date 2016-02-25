@@ -3,6 +3,10 @@
 		"fieldsDesc" : "MaxLeske 3/8/2015 21:54" },
 	"instance" : {
 		"createWith:" : "MaxLeske 4/21/2014 17:29",
+		"credtype" : "EstebanLorenzano 2/26/2016 00:11",
+		"credtype:" : "EstebanLorenzano 2/26/2016 00:11",
+		"free" : "EstebanLorenzano 2/26/2016 00:11",
+		"free:" : "EstebanLorenzano 2/26/2016 00:11",
 		"passphrase" : "MaxLeske 4/21/2014 17:24",
 		"passphrase:" : "MaxLeske 4/21/2014 17:24",
 		"prim_credtype" : "NativeBoost 8/13/2015 11:32",

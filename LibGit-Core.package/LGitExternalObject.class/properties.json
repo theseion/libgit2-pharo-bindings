@@ -12,6 +12,6 @@
 	"name" : "LGitExternalObject",
 	"pools" : [
 		 ],
-	"super" : "NBExternalObject",
+	"super" : "FFIExternalObject",
 	"traitcomposition" : "TLGitPrintingTrait + TLGitCalloutTrait + TLGitResourceFinalizationTrait",
 	"type" : "normal" }

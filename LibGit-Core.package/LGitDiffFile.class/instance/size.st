@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 size
-	^ self prim_size
+	"This method was automatically generated"
+	^handle signedLongLongAt: 25

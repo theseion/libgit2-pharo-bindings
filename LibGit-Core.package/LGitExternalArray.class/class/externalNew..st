@@ -1,5 +1,5 @@
 instance creation
 externalNew: numberOfElements
-	^ self
-		onAddress: (LGitGlobal allocate: elementSize * numberOfElements)
+	^ self 
+		externalNewType: self type 
 		size: numberOfElements

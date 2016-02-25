@@ -1,10 +1,18 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 7/4/2015 13:08" },
+		"fieldsDesc" : "EstebanLorenzano 2/24/2016 23:27" },
 	"instance" : {
+		"flags" : "EstebanLorenzano 2/26/2016 00:16",
+		"flags:" : "EstebanLorenzano 2/26/2016 00:16",
 		"newFile" : "MaxLeske 7/4/2015 13:23",
+		"new_file" : "EstebanLorenzano 2/26/2016 00:16",
+		"new_file:" : "EstebanLorenzano 2/26/2016 00:16",
+		"nfiles" : "EstebanLorenzano 2/26/2016 00:16",
+		"nfiles:" : "EstebanLorenzano 2/26/2016 00:16",
 		"numberOfFiles" : "MaxLeske 7/4/2015 13:22",
 		"oldFile" : "MaxLeske 7/4/2015 13:23",
+		"old_file" : "EstebanLorenzano 2/26/2016 00:16",
+		"old_file:" : "EstebanLorenzano 2/26/2016 00:16",
 		"prim_flags" : "NativeBoost 8/13/2015 11:32",
 		"prim_flags:" : "NativeBoost 8/13/2015 11:32",
 		"prim_new_file" : "NativeBoost 8/13/2015 11:32",
@@ -17,4 +25,7 @@
 		"prim_similarity:" : "NativeBoost 8/13/2015 11:32",
 		"prim_status" : "NativeBoost 8/13/2015 11:32",
 		"prim_status:" : "NativeBoost 8/13/2015 11:32",
-		"status" : "MaxLeske 7/4/2015 13:47" } }
+		"similarity" : "EstebanLorenzano 2/26/2016 00:16",
+		"similarity:" : "EstebanLorenzano 2/26/2016 00:16",
+		"status" : "EstebanLorenzano 2/26/2016 00:16",
+		"status:" : "EstebanLorenzano 2/26/2016 00:16" } }

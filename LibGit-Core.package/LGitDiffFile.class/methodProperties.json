@@ -1,9 +1,15 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 7/4/2015 13:01" },
+		"fieldsDesc" : "EstebanLorenzano 2/24/2016 23:26" },
 	"instance" : {
-		"id" : "MaxLeske 7/4/2015 13:24",
-		"path" : "MaxLeske 7/4/2015 13:24",
+		"flags" : "EstebanLorenzano 2/24/2016 23:27",
+		"flags:" : "EstebanLorenzano 2/24/2016 23:27",
+		"id" : "EstebanLorenzano 2/24/2016 23:27",
+		"id:" : "EstebanLorenzano 2/24/2016 23:27",
+		"mode" : "EstebanLorenzano 2/24/2016 23:27",
+		"mode:" : "EstebanLorenzano 2/24/2016 23:27",
+		"path" : "EstebanLorenzano 2/24/2016 23:27",
+		"path:" : "EstebanLorenzano 2/24/2016 23:27",
 		"prim_flags" : "NativeBoost 8/13/2015 11:32",
 		"prim_flags:" : "NativeBoost 8/13/2015 11:32",
 		"prim_id" : "NativeBoost 8/13/2015 11:32",
@@ -14,4 +20,5 @@
 		"prim_path:" : "NativeBoost 8/13/2015 11:32",
 		"prim_size" : "NativeBoost 8/13/2015 11:32",
 		"prim_size:" : "NativeBoost 8/13/2015 11:32",
-		"size" : "MaxLeske 7/4/2015 13:24" } }
+		"size" : "EstebanLorenzano 2/24/2016 23:27",
+		"size:" : "EstebanLorenzano 2/24/2016 23:27" } }

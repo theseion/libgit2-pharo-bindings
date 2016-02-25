@@ -1,3 +1,4 @@
-accessing
-count: anInteger
-	self prim_count: anInteger
+accessing structure variables
+count: anObject
+	"This method was automatically generated"
+	handle signedLongAt: 5 put: anObject

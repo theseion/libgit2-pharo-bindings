@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 free
-	self prim_free writepack: self
+	"This method was automatically generated"
+	^ExternalData fromHandle: (handle pointerAt: 13) type: ExternalType void asPointerType

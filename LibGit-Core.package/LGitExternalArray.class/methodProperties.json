@@ -1,11 +1,7 @@
 {
 	"class" : {
-		"externalNew:" : "MaxLeske 7/16/2015 13:29",
-		"fieldNamesAndProtocols" : "MaxLeske 7/13/2015 14:17",
-		"installAccessors" : "NativeBoost 7/13/2015 14:20",
-		"protocolForField:" : "MaxLeske 10/18/2014 19:02",
-		"updateElementSize" : "MaxLeske 3/12/2015 10:49" },
+		"externalNew:" : "EstebanLorenzano 2/24/2016 17:57",
+		"onAddress:size:" : "EstebanLorenzano 2/24/2016 18:04",
+		"type" : "EstebanLorenzano 2/24/2016 17:57" },
 	"instance" : {
-		"asArray" : "MaxLeske 4/2/2015 17:09",
-		"at:put:" : "IgorStasenko 12/7/2012 16:42",
-		"free" : "MaxLeske 7/16/2015 14:45" } }
+		"asArray" : "MaxLeske 4/2/2015 17:09" } }

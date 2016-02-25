@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 id
-	^ self prim_id
+	"This method was automatically generated"
+	^LGitId fromHandle: (handle referenceStructAt: 1 length: 20)

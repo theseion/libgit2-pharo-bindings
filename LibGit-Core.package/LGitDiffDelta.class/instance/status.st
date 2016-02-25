@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 status
-	^ self prim_status
+	"This method was automatically generated"
+	^LGitDeltaTypeEnum fromInteger: (handle unsignedLongAt: 1)

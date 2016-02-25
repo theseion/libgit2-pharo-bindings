@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 boundary
-	^ self prim_boundary
+	"This method was automatically generated"
+	^handle booleanAt: 61

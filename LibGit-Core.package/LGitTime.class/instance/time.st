@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 time
-	^ self prim_time
+	"This method was automatically generated"
+	^handle signedLongLongAt: 1

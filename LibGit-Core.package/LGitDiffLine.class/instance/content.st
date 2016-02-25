@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 content
-	^ self prim_content
+	"This method was automatically generated"
+	^ExternalData fromHandle: (handle pointerAt: 29) type: ExternalType char asPointerType

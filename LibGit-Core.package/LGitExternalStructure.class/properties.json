@@ -11,6 +11,6 @@
 	"name" : "LGitExternalStructure",
 	"pools" : [
 		 ],
-	"super" : "NBExternalStructure",
+	"super" : "FFIExternalStructure",
 	"traitcomposition" : "TLGitCalloutTrait + TLGitPrintingTrait + TLGitResourceFinalizationTrait",
 	"type" : "normal" }

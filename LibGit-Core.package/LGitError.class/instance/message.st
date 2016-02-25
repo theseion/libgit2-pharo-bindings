@@ -1,5 +1,4 @@
-accessing
+accessing structure variables
 message
-	^ self isNull
-		ifFalse: [ self prim_message ]
-		ifTrue: [ 'no error message set by libgit2' ]
+	"This method was automatically generated"
+	^ExternalData fromHandle: (handle pointerAt: 1) type: ExternalType char asPointerType

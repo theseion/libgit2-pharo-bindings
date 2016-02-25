@@ -1,5 +1,5 @@
 accessing
 type
 	^ self isNull
-		ifFalse: [ self prim_klass ]
+		ifFalse: [ self klass ]
 		ifTrue: [ nil ]

@@ -83,5 +83,5 @@ fieldsDesc
 		 * This will be passed to each of the callbacks in this struct
 		 * as the last parameter.
 		 "
-		NBVoid * payload;
+		void * payload;
 	)

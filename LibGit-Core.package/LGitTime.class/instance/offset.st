@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 offset
-	^ self prim_offset
+	"This method was automatically generated"
+	^handle signedLongAt: 9

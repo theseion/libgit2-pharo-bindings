@@ -1,9 +1,17 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 8/13/2015 23:42" },
+		"fieldsDesc" : "EstebanLorenzano 2/24/2016 22:39" },
 	"instance" : {
+		"break_rewrite_threshold" : "EstebanLorenzano 2/26/2016 00:22",
+		"break_rewrite_threshold:" : "EstebanLorenzano 2/26/2016 00:22",
+		"copy_threshold" : "EstebanLorenzano 2/26/2016 00:22",
+		"copy_threshold:" : "EstebanLorenzano 2/26/2016 00:22",
 		"diff_find_init_options:version:" : "MaxLeske 7/17/2015 13:15",
+		"flags" : "EstebanLorenzano 2/26/2016 00:22",
+		"flags:" : "EstebanLorenzano 2/26/2016 00:22",
 		"initializeWithDefaults" : "MaxLeske 8/13/2015 15:36",
+		"metric" : "EstebanLorenzano 2/26/2016 00:22",
+		"metric:" : "EstebanLorenzano 2/26/2016 00:22",
 		"prim_break_rewrite_threshold" : "NativeBoost 8/13/2015 23:42",
 		"prim_break_rewrite_threshold:" : "NativeBoost 8/13/2015 23:42",
 		"prim_copy_threshold" : "NativeBoost 8/13/2015 23:42",
@@ -19,4 +27,12 @@
 		"prim_rename_threshold" : "NativeBoost 8/13/2015 23:42",
 		"prim_rename_threshold:" : "NativeBoost 8/13/2015 23:42",
 		"prim_version" : "NativeBoost 8/13/2015 23:42",
-		"prim_version:" : "NativeBoost 8/13/2015 23:42" } }
+		"prim_version:" : "NativeBoost 8/13/2015 23:42",
+		"rename_from_rewrite_threshold" : "EstebanLorenzano 2/26/2016 00:22",
+		"rename_from_rewrite_threshold:" : "EstebanLorenzano 2/26/2016 00:22",
+		"rename_limit" : "EstebanLorenzano 2/26/2016 00:22",
+		"rename_limit:" : "EstebanLorenzano 2/26/2016 00:22",
+		"rename_threshold" : "EstebanLorenzano 2/26/2016 00:22",
+		"rename_threshold:" : "EstebanLorenzano 2/26/2016 00:22",
+		"version" : "EstebanLorenzano 2/26/2016 00:22",
+		"version:" : "EstebanLorenzano 2/26/2016 00:22" } }

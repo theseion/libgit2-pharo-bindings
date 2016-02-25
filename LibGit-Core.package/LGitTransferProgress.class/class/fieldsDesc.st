@@ -1,12 +1,11 @@
 accessing
 fieldsDesc
 	^#(
-	NBUInt32 total_objects;
-	NBUInt32 indexed_objects;
-	NBUInt32 received_objects;
-	NBUInt32 local_objects;
-	NBUInt32 total_deltas;
-	NBUInt32 indexed_deltas;
-	NBInt32 received_bytes;
-
+	FFIUInt32 total_objects;
+	FFIUInt32 indexed_objects;
+	FFIUInt32 received_objects;
+	FFIUInt32 local_objects;
+	FFIUInt32 total_deltas;
+	FFIUInt32 indexed_deltas;
+	FFIInt32 received_bytes;
 	)

@@ -1,16 +1,16 @@
 {
 	"class" : {
 		"enumDecl" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_added" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_conflicted" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_copied" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_deleted" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_ignored" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_modified" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_renamed" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_typechange" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_unmodified" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_unreadable" : "MaxLeske 8/13/2015 10:32",
-		"git_delta_untracked" : "MaxLeske 8/13/2015 10:32" },
+		"git_delta_added" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_conflicted" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_copied" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_deleted" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_ignored" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_modified" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_renamed" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_typechange" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_unmodified" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_unreadable" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_delta_untracked" : "EstebanLorenzano 2/25/2016 23:32" },
 	"instance" : {
 		 } }

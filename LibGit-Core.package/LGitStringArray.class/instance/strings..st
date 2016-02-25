@@ -1,5 +1,4 @@
-accessing
-strings: aCollection
-	| array |
-	array := LGitExternalStringArray fromCollection: aCollection.
-	self prim_strings: array address
+accessing structure variables
+strings: anObject
+	"This method was automatically generated"
+	handle pointerAt: 1 put: anObject getHandle.

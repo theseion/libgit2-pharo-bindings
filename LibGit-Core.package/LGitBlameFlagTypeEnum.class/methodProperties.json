@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"enumDecl" : "MaxLeske 7/14/2015 11:39",
-		"git_blame_first_parent" : "MaxLeske 8/13/2015 14:09",
-		"git_blame_normal" : "MaxLeske 8/13/2015 14:09",
-		"git_blame_track_copies_any_commit_copies" : "MaxLeske 8/13/2015 14:09",
-		"git_blame_track_copies_same_commit_copies" : "MaxLeske 8/13/2015 14:09",
-		"git_blame_track_copies_same_commit_moves" : "MaxLeske 8/13/2015 14:09",
-		"git_blame_track_copies_same_file" : "MaxLeske 8/13/2015 14:09" },
+		"git_blame_first_parent" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_blame_normal" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_blame_track_copies_any_commit_copies" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_blame_track_copies_same_commit_copies" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_blame_track_copies_same_commit_moves" : "EstebanLorenzano 2/25/2016 23:32",
+		"git_blame_track_copies_same_file" : "EstebanLorenzano 2/25/2016 23:32" },
 	"instance" : {
 		 } }

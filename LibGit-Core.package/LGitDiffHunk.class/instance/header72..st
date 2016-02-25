@@ -1,0 +1,4 @@
+accessing structure variables
+header72: anObject
+	"This method was automatically generated"
+	handle signedByteAt: 92 put: anObject

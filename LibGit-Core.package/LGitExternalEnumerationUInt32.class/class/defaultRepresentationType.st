@@ -1,3 +1,3 @@
 accessing-defaults
 defaultRepresentationType
-	^ NBUInt32 new
+	^ FFIUInt32 new

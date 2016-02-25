@@ -1,3 +1,4 @@
-accessing
+accessing structure variables
 name
-	^ self prim_name readString
+	"This method was automatically generated"
+	^ExternalData fromHandle: (handle pointerAt: 1) type: ExternalType char asPointerType

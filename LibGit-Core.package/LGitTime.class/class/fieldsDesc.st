@@ -1,6 +1,6 @@
 fields description
 fieldsDesc
 	^#(
-	NBInt64 time;
-	NBInt32 offset;
+	FFIInt64 time;
+	FFIInt32 offset;
 	)
