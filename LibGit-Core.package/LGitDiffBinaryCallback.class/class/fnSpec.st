@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBInt32 (LGitDiffDelta * delta, LGitDiffBinary * binary, NBVoid * payload))
+	^#(FFIInt32 (LGitDiffDelta * delta, LGitDiffBinary * binary, FFIVoid * payload))

@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^#(NBInt32 (LGitRemoteCompletionTypeEnum type, NBVoid * arg2))
+	^#(FFIInt32 (LGitRemoteCompletionTypeEnum type, FFIVoid * arg2))

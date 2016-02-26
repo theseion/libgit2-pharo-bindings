@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^ #(NBInt32 (NBExternalAddress * out, LGitRepository repo, String name, String url, NBVoid * payload))
+	^ #(FFIInt32 (FFIExternalAddress * out, LGitRepository repo, String name, String url, FFIVoid * payload))

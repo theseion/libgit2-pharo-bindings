@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBInt32 (NBExternalString name, LGitTreeEntry entry, NBVoid * payload))
+	^#(FFIInt32 (FFIExternalString name, LGitTreeEntry entry, FFIVoid * payload))

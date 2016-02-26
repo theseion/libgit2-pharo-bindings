@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^#(NBInt32 (LGitDiff * diff_so_far, LGitDiffDelta * delta_to_add, NBExternalString matched_pathspec, NBVoid * payload))
+	^#(FFIInt32 (LGitDiff * diff_so_far, LGitDiffDelta * delta_to_add, FFIExternalString matched_pathspec, FFIVoid * payload))

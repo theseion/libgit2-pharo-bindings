@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBVoid (NBExternalString path, NBInt32 completed_steps, NBInt32 total_steps, NBVoid * payload))
+	^#(FFIVoid (FFIExternalString path, FFIInt32 completed_steps, FFIInt32 total_steps, FFIVoid * payload))

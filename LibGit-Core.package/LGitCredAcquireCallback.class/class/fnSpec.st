@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBInt32 (LGitCredentials * * cred, NBExternalString url, NBExternalString username_from_url, NBUInt32 allowed_types, NBVoid * data))
+	^#(FFIInt32 (LGitCredentials * * cred, FFIExternalString url, FFIExternalString username_from_url, FFIUInt32 allowed_types, FFIVoid * data))

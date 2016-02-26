@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^ #(NBInt32 (LGitCertificate cert, NBInt32 valid, String host, NBVoid * payload))
+	^ #(FFIInt32 (LGitCertificate cert, FFIInt32 valid, String host, FFIVoid * payload))
