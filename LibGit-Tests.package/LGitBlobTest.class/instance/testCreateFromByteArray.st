@@ -1,6 +1,6 @@
 tests
 testCreateFromByteArray
-	| blob repository nonPrintableCharacters |
+	| blob nonPrintableCharacters |
 	repository := self newRepo state3Opened.
 	nonPrintableCharacters := #[15 0 0 248].
 	blob := LGitBlob of: repository fromString: nonPrintableCharacters.

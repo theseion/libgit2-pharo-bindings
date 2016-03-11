@@ -1,6 +1,6 @@
 tests
 testCreateFromNonExternalCollection
-	| repository nonPrintableCharacters |
+	| nonPrintableCharacters |
 	repository := self newRepo state3Opened.
 	nonPrintableCharacters := {15.
 	0.
