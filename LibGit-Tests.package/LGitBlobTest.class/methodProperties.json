@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBinary" : "MaxLeske 3/1/2015 20:40",
-		"testCreateFromByteArray" : "MaxLeske 3/1/2015 20:40",
-		"testCreateFromFile" : "MaxLeske 3/1/2015 20:40",
-		"testCreateFromNonExternalCollection" : "MaxLeske 3/1/2015 20:40",
-		"testCreateFromString" : "MaxLeske 3/1/2015 20:40",
+		"testBinary" : "JanVanDeSandt 3/11/2016 14:18",
+		"testCreateFromByteArray" : "JanVanDeSandt 3/11/2016 14:18",
+		"testCreateFromFile" : "JanVanDeSandt 3/11/2016 14:18",
+		"testCreateFromNonExternalCollection" : "JanVanDeSandt 3/11/2016 14:18",
+		"testCreateFromString" : "JanVanDeSandt 3/11/2016 14:19",
 		"testEquals" : "MaxLeske 8/31/2014 15:55",
 		"testEqualsUninitialized" : "MaxLeske 6/21/2015 16:19",
 		"testFree" : "MaxLeske 3/1/2015 20:40",
-		"testNotBinary" : "MaxLeske 3/1/2015 20:40",
+		"testNotBinary" : "JanVanDeSandt 3/11/2016 14:19",
 		"testPrinting" : "MaxLeske 8/31/2014 16:47",
 		"testPrintingUninitialized" : "MaxLeske 3/1/2015 18:43" } }

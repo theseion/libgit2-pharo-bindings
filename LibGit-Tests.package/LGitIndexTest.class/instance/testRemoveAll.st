@@ -1,6 +1,6 @@
 tests
 testRemoveAll
-	| repo index file path |
+	| repo index path |
 	repo := self newRepo state4WithCommit.
 	index := repo index.
 	path := 'libgit_tests/foo'.
