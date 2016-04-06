@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertGarbageCollectAll:after:" : "MartinDias 5/20/2014 20:19",
-		"file" : "MaxLeske 7/14/2015 14:28",
-		"newRepo" : "MaxLeske 4/14/2014 10:50",
-		"repository" : "MaxLeske 7/14/2015 13:58",
-		"runCase" : "MaxLeske 3/15/2015 09:13",
-		"setUp" : "MaxLeske 2/22/2015 22:14",
-		"tearDown" : "MaxLeske 8/10/2014 13:52",
-		"touchFile" : "MaxLeske 7/14/2015 13:55",
-		"touchFileAndCommit" : "MaxLeske 7/15/2015 13:28" } }
+		"assertGarbageCollectAll:after:" : "JanvandeSandt 3/14/2016 18:10:14",
+		"file" : "JanvandeSandt 3/14/2016 18:10:14",
+		"newRepo" : "JanvandeSandt 3/14/2016 18:10:14",
+		"repository" : "JanvandeSandt 3/14/2016 18:10:14",
+		"runCase" : "JanvandeSandt 3/14/2016 18:10:14",
+		"setUp" : "JanvandeSandt 3/14/2016 18:10:14",
+		"tearDown" : "JanvandeSandt 3/14/2016 18:10:14",
+		"touchFile" : "JanvandeSandt 3/14/2016 18:10:14",
+		"touchFileAndCommit" : "JanvandeSandt 3/14/2016 18:10:14" } }

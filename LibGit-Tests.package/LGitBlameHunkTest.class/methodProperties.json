@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "MaxLeske 7/14/2015 18:25",
-		"testBoundary" : "MaxLeske 7/15/2015 10:45",
-		"testFinalCommitId" : "MaxLeske 7/14/2015 18:24",
-		"testFinalStartLineNumber" : "MaxLeske 7/14/2015 16:23",
-		"testNumberOfLines" : "MaxLeske 7/14/2015 16:22",
-		"testOriginalCommitId" : "MaxLeske 7/14/2015 19:14",
-		"testOriginalPath" : "MaxLeske 8/15/2015 18:01",
-		"testOriginalStartLineNumber" : "MaxLeske 7/14/2015 16:25",
-		"testSignatures" : "MaxLeske 7/14/2015 20:40" } }
+		"setUp" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testBoundary" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testFinalCommitId" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testFinalStartLineNumber" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testNumberOfLines" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testOriginalCommitId" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testOriginalPath" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testOriginalStartLineNumber" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testSignatures" : "JanvandeSandt 3/14/2016 18:10:14" } }
