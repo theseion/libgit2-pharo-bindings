@@ -1,3 +1,3 @@
 class initialization
 initialize
-	self initElementType: 'char*'
+	"self initElementType: 'char*'"

@@ -1,3 +1,3 @@
 class initialization
 initialize
-	self initElementType: #NBUInt8
+	"self initElementType: #NBUInt8"

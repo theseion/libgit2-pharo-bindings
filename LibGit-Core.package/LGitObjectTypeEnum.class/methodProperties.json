@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"enumDecl" : "m 3/12/2014 07:49",
-		"git_obj__ext1" : "MaxLeske 8/13/2015 14:11",
-		"git_obj__ext2" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_any" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_bad" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_blob" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_commit" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_ofs_delta" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_ref_delta" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_tag" : "MaxLeske 8/13/2015 14:11",
-		"git_obj_tree" : "MaxLeske 8/13/2015 14:11" },
+		"enumDecl" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj__ext1" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj__ext2" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_any" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_bad" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_blob" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_commit" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_ofs_delta" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_ref_delta" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_tag" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_obj_tree" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
 		 } }

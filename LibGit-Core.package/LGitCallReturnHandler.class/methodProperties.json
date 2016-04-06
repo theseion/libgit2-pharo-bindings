@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"canHandle:" : "MaxLeske 3/15/2015 15:58",
-		"for:" : "MaxLeske 6/30/2013 17:13",
-		"handledReturnCodes" : "MaxLeske 7/19/2015 16:58",
-		"isAbstract" : "MaxLeske 6/30/2013 17:21",
-		"isError" : "MaxLeske 3/15/2015 12:21",
-		"signalWith:" : "MaxLeske 3/15/2015 12:19" },
+		"canHandle:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"for:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"handledReturnCodes" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isAbstract" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isError" : "JanvandeSandt 3/25/2016 21:49:01",
+		"signalWith:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
 		 } }

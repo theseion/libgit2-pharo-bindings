@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"fieldsDesc" : "MaxLeske 8/13/2015 23:40" },
+		"fieldsDesc" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
-		"callbacks" : "MaxLeske 8/13/2015 13:18",
-		"callbacks:" : "MaxLeske 8/13/2015 13:18",
-		"fetch_init_options:version:" : "MaxLeske 8/12/2015 21:17",
-		"initializeWithDefaults" : "MaxLeske 8/12/2015 21:18",
-		"prim_callbacks" : "NativeBoost 10/9/2015 16:12",
-		"prim_callbacks:" : "NativeBoost 10/9/2015 16:12",
-		"prim_download_tags" : "NativeBoost 10/9/2015 16:12",
-		"prim_download_tags:" : "NativeBoost 10/9/2015 16:12",
-		"prim_prune" : "NativeBoost 10/9/2015 16:12",
-		"prim_prune:" : "NativeBoost 10/9/2015 16:12",
-		"prim_update_fetchhead" : "NativeBoost 10/9/2015 16:12",
-		"prim_update_fetchhead:" : "NativeBoost 10/9/2015 16:12",
-		"prim_version" : "NativeBoost 10/9/2015 16:12",
-		"prim_version:" : "NativeBoost 10/9/2015 16:12" } }
+		"callbacks" : "JanvandeSandt 3/25/2016 21:49:01",
+		"callbacks:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"fetch_init_options:version:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"initializeWithDefaults" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_callbacks" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_callbacks:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_download_tags" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_download_tags:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_prune" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_prune:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_update_fetchhead" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_update_fetchhead:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_version" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_version:" : "JanvandeSandt 3/25/2016 21:49:01" } }

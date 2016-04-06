@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"blame_free:" : "MaxLeske 7/16/2015 09:48",
-		"freeFunctionSelector" : "MaxLeske 7/14/2015 11:06",
-		"of:on:" : "MaxLeske 7/14/2015 14:23" },
+		"blame_free:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"freeFunctionSelector" : "JanvandeSandt 3/25/2016 21:49:01",
+		"of:on:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
-		"blame_buffer:reference:buffer:buffer_len:" : "MaxLeske 7/15/2015 09:44",
-		"blame_file:repo:path:options:" : "MaxLeske 7/15/2015 09:44",
-		"blame_get_hunk_byindex:index:" : "MaxLeske 7/14/2015 17:11",
-		"blame_get_hunk_byline:lineno:" : "MaxLeske 7/14/2015 11:57",
-		"blame_get_hunk_count:" : "MaxLeske 7/14/2015 14:45",
-		"getForReference:" : "MaxLeske 8/15/2015 18:01",
-		"hunkAt:" : "MaxLeske 7/14/2015 15:00",
-		"hunkAtLineNumber:" : "MaxLeske 7/14/2015 15:08",
-		"numberOfHunks" : "MaxLeske 7/14/2015 14:39" } }
+		"blame_buffer:reference:buffer:buffer_len:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"blame_file:repo:path:options:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"blame_get_hunk_byindex:index:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"blame_get_hunk_byline:lineno:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"blame_get_hunk_count:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"getForReference:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"hunkAt:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"hunkAtLineNumber:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"numberOfHunks" : "JanvandeSandt 3/25/2016 21:49:01" } }

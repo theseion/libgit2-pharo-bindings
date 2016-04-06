@@ -2,5 +2,5 @@ class initialization
 initialize
 	self allSubclassesDo: [ :class |
 		class
-			initValueType: class valueTypeName;
+			"initValueType: class valueTypeName;"
 			installAccessors ]

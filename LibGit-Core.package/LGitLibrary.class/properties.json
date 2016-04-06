@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Core-FFI-Handling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"INT_PTR" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LGitLibrary",
+	"pools" : [
+		 ],
+	"super" : "FFILibrary",
+	"type" : "normal" }

@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"createAccessorsFor:" : "MaxLeske 8/13/2015 11:32",
-		"externalNew" : "MaxLeske 7/16/2015 12:25",
-		"fieldNamesAndProtocols" : "MaxLeske 8/27/2014 21:53",
-		"fieldsClass" : "MaxLeske 2/27/2015 16:19",
-		"free:" : "MaxLeske 7/16/2015 09:37",
-		"freeFunctionSelector" : "MaxLeske 3/15/2015 20:51",
-		"protocolForField:" : "MaxLeske 8/29/2014 13:22",
-		"removeAccessor:" : "MaxLeske 8/14/2015 00:26" },
+		"createAccessorsFor:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"externalNew" : "JanvandeSandt 3/25/2016 21:49:01",
+		"fieldNamesAndProtocols" : "JanvandeSandt 3/25/2016 21:49:01",
+		"fieldsClass" : "JanvandeSandt 3/25/2016 21:49:01",
+		"free:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"freeFunctionSelector" : "JanvandeSandt 3/25/2016 21:49:01",
+		"protocolForField:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"removeAccessor:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
-		"getFinalizer" : "MaxLeske 3/1/2015 19:58",
-		"getHandles" : "MaxLeske 3/15/2015 20:55",
-		"isNull" : "MaxLeske 3/15/2015 11:40",
-		"setFinalizer:" : "MaxLeske 3/1/2015 19:58" } }
+		"getFinalizer" : "JanvandeSandt 3/25/2016 21:49:01",
+		"getHandles" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isNull" : "JanvandeSandt 3/25/2016 21:49:01",
+		"setFinalizer:" : "JanvandeSandt 3/25/2016 21:49:01" } }

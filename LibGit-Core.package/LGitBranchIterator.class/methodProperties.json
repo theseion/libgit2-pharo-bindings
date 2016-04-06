@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"branch_iterator_free:" : "MaxLeske 3/1/2015 19:43",
-		"freeFunctionSelector" : "MaxLeske 3/1/2015 19:43",
-		"of:local:" : "MaxLeske 3/1/2015 19:43" },
+		"branch_iterator_free:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"freeFunctionSelector" : "JanvandeSandt 3/25/2016 21:49:01",
+		"of:local:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
-		"branch_iterator_new:repo:list_flags:" : "MaxLeske 7/15/2015 09:45",
-		"iterateLocal:" : "MaxLeske 7/18/2015 14:11" } }
+		"branch_iterator_new:repo:list_flags:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"iterateLocal:" : "JanvandeSandt 3/25/2016 21:49:01" } }

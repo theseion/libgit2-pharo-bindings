@@ -1,3 +1,3 @@
 class initialization
 initialize
-	self initElementType: #LGitCommit
+	"self initElementType: #LGitCommit"

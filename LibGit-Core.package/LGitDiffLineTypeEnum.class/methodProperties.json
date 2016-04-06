@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"enumDecl" : "MaxLeske 7/13/2015 17:45",
-		"git_diff_line_add_eofnl" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_addition" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_binary" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_context" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_context_eofnl" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_del_eofnl" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_deletion" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_file_hdr" : "MaxLeske 8/13/2015 14:11",
-		"git_diff_line_hunk_hdr" : "MaxLeske 8/13/2015 14:11" },
+		"enumDecl" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_add_eofnl" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_addition" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_binary" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_context" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_context_eofnl" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_del_eofnl" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_deletion" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_file_hdr" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_diff_line_hunk_hdr" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
 		 } }

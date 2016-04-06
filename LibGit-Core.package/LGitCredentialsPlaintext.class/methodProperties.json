@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"username:passphrase:" : "MaxLeske 4/21/2014 17:25" },
+		"username:passphrase:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
-		"createWith:" : "MaxLeske 4/21/2014 17:30",
-		"cred_userpass_plaintext_new:username:password:" : "MaxLeske 3/15/2015 11:54",
-		"prim_credtype" : "NativeBoost 8/13/2015 11:32",
-		"prim_credtype:" : "NativeBoost 8/13/2015 11:32",
-		"prim_free" : "NativeBoost 8/13/2015 11:32",
-		"prim_free:" : "NativeBoost 8/13/2015 11:32" } }
+		"createWith:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"cred_userpass_plaintext_new:username:password:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_credtype" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_credtype:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_free" : "JanvandeSandt 3/25/2016 21:49:01",
+		"prim_free:" : "JanvandeSandt 3/25/2016 21:49:01" } }
