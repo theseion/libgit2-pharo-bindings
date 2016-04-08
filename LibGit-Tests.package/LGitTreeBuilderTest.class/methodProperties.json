@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JanvandeSandt 4/6/2016 21:41:50",
-		"testAddBlobEntry" : "JanvandeSandt 4/6/2016 21:41:50",
-		"testAddTreeEntry" : "JanvandeSandt 4/6/2016 21:41:50",
-		"testWrite" : "JanvandeSandt 4/6/2016 21:41:50" } }
+		"setUp" : "JanvandeSandt 4/8/2016 10:40:17",
+		"testAddBlobEntry" : "JanvandeSandt 4/8/2016 10:40:17",
+		"testAddTreeEntry" : "JanvandeSandt 4/8/2016 10:40:17",
+		"testWrite" : "JanvandeSandt 4/8/2016 10:40:17" } }

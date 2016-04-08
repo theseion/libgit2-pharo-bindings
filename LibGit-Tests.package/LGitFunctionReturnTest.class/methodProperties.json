@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllHandlersDefined" : "JanvandeSandt 4/6/2016 21:41:50",
-		"testDoesntSignalCallReturn" : "JanvandeSandt 4/6/2016 21:41:50",
-		"testDoesntSignalGitOk" : "JanvandeSandt 4/6/2016 21:41:50",
-		"testSignalsCallError" : "JanvandeSandt 4/6/2016 21:41:50" } }
+		"testAllHandlersDefined" : "JanvandeSandt 4/8/2016 10:40:17",
+		"testDoesntSignalCallReturn" : "JanvandeSandt 4/8/2016 10:40:17",
+		"testDoesntSignalGitOk" : "JanvandeSandt 4/8/2016 10:40:17",
+		"testSignalsCallError" : "JanvandeSandt 4/8/2016 10:40:17" } }
