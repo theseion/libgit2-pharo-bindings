@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createAuthor" : "JanvandeSandt 3/14/2016 18:10:14",
-		"createBlob" : "JanvandeSandt 3/14/2016 18:10:14",
-		"createRootTreeWith:" : "JanvandeSandt 3/14/2016 18:10:14",
-		"createSubTreeWith:" : "JanvandeSandt 3/14/2016 18:10:14",
-		"setUp" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testCreateCommit" : "JanvandeSandt 3/14/2016 18:10:14" } }
+		"createAuthor" : "JanvandeSandt 4/6/2016 21:41:50",
+		"createBlob" : "JanvandeSandt 4/6/2016 21:41:50",
+		"createRootTreeWith:" : "JanvandeSandt 4/6/2016 21:41:50",
+		"createSubTreeWith:" : "JanvandeSandt 4/6/2016 21:41:50",
+		"setUp" : "JanvandeSandt 4/6/2016 21:41:50",
+		"testCreateCommit" : "JanvandeSandt 4/6/2016 21:41:50" } }
