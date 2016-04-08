@@ -1,6 +1,4 @@
 libgit-fields
 prim_header114: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_header114 put: anObject
+	handle signedByteAt: 134 put: anObject

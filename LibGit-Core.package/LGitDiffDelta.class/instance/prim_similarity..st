@@ -1,6 +1,4 @@
 libgit-fields
 prim_similarity: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_similarity put: anObject
+	handle unsignedShortAt: 9 put: anObject

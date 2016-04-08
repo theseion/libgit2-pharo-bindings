@@ -1,6 +1,4 @@
 libgit-fields
 prim_data15: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_data15 put: anObject
+	handle unsignedByteAt: 15 put: anObject

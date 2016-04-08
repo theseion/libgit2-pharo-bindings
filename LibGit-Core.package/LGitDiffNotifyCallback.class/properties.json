@@ -10,5 +10,5 @@
 	"name" : "LGitDiffNotifyCallback",
 	"pools" : [
 		 ],
-	"super" : "NBFFICallback",
+	"super" : "LGitCallback",
 	"type" : "normal" }

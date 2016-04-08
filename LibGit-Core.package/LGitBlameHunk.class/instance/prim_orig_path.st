@@ -1,6 +1,4 @@
 libgit-fields
 prim_orig_path
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_orig_path
+	^ExternalData fromHandle: (handle pointerAt: 49) type: ExternalType char asPointerType

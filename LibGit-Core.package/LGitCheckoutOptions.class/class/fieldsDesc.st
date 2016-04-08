@@ -3,20 +3,20 @@ fieldsDesc
 	^#(
 		LGitOptionsVersionsEnum version;
 
-		NBUInt32 checkout_strategy; "< default will be a dry run "
+		#FFIUInt32 checkout_strategy; "< default will be a dry run "
 
-		NBInt32 disable_filters;    "< don't apply filters like CRLF conversion "
-		NBUInt32 dir_mode;  "< default is 0755 "
-		NBUInt32 file_mode; "< default is 0644 or 0755 as dictated by blob "
-		NBInt32 file_open_flags;    "< default is O_CREAT | O_TRUNC | O_WRONLY "
+		#FFIInt32 disable_filters;    "< don't apply filters like CRLF conversion "
+		#FFIUInt32 dir_mode;  "< default is 0755 "
+		#FFIUInt32 file_mode; "< default is 0644 or 0755 as dictated by blob "
+		#FFIInt32 file_open_flags;    "< default is O_CREAT | O_TRUNC | O_WRONLY "
 
-		NBUInt32 notify_flags; "< see `git_checkout_notify_t` above "
+		#FFIUInt32 notify_flags; "< see `git_checkout_notify_t` above "
 		LGitCheckoutNotifyCallback notify_cb;
-		NBVoid *  notify_payload;
+		#FFIVoid *  notify_payload;
 
 		" Optional callback to notify the consumer of checkout progress. "
 		LGitCheckoutProgressCallback progress_cb;
-		NBVoid * progress_payload;
+		#FFIVoid * progress_payload;
 
 		" When not zeroed out, array of fnmatch patterns specifying which
 		 *  paths should be taken into account, otherwise all files.  Use
@@ -35,13 +35,13 @@ fieldsDesc
 		 "
 		LGitIndex * baseline_index; "< expected content of workdir, expressed as an index. "
 
-		NBExternalString target_directory; "< alternative checkout path to workdir "
+		#FFIExternalString target_directory; "< alternative checkout path to workdir "
 
-		NBExternalString ancestor_label; "< the name of the common ancestor side of conflicts "
-		NBExternalString our_label; "< the name of the *our* side of conflicts "
-		NBExternalString their_label; "< the name of the *their* side of conflicts "
+		#FFIExternalString ancestor_label; "< the name of the common ancestor side of conflicts "
+		#FFIExternalString our_label; "< the name of the *our* side of conflicts "
+		#FFIExternalString their_label; "< the name of the *their* side of conflicts "
 
 		" Optional callback to notify the consumer of performance data. "
 		LGitCheckoutPerfDataCallback perfdata_cb;
-		NBVoid * perfdata_payload;
+		#FFIVoid * perfdata_payload;
 	)

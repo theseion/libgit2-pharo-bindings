@@ -1,6 +1,4 @@
 libgit-fields
 prim_dst: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_dst put: anObject
+	handle structAt: 29 put: anObject getHandle length: 20.

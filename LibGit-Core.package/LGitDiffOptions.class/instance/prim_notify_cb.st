@@ -1,6 +1,4 @@
 libgit-fields
 prim_notify_cb
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_notify_cb
+	^LGitDiffNotifyCallback forAddress: (handle unsignedLongAt: 21)

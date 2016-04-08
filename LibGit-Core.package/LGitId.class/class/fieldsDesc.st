@@ -1,24 +1,24 @@
 accessing
 fieldsDesc
 	^#(
-	NBUInt8 data1;
-	NBUInt8 data2;
-	NBUInt8 data3;
-	NBUInt8 data4;
-	NBUInt8 data5;
-	NBUInt8 data6;
-	NBUInt8 data7;
-	NBUInt8 data8;
-	NBUInt8 data9;
-	NBUInt8 data10;
-	NBUInt8 data11;
-	NBUInt8 data12;
-	NBUInt8 data13;
-	NBUInt8 data14;
-	NBUInt8 data15;
-	NBUInt8 data16;
-	NBUInt8 data17;
-	NBUInt8 data18;
-	NBUInt8 data19;
-	NBUInt8 data20;
+	#FFIUInt8 data1;
+	#FFIUInt8 data2;
+	#FFIUInt8 data3;
+	#FFIUInt8 data4;
+	#FFIUInt8 data5;
+	#FFIUInt8 data6;
+	#FFIUInt8 data7;
+	#FFIUInt8 data8;
+	#FFIUInt8 data9;
+	#FFIUInt8 data10;
+	#FFIUInt8 data11;
+	#FFIUInt8 data12;
+	#FFIUInt8 data13;
+	#FFIUInt8 data14;
+	#FFIUInt8 data15;
+	#FFIUInt8 data16;
+	#FFIUInt8 data17;
+	#FFIUInt8 data18;
+	#FFIUInt8 data19;
+	#FFIUInt8 data20;
 	)

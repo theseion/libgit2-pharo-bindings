@@ -1,6 +1,4 @@
 libgit-fields
 prim_prune
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_prune
+	^LGitFetchPruneTypeEnum fromInteger: (handle unsignedLongAt: 57)

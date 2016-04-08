@@ -1,6 +1,4 @@
 libgit-fields
 prim_src
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_src
+	^LGitId fromHandle: (handle referenceStructAt: 9 length: 20)

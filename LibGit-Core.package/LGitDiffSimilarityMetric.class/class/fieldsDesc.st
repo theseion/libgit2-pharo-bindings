@@ -1,7 +1,7 @@
 fields description
 fieldsDesc
 	^#(
-	NBUInt32 version
-	NBUInt32 stat_calls "Number of stat() calls performed"
-	NBUInt32 oid_calculations "Number of ID calculations"
+	#FFIUInt32 version
+	#FFIUInt32 stat_calls "Number of stat() calls performed"
+	#FFIUInt32 oid_calculations "Number of ID calculations"
 	)

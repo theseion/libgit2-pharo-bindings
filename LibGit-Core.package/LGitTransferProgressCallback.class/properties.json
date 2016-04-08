@@ -10,5 +10,5 @@
 	"name" : "LGitTransferProgressCallback",
 	"pools" : [
 		 ],
-	"super" : "NBFFICallback",
+	"super" : "LGitCallback",
 	"type" : "normal" }
