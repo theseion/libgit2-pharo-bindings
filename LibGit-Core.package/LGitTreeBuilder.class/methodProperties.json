@@ -3,7 +3,7 @@
 		"freeFunctionSelector" : "JanvandeSandt 4/8/2016 12:56:25",
 		"fromTree:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"of:fromTree:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"treebuilder_free:" : "JanvandeSandt 4/8/2016 12:56:25" },
+		"treebuilder_free:" : "JanVanDeSandt 4/8/2016 14:36" },
 	"instance" : {
 		"addEntry:filename:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"addEntryWithId:filename:filemode:" : "JanvandeSandt 4/8/2016 12:56:25",
@@ -12,9 +12,9 @@
 		"getEntryNamed:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"initializeWithTree:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"newTree" : "JanvandeSandt 4/8/2016 12:56:25",
-		"treebuilder_clear:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"treebuilder_get:filename:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"treebuilder_insert:bld:filename:id:filemode:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"treebuilder_new:repo:source:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"treebuilder_write:bld:" : "JanvandeSandt 4/8/2016 12:56:25",
+		"treebuilder_clear:" : "JanVanDeSandt 4/8/2016 14:36",
+		"treebuilder_get:filename:" : "JanVanDeSandt 4/8/2016 14:36",
+		"treebuilder_insert:bld:filename:id:filemode:" : "JanVanDeSandt 4/8/2016 14:36",
+		"treebuilder_new:repo:source:" : "JanVanDeSandt 4/8/2016 14:36",
+		"treebuilder_write:bld:" : "JanVanDeSandt 4/8/2016 14:36",
 		"write" : "JanvandeSandt 4/8/2016 12:56:25" } }

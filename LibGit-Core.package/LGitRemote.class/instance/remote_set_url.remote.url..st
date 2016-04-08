@@ -1,4 +1,7 @@
 libgit-calls
-remote_set_url: repo remote: remote url: urlString 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(LGitReturnCodeEnum git_remote_set_url(LGitRepository repo, NBExternalString remote, NBExternalString urlString)) options: #(  )
+remote_set_url: repo remote: remote url: urlString
+	
+	^ self
+		call:
+			#(LGitReturnCodeEnum git_remote_set_url #(LGitRepository repo , FFIExternalString remote , FFIExternalString urlString))
+		options: #()

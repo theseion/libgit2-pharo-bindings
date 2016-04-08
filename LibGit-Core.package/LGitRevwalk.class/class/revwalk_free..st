@@ -1,6 +1,4 @@
 libgit-calls
-revwalk_free: handle 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^ self
-		call: #(NBVoid git_revwalk_free(ulong handle))
-		options: #(  )
+revwalk_free: handle
+	
+	^ self call: #(FFIVoid git_revwalk_free #(ulong handle)) options: #()

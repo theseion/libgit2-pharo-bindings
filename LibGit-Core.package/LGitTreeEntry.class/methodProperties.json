@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"freeFunctionSelector" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_free:" : "JanvandeSandt 4/8/2016 12:56:25" },
+		"tree_entry_free:" : "JanVanDeSandt 4/8/2016 14:36" },
 	"instance" : {
 		"=" : "JanvandeSandt 4/8/2016 12:56:25",
 		"compare:" : "JanvandeSandt 4/8/2016 12:56:25",
@@ -11,9 +11,9 @@
 		"object" : "JanvandeSandt 4/8/2016 12:56:25",
 		"objectPrintOn:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"subTreeEntries" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_cmp:e2:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_filemode:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_name:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_to_object:repo:entry:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_type:" : "JanvandeSandt 4/8/2016 12:56:25",
+		"tree_entry_cmp:e2:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entry_filemode:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entry_name:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entry_to_object:repo:entry:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entry_type:" : "JanVanDeSandt 4/8/2016 14:36",
 		"type" : "JanvandeSandt 4/8/2016 12:56:25" } }

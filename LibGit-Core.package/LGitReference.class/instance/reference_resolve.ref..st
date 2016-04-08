@@ -1,6 +1,6 @@
 libgit-calls
-reference_resolve: out ref: ref 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+reference_resolve: out ref: ref
+	
 	^ self
-		callUnchecked: #(LGitReturnCodeEnum git_reference_resolve(LGitReference * out, self))
-		options: #(  )
+		callUnchecked: #(LGitReturnCodeEnum git_reference_resolve #(LGitReference * out , self))
+		options: #()

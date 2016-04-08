@@ -1,6 +1,6 @@
 libgit-calls
-treebuilder_free: handle 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+treebuilder_free: handle
+	
 	^ self
-		call: #(NBVoid git_treebuilder_free(ulong handle))
-		options: #(  )
+		call: #(FFIVoid git_treebuilder_free #(ulong handle))
+		options: #()

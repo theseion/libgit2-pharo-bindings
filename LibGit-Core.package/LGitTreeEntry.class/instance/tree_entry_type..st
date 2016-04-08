@@ -1,6 +1,6 @@
 libgit-calls
-tree_entry_type: entry 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+tree_entry_type: entry
+	
 	^ self
-		call: #(LGitObjectTypeEnum git_tree_entry_type(self))
-		options: #(  )
+		call: #(LGitObjectTypeEnum git_tree_entry_type #(self))
+		options: #()

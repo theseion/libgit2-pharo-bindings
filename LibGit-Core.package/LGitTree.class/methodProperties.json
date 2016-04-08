@@ -3,7 +3,7 @@
 		"defaultFilemode" : "JanvandeSandt 4/8/2016 12:56:25",
 		"freeFunctionSelector" : "JanvandeSandt 4/8/2016 12:56:25",
 		"isType:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_free:" : "JanvandeSandt 4/8/2016 12:56:25" },
+		"tree_free:" : "JanVanDeSandt 4/8/2016 14:36" },
 	"instance" : {
 		"=" : "JanvandeSandt 4/8/2016 12:56:25",
 		"allEntriesDo:" : "JanvandeSandt 4/8/2016 12:56:25",
@@ -21,11 +21,11 @@
 		"owner" : "JanvandeSandt 4/8/2016 12:56:25",
 		"size" : "JanvandeSandt 4/8/2016 12:56:25",
 		"subTreeEntries" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_byindex:idx:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_byname:name:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entry_bypath:tree:path:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_entrycount:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_id:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_lookup:repo:id:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_owner:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"tree_walk:mode:callback:payload:" : "JanvandeSandt 4/8/2016 12:56:25" } }
+		"tree_entry_byindex:idx:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entry_byname:name:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entry_bypath:tree:path:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_entrycount:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_id:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_lookup:repo:id:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_owner:" : "JanVanDeSandt 4/8/2016 14:36",
+		"tree_walk:mode:callback:payload:" : "JanVanDeSandt 4/8/2016 14:36" } }
