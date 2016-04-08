@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"libgit2_features" : "JanvandeSandt 4/6/2016 21:41:40",
-		"libgit2_featuresAlt" : "JanvandeSandt 4/6/2016 21:41:40",
-		"libgit2_init" : "JanvandeSandt 4/6/2016 21:41:40",
-		"libgit2_shutdown" : "JanvandeSandt 4/6/2016 21:41:40",
-		"libgit2_version:minor:rev:" : "JanVanDeSandt 4/8/2016 11:18",
-		"macModuleName" : "JanvandeSandt 4/6/2016 21:41:40",
-		"unixModuleName" : "JanvandeSandt 4/6/2016 21:41:40",
-		"version" : "JanvandeSandt 4/6/2016 21:41:40",
-		"win32ModuleName" : "JanvandeSandt 4/6/2016 21:41:40" } }
+		"libgit2_features" : "JanvandeSandt 4/8/2016 12:56:25",
+		"libgit2_featuresAlt" : "JanvandeSandt 4/8/2016 12:56:25",
+		"libgit2_init" : "JanvandeSandt 4/8/2016 12:56:25",
+		"libgit2_shutdown" : "JanvandeSandt 4/8/2016 12:56:25",
+		"libgit2_version:minor:rev:" : "JanvandeSandt 4/8/2016 12:56:25",
+		"macModuleName" : "JanvandeSandt 4/8/2016 12:56:25",
+		"unixModuleName" : "JanvandeSandt 4/8/2016 12:56:25",
+		"version" : "JanvandeSandt 4/8/2016 12:56:25",
+		"win32ModuleName" : "JanvandeSandt 4/8/2016 12:56:25" } }

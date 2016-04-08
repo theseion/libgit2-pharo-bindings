@@ -23,14 +23,14 @@ createPackForReference: aReference
 		commit free.
 		tree free ].
 	progresscb := LGitTransferProgressCallback on: [ :progress :data | 0 ].
-	progressPayload := NBExternalAddress new.
+	progressPayload := ExternalAddress new.
 	writepack := LGitOdbWritepack externalNew.
 	writepack
 		odb_write_pack: writepack
 		db: odb
 		progress_cb: progresscb
 		progress_payload: progressPayload.
-	writepack := LGitOdbWritepack fromPointer: (NBExternalAddress value: (writepack address nbInt32AtOffset: 0)).
+	writepack := LGitOdbWritepack fromPointer: (ExternalAddress value: (writepack address nbInt32AtOffset: 0)).
 	stats := LGitTransferProgress externalNew.
 	packbuilderPayload := LGitPackbuilderForeachPayload externalNew.
 	packbuilderCallback := LGitPackbuilderForeachCallback

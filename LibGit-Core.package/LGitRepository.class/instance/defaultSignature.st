@@ -1,7 +1,7 @@
 operations
 defaultSignature
 	| signaturePointer |
-	signaturePointer := NBExternalAddress new.
+	signaturePointer := ExternalAddress new.
 	self withReturnHandlerDo: [ 
 		self
 			signature_default: signaturePointer

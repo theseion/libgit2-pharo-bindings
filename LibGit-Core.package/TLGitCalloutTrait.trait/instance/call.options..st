@@ -2,7 +2,7 @@ native-boost
 call: fnSpec options: options
 	self signalIfNotReady.
 	
-	^ self
-		callUnchecked: fnSpec
-		options: options
-		sender: thisContext sender
+	^ (self ffiCalloutIn: thisContext)
+		cdecl;
+		options: options;
+		function: fnSpec module: self ffiLibraryName
