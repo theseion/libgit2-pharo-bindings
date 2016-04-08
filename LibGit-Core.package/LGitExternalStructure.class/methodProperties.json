@@ -1,15 +1,17 @@
 {
 	"class" : {
-		"createAccessorsFor:" : "JanvandeSandt 3/25/2016 21:49:01",
-		"externalNew" : "JanvandeSandt 3/25/2016 21:49:01",
-		"fieldNamesAndProtocols" : "JanvandeSandt 3/25/2016 21:49:01",
-		"fieldsClass" : "JanvandeSandt 3/25/2016 21:49:01",
-		"free:" : "JanvandeSandt 3/25/2016 21:49:01",
-		"freeFunctionSelector" : "JanvandeSandt 3/25/2016 21:49:01",
-		"protocolForField:" : "JanvandeSandt 3/25/2016 21:49:01",
-		"removeAccessor:" : "JanvandeSandt 3/25/2016 21:49:01" },
+		"createAccessorsFor:" : "JanvandeSandt 4/6/2016 21:41:40",
+		"externalNew" : "JanvandeSandt 4/6/2016 21:41:40",
+		"fieldNamesAndProtocols" : "JanvandeSandt 4/6/2016 21:41:40",
+		"fieldSpec" : "JanVanDeSandt 4/8/2016 09:59",
+		"fieldsClass" : "JanvandeSandt 4/6/2016 21:41:40",
+		"free:" : "JanvandeSandt 4/6/2016 21:41:40",
+		"freeFunctionSelector" : "JanvandeSandt 4/6/2016 21:41:40",
+		"generatedFieldProtocolName" : "JanVanDeSandt 4/8/2016 10:30",
+		"protocolForField:" : "JanvandeSandt 4/6/2016 21:41:40",
+		"removeAccessor:" : "JanvandeSandt 4/6/2016 21:41:40" },
 	"instance" : {
-		"getFinalizer" : "JanvandeSandt 3/25/2016 21:49:01",
-		"getHandles" : "JanvandeSandt 3/25/2016 21:49:01",
-		"isNull" : "JanvandeSandt 3/25/2016 21:49:01",
-		"setFinalizer:" : "JanvandeSandt 3/25/2016 21:49:01" } }
+		"getFinalizer" : "JanvandeSandt 4/6/2016 21:41:40",
+		"getHandles" : "JanvandeSandt 4/6/2016 21:41:40",
+		"isNull" : "JanvandeSandt 4/6/2016 21:41:40",
+		"setFinalizer:" : "JanvandeSandt 4/6/2016 21:41:40" } }

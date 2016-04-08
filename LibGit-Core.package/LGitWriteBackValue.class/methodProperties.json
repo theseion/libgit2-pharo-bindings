@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"initialize" : "JanVanDeSandt 4/6/2016 21:32",
-		"installAccessors" : "NativeBoost 4/6/2016 21:32",
-		"isAbstract" : "JanvandeSandt 3/25/2016 21:49:01",
-		"updateValueSize" : "JanvandeSandt 3/25/2016 21:49:01",
-		"valueTypeName" : "JanvandeSandt 3/25/2016 21:49:01" },
+		"initialize" : "JanvandeSandt 4/6/2016 21:41:40",
+		"installAccessors" : "JanvandeSandt 4/6/2016 21:41:40",
+		"isAbstract" : "JanvandeSandt 4/6/2016 21:41:40",
+		"updateValueSize" : "JanvandeSandt 4/6/2016 21:41:40",
+		"valueTypeName" : "JanvandeSandt 4/6/2016 21:41:40" },
 	"instance" : {
 		 } }

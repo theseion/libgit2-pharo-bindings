@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"freeFunctionSelector" : "JanvandeSandt 3/25/2016 21:49:01",
-		"object_free:" : "JanvandeSandt 3/25/2016 21:49:01" },
+		"freeFunctionSelector" : "JanvandeSandt 4/6/2016 21:41:40",
+		"object_free:" : "JanvandeSandt 4/6/2016 21:41:40" },
 	"instance" : {
-		"getFinalizer" : "JanvandeSandt 3/25/2016 21:49:01",
-		"getHandles" : "JanvandeSandt 3/25/2016 21:49:01",
-		"initialize" : "JanvandeSandt 3/25/2016 21:49:01",
-		"isReady" : "JanvandeSandt 3/25/2016 21:49:01",
-		"setFinalizer:" : "JanvandeSandt 3/25/2016 21:49:01",
-		"shouldContinuePrintingOn:" : "JanvandeSandt 3/25/2016 21:49:01" } }
+		"getFinalizer" : "JanvandeSandt 4/6/2016 21:41:40",
+		"getHandles" : "JanvandeSandt 4/6/2016 21:41:40",
+		"initialize" : "JanvandeSandt 4/6/2016 21:41:40",
+		"isReady" : "JanvandeSandt 4/6/2016 21:41:40",
+		"setFinalizer:" : "JanvandeSandt 4/6/2016 21:41:40",
+		"shouldContinuePrintingOn:" : "JanvandeSandt 4/6/2016 21:41:40" } }
