@@ -1,8 +1,7 @@
 private-accessing
 binaryContents
-	| externalBytes |
+	| bytes |
 	"freeing not required. See #rawBuffer"
-	externalBytes := LGitExternalUInt8Array
-		onAddress: self rawBuffer 
-		size: self rawSize.
-	^ externalBytes asByteArray
+	bytes := ByteArray new: self rawSize.
+	LGitGlobal memCopy: self rawBuffer to: bytes size: bytes size.
+	^bytes

@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"enumDecl" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_blame_first_parent" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_blame_normal" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_blame_track_copies_any_commit_copies" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_blame_track_copies_same_commit_copies" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_blame_track_copies_same_commit_moves" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_blame_track_copies_same_file" : "JanvandeSandt 4/8/2016 12:56:25" },
+		"git_blame_first_parent" : "JanVanDeSandt 4/8/2016 15:25",
+		"git_blame_normal" : "JanVanDeSandt 4/8/2016 15:25",
+		"git_blame_track_copies_any_commit_copies" : "JanVanDeSandt 4/8/2016 15:25",
+		"git_blame_track_copies_same_commit_copies" : "JanVanDeSandt 4/8/2016 15:25",
+		"git_blame_track_copies_same_commit_moves" : "JanVanDeSandt 4/8/2016 15:25",
+		"git_blame_track_copies_same_file" : "JanVanDeSandt 4/8/2016 15:25" },
 	"instance" : {
 		 } }

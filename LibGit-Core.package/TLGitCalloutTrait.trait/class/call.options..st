@@ -14,4 +14,7 @@ call: fnSpec options: options
 			
 		TODO: implement an alternative to perform safe calls 
 "			
-	^self ffiCall: fnSpec options: options
+	^ (self ffiCalloutIn: thisContext)
+		cdecl;
+		options: options;
+		function: fnSpec module: self ffiLibraryName

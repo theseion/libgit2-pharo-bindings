@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"createAccessorsFor:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"externalNew" : "JanvandeSandt 4/8/2016 12:56:25",
+		"externalNew" : "JanVanDeSandt 4/8/2016 14:48",
 		"fieldNamesAndProtocols" : "JanvandeSandt 4/8/2016 12:56:25",
 		"fieldSpec" : "JanvandeSandt 4/8/2016 12:56:25",
 		"fieldsClass" : "JanvandeSandt 4/8/2016 12:56:25",
@@ -12,6 +12,5 @@
 		"removeAccessor:" : "JanvandeSandt 4/8/2016 12:56:25" },
 	"instance" : {
 		"getFinalizer" : "JanvandeSandt 4/8/2016 12:56:25",
-		"getHandles" : "JanvandeSandt 4/8/2016 12:56:25",
-		"isNull" : "JanvandeSandt 4/8/2016 12:56:25",
+		"getHandles" : "JanVanDeSandt 4/8/2016 14:46",
 		"setFinalizer:" : "JanvandeSandt 4/8/2016 12:56:25" } }

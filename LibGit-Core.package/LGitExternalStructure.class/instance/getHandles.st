@@ -1,3 +1,3 @@
 libgit-finalization
 getHandles
-	^ { data }
+	^ Array with: self getHandle
