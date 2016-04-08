@@ -1,11 +1,7 @@
 {
 	"class" : {
-		"externalNew:" : "JanvandeSandt 4/6/2016 21:41:40",
-		"fieldNamesAndProtocols" : "JanvandeSandt 4/6/2016 21:41:40",
-		"installAccessors" : "JanvandeSandt 4/6/2016 21:41:40",
-		"protocolForField:" : "JanvandeSandt 4/6/2016 21:41:40",
-		"updateElementSize" : "JanvandeSandt 4/6/2016 21:41:40" },
+		"externalNew:" : "JanVanDeSandt 4/8/2016 11:10",
+		"onAddress:size:" : "JanVanDeSandt 4/8/2016 11:11",
+		"type" : "JanVanDeSandt 4/8/2016 11:13" },
 	"instance" : {
-		"asArray" : "JanvandeSandt 4/6/2016 21:41:40",
-		"at:put:" : "JanvandeSandt 4/6/2016 21:41:40",
-		"free" : "JanvandeSandt 4/6/2016 21:41:40" } }
+		"asArray" : "JanvandeSandt 4/6/2016 21:41:40" } }

@@ -1,7 +1,3 @@
 private
 basicAllocate: aSize
-	<todo: 'platform dependent allocation'>
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin>	
-	^ self nbCallout
-		function: #(void * malloc(ulong aSize))
-		module: NativeBoost CLibrary
+	^self ffiCall: #(void * malloc(size_t aSize)) module: LibC
