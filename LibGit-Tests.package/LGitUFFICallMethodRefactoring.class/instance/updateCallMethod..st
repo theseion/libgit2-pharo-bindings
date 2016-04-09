@@ -15,4 +15,4 @@ updateCallMethod: aMethod
 		replacer replaceTree: (RBLiteralNode value: old)
 			withTree: (RBLiteralNode value: new) ].
 	
-	self convertMethod: aMethod selector for: class using: replacer
+	self convertMethod: aMethod selector for: aMethod modelClass using: replacer

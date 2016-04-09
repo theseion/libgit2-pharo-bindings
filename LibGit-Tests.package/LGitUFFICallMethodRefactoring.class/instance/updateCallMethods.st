@@ -1,7 +1,10 @@
 as yet unclassified
 updateCallMethods
 
-	| methods |
+	| selectors |
 	
-	methods := class existingMethodsThatReferTo: #primitiveNativeCall.
-	methods do: [ :each | self updateCallMethod: (class methodFor: each) ]
+	selectors := class existingMethodsThatReferTo: #primitiveNativeCall.
+	selectors do: [ :each | self updateCallMethod: (class methodFor: each) ].
+	
+	selectors := class theMetaClass existingMethodsThatReferTo: #primitiveNativeCall.
+	selectors do: [ :each | self updateCallMethod: (class theMetaClass methodFor: each) ]
