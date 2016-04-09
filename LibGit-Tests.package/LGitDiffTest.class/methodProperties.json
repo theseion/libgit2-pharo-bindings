@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JanvandeSandt 4/8/2016 10:40:17",
-		"testDiffContentForCommit" : "JanvandeSandt 4/8/2016 10:40:17",
-		"testDiffTreeToTree" : "JanvandeSandt 4/8/2016 10:40:17",
-		"testGetDelta" : "JanvandeSandt 4/8/2016 10:40:17",
-		"testNumDeltasNonZero" : "JanvandeSandt 4/8/2016 10:40:17",
-		"testNumDeltasZero" : "JanvandeSandt 4/8/2016 10:40:17",
-		"testPatchFromDiff" : "JanvandeSandt 4/8/2016 10:40:17" } }
+		"setUp" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testDiffContentForCommit" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testDiffTreeToTree" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testGetDelta" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testNumDeltasNonZero" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testNumDeltasZero" : "JanvandeSandt 3/14/2016 18:10:14",
+		"testPatchFromDiff" : "JanvandeSandt 3/14/2016 18:10:14" } }
