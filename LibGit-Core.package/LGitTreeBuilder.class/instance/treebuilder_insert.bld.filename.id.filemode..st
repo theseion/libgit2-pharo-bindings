@@ -3,5 +3,5 @@ treebuilder_insert: out bld: bld filename: filename id: objectId filemode: filem
 	
 	^ self
 		call:
-			#(LGitReturnCodeEnum git_treebuilder_insert #(LGitTreeEntry * out , self , String filename , LGitId * objectId , LGitFilemodeEnum filemode))
+			#(LGitReturnCodeEnum git_treebuilder_insert #(LGitTreeEntry * out , self , String filename , LGitId objectId , LGitFilemodeEnum filemode))
 		options: #()

@@ -6,15 +6,15 @@
 		"treebuilder_free:" : "JanVanDeSandt 4/8/2016 14:36" },
 	"instance" : {
 		"addEntry:filename:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"addEntryWithId:filename:filemode:" : "JanvandeSandt 4/8/2016 12:56:25",
+		"addEntryWithId:filename:filemode:" : "JanvandeSandt 4/8/2016 15:51:59",
 		"clear" : "JanvandeSandt 4/8/2016 12:56:25",
-		"createNew" : "JanvandeSandt 4/8/2016 12:56:25",
+		"createNew" : "JanVanDeSandt 4/8/2016 15:59",
 		"getEntryNamed:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"initializeWithTree:" : "JanvandeSandt 4/8/2016 12:56:25",
 		"newTree" : "JanvandeSandt 4/8/2016 12:56:25",
 		"treebuilder_clear:" : "JanVanDeSandt 4/8/2016 14:36",
 		"treebuilder_get:filename:" : "JanVanDeSandt 4/8/2016 14:36",
-		"treebuilder_insert:bld:filename:id:filemode:" : "JanVanDeSandt 4/8/2016 14:36",
+		"treebuilder_insert:bld:filename:id:filemode:" : "JanVanDeSandt 4/8/2016 16:08",
 		"treebuilder_new:repo:source:" : "JanVanDeSandt 4/8/2016 15:21",
 		"treebuilder_write:bld:" : "JanVanDeSandt 4/8/2016 14:36",
 		"write" : "JanvandeSandt 4/8/2016 12:56:25" } }
