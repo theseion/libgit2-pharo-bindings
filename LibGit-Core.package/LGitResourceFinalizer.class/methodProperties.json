@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"forClass:handles:" : "JanvandeSandt 4/8/2016 12:56:25" },
+		"forClass:handles:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
-		"disable" : "JanvandeSandt 4/8/2016 12:56:25",
-		"disableGarbageCollection" : "JanvandeSandt 4/8/2016 12:56:25",
-		"enableGarbageCollection" : "JanvandeSandt 4/8/2016 12:56:25",
-		"initialize" : "JanvandeSandt 4/8/2016 12:56:25",
-		"isEnabled" : "JanvandeSandt 4/8/2016 12:56:25",
-		"isGarbageCollectionDisabled" : "JanvandeSandt 4/8/2016 12:56:25",
-		"performFinalization" : "JanvandeSandt 4/8/2016 12:56:25",
-		"setClass:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"setHandles:" : "JanvandeSandt 4/8/2016 12:56:25" } }
+		"disable" : "JanvandeSandt 3/25/2016 21:49:01",
+		"disableGarbageCollection" : "JanvandeSandt 3/25/2016 21:49:01",
+		"enableGarbageCollection" : "JanvandeSandt 3/25/2016 21:49:01",
+		"initialize" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isEnabled" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isGarbageCollectionDisabled" : "JanvandeSandt 3/25/2016 21:49:01",
+		"performFinalization" : "JanvandeSandt 3/25/2016 21:49:01",
+		"setClass:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"setHandles:" : "JanvandeSandt 3/25/2016 21:49:01" } }

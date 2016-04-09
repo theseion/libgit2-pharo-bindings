@@ -10,5 +10,5 @@
 	"name" : "LGitWriteBackValue",
 	"pools" : [
 		 ],
-	"super" : "NBExternalTypeValue",
-	"type" : "bytes" }
+	"super" : "FFIExternalValueHolder",
+	"type" : "normal" }

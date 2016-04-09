@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "LGitWriteBackValue",
-	"type" : "bytes" }
+	"type" : "normal" }

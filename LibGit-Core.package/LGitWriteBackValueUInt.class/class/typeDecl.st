@@ -1,3 +1,3 @@
 accessing
-valueTypeName
+typeDecl
 	^ 'uint'

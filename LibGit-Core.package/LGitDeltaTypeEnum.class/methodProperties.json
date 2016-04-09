@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"enumDecl" : "JanvandeSandt 4/8/2016 12:56:25",
-		"git_delta_added" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_conflicted" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_copied" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_deleted" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_ignored" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_modified" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_renamed" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_typechange" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_unmodified" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_unreadable" : "JanVanDeSandt 4/8/2016 15:25",
-		"git_delta_untracked" : "JanVanDeSandt 4/8/2016 15:25" },
+		"enumDecl" : "JanvandeSandt 3/25/2016 21:49:01",
+		"git_delta_added" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_conflicted" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_copied" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_deleted" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_ignored" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_modified" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_renamed" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_typechange" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_unmodified" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_unreadable" : "JanVanDeSandt 4/9/2016 14:10",
+		"git_delta_untracked" : "JanVanDeSandt 4/9/2016 14:10" },
 	"instance" : {
 		 } }

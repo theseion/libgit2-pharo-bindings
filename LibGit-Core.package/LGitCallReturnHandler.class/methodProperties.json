@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"canHandle:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"for:" : "JanvandeSandt 4/8/2016 12:56:25",
-		"handledReturnCodes" : "JanvandeSandt 4/8/2016 12:56:25",
-		"isAbstract" : "JanvandeSandt 4/8/2016 12:56:25",
-		"isError" : "JanvandeSandt 4/8/2016 12:56:25",
-		"signalWith:" : "JanvandeSandt 4/8/2016 12:56:25" },
+		"canHandle:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"for:" : "JanvandeSandt 3/25/2016 21:49:01",
+		"handledReturnCodes" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isAbstract" : "JanvandeSandt 3/25/2016 21:49:01",
+		"isError" : "JanvandeSandt 3/25/2016 21:49:01",
+		"signalWith:" : "JanvandeSandt 3/25/2016 21:49:01" },
 	"instance" : {
 		 } }
