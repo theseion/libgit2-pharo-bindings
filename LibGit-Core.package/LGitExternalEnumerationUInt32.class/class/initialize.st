@@ -1,3 +1,4 @@
 class initialization
 initialize
-	declaration := nil
+	declaration := nil.
+	representationType := nil.
