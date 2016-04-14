@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"INT_PTR" ],
+		"Initialized" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

@@ -1,4 +1,4 @@
 resources
 ffiLibraryName
 
-	^LGitLibrary 
+	^self class ffiLibrary
