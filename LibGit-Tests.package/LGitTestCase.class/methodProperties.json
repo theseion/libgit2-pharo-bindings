@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertGarbageCollectAll:after:" : "JanvandeSandt 4/11/2016 21:53:56",
-		"file" : "JanvandeSandt 4/11/2016 21:53:56",
-		"newRepo" : "JanvandeSandt 4/11/2016 21:53:56",
-		"repository" : "JanvandeSandt 4/11/2016 21:53:56",
-		"setUp" : "JanVanDeSandt 4/15/2016 13:57",
-		"tearDown" : "JanvandeSandt 4/11/2016 21:53:56",
-		"touchFile" : "JanvandeSandt 4/11/2016 21:53:56",
-		"touchFileAndCommit" : "JanvandeSandt 4/11/2016 21:53:56" } }
+		"assertGarbageCollectAll:after:" : "JanvandeSandt 4/15/2016 14:55:44",
+		"file" : "JanvandeSandt 4/15/2016 14:55:44",
+		"newRepo" : "JanvandeSandt 4/15/2016 14:55:44",
+		"repository" : "JanvandeSandt 4/15/2016 14:55:44",
+		"setUp" : "JanvandeSandt 4/15/2016 14:55:44",
+		"tearDown" : "JanvandeSandt 4/15/2016 14:55:44",
+		"touchFile" : "JanvandeSandt 4/15/2016 14:55:44",
+		"touchFileAndCommit" : "JanvandeSandt 4/15/2016 14:55:44" } }

@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testEquals" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testIsBranch" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testIsDirect" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testIsHead" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testIsSymbolic" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testName" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testObject" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testPrinting" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testResolve" : "JanvandeSandt 4/11/2016 21:53:56" } }
+		"setUp" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testEquals" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testIsBranch" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testIsDirect" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testIsHead" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testIsSymbolic" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testName" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testObject" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testPrinting" : "JanvandeSandt 4/15/2016 14:55:44",
+		"testResolve" : "JanvandeSandt 4/15/2016 14:55:44" } }

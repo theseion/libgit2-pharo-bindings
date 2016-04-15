@@ -1,2 +1,2 @@
-(name 'LibGit-Tests-JanVanDeSandt.54' message 'Fixed LGitUtilityTestCase' id '721a7aef-5acf-4cf5-b016-acdb125ea977' date '15 April 2016' time '2:55:41.116267 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.53' message 'Simplify test setup a bit
-' id 'a6564621-194e-5992-9bd8-e85c49759647' date '15 April 2016' time '1:59:12 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Tests-JanVanDeSandt.55' message 'LGitStringArray test fixes' id '9066cdc7-c042-4a24-90bb-5aa2d9f38b28' date '15 April 2016' time '4:08:06.565113 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.54' message 'Fixed LGitUtilityTestCase
+' id 'b288c33c-f963-5bf8-9794-046e57e86e3a' date '15 April 2016' time '2:55:44 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
