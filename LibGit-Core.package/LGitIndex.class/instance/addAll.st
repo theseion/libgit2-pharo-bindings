@@ -10,5 +10,5 @@ addAll
 			index_add_all: self
 			pathspec: pathspec
 			flags: 0
-			callback: (LGitIndexMatchedPathCallback on: [ :a :b :c | 0 ])
-			payload: nil ]
+			callback: (LGitIndexMatchedPathCallback on: [ :a :b :c | FileStream stdout nextPutAll: 'pipo!'; lf; flush. 0 ])
+			payload: ExternalAddress null ]
