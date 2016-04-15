@@ -2,4 +2,4 @@ accessing
 strings: aCollection
 	| array |
 	array := LGitExternalStringArray fromCollection: aCollection.
-	self prim_strings: array address
+	self prim_strings: array
