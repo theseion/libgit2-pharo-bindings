@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBinary" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testCreateFromByteArray" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testCreateFromFile" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testCreateFromNonExternalCollection" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testCreateFromString" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testEquals" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testEqualsUninitialized" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testFree" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testNotBinary" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testPrinting" : "JanvandeSandt 3/14/2016 18:10:14",
-		"testPrintingUninitialized" : "JanvandeSandt 3/14/2016 18:10:14" } }
+		"testBinary" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testCreateFromByteArray" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testCreateFromFile" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testCreateFromNonExternalCollection" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testCreateFromString" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testEquals" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testEqualsUninitialized" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testFree" : "JanVanDeSandt 4/15/2016 09:15",
+		"testNotBinary" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testPrinting" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testPrintingUninitialized" : "JanvandeSandt 4/11/2016 21:53:56" } }

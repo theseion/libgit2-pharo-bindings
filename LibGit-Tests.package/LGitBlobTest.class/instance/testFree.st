@@ -3,6 +3,6 @@ testFree
 	self
 		assertGarbageCollectAll: LGitBlob
 		after: [ 
-			| blob repository |
-			repository := self newRepo state3Opened.
-			blob := LGitBlob of: repository fromString: 'eat my shorts' ]
+			| blob repo |
+			repo := self newRepo state3Opened.
+			blob := LGitBlob of: repo fromString: 'eat my shorts' ]
