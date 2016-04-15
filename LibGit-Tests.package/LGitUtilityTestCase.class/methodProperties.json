@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testLibGit2Loadable" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testLibSSH2Loadable" : "JanvandeSandt 4/11/2016 21:53:56" } }
+		"libSSH2LibraryName" : "JanVanDeSandt 4/15/2016 14:52",
+		"libSSH2Version:" : "JanVanDeSandt 4/15/2016 14:53",
+		"testLibGit2Loadable" : "JanVanDeSandt 4/15/2016 14:49",
+		"testLibSSH2Loadable" : "JanVanDeSandt 4/15/2016 14:53" } }

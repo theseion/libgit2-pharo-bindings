@@ -1,2 +1,2 @@
-(name 'LibGit-Tests-JanVanDeSandt.53' message 'Simplify test setup a bit' id 'af71ffa5-fdc1-4e58-b6a2-d014549cba68' date '15 April 2016' time '1:59:09.630873 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.52' message 'Trying to get callbacks working (Tests).
-' id 'b0147e5f-e9eb-5f79-b11e-e525142a22c2' date '15 April 2016' time '12:07:58 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Tests-JanVanDeSandt.54' message 'Fixed LGitUtilityTestCase' id '721a7aef-5acf-4cf5-b016-acdb125ea977' date '15 April 2016' time '2:55:41.116267 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.53' message 'Simplify test setup a bit
+' id 'a6564621-194e-5992-9bd8-e85c49759647' date '15 April 2016' time '1:59:12 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())

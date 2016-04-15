@@ -1,3 +1,5 @@
 tests
 testLibGit2Loadable
-	self assert: (NativeBoost forCurrentPlatform loadModule: LGitGlobal libraryName) > 0
+
+	self assert: LGitLibrary uniqueInstance libgit2_init > 0.
+	LGitLibrary uniqueInstance libgit2_shutdown
