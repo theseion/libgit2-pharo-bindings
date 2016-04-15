@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^ #(NBInt32 (NBUInt32 current, NBUInt32 total, NBInt32 bytes, NBVoid * payload))
+	^ #(FFIInt32 (FFIUInt32 current, FFIUInt32 total, FFIInt32 bytes, void * payload))

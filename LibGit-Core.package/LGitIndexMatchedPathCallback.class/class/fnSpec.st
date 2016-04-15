@@ -1,3 +1,3 @@
 callback spec
 fnSpec
-	^ #(NBInt32 (NBExternalString arg1, NBExternalString arg2, NBVoid * arg3))
+	^ #(FFIInt32 (FFIExternalString arg1, FFIExternalString arg2, void * arg3))

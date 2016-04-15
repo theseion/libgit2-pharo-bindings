@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBInt32 (LGitCheckoutNotifyTypeEnum why, NBExternalString path, LGitDiffFileS * baseline, LGitDiffFile * target, LGitDiffFile * workdir, NBVoid * payload))
+	^#(FFIInt32 (LGitCheckoutNotifyTypeEnum why, FFIExternalString path, LGitDiffFileS * baseline, LGitDiffFile * target, LGitDiffFile * workdir, void * payload))
