@@ -2,7 +2,7 @@ private
 privObjectIdPtr
 	| oId |
 	oId := self reference_target: self.
-	oId address isNull
+	oId getHandle isNull
 		ifTrue: [ 
 			| resolvedRef |
 			resolvedRef := self class of: self repository.
