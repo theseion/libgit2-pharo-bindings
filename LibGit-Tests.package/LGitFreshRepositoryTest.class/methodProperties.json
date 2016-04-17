@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAutoRelease" : "JanVanDeSandt 4/17/2016 21:57",
 		"testBranchNamesEmpty" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testBranchesEmpty" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testCreate" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testDefaultSignature" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testFree" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testFree" : "JanVanDeSandt 4/17/2016 21:59",
 		"testHasHead" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testLookupHead" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testLookupMasterBranch" : "JanvandeSandt 4/11/2016 21:53:56",
