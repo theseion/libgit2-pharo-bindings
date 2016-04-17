@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"isAbstract" : "JanvandeSandt 4/15/2016 14:55:44" },
+		"isAbstract" : "JanvandeSandt 4/11/2016 21:53:56" },
 	"instance" : {
-		"testEquals" : "JanvandeSandt 4/15/2016 14:55:44",
-		"testEqualsUninitialized" : "JanvandeSandt 4/15/2016 14:55:44",
-		"testPrinting" : "JanvandeSandt 4/15/2016 14:55:44",
-		"testPrintingUninitialized" : "JanvandeSandt 4/15/2016 14:55:44" } }
+		"testEquals" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testEqualsUninitialized" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testPrinting" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testPrintingUninitialized" : "JanvandeSandt 4/11/2016 21:53:56" } }

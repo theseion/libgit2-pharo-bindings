@@ -1,2 +1,2 @@
-(name 'LibGit-Tests-JanVanDeSandt.55' message 'LGitStringArray test fixes' id '9066cdc7-c042-4a24-90bb-5aa2d9f38b28' date '15 April 2016' time '4:08:06.565113 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.54' message 'Fixed LGitUtilityTestCase
-' id 'b288c33c-f963-5bf8-9794-046e57e86e3a' date '15 April 2016' time '2:55:44 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Tests-JanVanDeSandt.56' message 'Add TreeBuilder test to verify that the id of a Blob object does not use an external address.' id '858f193b-a77d-4ae0-82f9-58f1550d934b' date '17 April 2016' time '4:33:34.764432 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.55' message 'LGitStringArray test fixes
+' id '6f43aeb4-73cc-5ed8-bdc6-288abca7c72c' date '15 April 2016' time '4:08:09 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
