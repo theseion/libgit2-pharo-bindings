@@ -1,6 +1,7 @@
 accessing
 id
-	<todo: 'aaaaaaaah!! I hate this code!'>
-	(id notNil or: [ handle isNull ]) ifTrue: [  ^ id ].
-	
-	^ self tree_id: self
+	(id notNil or: [ self isNull ]) ifTrue: [ ^ id ].
+
+	id := self tree_id: self.
+	id internalize.
+	^ id

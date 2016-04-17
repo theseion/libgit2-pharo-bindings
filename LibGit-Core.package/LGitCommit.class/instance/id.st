@@ -1,6 +1,7 @@
 accessing
 id
-	<todo: 'plain ugly!'>
-	id ifNotNil: [ ^ id ].
+	(id notNil or: [ self isNull ]) ifTrue: [ ^ id ].
 
-	^ self commit_id: self
+	id := self commit_id: self.
+	id internalize.
+	^ id	

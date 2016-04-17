@@ -11,4 +11,5 @@ performFinalization
 		thenDo: [ :handle |
 			class
 				perform: class freeFunctionSelector
-				with: handle value ]
+				with: handle value.
+			handle beNull ]

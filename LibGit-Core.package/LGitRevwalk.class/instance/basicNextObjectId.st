@@ -1,7 +1,7 @@
 private
 basicNextObjectId
 	| nextId returnCode |
-	nextId := LGitId externalNew.
+	nextId := LGitId new.
 	returnCode := self
 		revwalk_next: nextId
 		walk: self.
