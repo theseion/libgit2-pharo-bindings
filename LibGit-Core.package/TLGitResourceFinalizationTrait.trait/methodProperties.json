@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"finalizeResourceData:" : "JanvandeSandt 4/11/2016 21:53:34",
+		"finalizeResourceData:" : "JanVanDeSandt 4/17/2016 22:26",
 		"freeFunctionSelector" : "JanvandeSandt 4/11/2016 21:53:34" },
 	"instance" : {
 		"finalizer" : "JanvandeSandt 4/11/2016 21:53:34",
-		"free" : "JanvandeSandt 4/11/2016 21:53:34",
+		"free" : "JanVanDeSandt 4/17/2016 21:07",
 		"freeAfterUse:" : "JanvandeSandt 4/11/2016 21:53:34",
 		"getFinalizer" : "JanvandeSandt 4/11/2016 21:53:34",
 		"getHandles" : "JanvandeSandt 4/11/2016 21:53:34",

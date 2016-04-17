@@ -1,11 +1,9 @@
 {
 	"class" : {
+		"finalizeResourceData:" : "JanVanDeSandt 4/17/2016 22:44",
 		"freeFunctionSelector" : "JanvandeSandt 4/11/2016 21:53:34",
 		"object_free:" : "JanvandeSandt 4/15/2016 16:07:58" },
 	"instance" : {
-		"getFinalizer" : "JanvandeSandt 4/11/2016 21:53:34",
-		"getHandles" : "JanvandeSandt 4/11/2016 21:53:34",
-		"initialize" : "JanvandeSandt 4/11/2016 21:53:34",
+		"free" : "JanVanDeSandt 4/17/2016 22:00",
 		"isReady" : "JanvandeSandt 4/11/2016 21:53:34",
-		"setFinalizer:" : "JanvandeSandt 4/11/2016 21:53:34",
 		"shouldContinuePrintingOn:" : "JanvandeSandt 4/11/2016 21:53:34" } }

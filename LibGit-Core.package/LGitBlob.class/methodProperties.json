@@ -2,9 +2,11 @@
 	"class" : {
 		"blob_create_frombuffer:repo:buffer:len:" : "JanvandeSandt 4/11/2016 21:53:34",
 		"blob_create_fromdisk:repo:path:" : "JanvandeSandt 4/11/2016 21:53:34",
+		"blob_free:" : "JanVanDeSandt 4/17/2016 21:36",
 		"defaultFilemode" : "JanvandeSandt 4/11/2016 21:53:34",
+		"freeFunctionSelector" : "JanVanDeSandt 4/17/2016 22:41",
 		"isType:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"of:fromExternalCollection:" : "JanvandeSandt 4/11/2016 21:53:34",
+		"of:fromExternalCollection:" : "JanVanDeSandt 4/17/2016 22:15",
 		"of:fromFile:" : "JanvandeSandt 4/11/2016 21:53:34",
 		"of:fromString:" : "JanvandeSandt 4/11/2016 21:53:34" },
 	"instance" : {
@@ -20,7 +22,7 @@
 		"id" : "JanVanDeSandt 4/17/2016 16:04",
 		"isBinary" : "JanvandeSandt 4/11/2016 21:53:34",
 		"isBlob" : "JanvandeSandt 4/11/2016 21:53:34",
-		"lookup" : "JanvandeSandt 4/11/2016 21:53:34",
+		"lookup" : "JanVanDeSandt 4/17/2016 21:30",
 		"names" : "JanvandeSandt 4/11/2016 21:53:34",
 		"objectPrintOn:" : "JanvandeSandt 4/15/2016 16:07:58",
 		"rawBuffer" : "JanvandeSandt 4/11/2016 21:53:34",

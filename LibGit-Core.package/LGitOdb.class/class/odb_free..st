@@ -1,4 +1,4 @@
 libgit-calls
 odb_free: handle
 	
-	^ self call: #(FFIVoid git_odb_free #(ulong handle)) options: #()
+	^ self call: #(void git_odb_free #(void *handle)) options: #()

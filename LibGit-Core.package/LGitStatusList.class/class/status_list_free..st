@@ -2,5 +2,5 @@ libgit-calls
 status_list_free: handle
 	
 	^ self
-		call: #(FFIVoid git_status_list_free #(ulong handle))
+		call: #(void git_status_list_free #(void *handle))
 		options: #()

@@ -1,3 +1,4 @@
 libgit-finalization
 free
-	self finalizer performFinalization
+	self getHandle isExternalAddress 
+		ifTrue: [ self class finalizeResourceData: self getHandle ]

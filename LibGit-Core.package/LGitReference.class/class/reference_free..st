@@ -2,5 +2,5 @@ libgit-calls
 reference_free: handle
 	
 	^ self
-		call: #(FFIVoid git_reference_free #(ulong handle))
+		call: #(void git_reference_free #(void *handle))
 		options: #()

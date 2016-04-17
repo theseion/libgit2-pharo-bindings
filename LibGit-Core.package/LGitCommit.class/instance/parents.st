@@ -8,6 +8,5 @@ parents
 			0 to: parentCount - 1 do: [ :i | 
 				| parentOid parent |
 				parentOid := self commit_parent_id: self n: i.
-				parent := self class of: self repository.
-				self commit_lookup: parent repo: self repository id: parentOid.
+				parent := self class of: self repository fromId: parentOid.
 				stream nextPut: parent ] ]

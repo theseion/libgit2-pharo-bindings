@@ -2,5 +2,5 @@ libgit-calls
 treebuilder_free: handle
 	
 	^ self
-		call: #(FFIVoid git_treebuilder_free #(ulong handle))
+		call: #(void git_treebuilder_free #(void *handle))
 		options: #()
