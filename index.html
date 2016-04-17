@@ -49,10 +49,14 @@
 
 <p>Evaluate the following in a workspace:</p>
 
-<pre><code>Metacello new
-  baseline: #LibGit;
-  repository: 'github://theseion/LibGit:master';
-  load.
+<pre><code>
+```Smalltalk
+[ Metacello new
+  baseline: #MLPromise;
+  repository: 'github://theseion/master-thesis:master/mc';
+  load ]
+    on: Warning do: [ :ex | ex resume ]
+```
 </code></pre>
 
 <p>Or to get the development packages:</p>
