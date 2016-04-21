@@ -4,6 +4,7 @@
 	"instance" : {
 		"testAsInteger" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testAsRelativePathString" : "JanvandeSandt 4/11/2016 21:53:56",
-		"testEquals" : "JanvandeSandt 4/11/2016 21:53:56",
+		"testEquals" : "JanVanDeSandt 4/18/2016 20:51",
+		"testEqualsSimple" : "JanVanDeSandt 4/18/2016 22:21",
 		"testHexString" : "JanvandeSandt 4/11/2016 21:53:56",
 		"testPrinting" : "JanvandeSandt 4/11/2016 21:53:56" } }
