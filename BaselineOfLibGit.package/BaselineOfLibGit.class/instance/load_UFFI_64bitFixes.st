@@ -5,5 +5,6 @@ load_UFFI_64bitFixes
 	Gofer it
 		url: 'http://smalltalkhub.com/mc/JanVanDeSandt/Stuff/main';
 		package: 'FFI-Kernel';
+		package: 'UnifiedFFI';
 		package: 'UnifiedFFI-Tests';
 		load.
