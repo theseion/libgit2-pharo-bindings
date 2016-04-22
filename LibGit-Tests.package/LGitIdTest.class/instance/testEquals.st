@@ -5,7 +5,6 @@ testEquals
 	head := repo head object.
 	self assert: head class equals: LGitCommit.
 	self assert: head id class equals: LGitId.
-	self deny: head id == head id.
 	
 	self assert: head id = head id.
 	self deny: head id = LGitId new.

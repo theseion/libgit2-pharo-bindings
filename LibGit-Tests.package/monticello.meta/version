@@ -1,2 +1,2 @@
-(name 'LibGit-Tests-JanVanDeSandt.58' message 'simplify resolving references a bit' id 'be0d0f49-8480-4dfa-9db7-0cd9eaae149e' date '21 April 2016' time '10:46:17.61079 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.57' message 'Use resource finalization support of UnifiedFFI for LGitExternalObject subclasses
-' id '37eb9625-d898-5c1d-8bf9-ea25f970ce67' date '17 April 2016' time '10:52:26 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Tests-JanVanDeSandt.59' message 'Small test fix' id 'd98f4bd3-c257-40c5-bb9b-92a8b244dbf4' date '22 April 2016' time '10:03:28.570647 am' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.58' message 'simplify resolving references a bit
+' id '36ba1fee-6498-56ee-8087-b6e8d005d5dc' date '21 April 2016' time '10:46:19 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
