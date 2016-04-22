@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"initialize" : "JanVanDeSandt 4/14/2016 22:12",
-		"isInitialized" : "JanVanDeSandt 4/14/2016 22:31",
-		"startUp:" : "JanVanDeSandt 4/14/2016 22:04" },
+		"initialize" : "JanvandeSandt 4/21/2016 22:46:08",
+		"isInitialized" : "JanvandeSandt 4/21/2016 22:46:08",
+		"startUp:" : "JanvandeSandt 4/21/2016 22:46:08" },
 	"instance" : {
-		"initializeLibGit2" : "JanVanDeSandt 4/14/2016 22:07",
-		"libgit2_features" : "JanvandeSandt 4/11/2016 21:53:34",
-		"libgit2_featuresAlt" : "JanvandeSandt 4/11/2016 21:53:34",
-		"libgit2_init" : "JanvandeSandt 4/11/2016 21:53:34",
-		"libgit2_shutdown" : "JanvandeSandt 4/11/2016 21:53:34",
-		"libgit2_version:minor:rev:" : "JanVanDeSandt 4/14/2016 21:56",
-		"macModuleName" : "JanvandeSandt 4/11/2016 21:53:34",
-		"shutdownLibGit2" : "JanVanDeSandt 4/14/2016 22:09",
-		"unixModuleName" : "JanvandeSandt 4/11/2016 21:53:34",
-		"version" : "JanVanDeSandt 4/14/2016 21:57",
-		"win32ModuleName" : "JanvandeSandt 4/11/2016 21:53:34" } }
+		"initializeLibGit2" : "JanvandeSandt 4/21/2016 22:46:08",
+		"libgit2_features" : "JanvandeSandt 4/21/2016 22:46:08",
+		"libgit2_featuresAlt" : "JanvandeSandt 4/21/2016 22:46:08",
+		"libgit2_init" : "JanvandeSandt 4/21/2016 22:46:08",
+		"libgit2_shutdown" : "JanvandeSandt 4/21/2016 22:46:08",
+		"libgit2_version:minor:rev:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"macModuleName" : "JanvandeSandt 4/21/2016 22:46:08",
+		"shutdownLibGit2" : "JanvandeSandt 4/21/2016 22:46:08",
+		"unixModuleName" : "JanvandeSandt 4/21/2016 22:46:08",
+		"version" : "JanvandeSandt 4/21/2016 22:46:08",
+		"win32ModuleName" : "JanvandeSandt 4/21/2016 22:46:08" } }

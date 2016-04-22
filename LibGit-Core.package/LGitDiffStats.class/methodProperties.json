@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"diff_stats_free:" : "JanVanDeSandt 4/17/2016 22:39",
-		"freeFunctionSelector" : "JanvandeSandt 4/11/2016 21:53:34" },
+		"diff_stats_free:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"freeFunctionSelector" : "JanvandeSandt 4/21/2016 22:46:08" },
 	"instance" : {
-		"diff_stats_deletions:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"diff_stats_files_changed:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"diff_stats_insertions:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"diff_stats_to_buf:stats:format:width:" : "JanvandeSandt 4/11/2016 21:53:34" } }
+		"diff_stats_deletions:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"diff_stats_files_changed:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"diff_stats_insertions:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"diff_stats_to_buf:stats:format:width:" : "JanvandeSandt 4/21/2016 22:46:08" } }

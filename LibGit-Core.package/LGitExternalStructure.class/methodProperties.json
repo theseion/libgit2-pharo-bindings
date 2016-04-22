@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"createAccessorsFor:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"fieldNamesAndProtocols" : "JanvandeSandt 4/11/2016 21:53:34",
-		"fieldSpec" : "JanvandeSandt 4/11/2016 21:53:34",
-		"free:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"freeFunctionSelector" : "JanvandeSandt 4/11/2016 21:53:34",
-		"generatedFieldProtocolName" : "JanvandeSandt 4/11/2016 21:53:34",
-		"protocolForField:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"removeAccessor:" : "JanvandeSandt 4/11/2016 21:53:34" },
+		"createAccessorsFor:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"fieldNamesAndProtocols" : "JanvandeSandt 4/21/2016 22:46:08",
+		"fieldSpec" : "JanvandeSandt 4/21/2016 22:46:08",
+		"free:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"freeFunctionSelector" : "JanvandeSandt 4/21/2016 22:46:08",
+		"generatedFieldProtocolName" : "JanvandeSandt 4/21/2016 22:46:08",
+		"protocolForField:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"removeAccessor:" : "JanvandeSandt 4/21/2016 22:46:08" },
 	"instance" : {
-		"getFinalizer" : "JanvandeSandt 4/11/2016 21:53:34",
-		"getHandles" : "JanvandeSandt 4/11/2016 21:53:34",
-		"setFinalizer:" : "JanvandeSandt 4/11/2016 21:53:34" } }
+		"getFinalizer" : "JanvandeSandt 4/21/2016 22:46:08",
+		"getHandles" : "JanvandeSandt 4/21/2016 22:46:08",
+		"setFinalizer:" : "JanvandeSandt 4/21/2016 22:46:08" } }

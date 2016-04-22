@@ -8,4 +8,4 @@ If the callback returns a positive value, the passed entry will be skipped on th
 			tree_walk: self
 			mode: LGitTreewalkModeEnum git_treewalk_pre
 			callback: (LGitTreewalkCallback on: aBlock)
-			payload: nil ]
+			payload: ExternalAddress null ]

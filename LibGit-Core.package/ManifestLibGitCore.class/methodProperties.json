@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"rejectClasses" : "JanvandeSandt 4/11/2016 21:53:34",
-		"rejectRules" : "JanvandeSandt 4/11/2016 21:53:34",
-		"ruleIfTrueBlocksRuleV1FalsePositive" : "JanvandeSandt 4/11/2016 21:53:34",
-		"ruleIfTrueReturnsRuleV1FalsePositive" : "JanvandeSandt 4/11/2016 21:53:34",
-		"ruleRBAbstractClassRuleV1FalsePositive" : "JanvandeSandt 4/11/2016 21:53:34",
-		"ruleRBNoClassCommentRuleV1FalsePositive" : "JanvandeSandt 4/11/2016 21:53:34" },
+		"rejectClasses" : "JanvandeSandt 4/21/2016 22:46:08",
+		"rejectRules" : "JanvandeSandt 4/21/2016 22:46:08",
+		"ruleIfTrueBlocksRuleV1FalsePositive" : "JanvandeSandt 4/21/2016 22:46:08",
+		"ruleIfTrueReturnsRuleV1FalsePositive" : "JanvandeSandt 4/21/2016 22:46:08",
+		"ruleRBAbstractClassRuleV1FalsePositive" : "JanvandeSandt 4/21/2016 22:46:08",
+		"ruleRBNoClassCommentRuleV1FalsePositive" : "JanvandeSandt 4/21/2016 22:46:08" },
 	"instance" : {
 		 } }

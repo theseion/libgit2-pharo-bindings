@@ -1,2 +1,2 @@
-(name 'LibGit-Core-JanVanDeSandt.101' message 'simplify resolving references a bit' id '0b285485-b091-4508-88a0-b1cf42118ce5' date '21 April 2016' time '10:45:59.189547 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.100' message 'Use resource finalization support of UnifiedFFI for LGitExternalObject subclasses
-' id '33cf6c91-eb39-5e0f-bd9b-d0d27ee480aa' date '17 April 2016' time '10:51:40 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Core-JanVanDeSandt.102' message 'Use LGitWriteBackValueInt instead of int*' id '60e96ecb-f5c1-43d3-8b17-0d5c51916bb6' date '22 April 2016' time '10:02:04.306932 am' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.101' message 'simplify resolving references a bit
+' id '9d1932fa-a49b-5e6d-a388-3bbcdb9374eb' date '21 April 2016' time '10:46:08 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())

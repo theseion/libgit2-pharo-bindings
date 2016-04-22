@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"username:passphrase:publicKeyReference:privateKeyReference:" : "JanvandeSandt 4/11/2016 21:53:34" },
+		"username:passphrase:publicKeyReference:privateKeyReference:" : "JanvandeSandt 4/21/2016 22:46:08" },
 	"instance" : {
-		"createWith:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"cred_ssh_key_new:username:publickey:privatekey:passphrase:" : "JanvandeSandt 4/15/2016 16:07:58",
-		"prim_credtype" : "JanvandeSandt 4/11/2016 21:53:34",
-		"prim_credtype:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"prim_free" : "JanvandeSandt 4/11/2016 21:53:34",
-		"prim_free:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"privateKeyReference" : "JanvandeSandt 4/11/2016 21:53:34",
-		"privateKeyReference:" : "JanvandeSandt 4/11/2016 21:53:34",
-		"publicKeyReference" : "JanvandeSandt 4/11/2016 21:53:34",
-		"publicKeyReference:" : "JanvandeSandt 4/11/2016 21:53:34" } }
+		"createWith:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"cred_ssh_key_new:username:publickey:privatekey:passphrase:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"prim_credtype" : "JanvandeSandt 4/21/2016 22:46:08",
+		"prim_credtype:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"prim_free" : "JanvandeSandt 4/21/2016 22:46:08",
+		"prim_free:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"privateKeyReference" : "JanvandeSandt 4/21/2016 22:46:08",
+		"privateKeyReference:" : "JanvandeSandt 4/21/2016 22:46:08",
+		"publicKeyReference" : "JanvandeSandt 4/21/2016 22:46:08",
+		"publicKeyReference:" : "JanvandeSandt 4/21/2016 22:46:08" } }
