@@ -119,7 +119,7 @@ enumDecl
 	"
 	GIT_DIFF_SHOW_UNMODIFIED 67108864
 
-	"Use the "patience diff" algorithm"
+	"Use the 'patience diff' algorithm"
 	GIT_DIFF_PATIENCE 268435456
 	"Take extra time to find minimal diff"
 	GIT_DIFF_MINIMAL 536870912
