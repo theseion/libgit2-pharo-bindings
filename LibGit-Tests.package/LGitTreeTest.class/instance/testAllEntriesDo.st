@@ -16,6 +16,11 @@ testAllEntriesDo
 	tree := rootBuilder newTree.
 	entries := OrderedCollection new.
 	tree allEntriesDo: [ :rootPath :entry :payload |
-		"entries add: rootPath -> entry filename."
-		entries add: rootPath.
+		entries add: rootPath -> entry filename.
 		0 ].
+	
+	self assert: entries asArray equals: (Array 
+		with: '' -> 'libgit_tests' 
+		with: 'libgit_tests/' -> 'foo')
+	
+	
