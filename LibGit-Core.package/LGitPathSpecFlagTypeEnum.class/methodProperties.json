@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"enumDecl" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_default" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_failures_only" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_find_failures" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_ignore_case" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_no_glob" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_no_match_error" : "JanvandeSandt 4/21/2016 22:46:08",
-		"git_pathspec_use_case" : "JanvandeSandt 4/21/2016 22:46:08" },
+		"enumDecl" : "JanvandeSandt 4/22/2016 10:50:52",
+		"git_pathspec_default" : "JanVanDeSandt 4/26/2016 21:46",
+		"git_pathspec_failures_only" : "JanVanDeSandt 4/26/2016 21:46",
+		"git_pathspec_find_failures" : "JanVanDeSandt 4/26/2016 21:46",
+		"git_pathspec_ignore_case" : "JanVanDeSandt 4/26/2016 21:46",
+		"git_pathspec_no_glob" : "JanVanDeSandt 4/26/2016 21:46",
+		"git_pathspec_no_match_error" : "JanVanDeSandt 4/26/2016 21:46",
+		"git_pathspec_use_case" : "JanVanDeSandt 4/26/2016 21:46" },
 	"instance" : {
 		 } }

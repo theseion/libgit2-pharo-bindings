@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"finalizeResourceData:" : "JanvandeSandt 4/21/2016 22:46:08",
-		"freeFunctionSelector" : "JanvandeSandt 4/21/2016 22:46:08" },
+		"finalizeResourceData:" : "JanvandeSandt 4/22/2016 10:50:52",
+		"freeFunctionSelector" : "JanvandeSandt 4/22/2016 10:50:52" },
 	"instance" : {
-		"finalizer" : "JanvandeSandt 4/21/2016 22:46:08",
-		"free" : "JanvandeSandt 4/21/2016 22:46:08",
-		"freeAfterUse:" : "JanvandeSandt 4/21/2016 22:46:08",
-		"getFinalizer" : "JanvandeSandt 4/21/2016 22:46:08",
-		"getHandles" : "JanvandeSandt 4/21/2016 22:46:08",
-		"resourceData" : "JanvandeSandt 4/21/2016 22:46:08",
-		"setFinalizer:" : "JanvandeSandt 4/21/2016 22:46:08" } }
+		"finalizer" : "JanvandeSandt 4/22/2016 10:50:52",
+		"free" : "JanvandeSandt 4/22/2016 10:50:52",
+		"freeAfterUse:" : "JanvandeSandt 4/22/2016 10:50:52",
+		"getFinalizer" : "JanvandeSandt 4/22/2016 10:50:52",
+		"getHandles" : "JanvandeSandt 4/22/2016 10:50:52",
+		"resourceData" : "JanvandeSandt 4/22/2016 10:50:52",
+		"setFinalizer:" : "JanvandeSandt 4/22/2016 10:50:52" } }
