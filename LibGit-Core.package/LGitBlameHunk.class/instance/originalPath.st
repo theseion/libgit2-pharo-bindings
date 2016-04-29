@@ -1,3 +1,3 @@
 accessing
 originalPath
-	^ self prim_orig_path
+	^ self prim_orig_path readString
