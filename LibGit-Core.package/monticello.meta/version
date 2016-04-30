@@ -1,2 +1,2 @@
-(name 'LibGit-Core-JanVanDeSandt.109' message 'withReturnHandlerDo: seems to cause a crash????' id 'eff76ac4-54e6-4221-871c-28f4700d02ec' date '30 April 2016' time '1:57:24.89355 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.108' message 're-enable autoRelease functionality for LGitExternalObject
-' id 'a061645f-3a4b-5b7c-be88-8dd9cece665c' date '30 April 2016' time '1:30:28 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Core-JanVanDeSandt.110' message 'autoRelease LGitPatch' id '8b5b2cac-45dc-43cc-867c-dc01dbc6c766' date '30 April 2016' time '5:57:45.237793 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.109' message 'withReturnHandlerDo: seems to cause a crash????
+' id 'f52bc08e-341e-5d9d-b058-06cd8f7943e1' date '30 April 2016' time '1:57:52 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
