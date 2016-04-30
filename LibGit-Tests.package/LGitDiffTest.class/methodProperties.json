@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JanvandeSandt 4/22/2016 10:03:31",
+		"setUp" : "JanVanDeSandt 4/29/2016 18:43",
 		"testDiffContentForCommit" : "JanvandeSandt 4/22/2016 10:03:31",
 		"testDiffTreeToTree" : "JanvandeSandt 4/22/2016 10:03:31",
 		"testGetDelta" : "JanvandeSandt 4/22/2016 10:03:31",

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"testClean" : "JanVanDeSandt 4/29/2016 20:29" },
 	"instance" : {
 		"setUp" : "JanvandeSandt 4/22/2016 10:03:31",
 		"testEquals" : "JanvandeSandt 4/22/2016 10:03:31",
