@@ -4,6 +4,6 @@ wrapBlock: aThreeArgBlock
 	^[ :rootPath :entryAddress :payload |
 		aThreeArgBlock 
 			value: rootPath 
-			value: (LGitTreeEntry basicNew setHandle: entryAddress)
+			value: (LGitTreeEntry fromHandle: entryAddress)
 			value: payload ]
 		

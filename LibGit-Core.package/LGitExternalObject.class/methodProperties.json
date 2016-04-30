@@ -2,8 +2,9 @@
 	"class" : {
 		"finalizeResourceData:" : "JanvandeSandt 4/26/2016 22:06:39",
 		"freeFunctionSelector" : "JanvandeSandt 4/22/2016 10:50:52",
+		"fromHandle:" : "JanVanDeSandt 4/29/2016 22:38",
 		"object_free:" : "JanvandeSandt 4/22/2016 10:50:52" },
 	"instance" : {
-		"free" : "JanvandeSandt 4/22/2016 10:50:52",
+		"free" : "JanVanDeSandt 4/30/2016 12:33",
 		"isReady" : "JanvandeSandt 4/22/2016 10:50:52",
 		"shouldContinuePrintingOn:" : "JanvandeSandt 4/22/2016 10:50:52" } }

@@ -3,12 +3,16 @@ filesDo: filesBlockOrNil binaryFilesDo: binaryBlockOrNil hunksDo: hunksBlockOrNi
 	self withReturnHandlerDo: [
 		self
 			diff_foreach: self
-			file_cb: (filesBlockOrNil ifNotNil: [
-				LGitDiffFileCallback on: filesBlockOrNil ])
-			binary_cb: (binaryBlockOrNil ifNotNil: [
-				LGitDiffBinaryCallback on: binaryBlockOrNil ])
-			hunk_cb: (hunksBlockOrNil ifNotNil: [
-				LGitDiffHunkCallback on: hunksBlockOrNil ])
-			line_cb: (linesBlockOrNil ifNotNil: [
-				LGitDiffLineCallback on: linesBlockOrNil ])
-			payload: nil ]
+			file_cb: (filesBlockOrNil 
+				ifNotNil: [ LGitDiffFileCallback on: filesBlockOrNil ]
+				ifNil: [ LGitCallback null ])
+			binary_cb: (binaryBlockOrNil 
+				ifNotNil: [ 	LGitDiffBinaryCallback on: binaryBlockOrNil ]
+				ifNil: [ LGitCallback null ])
+			hunk_cb: (hunksBlockOrNil 
+				ifNotNil: [ 	LGitDiffHunkCallback on: hunksBlockOrNil ]
+				ifNil: [ LGitCallback null ])
+			line_cb: (linesBlockOrNil 
+				ifNotNil: [ 	LGitDiffLineCallback on: linesBlockOrNil ]
+				ifNil: [ LGitCallback null ])
+			payload: ExternalAddress null ]
