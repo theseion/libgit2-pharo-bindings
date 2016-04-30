@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"testClean" : "JanVanDeSandt 4/29/2016 20:29" },
+		"testClean" : "JanvandeSandt 4/30/2016 12:50:35" },
 	"instance" : {
-		"setUp" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testEquals" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testIsBranch" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testIsDirect" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testIsHead" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testIsSymbolic" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testName" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testObject" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testPrinting" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testResolve" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testTargetId" : "JanvandeSandt 4/22/2016 10:03:31" } }
+		"setUp" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEquals" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testIsBranch" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testIsDirect" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testIsHead" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testIsSymbolic" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testName" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testObject" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testPrinting" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testResolve" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testTargetId" : "JanvandeSandt 4/30/2016 12:50:35" } }

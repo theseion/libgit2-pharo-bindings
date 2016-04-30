@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllEntriesDo" : "JanVanDeSandt 4/26/2016 22:01",
-		"testEntryByName" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testEntryByNameAbsent" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testEntryByPath" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testEntryByPathAbsent" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testEquals" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testEqualsUninitialized" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testPrinting" : "JanvandeSandt 4/22/2016 10:03:31",
-		"testPrintingUninitialized" : "JanvandeSandt 4/22/2016 10:03:31" } }
+		"testAllEntriesDo" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEntryByName" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEntryByNameAbsent" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEntryByPath" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEntryByPathAbsent" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEquals" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testEqualsUninitialized" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testPrinting" : "JanvandeSandt 4/30/2016 12:50:35",
+		"testPrintingUninitialized" : "JanvandeSandt 4/30/2016 12:50:35" } }

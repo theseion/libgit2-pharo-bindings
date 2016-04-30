@@ -1,2 +1,2 @@
-(name 'LibGit-Tests-JanVanDeSandt.61' message 'Disable pack tests ' id '0d05ba6e-fe1a-4ac0-bd0a-315afefcaca3' date '30 April 2016' time '12:50:33.282954 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.60' message '- disable autoRelease functionality for now. It causes random crashes.
-' id '3810668b-c068-54d1-b6a1-6391fc491b20' date '26 April 2016' time '10:06:47 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Tests-JanVanDeSandt.62' message 'Make LGitFreshRepositoryTest pass when user.name config parameter is not set' id 'bd6ee7b8-206c-4a74-88f7-4564aa56e611' date '30 April 2016' time '2:09:34.61676 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.61' message 'Disable pack tests
+' id 'aab469e2-b029-5258-abfb-7c22ec53bedc' date '30 April 2016' time '12:50:35 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
