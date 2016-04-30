@@ -1,2 +1,2 @@
-(name 'LibGit-Core-JanVanDeSandt.110' message 'autoRelease LGitPatch' id '8b5b2cac-45dc-43cc-867c-dc01dbc6c766' date '30 April 2016' time '5:57:45.237793 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.109' message 'withReturnHandlerDo: seems to cause a crash????
-' id 'f52bc08e-341e-5d9d-b058-06cd8f7943e1' date '30 April 2016' time '1:57:52 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Core-JanVanDeSandt.111' message 'trying to get #createPackForReference: working' id '1c981309-cad6-4c9f-8ec3-8eff8fa06b1b' date '30 April 2016' time '8:25:10.800357 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.110' message 'autoRelease LGitPatch
+' id 'bbff25ba-e619-54e8-8323-dbaab24c3c17' date '30 April 2016' time '5:58:05 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())

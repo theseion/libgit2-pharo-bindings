@@ -8,9 +8,9 @@
 		"of:fromId:" : "JanvandeSandt 4/30/2016 13:30:28" },
 	"instance" : {
 		"concreteObject" : "JanvandeSandt 4/30/2016 13:30:28",
-		"id" : "JanvandeSandt 4/30/2016 13:30:28",
-		"id:" : "JanvandeSandt 4/30/2016 13:30:28",
-		"initializeWithId:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"get_id_data" : "JanVanDeSandt 4/30/2016 19:29",
+		"id" : "JanVanDeSandt 4/30/2016 19:28",
+		"initializeWithId:" : "JanVanDeSandt 4/30/2016 19:26",
 		"isBlob" : "JanvandeSandt 4/30/2016 13:30:28",
 		"isCommit" : "JanvandeSandt 4/30/2016 13:30:28",
 		"isTag" : "JanvandeSandt 4/30/2016 13:30:28",
@@ -22,7 +22,5 @@
 		"object_lookup:repo:id:type:" : "JanvandeSandt 4/30/2016 13:30:28",
 		"object_short_id:" : "JanvandeSandt 4/30/2016 13:30:28",
 		"object_type:" : "JanvandeSandt 4/30/2016 13:30:28",
-		"reference" : "JanvandeSandt 4/30/2016 13:30:28",
-		"reference:" : "JanvandeSandt 4/30/2016 13:30:28",
 		"shortId" : "JanvandeSandt 4/30/2016 13:30:28",
 		"type" : "JanvandeSandt 4/30/2016 13:30:28" } }
