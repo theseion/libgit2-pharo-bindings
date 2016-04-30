@@ -5,6 +5,6 @@ testDefaultSignature
 	[ 
 		signature := repo defaultSignature.
 		self assert: signature dateAndTime asDate equals: Date today
-	] on: LGitObjectNotFound do: [ :ex | 
+	] on: LGit_GIT_ENOTFOUND do: [ :ex | 
 		"Config value 'user.name' was not found" ]
 	
