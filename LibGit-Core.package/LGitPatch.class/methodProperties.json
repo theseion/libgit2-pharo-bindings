@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"diff_patch_free:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"freeFunctionSelector" : "JanvandeSandt 4/22/2016 10:50:52",
-		"fromDiff:at:" : "JanvandeSandt 4/22/2016 10:50:52" },
+		"diff_patch_free:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"freeFunctionSelector" : "JanvandeSandt 4/30/2016 13:30:28",
+		"fromDiff:at:" : "JanvandeSandt 4/30/2016 13:30:28" },
 	"instance" : {
-		"fromDiff:at:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"hunkAt:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_from_blob_and_buffer:old_blob:old_as_path:buffer:buffer_len:buffer_as_path:opts:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_from_blobs:old_blob:old_as_path:new_blob:new_as_path:opts:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_from_buffers:old_buffer:old_len:old_as_path:new_buffer:new_len:new_as_path:opts:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_from_diff:diff:idx:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_get_delta:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_get_hunk:lines_in_hunk:patch:hunk_idx:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_get_line_in_hunk:patch:hunk_idx:line_of_hunk:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"patch_print:print_cb:payload:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"printDiff" : "JanvandeSandt 4/22/2016 10:50:52",
-		"printDiffOn:" : "JanvandeSandt 4/22/2016 10:50:52" } }
+		"fromDiff:at:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"hunkAt:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_from_blob_and_buffer:old_blob:old_as_path:buffer:buffer_len:buffer_as_path:opts:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_from_blobs:old_blob:old_as_path:new_blob:new_as_path:opts:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_from_buffers:old_buffer:old_len:old_as_path:new_buffer:new_len:new_as_path:opts:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_from_diff:diff:idx:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_get_delta:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_get_hunk:lines_in_hunk:patch:hunk_idx:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_get_line_in_hunk:patch:hunk_idx:line_of_hunk:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"patch_print:print_cb:payload:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"printDiff" : "JanvandeSandt 4/30/2016 13:30:28",
+		"printDiffOn:" : "JanvandeSandt 4/30/2016 13:30:28" } }

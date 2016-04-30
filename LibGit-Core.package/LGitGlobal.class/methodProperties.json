@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"allocate:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"allocationRegistry" : "JanvandeSandt 4/22/2016 10:50:52",
-		"basicAllocate:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"basicFree:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"checkInitialized" : "JanvandeSandt 4/22/2016 10:50:52",
-		"flushAllocationRegistry" : "JanvandeSandt 4/22/2016 10:50:52",
-		"free:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"memCopy:to:size:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"register:for:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"runSequence:" : "JanvandeSandt 4/22/2016 10:50:52",
-		"unregister:" : "JanvandeSandt 4/22/2016 10:50:52" },
+		"allocate:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"allocationRegistry" : "JanvandeSandt 4/30/2016 13:30:28",
+		"basicAllocate:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"basicFree:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"checkInitialized" : "JanvandeSandt 4/30/2016 13:30:28",
+		"flushAllocationRegistry" : "JanvandeSandt 4/30/2016 13:30:28",
+		"free:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"memCopy:to:size:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"register:for:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"runSequence:" : "JanvandeSandt 4/30/2016 13:30:28",
+		"unregister:" : "JanvandeSandt 4/30/2016 13:30:28" },
 	"instance" : {
 		 } }
