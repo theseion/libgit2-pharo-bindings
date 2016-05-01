@@ -14,12 +14,7 @@ state4WithCommit
 	rootBuilder createNew.
 	rootBuilder addEntryWithId: treeId filename: 'libgit_tests' filemode: LGitFilemodeEnum git_filemode_tree.
 	tree := rootBuilder newTree.
-	author := LGitSignature new
-		name: 'Bart Simpson';
-		email: 'bartman@gotham.com';
-		dateAndTime: DateAndTime now;
-		freeAfterUse: true;
-		yourself.
+	author := LGitSignature name: 'Bart Simpson' email: 'bartman@gotham.com'.
 	(commitBuilder := LGitCommitBuilder of: repo)
 		tree: tree;
 		message: 'push test';

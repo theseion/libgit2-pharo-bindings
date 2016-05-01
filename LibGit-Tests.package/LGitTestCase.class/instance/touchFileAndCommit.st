@@ -12,12 +12,7 @@ touchFileAndCommit
 		clear;
 		addEntry: subTree filename: self file parent basename.
 	rootTree := treeBuilder newTree.
-	author := LGitSignature new
-		name: 'Bart Simpson';
-		email: 'bartman@gotham.com';
-		dateAndTime: DateAndTime now;
-		freeAfterUse: true;
-		yourself.
+	author := LGitSignature name: 'Bart Simpson' email: 'bartman@gotham.com'.
 	(LGitCommitBuilder of: repository)
 		tree: rootTree;
 		message: 'eat my shorts';

@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testStringsGet" : "JanvandeSandt 4/30/2016 12:50:35",
-		"testStringsPut" : "JanvandeSandt 4/30/2016 12:50:35" } }
+		"testAutoRelease" : "JanVanDeSandt 5/1/2016 13:34",
+		"testFree" : "JanVanDeSandt 5/1/2016 13:29",
+		"testStringsGet" : "JanVanDeSandt 5/1/2016 13:26",
+		"testStringsPut" : "JanVanDeSandt 5/1/2016 13:26" } }

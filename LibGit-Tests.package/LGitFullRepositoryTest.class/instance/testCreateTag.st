@@ -10,4 +10,7 @@ testCreateTag
 	
 	self 
 		assert: (repo revparse: 'refs/tags/simpson')
-		equals: repo head object
+		equals: repo head object.
+	self 
+		assert: (repo tags includes: 'simpson')
+		
