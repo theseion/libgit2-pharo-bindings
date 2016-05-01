@@ -1,5 +1,0 @@
-as yet unclassified
-finalizeResourceData: aHandle
-	aHandle isNull ifTrue: [ ^self ].
-	self perform: self freeFunctionSelector with: aHandle.
-	aHandle beNull

@@ -1,3 +1,0 @@
-private
-disable
-	enabled := false
