@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"enumDecl" : "JanvandeSandt 4/30/2016 13:30:28",
-		"git_diff_line_add_eofnl" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_addition" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_binary" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_context" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_context_eofnl" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_del_eofnl" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_deletion" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_file_hdr" : "JanVanDeSandt 4/30/2016 18:51",
-		"git_diff_line_hunk_hdr" : "JanVanDeSandt 4/30/2016 18:51" },
+		"enumDecl" : "JanvandeSandt 4/30/2016 20:25:31",
+		"git_diff_line_add_eofnl" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_addition" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_binary" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_context" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_context_eofnl" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_del_eofnl" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_deletion" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_file_hdr" : "JanVanDeSandt 5/1/2016 13:38",
+		"git_diff_line_hunk_hdr" : "JanVanDeSandt 5/1/2016 13:38" },
 	"instance" : {
 		 } }

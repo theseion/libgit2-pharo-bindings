@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"createAccessorsFor:" : "JanvandeSandt 4/30/2016 13:30:28",
-		"fieldNamesAndProtocols" : "JanvandeSandt 4/30/2016 13:30:28",
-		"fieldSpec" : "JanvandeSandt 4/30/2016 13:30:28",
-		"free:" : "JanvandeSandt 4/30/2016 13:30:28",
-		"freeFunctionSelector" : "JanvandeSandt 4/30/2016 13:30:28",
-		"fromExternalAddress:" : "JanvandeSandt 4/30/2016 13:30:28",
-		"generatedFieldProtocolName" : "JanvandeSandt 4/30/2016 13:30:28",
-		"protocolForField:" : "JanvandeSandt 4/30/2016 13:30:28",
-		"removeAccessor:" : "JanvandeSandt 4/30/2016 13:30:28" },
+		"createAccessorsFor:" : "JanvandeSandt 4/30/2016 20:25:31",
+		"fieldNamesAndProtocols" : "JanvandeSandt 4/30/2016 20:25:31",
+		"fieldSpec" : "JanvandeSandt 4/30/2016 20:25:31",
+		"finalizeResourceData:" : "JanVanDeSandt 5/1/2016 13:05",
+		"free:" : "JanVanDeSandt 5/1/2016 13:08",
+		"freeFunctionSelector" : "JanvandeSandt 4/30/2016 20:25:31",
+		"fromExternalAddress:" : "JanvandeSandt 4/30/2016 20:25:31",
+		"generatedFieldProtocolName" : "JanvandeSandt 4/30/2016 20:25:31",
+		"protocolForField:" : "JanvandeSandt 4/30/2016 20:25:31",
+		"removeAccessor:" : "JanvandeSandt 4/30/2016 20:25:31" },
 	"instance" : {
-		"getFinalizer" : "JanvandeSandt 4/30/2016 13:30:28",
-		"getHandles" : "JanvandeSandt 4/30/2016 13:30:28",
-		"isExternal" : "JanvandeSandt 4/30/2016 13:30:28",
-		"setFinalizer:" : "JanvandeSandt 4/30/2016 13:30:28" } }
+		"autoRelease" : "JanVanDeSandt 5/1/2016 13:01",
+		"free" : "JanVanDeSandt 5/1/2016 13:04",
+		"isExternal" : "JanvandeSandt 4/30/2016 20:25:31",
+		"resourceData" : "JanVanDeSandt 5/1/2016 13:02" } }

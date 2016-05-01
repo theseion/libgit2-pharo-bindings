@@ -1,2 +1,2 @@
-(name 'LibGit-Core-JanVanDeSandt.111' message 'trying to get #createPackForReference: working' id '1c981309-cad6-4c9f-8ec3-8eff8fa06b1b' date '30 April 2016' time '8:25:10.800357 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.110' message 'autoRelease LGitPatch
-' id 'bbff25ba-e619-54e8-8323-dbaab24c3c17' date '30 April 2016' time '5:58:05 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Core-JanVanDeSandt.112' message 'User standard UFFI autoRelease functionality also for LGit structures.' id 'fe088a31-66e4-447c-af60-ac15619f0ed1' date '1 May 2016' time '1:52:39.229094 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Core-JanvandeSandt.111' message 'trying to get #createPackForReference: working
+' id '20f32ce2-fde9-5f02-878f-22d72b861e23' date '30 April 2016' time '8:25:31 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())

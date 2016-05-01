@@ -1,11 +1,7 @@
 operations
 updateAll
 	| pathspec |
-	pathspec := LGitStringArray externalNew
-		freeAfterUse: true;
-		count: 1;
-		strings: { '*' };
-		yourself.
+	pathspec := LGitStringArray withAll: { '*' }.
 	self withReturnHandlerDo: [ 
 		self
 			index_update_all: self

@@ -1,10 +1,7 @@
 operations
 removeAll
 	| pathspec |
-	pathspec := LGitStringArray externalNew
-		freeAfterUse: true;
-		count: 0;
-		yourself.
+	pathspec := LGitStringArray withAll: #().
 	self withReturnHandlerDo: [ 
 		self
 			index_remove_all: self
