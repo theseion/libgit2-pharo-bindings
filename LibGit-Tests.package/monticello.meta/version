@@ -1,2 +1,2 @@
-(name 'LibGit-Tests-JanVanDeSandt.64' message 'User standard UFFI autoRelease functionality also for LGit structures.' id 'dc95cd40-1fec-4eda-a296-95adc525e7eb' date '1 May 2016' time '1:54:47.755677 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.63' message 'Make LGitFreshRepositoryTest pass when user.name config parameter is not set
-' id 'ccc4b51b-fd6b-54b8-a853-f9a136adcad2' date '30 April 2016' time '2:15:45 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Tests-JanVanDeSandt.65' message 'Extra external memory test' id 'ddc27a4f-2d89-4473-b199-b43a45edfa2f' date '1 May 2016' time '3:50:24.788481 pm' author 'JanVanDeSandt' ancestors ((name 'LibGit-Tests-JanvandeSandt.64' message 'User standard UFFI autoRelease functionality also for LGit structures.
+' id '5a181a8b-68f3-5cd7-93fd-6b91a59e43ad' date '1 May 2016' time '1:55:02 pm' author 'JanvandeSandt' ancestors () stepChildren ())) stepChildren ())
