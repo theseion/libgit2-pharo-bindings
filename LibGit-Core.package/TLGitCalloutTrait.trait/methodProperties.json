@@ -1,18 +1,20 @@
 {
 	"class" : {
-		"call:options:" : "JanvandeSandt 4/30/2016 20:25:31",
+		"call:" : "JanVanDeSandt 5/1/2016 21:11",
+		"call:options:" : "JanVanDeSandt 5/1/2016 21:11",
 		"ffiLibrary" : "JanvandeSandt 4/30/2016 20:25:31",
 		"ffiLibraryName" : "JanvandeSandt 4/30/2016 20:25:31",
 		"withReturnHandlerDo:" : "JanvandeSandt 4/30/2016 20:25:31" },
 	"instance" : {
-		"call:options:" : "JanvandeSandt 4/30/2016 20:25:31",
+		"call:" : "JanVanDeSandt 5/1/2016 21:10",
+		"call:options:" : "JanVanDeSandt 5/1/2016 17:15",
 		"callUnchecked:options:" : "JanvandeSandt 4/30/2016 20:25:31",
-		"callUnchecked:options:sender:" : "JanvandeSandt 4/30/2016 20:25:31",
 		"ffiLibrary" : "JanvandeSandt 4/30/2016 20:25:31",
 		"ffiLibraryName" : "JanvandeSandt 4/30/2016 20:25:31",
 		"ffiNull" : "JanvandeSandt 4/30/2016 20:25:31",
 		"ifNotReady:" : "JanvandeSandt 4/30/2016 20:25:31",
 		"isReady" : "JanvandeSandt 4/30/2016 20:25:31",
-		"signalIfNotReady" : "JanvandeSandt 4/30/2016 20:25:31",
-		"signalNotReady" : "JanvandeSandt 4/30/2016 20:25:31",
+		"safeFFICalloutIn:" : "JanVanDeSandt 5/1/2016 16:51",
+		"signalIfNotReady" : "JanVanDeSandt 5/1/2016 16:58",
+		"signalNotReady" : "JanVanDeSandt 5/1/2016 21:09",
 		"withReturnHandlerDo:" : "JanvandeSandt 4/30/2016 20:25:31" } }

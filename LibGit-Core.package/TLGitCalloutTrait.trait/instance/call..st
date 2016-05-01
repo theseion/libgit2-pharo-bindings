@@ -1,6 +1,5 @@
 ffi-calls
-call: fnSpec options: options
+call: fnSpec
 	^ (self safeFFICalloutIn: thisContext sender)
 		cdecl;
-		options: options;
 		function: fnSpec module: self ffiLibraryName
