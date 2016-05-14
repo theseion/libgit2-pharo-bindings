@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromExternalAddress: anAddress
 	anAddress isNull
 		ifTrue: [ ^ nil ].

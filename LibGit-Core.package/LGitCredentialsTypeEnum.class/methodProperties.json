@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"enumDecl" : "JanvandeSandt 4/30/2016 20:25:31",
-		"git_credtype_default" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_credtype_ssh_custom" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_credtype_ssh_key" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_credtype_userpass_plaintext" : "JanVanDeSandt 5/1/2016 13:38" },
+		"enumDecl" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_credtype_default" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_credtype_ssh_custom" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_credtype_ssh_key" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_credtype_userpass_plaintext" : "JanvandeSandt 5/1/2016 21:21:24" },
 	"instance" : {
 		 } }

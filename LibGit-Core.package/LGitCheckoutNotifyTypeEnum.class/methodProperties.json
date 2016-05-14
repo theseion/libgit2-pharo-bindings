@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"enumDecl" : "JanvandeSandt 4/30/2016 20:25:31",
-		"git_checkout_notify_all" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_checkout_notify_conflict" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_checkout_notify_dirty" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_checkout_notify_ignored" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_checkout_notify_none" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_checkout_notify_untracked" : "JanVanDeSandt 5/1/2016 13:38",
-		"git_checkout_notify_updated" : "JanVanDeSandt 5/1/2016 13:38" },
+		"enumDecl" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_all" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_conflict" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_dirty" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_ignored" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_none" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_untracked" : "JanvandeSandt 5/1/2016 21:21:24",
+		"git_checkout_notify_updated" : "JanvandeSandt 5/1/2016 21:21:24" },
 	"instance" : {
 		 } }
