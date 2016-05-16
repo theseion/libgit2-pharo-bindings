@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"enumDecl" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_submodule_ignore_all" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_submodule_ignore_default" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_submodule_ignore_dirty" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_submodule_ignore_none" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_submodule_ignore_reset" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_submodule_ignore_untracked" : "JanvandeSandt 5/1/2016 21:21:24" },
+		"git_submodule_ignore_all" : "hudson 5/15/2016 15:07",
+		"git_submodule_ignore_default" : "hudson 5/15/2016 15:07",
+		"git_submodule_ignore_dirty" : "hudson 5/15/2016 15:07",
+		"git_submodule_ignore_none" : "hudson 5/15/2016 15:07",
+		"git_submodule_ignore_reset" : "hudson 5/15/2016 15:07",
+		"git_submodule_ignore_untracked" : "hudson 5/15/2016 15:07" },
 	"instance" : {
 		 } }

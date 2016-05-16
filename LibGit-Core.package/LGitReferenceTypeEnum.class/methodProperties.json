@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"enumDecl" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_ref_invalid" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_ref_listall" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_ref_oid" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_ref_symbolic" : "JanvandeSandt 5/1/2016 21:21:24" },
+		"git_ref_invalid" : "hudson 5/15/2016 15:07",
+		"git_ref_listall" : "hudson 5/15/2016 15:07",
+		"git_ref_oid" : "hudson 5/15/2016 15:07",
+		"git_ref_symbolic" : "hudson 5/15/2016 15:07" },
 	"instance" : {
 		 } }
