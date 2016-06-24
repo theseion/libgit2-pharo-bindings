@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBranchNamesNotEmpty" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testBranchesNotEmpty" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testCheckout" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testCreateTag" : "JanVanDeSandt 5/1/2016 13:49",
-		"testLookupHead" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testLookupMasterBranch" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testRevparse" : "JanvandeSandt 4/30/2016 14:15:45" } }
+		"testBranchNamesNotEmpty" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testBranchesNotEmpty" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testCheckout" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testCreateTag" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testLookupHead" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testLookupMasterBranch" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testRevparse" : "JanvandeSandt 5/1/2016 21:23:39" } }

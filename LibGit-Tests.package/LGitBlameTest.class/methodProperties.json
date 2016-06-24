@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testGenerateBlameOutput" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testGettingBlame" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testHunkAt" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testHunkAtLineNumber" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testNumberOfHunks" : "JanvandeSandt 4/30/2016 14:15:45",
-		"touchFileWithMultipleLines" : "JanvandeSandt 4/30/2016 14:15:45" } }
+		"setUp" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testGenerateBlameOutput" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testGettingBlame" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testHunkAt" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testHunkAtLineNumber" : "JanvandeSandt 5/1/2016 21:23:39",
+		"testNumberOfHunks" : "JanvandeSandt 5/1/2016 21:23:39",
+		"touchFileWithMultipleLines" : "JanvandeSandt 5/1/2016 21:23:39" } }
