@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"fieldsDesc" : "JanvandeSandt 5/1/2016 21:21:24",
-		"fromByteArray:" : "JanvandeSandt 5/1/2016 21:21:24" },
+		"fromByteArray:" : "JanvandeSandt 5/1/2016 21:21:24",
+		"fromHexString:" : "NicoPasserini 7/7/2016 11:26" },
 	"instance" : {
 		"=" : "JanvandeSandt 5/1/2016 21:21:24",
 		"asByteArray" : "JanvandeSandt 5/1/2016 21:21:24",
