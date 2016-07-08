@@ -1,2 +1,2 @@
-(name 'LibGit-Core-NicoPasserini.119' message 'Add some utility methods.' id '6a40d684-6ef3-4961-a99c-c9d8aaa9d437' date '7 July 2016' time '4:26:44.674179 pm' author 'NicoPasserini' ancestors ((name 'LibGit-Core-NicolÃsPasserini.118' message 'Cycling through diffs should return the value of the git function.
-' id 'db31c944-4577-58d0-a02d-4859f7612d1c' date '6 July 2016' time '5:10:36 pm' author 'NicolÃsPasserini' ancestors () stepChildren ())) stepChildren ())
+(name 'LibGit-Core-NicolÃsPasserini.120' message 'Allow for looking for the upstream of a branch. Simplify revwalk walkin.' id 'f301e698-8cc2-4ec4-aa21-e7a7c158355e' date '8 July 2016' time '4:25:28.941307 pm' author 'NicoPasserini' ancestors ((name 'LibGit-Core-NicolÃsPasserini.119' message 'Add some utility methods.
+' id '52690aef-476b-5138-a3a3-01bb105be216' date '7 July 2016' time '4:27 pm' author 'NicolÃsPasserini' ancestors () stepChildren ())) stepChildren ())
