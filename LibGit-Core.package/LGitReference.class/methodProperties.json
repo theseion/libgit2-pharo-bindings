@@ -6,6 +6,7 @@
 		"=" : "JanvandeSandt 5/1/2016 21:21:24",
 		"basename" : "JanvandeSandt 5/1/2016 21:21:24",
 		"branch_is_head:" : "JanvandeSandt 5/1/2016 21:21:24",
+		"branch_set_upstream:" : "NicoPasserini 7/13/2016 00:22",
 		"branch_upstream:local:" : "NicoPasserini 7/8/2016 10:57",
 		"createDirect:target:force:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"createSymbolic:target:force:" : "JanvandeSandt 5/1/2016 21:21:24",
@@ -31,5 +32,6 @@
 		"resolve" : "JanvandeSandt 5/1/2016 21:21:24",
 		"setTarget:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"setTargetId:" : "JanvandeSandt 5/1/2016 21:21:24",
+		"setUpstream:" : "NicoPasserini 7/13/2016 00:23",
 		"targetId" : "JanvandeSandt 5/1/2016 21:21:24",
-		"upstream" : "NicoPasserini 7/8/2016 10:55" } }
+		"upstream" : "NicoPasserini 7/13/2016 00:32" } }

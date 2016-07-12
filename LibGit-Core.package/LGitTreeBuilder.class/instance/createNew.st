@@ -4,4 +4,4 @@ createNew
 		self 
 			treebuilder_new: self
 			repo: self repository
-			source: self ffiNull ]
+			source: self ffiNull handle ]

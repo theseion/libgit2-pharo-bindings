@@ -1,16 +1,16 @@
 {
 	"class" : {
 		"enumDecl" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_delta_added" : "hudson 5/15/2016 15:07",
-		"git_delta_conflicted" : "hudson 5/15/2016 15:07",
-		"git_delta_copied" : "hudson 5/15/2016 15:07",
-		"git_delta_deleted" : "hudson 5/15/2016 15:07",
-		"git_delta_ignored" : "hudson 5/15/2016 15:07",
-		"git_delta_modified" : "hudson 5/15/2016 15:07",
-		"git_delta_renamed" : "hudson 5/15/2016 15:07",
-		"git_delta_typechange" : "hudson 5/15/2016 15:07",
-		"git_delta_unmodified" : "hudson 5/15/2016 15:07",
-		"git_delta_unreadable" : "hudson 5/15/2016 15:07",
-		"git_delta_untracked" : "hudson 5/15/2016 15:07" },
+		"git_delta_added" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_conflicted" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_copied" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_deleted" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_ignored" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_modified" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_renamed" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_typechange" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_unmodified" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_unreadable" : "NicoPasserini 7/11/2016 10:27",
+		"git_delta_untracked" : "NicoPasserini 7/11/2016 10:27" },
 	"instance" : {
 		 } }

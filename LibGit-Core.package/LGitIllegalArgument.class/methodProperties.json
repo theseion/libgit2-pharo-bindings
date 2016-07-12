@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"signalWith:shouldBe:" : "NicoPasserini 7/12/2016 12:06" },
+	"instance" : {
+		"expectedClass" : "NicoPasserini 7/12/2016 11:56",
+		"expectedClass:" : "NicoPasserini 7/12/2016 11:56",
+		"messageText" : "NicoPasserini 7/12/2016 12:07" } }

@@ -4,4 +4,4 @@ initializeWithTree: aTree
 		self
 			treebuilder_new: self
 			repo: self repository
-			source: aTree ]
+			source: (aTree ifNotNil: #handle) ]

@@ -1,20 +1,20 @@
 {
 	"class" : {
 		"freeFunctionSelector" : "JanvandeSandt 5/1/2016 21:21:24",
-		"fromTree:" : "JanvandeSandt 5/1/2016 21:21:24",
+		"fromTree:" : "NicoPasserini 7/12/2016 11:50",
 		"of:fromTree:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"treebuilder_free:" : "JanvandeSandt 5/1/2016 21:21:24" },
 	"instance" : {
 		"addEntry:filename:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"addEntryWithId:filename:filemode:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"clear" : "JanvandeSandt 5/1/2016 21:21:24",
-		"createNew" : "JanvandeSandt 5/1/2016 21:21:24",
+		"createNew" : "NicoPasserini 7/13/2016 00:53",
 		"getEntryNamed:" : "JanvandeSandt 5/1/2016 21:21:24",
-		"initializeWithTree:" : "JanvandeSandt 5/1/2016 21:21:24",
+		"initializeWithTree:" : "NicoPasserini 7/12/2016 14:56",
 		"newTree" : "JanvandeSandt 5/1/2016 21:21:24",
 		"treebuilder_clear:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"treebuilder_get:filename:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"treebuilder_insert:bld:filename:id:filemode:" : "JanvandeSandt 5/1/2016 21:21:24",
-		"treebuilder_new:repo:source:" : "JanvandeSandt 5/1/2016 21:21:24",
+		"treebuilder_new:repo:source:" : "NicoPasserini 7/12/2016 14:55",
 		"treebuilder_write:bld:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"write" : "JanvandeSandt 5/1/2016 21:21:24" } }
