@@ -1,5 +1,5 @@
 libgit-calls
-tree_entry_bypath: out tree: tree path: path
+tree_entry_bypath: out path: path
 	
 	^ self
 		call:
