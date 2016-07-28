@@ -1,6 +1,6 @@
 operations
 fetch
-	self create.
+	self isReady ifFalse: [ self create ].
 		
 	self withReturnHandlerDo: [ 
 		self

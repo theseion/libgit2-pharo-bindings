@@ -25,6 +25,6 @@
 		"diff_tree_to_tree:repo:old_tree:new_tree:opts:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"diff_tree_to_workdir:repo:old_tree:opts:" : "JanvandeSandt 5/1/2016 21:21:24",
 		"diff_tree_to_workdir_with_index:repo:old_tree:opts:" : "JanvandeSandt 5/1/2016 21:21:24",
-		"filesDo:binaryFilesDo:hunksDo:linesDo:" : "NicoPasserini 7/6/2016 16:58",
+		"filesDo:binaryFilesDo:hunksDo:linesDo:" : "NicolÃsPasserini 7/22/2016 23:46:23",
 		"numberOfDeltas" : "JanvandeSandt 5/1/2016 21:21:24",
 		"patchAt:" : "JanvandeSandt 5/1/2016 21:21:24" } }
