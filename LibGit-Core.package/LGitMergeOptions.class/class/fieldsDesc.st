@@ -7,8 +7,6 @@ fieldsDesc
 		#FFIUInt32 rename_threshold;
 		#FFIUInt32 target_limit;
 		#FFIVoid * metric; "Should be: git_diff_similarity_metric *"
-		FFIUInt32 recursion_limit;
-		#FFIExternalString default_driver;
 		#FFIUInt32 file_favor; "Should be: git_merge_favor_flag_t"
 		#FFIUInt32 file_flags; "Should be: git_merge_file_flag_t"
 	)
