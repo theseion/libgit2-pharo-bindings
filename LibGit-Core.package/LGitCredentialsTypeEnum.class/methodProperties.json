@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"enumDecl" : "JanvandeSandt 5/1/2016 21:21:24",
-		"git_credtype_default" : "NicoPasserini 7/11/2016 10:27",
-		"git_credtype_ssh_custom" : "NicoPasserini 7/11/2016 10:27",
-		"git_credtype_ssh_key" : "NicoPasserini 7/11/2016 10:27",
-		"git_credtype_userpass_plaintext" : "NicoPasserini 7/11/2016 10:27" },
-	"instance" : {
-		 } }

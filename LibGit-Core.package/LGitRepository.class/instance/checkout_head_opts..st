@@ -1,4 +1,4 @@
-as yet unclassified
+libgit-calls
 checkout_head_opts: opts
 	^ self
 		call:
