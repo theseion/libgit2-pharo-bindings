@@ -1,3 +1,3 @@
 operations
-hideCommit: aLGitId 
-	self revwalk_hide: aLGitId
+hideCommit: aLGitId
+	self withReturnHandlerDo: [ self revwalk_hide: aLGitId ]

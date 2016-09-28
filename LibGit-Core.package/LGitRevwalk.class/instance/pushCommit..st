@@ -1,3 +1,3 @@
 operations
 pushCommit: aLGitId 
-	self revwalk_push: aLGitId
+	self withReturnHandlerDo: [ self revwalk_push: aLGitId ]

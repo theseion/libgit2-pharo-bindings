@@ -1,4 +1,4 @@
-utilities
+walking
 select: selectionBlock thenDo: actionBlock
 	self do: [ :result | 
 		(selectionBlock value: result) 
