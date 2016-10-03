@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"enumDecl" : "MaxLeske 3/8/2015 21:31",
-		"git_credtype_default" : "MaxLeske 8/13/2015 14:11",
-		"git_credtype_ssh_custom" : "MaxLeske 8/13/2015 14:11",
-		"git_credtype_ssh_key" : "MaxLeske 8/13/2015 14:11",
-		"git_credtype_userpass_plaintext" : "MaxLeske 8/13/2015 14:11" },
-	"instance" : {
-		 } }
