@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"branch_iterator_free:" : "JanvandeSandt 5/1/2016 21:21:24",
-		"freeFunctionSelector" : "JanvandeSandt 5/1/2016 21:21:24",
-		"of:local:" : "JanvandeSandt 5/1/2016 21:21:24" },
-	"instance" : {
-		"branch_iterator_new:repo:list_flags:" : "JanvandeSandt 5/1/2016 21:21:24",
-		"iterateLocal:" : "JanvandeSandt 5/1/2016 21:21:24" } }
