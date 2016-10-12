@@ -1,5 +1,5 @@
 libgit-calls
-remote_connect: remote direction: direction callbacks: remtoeCallbacks
+remote_connect: remote direction: direction callbacks: remoteCallbacks
 	
 	^ self
 		call:
