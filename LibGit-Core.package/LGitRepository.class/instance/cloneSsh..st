@@ -4,7 +4,9 @@ cloneSsh: aString
 	credentials := LGitRemote credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
-			credentials createWith: cred.
+			allowed_types = 32 
+				ifTrue: [ credentials setGitUsernameIn: cred ]
+				ifFalse: [ credentials createWith: cred ].
 			0 ].
 
 	callbacks := LGitRemoteCallbacks defaults
