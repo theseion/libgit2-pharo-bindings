@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testAllHandlersDefined" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testDoesntSignalCallReturn" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testDoesntSignalGitOk" : "JanvandeSandt 4/30/2016 14:15:45",
-		"testSignalsCallError" : "JanvandeSandt 4/30/2016 14:15:45" } }
