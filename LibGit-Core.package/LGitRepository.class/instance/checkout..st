@@ -6,7 +6,8 @@ checkout: aString
 
 	[ 
 		| branch |
-		branch := self lookupBranch: aString.
+		branch := self lookupBranch: aString ifAbsent: [ self createBranchFromOrigin: aString ].
+
 		self checkout_treeish: branch object.
 		self setHead: branch.
 	] 
