@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"tearDown" : "JanvandeSandt 5/1/2016 21:23:39",
-		"testPushHTTPS" : "JanvandeSandt 5/1/2016 21:23:39",
-		"testPushSSH" : "JanvandeSandt 5/1/2016 21:23:39" } }

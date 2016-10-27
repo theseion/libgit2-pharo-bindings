@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "JanvandeSandt 5/1/2016 21:23:39",
-		"testAddBlobEntry" : "JanvandeSandt 5/1/2016 21:23:39",
-		"testAddTreeEntry" : "JanvandeSandt 5/1/2016 21:23:39",
-		"testWrite" : "JanvandeSandt 5/1/2016 21:23:39",
-		"testWriteBlob" : "JanvandeSandt 5/1/2016 21:23:39" } }
