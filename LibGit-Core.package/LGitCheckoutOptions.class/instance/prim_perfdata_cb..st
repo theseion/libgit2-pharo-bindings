@@ -1,6 +1,4 @@
 libgit-fields
 prim_perfdata_cb: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_perfdata_cb put: anObject
+	handle unsignedLongAt: 77 put: anObject thunk address

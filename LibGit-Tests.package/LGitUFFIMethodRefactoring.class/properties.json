@@ -1,0 +1,14 @@
+{
+	"category" : "LibGit-Tests-Helpers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uffiTypes" ],
+	"name" : "LGitUFFIMethodRefactoring",
+	"pools" : [
+		 ],
+	"super" : "RBMethodRefactoring",
+	"type" : "normal" }

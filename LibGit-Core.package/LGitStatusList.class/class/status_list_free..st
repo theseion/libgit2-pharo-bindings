@@ -1,6 +1,6 @@
 libgit-calls
-status_list_free: handle 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+status_list_free: handle
+	
 	^ self
-		call: #(NBVoid git_status_list_free(ulong handle))
-		options: #(  )
+		call: #(void git_status_list_free #(void *handle))
+		options: #()

@@ -4,9 +4,7 @@ testCreateCommit
 	blob := self createBlob.
 	subTree := self createSubTreeWith: blob.
 	rootTree := self createRootTreeWith: subTree.
-	author := self createAuthor
-		freeAfterUse: true;
-		yourself.
+	author := self createAuthor.
 	(LGitCommitBuilder of: repository)
 		tree: rootTree;
 		message: 'eat my shorts';

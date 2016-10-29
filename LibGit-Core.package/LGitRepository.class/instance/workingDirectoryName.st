@@ -1,3 +1,5 @@
 accessing
 workingDirectoryName
-	^ self workingDirectory basename
+	^ self isBare
+			ifTrue: [ nil ]
+			ifFalse: [ self workingDirectory basename ]

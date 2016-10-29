@@ -1,6 +1,4 @@
 libgit-fields
 prim_append
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_append
+	^ExternalData fromHandle: (handle pointerAt: 5) type: ExternalType void asPointerType

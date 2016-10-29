@@ -1,6 +1,4 @@
 libgit-fields
 prim_pack_progress: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_pack_progress put: anObject
+	handle unsignedLongAt: 29 put: anObject thunk address

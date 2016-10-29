@@ -1,6 +1,4 @@
 libgit-fields
 prim_notify_flags: anObject
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_notify_flags put: anObject
+	handle unsignedLongAt: 25 put: anObject

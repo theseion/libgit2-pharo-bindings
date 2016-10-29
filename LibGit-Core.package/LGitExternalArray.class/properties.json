@@ -10,5 +10,5 @@
 	"name" : "LGitExternalArray",
 	"pools" : [
 		 ],
-	"super" : "NBExternalArray",
+	"super" : "FFIExternalArray",
 	"type" : "normal" }

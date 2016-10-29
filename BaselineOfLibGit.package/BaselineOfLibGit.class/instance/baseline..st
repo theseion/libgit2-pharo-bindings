@@ -18,4 +18,4 @@ baseline: spec
 		spec
 			group: 'tests'
 			with: #('LibGit-Tests').
-		spec postLoadDoIt: #changeRepositoryType ]
+		spec postLoadDoIt: #postLoadActions ]

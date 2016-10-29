@@ -1,4 +1,4 @@
-private
-tree_id: tree 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(LGitId * git_tree_id(self)) options: #(  )
+libgit-calls
+tree_id: tree
+	
+	^ self call: #(void * git_tree_id #(self)) options: #()

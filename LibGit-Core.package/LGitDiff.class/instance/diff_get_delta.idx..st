@@ -1,6 +1,7 @@
 libgit-calls
 diff_get_delta: diff idx: idx
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+	<todo: 'use LGitDiffDelta* as return type'>
+	
 	^ self
-		call: #(LGitDiffDelta * git_diff_get_delta(self, NBUInt32 idx))
-		options: #(  )
+		call: #(void * git_diff_get_delta #(self , FFIUInt32 idx))
+		options: #()

@@ -5,4 +5,5 @@ fromDiff: aDiff at: anInteger
 		self
 			patch_from_diff: self
 			diff: aDiff
-			idx: anInteger - 1 ]
+			idx: anInteger - 1 ].
+	self autoRelease

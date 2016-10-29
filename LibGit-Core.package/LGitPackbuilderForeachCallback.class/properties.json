@@ -10,5 +10,5 @@
 	"name" : "LGitPackbuilderForeachCallback",
 	"pools" : [
 		 ],
-	"super" : "NBFFICallback",
+	"super" : "LGitCallback",
 	"type" : "normal" }

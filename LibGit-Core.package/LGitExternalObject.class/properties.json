@@ -2,16 +2,16 @@
 	"category" : "LibGit-Core-Abstracts",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TLGitPrintingTrait classTrait + TLGitCalloutTrait classTrait + TLGitResourceFinalizationTrait classTrait",
+	"classtraitcomposition" : "TLGitPrintingTrait classTrait + TLGitCalloutTrait classTrait",
 	"classvars" : [
 		"LibraryHandle",
 		"Session" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"finalizer" ],
+		 ],
 	"name" : "LGitExternalObject",
 	"pools" : [
 		 ],
-	"super" : "NBExternalObject",
-	"traitcomposition" : "TLGitPrintingTrait + TLGitCalloutTrait + TLGitResourceFinalizationTrait",
+	"super" : "FFIExternalObject",
+	"traitcomposition" : "TLGitPrintingTrait + TLGitCalloutTrait",
 	"type" : "normal" }

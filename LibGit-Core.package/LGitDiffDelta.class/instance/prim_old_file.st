@@ -1,6 +1,4 @@
 libgit-fields
 prim_old_file
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_old_file
+	^LGitDiffFile fromHandle: (handle referenceStructAt: 13 length: 40)

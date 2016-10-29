@@ -1,6 +1,7 @@
-native-boost
+ffi-calls
 callUnchecked: fnSpec options: options
-	^ self
-		callUnchecked: fnSpec
-		options: options
-		sender: thisContext sender
+
+	^ (self ffiCalloutIn: thisContext sender)
+		cdecl;
+		options: options;
+		function: fnSpec module: self ffiLibraryName

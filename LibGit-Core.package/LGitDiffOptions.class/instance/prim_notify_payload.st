@@ -1,6 +1,4 @@
 libgit-fields
 prim_notify_payload
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_notify_payload
+	^ExternalData fromHandle: (handle pointerAt: 25) type: ExternalType void asPointerType

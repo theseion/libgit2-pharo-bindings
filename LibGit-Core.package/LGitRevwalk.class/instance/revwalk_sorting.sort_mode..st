@@ -1,6 +1,6 @@
 libgit-calls
-revwalk_sorting: walk sort_mode: sort_mode 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+revwalk_sorting: walk sort_mode: sort_mode
+	
 	^ self
-		call: #(NBVoid git_revwalk_sorting(self, NBUInt32 sort_mode))
-		options: #(  )
+		call: #(FFIVoid git_revwalk_sorting #(self , FFIUInt32 sort_mode))
+		options: #()

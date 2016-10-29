@@ -3,6 +3,6 @@ fieldsDesc
 	^#(
 		LGitTransferProgress * stats;
 		LGitTransferProgressCallback * progress_cb;
-		NBVoid * progress_payload;
+		#FFIVoid * progress_payload;
 		LGitOdbWritepack * writepack;
 	)

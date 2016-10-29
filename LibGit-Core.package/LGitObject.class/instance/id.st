@@ -1,13 +1,9 @@
 accessing
 id
-	"| ffi oidPtr extStr str |
-	ffi := self gitffi.
-	oidPtr := ffi object_id: self.
-	extStr := NativeBoost allocate: 40 + 1.
-	
-	ffi oid_fmt: extStr id: oidPtr.
+	| data |
+	(id notNil or: [ self isNull ]) ifTrue: [ ^ id ].
 
-	str := extStr readString.
-	extStr free.
-	^ str"
-	^ id
+	data := self get_id_data.
+	id := LGitId fromHandle: data getHandle.
+	id internalize.
+	^ id	

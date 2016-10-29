@@ -1,6 +1,4 @@
 libgit-fields
 prim_mode
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_mode
+	^handle unsignedShortAt: 37

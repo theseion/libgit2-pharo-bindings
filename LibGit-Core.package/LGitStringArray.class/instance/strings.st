@@ -1,5 +1,9 @@
 accessing
 strings
-	^ (LGitExternalStringArray
-		onAddress: self prim_strings 
-		size: self count) asArray
+	| externalArray |
+	self count = 0
+		ifTrue: [ ^ #() ].
+	externalArray := LGitExternalStringArray 
+		onAddress: self prim_strings getHandle 
+		size: self count.
+	^externalArray asArray

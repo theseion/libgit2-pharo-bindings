@@ -1,6 +1,4 @@
 libgit-fields
 prim_dst_refname
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_dst_refname
+	^ExternalData fromHandle: (handle pointerAt: 5) type: ExternalType char asPointerType

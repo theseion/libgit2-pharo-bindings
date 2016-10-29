@@ -1,6 +1,6 @@
 libgit-calls
-reference_free: handle 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+reference_free: handle
+	
 	^ self
-		call: #(NBVoid git_reference_free(ulong handle))
-		options: #(  )
+		call: #(void git_reference_free #(void *handle))
+		options: #()

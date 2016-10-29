@@ -10,5 +10,5 @@
 	"name" : "LGitUpdateTipsCallback",
 	"pools" : [
 		 ],
-	"super" : "NBFFICallback",
+	"super" : "LGitCallback",
 	"type" : "normal" }

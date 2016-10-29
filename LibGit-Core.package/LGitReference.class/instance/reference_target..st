@@ -1,4 +1,5 @@
 libgit-calls
-reference_target: ref 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(LGitId * git_reference_target(self)) options: #(  )
+reference_target: ref
+	<todo: 'using LGitId* as return value causes random crashes'>
+	
+	^ self call: #(void * git_reference_target #(self)) options: #()

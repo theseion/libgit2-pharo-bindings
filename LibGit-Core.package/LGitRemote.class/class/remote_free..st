@@ -1,6 +1,4 @@
 libgit-calls
-remote_free: handle 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^ self
-		call: #(NBVoid git_remote_free(ulong handle))
-		options: #(  )
+remote_free: handle
+	
+	^ self call: #(void git_remote_free #(void *handle)) options: #()

@@ -1,6 +1,7 @@
 libgit-calls
 blame_get_hunk_byindex: blame index: index
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+	"todo: using LGitBlameHunk* as return value causes random crashes"
+	
 	^ self
-		call: #(LGitBlameHunk * git_blame_get_hunk_byindex(self, NBUInt32 index))
-		options: #( )
+		call: #(void * git_blame_get_hunk_byindex #(self , FFIUInt32 index))
+		options: #()

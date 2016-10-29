@@ -10,5 +10,5 @@
 	"name" : "LGitTransportCertificateCheckCallback",
 	"pools" : [
 		 ],
-	"super" : "NBFFICallback",
+	"super" : "LGitCallback",
 	"type" : "normal" }

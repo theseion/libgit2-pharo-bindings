@@ -1,12 +1,12 @@
 accessing
 tags
-	| array |
-	array := LGitStringArray externalNew
-		freeAfterUse: true;
-		yourself.
+	| array strings |
+	array := LGitStringArray externalNew.
 	self withReturnHandlerDo: [
 		self
 			tag_list: array
 			repo: self ].
-		
-	^ array strings
+	strings := array strings.
+	array free.
+	^ strings
+	

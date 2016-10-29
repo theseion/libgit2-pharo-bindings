@@ -10,5 +10,5 @@
 	"name" : "LGitCheckoutPerfDataCallback",
 	"pools" : [
 		 ],
-	"super" : "NBFFICallback",
+	"super" : "LGitCallback",
 	"type" : "normal" }

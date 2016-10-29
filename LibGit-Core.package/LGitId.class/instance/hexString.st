@@ -1,13 +1,12 @@
 printing
 hexString
-	| address string |
-	address := (String new: 40) asLGitExternalString.
+	| string |
+	self isExternal 
+		ifFalse: [ ^handle hex ].
+	string := String new: 40.
+	string pin.
 	self
-		oid_fmt: address
-		id: self.
-	
-	"The string is written without \0 terminator explicitly by libgit2.
-	Adjacent memory might hold data."
-	string := address readString first: 40.
-	LGitGlobal free: address.
+		oid_fmt: string
+		id: self.	
+	string unpin.
 	^ string

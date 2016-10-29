@@ -1,6 +1,4 @@
 libgit-fields
 prim_oldest_commit
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_oldest_commit
+	^LGitId fromHandle: (handle referenceStructAt: 31 length: 20)

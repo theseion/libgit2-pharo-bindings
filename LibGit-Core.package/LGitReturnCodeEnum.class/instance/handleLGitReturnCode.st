@@ -1,6 +1,8 @@
 handling
 handleLGitReturnCode
 	| handler |
+	self isOk
+		ifTrue: [ ^ self ].
 	handler := self handlers
 		at: self symbol
 		ifAbsent: [ LGitNoReturnCodeHandlerDefined signalWith: self ].

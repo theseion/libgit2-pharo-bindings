@@ -1,6 +1,4 @@
 libgit-fields
 prim_data6
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_data6
+	^handle unsignedByteAt: 6

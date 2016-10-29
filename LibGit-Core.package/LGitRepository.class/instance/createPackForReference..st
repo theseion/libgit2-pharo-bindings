@@ -1,6 +1,6 @@
 private
 createPackForReference: aReference
-	| odb walk packbuilder oid writepack stats packbuilderPayload progresscb progressPayload packbuilderCallback |
+	| odb walk packbuilder writepack stats packbuilderPayload progresscb packbuilderCallback |
 	odb := self database.
 	walk := (LGitRevwalk of: self)
 		beSortedByCommitTime;
@@ -12,7 +12,6 @@ createPackForReference: aReference
 		revwalk_add_hide_cb: walk
 		hide_cb: hideCallback
 		payload: nil."
-	oid := LGitId new.
 	[ walk hasNext ] whileTrue: [ 
 		| commit tree |
 		commit := walk next.
@@ -23,14 +22,13 @@ createPackForReference: aReference
 		commit free.
 		tree free ].
 	progresscb := LGitTransferProgressCallback on: [ :progress :data | 0 ].
-	progressPayload := NBExternalAddress new.
 	writepack := LGitOdbWritepack externalNew.
 	writepack
 		odb_write_pack: writepack
 		db: odb
 		progress_cb: progresscb
-		progress_payload: progressPayload.
-	writepack := LGitOdbWritepack fromPointer: (NBExternalAddress value: (writepack address nbInt32AtOffset: 0)).
+		progress_payload: ExternalAddress null.
+	writepack := LGitOdbWritepack fromHandle: writepack getHandle pointer.
 	stats := LGitTransferProgress externalNew.
 	packbuilderPayload := LGitPackbuilderForeachPayload externalNew.
 	packbuilderCallback := LGitPackbuilderForeachCallback

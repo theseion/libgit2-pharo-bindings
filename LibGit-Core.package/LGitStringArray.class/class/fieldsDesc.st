@@ -1,6 +1,6 @@
 accessing
 fieldsDesc
 	^#(
-	NBCharacterType * * strings;
-	NBInt32 count;
+		LGitExternalStringArray * strings;
+		FFIInt32 count;
 	)

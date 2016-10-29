@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBVoid (LGitCheckoutPerfData * perfdata, NBVoid * payload))
+	^#(void (LGitCheckoutPerfData * perfdata, void * payload))

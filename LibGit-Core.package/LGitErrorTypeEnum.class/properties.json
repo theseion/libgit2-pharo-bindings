@@ -10,5 +10,5 @@
 	"name" : "LGitErrorTypeEnum",
 	"pools" : [
 		 ],
-	"super" : "LGitExternalEnumerationUInt32",
+	"super" : "LGitExternalEnumerationInt32",
 	"type" : "normal" }

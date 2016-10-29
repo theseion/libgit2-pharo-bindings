@@ -1,11 +1,7 @@
 operations
 pushWithRefSpec: aRefSpec pushOptions: pushOptions
 	| refspecs return |
-	refspecs := (LGitStringArray new
-		freeAfterUse: true;
-		strings: { aRefSpec asString };
-		count: 1;
-		yourself).
+	refspecs := LGitStringArray withAll: { aRefSpec asString }.
 	return := self withReturnHandlerDo: [
 		self
 			remote_push: self

@@ -1,7 +1,7 @@
 instance creation
 of: aRepository fromExternalCollection: aCollection
 	| id |
-	self assert: (aCollection class theMetaClass canUnderstand: #asNBExternalType:).
+	self assert: (aCollection class = ByteArray or: [ aCollection class theMetaClass canUnderstand: #asExternalTypeOn: ]).
 	id := LGitId new.
 	self
 		blob_create_frombuffer: id

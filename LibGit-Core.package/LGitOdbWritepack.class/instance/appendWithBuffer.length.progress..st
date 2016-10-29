@@ -1,6 +1,10 @@
 accessing
 appendWithBuffer: anAddress length: anInteger progress: aTransferProgress
-	^ self prim_append
+	| data callout|
+	data := self prim_append.
+	callout := LGitWritepackAppendCallout fromHandle: data getHandle.
+
+	^ callout
 		writepack: self
 		buffer: anAddress
 		length: anInteger

@@ -1,3 +1,3 @@
 accessing
 fnSpec
-	^#(NBInt32 (NBVoid * buffer, NBInt32 length, LGitPackbuilderForeachPayload * payload))
+	^#(FFIInt32 (void * buffer, FFIInt32 length, LGitPackbuilderForeachPayload * payload))

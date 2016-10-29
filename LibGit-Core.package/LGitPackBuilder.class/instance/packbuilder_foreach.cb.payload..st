@@ -1,6 +1,7 @@
 libgit-calls
-packbuilder_foreach: pb cb: cb payload: payload 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+packbuilder_foreach: pb cb: cb payload: payload
+	
 	^ self
-		call: #(#LGitReturnCodeEnum git_packbuilder_foreach(self, LGitPackbuilderForeachCallback cb, LGitPackbuilderForeachPayload * payload))
-		options: #( optMayGC optCoerceNilToNull )
+		call:
+			#(LGitReturnCodeEnum git_packbuilder_foreach #(self , LGitPackbuilderForeachCallback cb , LGitPackbuilderForeachPayload * payload))
+		options: #(optMayGC optCoerceNilToNull)

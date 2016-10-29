@@ -1,6 +1,6 @@
 libgit-calls
-revwalk_next: out walk: walk 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
+revwalk_next: out walk: walk
+	
 	^ self
-		call: #(LGitReturnCodeEnum git_revwalk_next(LGitId * out, self))
-		options: #(  )
+		call: #(LGitReturnCodeEnum git_revwalk_next #(LGitId * out , self))
+		options: #()

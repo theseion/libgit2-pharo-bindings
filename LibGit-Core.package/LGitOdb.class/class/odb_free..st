@@ -1,6 +1,4 @@
 libgit-calls
-odb_free: handle 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^ self
-		call: #(NBVoid git_odb_free(ulong handle))
-		options: #(  )
+odb_free: handle
+	
+	^ self call: #(void git_odb_free #(void *handle)) options: #()

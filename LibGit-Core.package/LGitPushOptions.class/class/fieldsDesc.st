@@ -11,7 +11,7 @@ fieldsDesc
 			 * If set to 0, the packbuilder will auto-detect the number of threads
 			 * to create. The default value is 1.
 			 "
-			NBUInt32 pb_parallelism;
+			#FFIUInt32 pb_parallelism;
 
 			"
 			 * Callbacks to use for this push operation

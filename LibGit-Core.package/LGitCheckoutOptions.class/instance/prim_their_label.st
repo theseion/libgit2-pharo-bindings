@@ -1,6 +1,4 @@
 libgit-fields
 prim_their_label
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_their_label
+	^ExternalData fromHandle: (handle pointerAt: 73) type: ExternalType char asPointerType

@@ -1,4 +1,4 @@
 libgit-calls
-tree_entry_name: entry 
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	^self call: #(String git_tree_entry_name(self)) options: #(  )
+tree_entry_name: entry
+	
+	^ self call: #(String git_tree_entry_name #(self)) options: #()

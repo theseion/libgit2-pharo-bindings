@@ -1,6 +1,4 @@
 libgit-fields
 prim_progress_cb
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_progress_cb
+	^LGitCheckoutProgressCallback forAddress: (handle unsignedLongAt: 37)

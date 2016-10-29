@@ -1,6 +1,4 @@
 libgit-fields
 prim_perfdata_payload
 	"This method was automatically generated"
-	<primitive: #primitiveNativeCall module: #NativeBoostPlugin error: errorCode>
-	
-	^ self fieldAt: #prim_perfdata_payload
+	^ExternalData fromHandle: (handle pointerAt: 81) type: ExternalType void asPointerType
