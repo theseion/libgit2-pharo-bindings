@@ -1,4 +1,4 @@
-A LGitCommit represents a specific commit and the associate information.
+A LGitTag represents a git tag and the associate information.
 
 Instance Variables
 	handle:		NBExternalObject

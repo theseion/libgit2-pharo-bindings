@@ -11,7 +11,7 @@ checkout: aString
 		self checkout_treeish: branch object.
 		self setHead: branch.
 	] 
-	on: LGit_GIT_EINVALIDSPEC do: [
+	on: LGit_GIT_EINVALIDSPEC, LGit_GIT_ENOTFOUND do: [
 		"aString is not a valid branch name, so try to find a corresponding treeish using revparse, 
 		this will handle stuff like 'master~1'"
 		| commitish | 
