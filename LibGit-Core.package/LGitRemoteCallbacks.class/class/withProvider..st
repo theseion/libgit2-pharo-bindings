@@ -4,6 +4,7 @@ withProvider: provider
 	credentialsCallback := LGitCredAcquireCallback on: [ :output :url :username_from_url :allowed_types :data |
 		"Allowed types are defined in git_credtype_t 
 		https://github.com/libgit2/libgit2/blob/HEAD/include/git2/transport.h#L81-111"
+		self halt.
 		(allowed_types anyMask: 1 << 0) 
 			ifTrue: [ LGitCredentialsPlaintext createFrom: provider onto: output ]
 			ifFalse: [ Transcript logCr: ('I can''t create credentials for type: {1}' format: allowed_types). -1 ]

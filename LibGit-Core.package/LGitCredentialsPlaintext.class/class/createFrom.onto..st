@@ -8,5 +8,5 @@ createFrom: provider onto: lgitCredentials
 		^ 0
 	]
 	on: IceNoCredentialsProvided do: [ 
-		^ -1 "GIT_PASSTHROUGH"
+		^ -1
 	]
