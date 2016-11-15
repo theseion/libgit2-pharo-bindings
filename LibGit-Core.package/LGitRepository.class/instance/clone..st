@@ -1,7 +1,7 @@
 operations
 clone: aString
 	| cloneOptions |
-	cloneOptions := LGitCloneOptions withCredentialsProvider: (IceCredentialsProvider new).
+	cloneOptions := LGitCloneOptions withCredentialsProvider: (IceCredentialsProvider default).
 	
 	self
 		clone: aString
