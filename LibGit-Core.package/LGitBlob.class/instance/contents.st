@@ -2,6 +2,6 @@ accessing
 contents
 	^ self isBinary
 		ifTrue:  [ self binaryContents ]
-		ifFalse: [ self rawBuffer readString ]
+		ifFalse: [ self rawBuffer readStringUTF8 ]
 	
 	
