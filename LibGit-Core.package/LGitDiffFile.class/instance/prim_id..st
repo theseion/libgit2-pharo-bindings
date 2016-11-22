@@ -1,4 +1,3 @@
 libgit-fields
 prim_id: anObject
-	"This method was automatically generated"
-	handle structAt: 1 put: anObject getHandle length: 20.
+	handle structAt: 1 put: anObject asByteArray length: 20.
