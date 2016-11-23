@@ -9,3 +9,8 @@ os:
 # Select compatible Smalltalk image(s)
 smalltalk:
   - Pharo-5.0
+  - Pharo-6.0
+
+before_install:
+# Installing the dependency until it is included in the VM
+- if [ $TRAVIS_OS_NAME == "osx" ] ; then brew install libgcrypt --universal; fi

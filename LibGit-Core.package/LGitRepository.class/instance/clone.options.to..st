@@ -5,6 +5,8 @@ clone: aString options: cloneOptions to: aFileReference
 	self assert: aFileReference notNil.
 	self assert: cloneOptions notNil.
 	
+	aFileReference ensureCreateDirectory.
+	
 	self withReturnHandlerDo: [ 
 		self 
 			clone: self

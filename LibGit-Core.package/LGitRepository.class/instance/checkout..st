@@ -1,23 +1,22 @@
 operations
 checkout: aString
 	<todo: 'use proper exceptions'>
-	| object |
 	self assert: aString notNil.
 	self assert: aString trimBoth notEmpty.
-	object := LGitObject of: self.
-	self withReturnHandlerDo: [ self revparse_single: object repo: self spec: aString ].
-	self
-		withReturnHandlerDo: [ 
-			self
-				checkout_tree: self
-				treeish: object
-				opts:
-					(LGitCheckoutOptions defaults
-						checkoutStrategy: LGitCheckoutStrategyEnum git_checkout_safe;
-						yourself) ].
-	self
-		withReturnHandlerDo: [ 
-			self
-				repository_set_head: self
-				refname: aString
-				log_message: 'checkout ' , aString ]
+
+	[ 
+		| branch |
+		branch := self lookupBranch: aString ifAbsent: [ self createBranchFromOrigin: aString ].
+
+		self checkout_treeish: branch object.
+		self setHead: branch.
+	] 
+	on: LGit_GIT_EINVALIDSPEC, LGit_GIT_ENOTFOUND do: [
+		"aString is not a valid branch name, so try to find a corresponding treeish using revparse, 
+		this will handle stuff like 'master~1'"
+		| commitish | 
+		commitish := self revparse: aString.
+		self checkout_treeish: commitish.
+		self setHeadDetached: commitish.
+	].
+

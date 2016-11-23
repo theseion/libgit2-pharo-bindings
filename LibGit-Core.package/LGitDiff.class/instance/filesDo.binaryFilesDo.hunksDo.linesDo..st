@@ -1,6 +1,6 @@
 enumerating
 filesDo: filesBlockOrNil binaryFilesDo: binaryBlockOrNil hunksDo: hunksBlockOrNil linesDo: linesBlockOrNil
-	self
+	^ self
 		diff_foreach: self
 		file_cb: (filesBlockOrNil 
 			ifNotNil: [ LGitDiffFileCallback on: filesBlockOrNil ]

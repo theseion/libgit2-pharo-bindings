@@ -4,4 +4,6 @@ lookup
 		self
 			remote_lookup: self
 			repo: self repository
-			name: self remoteName ]
+			name: self remoteName.
+		
+		self url: self remote_url ]

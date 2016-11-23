@@ -1,12 +1,5 @@
 lookup
 lookupBranch: name
-	| reference |
-	reference := LGitReference of: self.
-	self
-		withReturnHandlerDo: [ 
-			self
-				branch_lookup: reference
-				repo: self
-				branch_name: name
-				branch_type: LGitBranchTypeEnum git_branch_local ].
-	^ reference
+	^ (name beginsWith: 'refs/remotes')
+		ifTrue: [ self lookupRemoteBranch: (name withoutPrefix: 'refs/remotes/') ]
+		ifFalse: [ self lookupLocalBranch: name ] 

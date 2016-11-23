@@ -1,4 +1,4 @@
-A LGitCommit represents a specific commit and the assoicate information.
+A LGitCommit represents a specific commit and the associate information.
 
 Instance Variables
 	handle:		NBExternalObject

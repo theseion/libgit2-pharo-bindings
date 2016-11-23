@@ -1,3 +1,3 @@
 operations
 reset
-	self revwalk_reset: self
+	self withReturnHandlerDo: [ self revwalk_reset: self ]

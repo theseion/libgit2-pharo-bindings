@@ -1,3 +1,3 @@
 accessing
 declaration
-	^ declaration ifNil: [ self buildDeclaration ]
+	^ declaration ifNil: [ declaration := self literalDeclaration ]
